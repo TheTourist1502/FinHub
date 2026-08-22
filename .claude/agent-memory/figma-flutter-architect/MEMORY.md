@@ -1,0 +1,2 @@
+- [User Role & Collaboration Style](user_role.md) — Senior Flutter dev; expects architect-level blueprints, no hand-holding
+- [Codebase State (verified 2026-05-30)](project_codebase_state.md) — What is implemented vs. skeleton-empty; available dependencies; App/AppShell wiring

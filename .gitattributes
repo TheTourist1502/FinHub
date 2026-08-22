@@ -1,0 +1,3 @@
+# Ensure hook scripts always use LF line endings on all platforms.
+# CRLF endings (Windows default) break #!/bin/sh scripts on Mac/Linux.
+.githooks/* text eol=lf

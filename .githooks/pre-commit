@@ -1,0 +1,35 @@
+#!/bin/sh
+# Pre-commit hook: auto-formats staged Dart files, then runs flutter analyze.
+# Skips all checks if no Dart files are staged.
+#
+# Setup (one-time after cloning):
+#   git config core.hooksPath .githooks
+#   chmod +x .githooks/pre-commit   <-- Mac/Linux only
+
+# Collect staged Dart files (added, copied, or modified — excludes deleted)
+STAGED_DART_FILES=$(git diff --cached --name-only --diff-filter=ACM | grep '\.dart$')
+
+# Nothing to check if no Dart files are staged
+if [ -z "$STAGED_DART_FILES" ]; then
+  echo "[ pre-commit ] No Dart files staged — skipping checks."
+  exit 0
+fi
+
+# Step 1: Auto-format staged Dart files in-place and re-stage them.
+# Mirrors 'make format' (dart format --line-length 120) but scoped to staged files only.
+echo "[ pre-commit ] Formatting staged Dart files..."
+echo "$STAGED_DART_FILES" | xargs dart format --line-length 120
+echo "$STAGED_DART_FILES" | xargs git add
+
+# Step 2: flutter analyze must run on the full project — it needs cross-file type resolution
+echo "[ pre-commit ] Running flutter analyze..."
+flutter analyze --fatal-infos --fatal-warnings
+if [ $? -ne 0 ]; then
+  echo ""
+  echo "Commit blocked: fix the above lint issues and try again."
+  echo "Tip: run 'make lint' to see all issues."
+  exit 1
+fi
+
+echo "[ pre-commit ] All checks passed."
+exit 0
