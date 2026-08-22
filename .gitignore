@@ -1,0 +1,88 @@
+# Flutter / Dart
+.dart_tool/
+.flutter-plugins
+.flutter-plugins-dependencies
+.packages
+.pub-cache/
+.pub/
+/build/
+**/doc/api/
+migrate_working_dir/
+lib/generated_plugin_registrant.dart
+
+# Flutter build artifacts
+**/ios/Flutter/.last_build_id
+# Generated from the local Flutter SDK path — machine-specific
+**/ios/Flutter/Generated.xcconfig
+**/ios/Flutter/flutter_export_environment.sh
+app.*.symbols
+app.*.map.json
+
+# Xcode Organizer export output (e.g. "ios/Runner 2026-07-28 13-14-50/")
+ios/Runner [0-9]*/
+
+# Xcode shared data (schemes, breakpoints) — machine-specific
+ios/Runner.xcodeproj/xcshareddata/
+
+# Local IPA install output (`make install-ipa`)
+ios/dev_ipa/
+
+# Android build output
+/android/app/debug
+/android/app/profile
+/android/app/release
+
+# Android signing — never commit these
+**/android/key.properties
+**/android/app/*.keystore
+**/android/app/*.jks
+
+# Environment configs — contain secrets
+environment/env.dev.json
+environment/env.uat.json
+environment/env.prod.json
+
+# Firebase — native config files are gitignored; dart options files are safe to commit
+# Android: one google-services.json per flavor
+android/app/src/dev/google-services.json
+android/app/src/uat/google-services.json
+android/app/src/prod/google-services.json
+android/app/google-services.json
+# iOS: per-flavor plists in subdirectories + the build-time scratch copy
+ios/Runner/dev/GoogleService-Info.plist
+ios/Runner/uat/GoogleService-Info.plist
+ios/Runner/prod/GoogleService-Info.plist
+ios/Runner/GoogleService-Info.plist
+
+# IDE — JetBrains (Android Studio / IntelliJ)
+.idea/
+*.iml
+*.ipr
+*.iws
+
+# IDE — VS Code
+.vscode/*
+settings.json
+!.claude/settings.json
+
+# Claude Code — track shared settings, ignore local overrides
+.claude/settings.local.json
+
+# Claude Code — local working notes
+.claude/toDo/
+
+# macOS
+.DS_Store
+.buildlog/
+
+# Windows
+Thumbs.db
+
+# Misc
+*.class
+*.log
+*.swp
+.history
+.svn/
+flutter_*.png
+toDo.md
