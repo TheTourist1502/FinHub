@@ -1,0 +1,58 @@
+name: finhub
+description: "Mobile app for financial advisors — iOS and Android."
+# Never published to pub.dev.
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.11.5
+
+dependencies:
+  flutter:
+    sdk: flutter
+  # The app's own mark is the `mdi:finance` glyph, drawn by AppLogo. Icons are
+  # always static inline SVG strings — never a set that fetches at runtime.
+  iconify_flutter: ^0.0.7
+
+dev_dependencies:
+  flutter_launcher_icons: ^0.14.4
+  flutter_native_splash: ^2.4.6
+  very_good_analysis: ^10.2.0
+
+flutter:
+  uses-material-design: true
+
+  fonts:
+    - family: Inter
+      fonts:
+        - asset: assets/fonts/Inter-Regular.ttf
+          weight: 400
+        - asset: assets/fonts/Inter-Medium.ttf
+          weight: 500
+        - asset: assets/fonts/Inter-Bold.ttf
+          weight: 700
+
+# Regenerate with `dart run flutter_launcher_icons` after replacing the
+# source images in assets/icons/. They are build-time inputs only and are
+# deliberately not bundled into the app.
+flutter_launcher_icons:
+  android: true
+  ios: true
+  image_path: "assets/icons/app_icon.png"
+  adaptive_icon_background: "assets/icons/app_icon_background.png"
+  adaptive_icon_foreground: "assets/icons/app_icon_foreground.png"
+  min_sdk_android: 21
+  remove_alpha_ios: true
+
+# Regenerate with `dart run flutter_native_splash:create`.
+#
+# Solid colour only, on both platforms and both Android splash paths — the
+# app's mark is the `mdi:finance` glyph drawn in Dart, so there is no splash
+# artwork to keep in sync.
+flutter_native_splash:
+  color: "#081A30"
+  android_12:
+    color: "#081A30"
+  android: true
+  ios: true

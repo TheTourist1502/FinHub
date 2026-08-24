@@ -1,0 +1,22 @@
+#!/bin/sh
+# Pre-push hook: blocks push to the `dev` branch if flutter analyze fails.
+# Git passes pushed refs via stdin: "<local_ref> <local_sha> <remote_ref> <remote_sha>"
+#
+# Setup (one-time after cloning):
+#   git config core.hooksPath .githooks
+#   chmod +x .githooks/pre-push   <-- Mac/Linux only
+
+while IFS=' ' read -r local_ref local_sha remote_ref remote_sha; do
+  if [ "$remote_ref" = "refs/heads/dev" ]; then
+    echo "[ pre-push ] Pushing to dev — running flutter analyze..."
+    flutter analyze --fatal-infos --fatal-warnings
+    if [ $? -ne 0 ]; then
+      echo ""
+      echo "Push blocked: fix the above lint issues before pushing to dev."
+      exit 1
+    fi
+    echo "[ pre-push ] flutter analyze passed."
+  fi
+done
+
+exit 0

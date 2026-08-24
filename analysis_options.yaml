@@ -1,0 +1,28 @@
+include: package:very_good_analysis/analysis_options.yaml
+ 
+analyzer:
+  errors:
+    comment_references: ignore
+  language:
+    strict-casts: true
+    strict-inference: true
+    strict-raw-types: true
+ 
+  exclude:
+    - build/**
+    - lib/generated/**
+    - "**/*.g.dart"
+    - "**/*.freezed.dart"
+    - "**/*.gen.dart"
+ 
+formatter:
+  page_width: 120
+ 
+linter:
+  rules:
+    # App, not a published package — API docs not required on internal members
+    public_member_api_docs: false
+    # Formatter is configured to 120 chars; 80-char lint rule would conflict
+    lines_longer_than_80_chars: false
+    # Catch dynamic dispatch at analysis time rather than runtime (not in very_good_analysis)
+    avoid_dynamic_calls: true
