@@ -11,9 +11,17 @@ environment:
 dependencies:
   flutter:
     sdk: flutter
-  # The app's own mark is the `mdi:finance` glyph, drawn by AppLogo. Icons are
-  # always static inline SVG strings — never a set that fetches at runtime.
+  flutter_localizations:
+    sdk: flutter
+  # Riverpod is the only state management in this app — no setState, no BLoC.
+  flutter_riverpod: ^3.3.1
+  # The app's own mark is the `mdi:finance` glyph. Icons are always static
+  # inline SVG strings — never a set that fetches at runtime.
   iconify_flutter: ^0.0.7
+  # Date, number and currency formatting, and the plumbing behind l10n.
+  intl: ^0.20.2
+  # AppLogger's backend. Diagnostic output never goes through print/debugPrint.
+  logger: ^2.7.0
 
 dev_dependencies:
   flutter_launcher_icons: ^0.14.4
@@ -21,6 +29,9 @@ dev_dependencies:
   very_good_analysis: ^10.2.0
 
 flutter:
+  # Generates AppLocalizations from lib/l10n/*.arb — see l10n.yaml.
+  generate: true
+
   uses-material-design: true
 
   fonts:

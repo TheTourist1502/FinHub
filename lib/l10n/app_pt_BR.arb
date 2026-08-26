@@ -1,0 +1,10 @@
+{
+  "@@locale": "pt_BR",
+  "appName": "FinHub",
+  "errorNetwork": "Sem conexão com a internet. Verifique sua rede e tente novamente.",
+  "errorServer": "Erro no servidor ({statusCode}). Por favor, tente novamente mais tarde.",
+  "errorUnauthorized": "Sua sessão expirou. Por favor, faça login novamente.",
+  "errorForbidden": "Você não tem permissão para realizar esta ação.",
+  "errorNotFound": "O recurso solicitado não foi encontrado.",
+  "errorUnknown": "Ocorreu um erro inesperado. Por favor, tente novamente."
+}

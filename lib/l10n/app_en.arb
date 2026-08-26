@@ -1,0 +1,37 @@
+{
+  "@@locale": "en",
+  "appName": "FinHub",
+  "@appName": {
+    "description": "App name displayed in OS dialogs and the app shell."
+  },
+  "errorNetwork": "No internet connection. Please check your network and try again.",
+  "@errorNetwork": {
+    "description": "Shown when a NetworkError is thrown (no connectivity)."
+  },
+  "errorServer": "Server error ({statusCode}). Please try again later.",
+  "@errorServer": {
+    "description": "Shown when a ServerError (HTTP 5xx) is thrown. statusCode is passed as a string and may be empty when unknown.",
+    "placeholders": {
+      "statusCode": {
+        "type": "String",
+        "example": "503"
+      }
+    }
+  },
+  "errorUnauthorized": "Your session has expired. Please log in again.",
+  "@errorUnauthorized": {
+    "description": "Shown when an UnauthorizedError (HTTP 401) is thrown."
+  },
+  "errorForbidden": "You do not have permission to perform this action.",
+  "@errorForbidden": {
+    "description": "Shown when a ForbiddenError (HTTP 403) is thrown."
+  },
+  "errorNotFound": "The requested resource was not found.",
+  "@errorNotFound": {
+    "description": "Shown when a NotFoundError (HTTP 404) is thrown."
+  },
+  "errorUnknown": "An unexpected error occurred. Please try again.",
+  "@errorUnknown": {
+    "description": "Shown when an UnknownError is thrown with no server-provided message."
+  }
+}
