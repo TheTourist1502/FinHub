@@ -1,10 +1,14 @@
 import 'dart:async';
 
 import 'package:finhub/app.dart';
+import 'package:finhub/core/auth/session_root.dart';
+import 'package:finhub/core/storage/storage_provider.dart';
 import 'package:finhub/core/observability/error_reporter.dart';
 import 'package:finhub/core/observability/logging_error_reporter.dart';
 import 'package:finhub/core/observability/observability_provider.dart';
 import 'package:finhub/core/observability/provider_error_observer.dart';
+import 'package:finhub/core/storage/storage_provider.dart';
+import 'package:finhub/core/storage/storage_service.dart';
 import 'package:flutter/foundation.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
@@ -18,7 +22,8 @@ import 'package:flutter_riverpod/flutter_riverpod.dart';
 /// 3. [ErrorReporter.init]                    — prepares error reporting.
 /// 4. [FlutterError.onError]                  — captures Flutter framework errors as fatal.
 /// 5. `PlatformDispatcher.instance.onError`   — captures uncaught Dart zone errors as fatal.
-/// 6. [runApp]                                — builds the widget tree.
+/// 6. [StorageService.init]                   — reads secure storage before the widget tree.
+/// 7. [runApp]                                — builds the widget tree.
 Future<void> main() async {
   WidgetsFlutterBinding.ensureInitialized();
 
@@ -50,6 +55,8 @@ Future<void> main() async {
     return true;
   };
 
+  final storageService = await StorageService.init();
+
   runApp(
     ProviderScope(
       observers: [ProviderErrorObserver(reporter)],
@@ -58,7 +65,10 @@ Future<void> main() async {
       // pull-to-refresh), so disable the built-in retry to avoid delaying
       // error states from reaching the UI.
       retry: (retryCount, error) => null,
-      overrides: [errorReporterProvider.overrideWithValue(reporter)],
+      overrides: [
+        storageServiceProvider.overrideWithValue(storageService),
+        errorReporterProvider.overrideWithValue(reporter),
+      ],
       child: const App(),
     ),
   );

@@ -15,15 +15,24 @@ dependencies:
     sdk: flutter
   # Riverpod is the only state management in this app — no setState, no BLoC.
   flutter_riverpod: ^3.3.1
+  # Tokens and other credentials go to the platform keystore, never to
+  # SharedPreferences — see StorageService.
+  flutter_secure_storage: ^10.2.0
   # The app's own mark is the `mdi:finance` glyph. Icons are always static
   # inline SVG strings — never a set that fetches at runtime.
   iconify_flutter: ^0.0.7
+  # Declarative routing and the redirect hook the route guard hangs off.
+  go_router: ^17.2.3
   # Date, number and currency formatting, and the plumbing behind l10n.
   intl: ^0.20.2
   # AppLogger's backend. Diagnostic output never goes through print/debugPrint.
   logger: ^2.7.0
+  # Non-sensitive preferences — locale, onboarding state.
+  shared_preferences: ^2.5.5
 
 dev_dependencies:
+  flutter_test:
+    sdk: flutter
   flutter_launcher_icons: ^0.14.4
   flutter_native_splash: ^2.4.6
   very_good_analysis: ^10.2.0
@@ -33,6 +42,11 @@ flutter:
   generate: true
 
   uses-material-design: true
+
+  assets:
+    # Every read goes through MockDataSource. Each feature adds its own
+    # fixture directory on the day that feature lands.
+    - assets/mock-data/auth/
 
   fonts:
     - family: Inter

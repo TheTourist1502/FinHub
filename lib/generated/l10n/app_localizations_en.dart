@@ -30,4 +30,25 @@ class AppLocalizationsEn extends AppLocalizations {
 
   @override
   String get errorUnknown => 'An unexpected error occurred. Please try again.';
+
+  @override
+  String get commonInvalidEmail => 'Enter a valid email address.';
+
+  @override
+  String commonInvalidMobileNumber(int min, int max) {
+    return 'Must be between $min and $max digits.';
+  }
+
+  @override
+  String get commonInvalidPostalCode => 'Enter a valid postal code.';
+
+  @override
+  String commonMaxLengthExceeded(int max) {
+    return 'Maximum $max characters allowed.';
+  }
+
+  @override
+  String validationFieldRequired(String fieldName) {
+    return '$fieldName is required !';
+  }
 }

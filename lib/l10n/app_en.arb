@@ -33,5 +33,44 @@
   "errorUnknown": "An unexpected error occurred. Please try again.",
   "@errorUnknown": {
     "description": "Shown when an UnknownError is thrown with no server-provided message."
+  },
+  "commonInvalidEmail": "Enter a valid email address.",
+  "@commonInvalidEmail": {
+    "description": "Inline error under an email field whose value isn't a valid address."
+  },
+  "commonInvalidMobileNumber": "Must be between {min} and {max} digits.",
+  "@commonInvalidMobileNumber": {
+    "description": "Inline error under a mobile number field whose value isn't between the minimum and maximum digit count.",
+    "placeholders": {
+      "min": {
+        "type": "int"
+      },
+      "max": {
+        "type": "int"
+      }
+    }
+  },
+  "commonInvalidPostalCode": "Enter a valid postal code.",
+  "@commonInvalidPostalCode": {
+    "description": "Inline error under a postal code field whose value isn't a plausible postal code."
+  },
+  "commonMaxLengthExceeded": "Maximum {max} characters allowed.",
+  "@commonMaxLengthExceeded": {
+    "description": "Inline error under a text field that has run past its character limit.",
+    "placeholders": {
+      "max": {
+        "type": "int"
+      }
+    }
+  },
+  "validationFieldRequired": "{fieldName} is required !",
+  "@validationFieldRequired": {
+    "description": "Generic required-field validation message. fieldName is the translated label of the field.",
+    "placeholders": {
+      "fieldName": {
+        "type": "String",
+        "example": "Full Name"
+      }
+    }
   }
 }

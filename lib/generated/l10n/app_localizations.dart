@@ -134,6 +134,36 @@ abstract class AppLocalizations {
   /// In en, this message translates to:
   /// **'An unexpected error occurred. Please try again.'**
   String get errorUnknown;
+
+  /// Inline error under an email field whose value isn't a valid address.
+  ///
+  /// In en, this message translates to:
+  /// **'Enter a valid email address.'**
+  String get commonInvalidEmail;
+
+  /// Inline error under a mobile number field whose value isn't between the minimum and maximum digit count.
+  ///
+  /// In en, this message translates to:
+  /// **'Must be between {min} and {max} digits.'**
+  String commonInvalidMobileNumber(int min, int max);
+
+  /// Inline error under a postal code field whose value isn't a plausible postal code.
+  ///
+  /// In en, this message translates to:
+  /// **'Enter a valid postal code.'**
+  String get commonInvalidPostalCode;
+
+  /// Inline error under a text field that has run past its character limit.
+  ///
+  /// In en, this message translates to:
+  /// **'Maximum {max} characters allowed.'**
+  String commonMaxLengthExceeded(int max);
+
+  /// Generic required-field validation message. fieldName is the translated label of the field.
+  ///
+  /// In en, this message translates to:
+  /// **'{fieldName} is required !'**
+  String validationFieldRequired(String fieldName);
 }
 
 class _AppLocalizationsDelegate extends LocalizationsDelegate<AppLocalizations> {

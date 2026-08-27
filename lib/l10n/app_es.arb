@@ -6,5 +6,10 @@
   "errorUnauthorized": "Tu sesión ha expirado. Por favor, inicia sesión de nuevo.",
   "errorForbidden": "No tienes permiso para realizar esta acción.",
   "errorNotFound": "El recurso solicitado no fue encontrado.",
-  "errorUnknown": "Ocurrió un error inesperado. Por favor, inténtalo de nuevo."
+  "errorUnknown": "Ocurrió un error inesperado. Por favor, inténtalo de nuevo.",
+  "commonInvalidEmail": "Introduzca una dirección de correo electrónico válida.",
+  "commonInvalidMobileNumber": "Debe tener entre {min} y {max} dígitos.",
+  "commonInvalidPostalCode": "Introduzca un código postal válido.",
+  "commonMaxLengthExceeded": "Máximo {max} caracteres permitidos.",
+  "validationFieldRequired": "{fieldName} es obligatorio !"
 }

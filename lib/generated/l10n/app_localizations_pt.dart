@@ -30,6 +30,27 @@ class AppLocalizationsPt extends AppLocalizations {
 
   @override
   String get errorUnknown => 'Ocorreu um erro inesperado. Por favor, tente novamente.';
+
+  @override
+  String get commonInvalidEmail => 'Informe um endereço de e-mail válido.';
+
+  @override
+  String commonInvalidMobileNumber(int min, int max) {
+    return 'Deve ter entre $min e $max dígitos.';
+  }
+
+  @override
+  String get commonInvalidPostalCode => 'Informe um código postal válido.';
+
+  @override
+  String commonMaxLengthExceeded(int max) {
+    return 'Máximo de $max caracteres permitidos.';
+  }
+
+  @override
+  String validationFieldRequired(String fieldName) {
+    return '$fieldName é obrigatório !';
+  }
 }
 
 /// The translations for Portuguese, as used in Brazil (`pt_BR`).
@@ -58,4 +79,25 @@ class AppLocalizationsPtBr extends AppLocalizationsPt {
 
   @override
   String get errorUnknown => 'Ocorreu um erro inesperado. Por favor, tente novamente.';
+
+  @override
+  String get commonInvalidEmail => 'Informe um endereço de e-mail válido.';
+
+  @override
+  String commonInvalidMobileNumber(int min, int max) {
+    return 'Deve ter entre $min e $max dígitos.';
+  }
+
+  @override
+  String get commonInvalidPostalCode => 'Informe um código postal válido.';
+
+  @override
+  String commonMaxLengthExceeded(int max) {
+    return 'Máximo de $max caracteres permitidos.';
+  }
+
+  @override
+  String validationFieldRequired(String fieldName) {
+    return '$fieldName é obrigatório !';
+  }
 }

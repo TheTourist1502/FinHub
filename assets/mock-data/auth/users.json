@@ -1,0 +1,109 @@
+{
+  "password": "test@123",
+  "users": [
+    {
+      "id": "USR0001",
+      "username": "test",
+      "email": "test@finhub.com",
+      "name": "Alex Morgan",
+      "role": "advisor",
+      "advisorId": "FAP0001"
+    },
+    {
+      "id": "USR0002",
+      "username": "daniel.alvarez",
+      "email": "daniel.alvarez@finhub.com",
+      "name": "Daniel Alvarez",
+      "role": "advisor",
+      "advisorId": "FAP0002"
+    },
+    {
+      "id": "USR0003",
+      "username": "marcus.chen",
+      "email": "marcus.chen@finhub.com",
+      "name": "Marcus Chen",
+      "role": "advisor",
+      "advisorId": "FAP0003"
+    },
+    {
+      "id": "USR0004",
+      "username": "priya.nair",
+      "email": "priya.nair@finhub.com",
+      "name": "Priya Nair",
+      "role": "advisor",
+      "advisorId": "FAP0004"
+    },
+    {
+      "id": "USR0005",
+      "username": "sofia.bianchi",
+      "email": "sofia.bianchi@finhub.com",
+      "name": "Sofia Bianchi",
+      "role": "advisor",
+      "advisorId": "FAP0005"
+    },
+    {
+      "id": "USR0006",
+      "username": "liam.osullivan",
+      "email": "liam.osullivan@finhub.com",
+      "name": "Liam O'Sullivan",
+      "role": "advisor",
+      "advisorId": "FAP0006"
+    },
+    {
+      "id": "USR0007",
+      "username": "nadia.haddad",
+      "email": "nadia.haddad@finhub.com",
+      "name": "Nadia Haddad",
+      "role": "advisor",
+      "advisorId": "FAP0007"
+    },
+    {
+      "id": "USR0008",
+      "username": "tomas.ferreira",
+      "email": "tomas.ferreira@finhub.com",
+      "name": "Tomas Ferreira",
+      "role": "advisor",
+      "advisorId": "FAP0008"
+    },
+    {
+      "id": "USR0009",
+      "username": "grace.lindqvist",
+      "email": "grace.lindqvist@finhub.com",
+      "name": "Grace Lindqvist",
+      "role": "advisor",
+      "advisorId": "FAP0009"
+    },
+    {
+      "id": "USR0010",
+      "username": "ethan.caldwell",
+      "email": "ethan.caldwell@finhub.com",
+      "name": "Ethan Caldwell",
+      "role": "advisor",
+      "advisorId": "FAP0010"
+    },
+    {
+      "id": "USR0011",
+      "username": "victoria.reyes",
+      "email": "victoria.reyes@finhub.com",
+      "name": "Victoria Reyes",
+      "role": "leadership",
+      "advisorId": null
+    },
+    {
+      "id": "USR0012",
+      "username": "samuel.okonkwo",
+      "email": "samuel.okonkwo@finhub.com",
+      "name": "Samuel Okonkwo",
+      "role": "leadership",
+      "advisorId": null
+    },
+    {
+      "id": "USR0013",
+      "username": "helena.vargas",
+      "email": "helena.vargas@finhub.com",
+      "name": "Helena Vargas",
+      "role": "leadership",
+      "advisorId": null
+    }
+  ]
+}
