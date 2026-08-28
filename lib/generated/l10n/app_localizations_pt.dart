@@ -141,6 +141,163 @@ class AppLocalizationsPt extends AppLocalizations {
   String dashboardSessionSummary(String role, String advisorId) {
     return 'Sessão iniciada como $role · assessor $advisorId';
   }
+
+  @override
+  String get appErrorWidgetEmptyDescription => 'Não há dados para mostrar no momento.';
+
+  @override
+  String get appErrorWidgetEmptyTitle => 'Ainda Não Há Nada Aqui';
+
+  @override
+  String get appErrorWidgetForbiddenDescription => 'Você não tem permissão para realizar esta ação.';
+
+  @override
+  String get appErrorWidgetForbiddenTitle => 'Acesso Negado';
+
+  @override
+  String get appErrorWidgetMaintenanceDescription =>
+      'Este recurso está temporariamente indisponível enquanto fazemos melhorias.';
+
+  @override
+  String get appErrorWidgetMaintenanceTitle => 'Em Manutenção';
+
+  @override
+  String get appErrorWidgetNetworkDescription => 'Sem conexão com a internet. Verifique sua rede e tente novamente.';
+
+  @override
+  String get appErrorWidgetNetworkTitle => 'Sem Conexão';
+
+  @override
+  String get appErrorWidgetNotFoundDescription => 'O item que você procura não existe ou foi movido.';
+
+  @override
+  String get appErrorWidgetNotFoundTitle => 'Não Encontrado';
+
+  @override
+  String get appErrorWidgetServerDescription => 'Algo deu errado do nosso lado. Tente novamente mais tarde.';
+
+  @override
+  String get appErrorWidgetServerTitle => 'Erro no Servidor';
+
+  @override
+  String get appErrorWidgetServiceUnavailableDescription =>
+      'O serviço está temporariamente indisponível. Tente novamente em instantes.';
+
+  @override
+  String get appErrorWidgetServiceUnavailableTitle => 'Serviço Indisponível';
+
+  @override
+  String get appErrorWidgetTimeoutDescription => 'A solicitação demorou muito para responder. Tente novamente.';
+
+  @override
+  String get appErrorWidgetTimeoutTitle => 'Tempo Esgotado';
+
+  @override
+  String get appErrorWidgetUnauthorizedDescription => 'Sua sessão expirou. Faça login novamente.';
+
+  @override
+  String get appErrorWidgetUnauthorizedTitle => 'Sessão Expirada';
+
+  @override
+  String get appErrorWidgetUnknownDescription => 'Ocorreu um erro inesperado. Tente novamente.';
+
+  @override
+  String get appErrorWidgetUnknownTitle => 'Algo Deu Errado';
+
+  @override
+  String get appErrorWidgetValidationDescription =>
+      'Algumas informações fornecidas não são válidas. Revise e tente novamente.';
+
+  @override
+  String get appErrorWidgetValidationTitle => 'Informações Inválidas';
+
+  @override
+  String get commonBrowseFile => 'Procurar Arquivo';
+
+  @override
+  String get commonButtonCancel => 'Cancelar';
+
+  @override
+  String get commonButtonClear => 'Limpar';
+
+  @override
+  String get commonButtonOk => 'OK';
+
+  @override
+  String get commonButtonRetry => 'Tentar novamente';
+
+  @override
+  String commonDuplicateFile(String fileName) {
+    return 'Já existe um arquivo com $fileName.';
+  }
+
+  @override
+  String get commonFilePickFailed => 'Não foi possível abrir o seletor de arquivos. Tente novamente.';
+
+  @override
+  String commonFileTooLarge(String limit) {
+    return 'O arquivo deve ter menos de $limit.';
+  }
+
+  @override
+  String commonFileTypeNotAllowed(String rejected, num allowedCount, String allowed) {
+    String _temp0 = intl.Intl.pluralLogic(
+      allowedCount,
+      locale: localeName,
+      other: 'Os tipos de arquivo permitidos são',
+      one: 'O tipo de arquivo permitido é',
+    );
+    return 'O tipo de arquivo $rejected não é permitido. $_temp0 $allowed !';
+  }
+
+  @override
+  String get commonInputHint => 'Digite...';
+
+  @override
+  String commonMaxFilesReached(int count) {
+    return 'O número máximo de arquivos é $count.';
+  }
+
+  @override
+  String get commonNoRecordFound => 'Nenhum registro encontrado!';
+
+  @override
+  String get commonRemove => 'Remover';
+
+  @override
+  String get commonSearchClear => 'Limpar pesquisa';
+
+  @override
+  String get commonUnsupportedFileType => 'Tipo de arquivo não compatível. Escolha um arquivo compatível.';
+
+  @override
+  String get commonUploadedDocumentsTitle => 'Documentos Enviados';
+
+  @override
+  String selectNSelected(int count) {
+    return '$count selecionados';
+  }
+
+  @override
+  String get selectSearchHint => 'Pesquisar…';
+
+  @override
+  String get statusApproved => 'Aprovado';
+
+  @override
+  String get statusCompleted => 'Concluído';
+
+  @override
+  String get statusEscalated => 'Escalado';
+
+  @override
+  String get statusInProgress => 'Em Andamento';
+
+  @override
+  String get statusNone => 'Nenhum';
+
+  @override
+  String get statusRejected => 'Rejeitado';
 }
 
 /// The translations for Portuguese, as used in Brazil (`pt_BR`).
@@ -280,4 +437,161 @@ class AppLocalizationsPtBr extends AppLocalizationsPt {
   String dashboardSessionSummary(String role, String advisorId) {
     return 'Sessão iniciada como $role · assessor $advisorId';
   }
+
+  @override
+  String get appErrorWidgetEmptyDescription => 'Não há dados para mostrar no momento.';
+
+  @override
+  String get appErrorWidgetEmptyTitle => 'Ainda Não Há Nada Aqui';
+
+  @override
+  String get appErrorWidgetForbiddenDescription => 'Você não tem permissão para realizar esta ação.';
+
+  @override
+  String get appErrorWidgetForbiddenTitle => 'Acesso Negado';
+
+  @override
+  String get appErrorWidgetMaintenanceDescription =>
+      'Este recurso está temporariamente indisponível enquanto fazemos melhorias.';
+
+  @override
+  String get appErrorWidgetMaintenanceTitle => 'Em Manutenção';
+
+  @override
+  String get appErrorWidgetNetworkDescription => 'Sem conexão com a internet. Verifique sua rede e tente novamente.';
+
+  @override
+  String get appErrorWidgetNetworkTitle => 'Sem Conexão';
+
+  @override
+  String get appErrorWidgetNotFoundDescription => 'O item que você procura não existe ou foi movido.';
+
+  @override
+  String get appErrorWidgetNotFoundTitle => 'Não Encontrado';
+
+  @override
+  String get appErrorWidgetServerDescription => 'Algo deu errado do nosso lado. Tente novamente mais tarde.';
+
+  @override
+  String get appErrorWidgetServerTitle => 'Erro no Servidor';
+
+  @override
+  String get appErrorWidgetServiceUnavailableDescription =>
+      'O serviço está temporariamente indisponível. Tente novamente em instantes.';
+
+  @override
+  String get appErrorWidgetServiceUnavailableTitle => 'Serviço Indisponível';
+
+  @override
+  String get appErrorWidgetTimeoutDescription => 'A solicitação demorou muito para responder. Tente novamente.';
+
+  @override
+  String get appErrorWidgetTimeoutTitle => 'Tempo Esgotado';
+
+  @override
+  String get appErrorWidgetUnauthorizedDescription => 'Sua sessão expirou. Faça login novamente.';
+
+  @override
+  String get appErrorWidgetUnauthorizedTitle => 'Sessão Expirada';
+
+  @override
+  String get appErrorWidgetUnknownDescription => 'Ocorreu um erro inesperado. Tente novamente.';
+
+  @override
+  String get appErrorWidgetUnknownTitle => 'Algo Deu Errado';
+
+  @override
+  String get appErrorWidgetValidationDescription =>
+      'Algumas informações fornecidas não são válidas. Revise e tente novamente.';
+
+  @override
+  String get appErrorWidgetValidationTitle => 'Informações Inválidas';
+
+  @override
+  String get commonBrowseFile => 'Procurar Arquivo';
+
+  @override
+  String get commonButtonCancel => 'Cancelar';
+
+  @override
+  String get commonButtonClear => 'Limpar';
+
+  @override
+  String get commonButtonOk => 'OK';
+
+  @override
+  String get commonButtonRetry => 'Tentar novamente';
+
+  @override
+  String commonDuplicateFile(String fileName) {
+    return 'Já existe um arquivo com $fileName.';
+  }
+
+  @override
+  String get commonFilePickFailed => 'Não foi possível abrir o seletor de arquivos. Tente novamente.';
+
+  @override
+  String commonFileTooLarge(String limit) {
+    return 'O arquivo deve ter menos de $limit.';
+  }
+
+  @override
+  String commonFileTypeNotAllowed(String rejected, num allowedCount, String allowed) {
+    String _temp0 = intl.Intl.pluralLogic(
+      allowedCount,
+      locale: localeName,
+      other: 'Os tipos de arquivo permitidos são',
+      one: 'O tipo de arquivo permitido é',
+    );
+    return 'O tipo de arquivo $rejected não é permitido. $_temp0 $allowed !';
+  }
+
+  @override
+  String get commonInputHint => 'Digite...';
+
+  @override
+  String commonMaxFilesReached(int count) {
+    return 'O número máximo de arquivos é $count.';
+  }
+
+  @override
+  String get commonNoRecordFound => 'Nenhum registro encontrado!';
+
+  @override
+  String get commonRemove => 'Remover';
+
+  @override
+  String get commonSearchClear => 'Limpar pesquisa';
+
+  @override
+  String get commonUnsupportedFileType => 'Tipo de arquivo não compatível. Escolha um arquivo compatível.';
+
+  @override
+  String get commonUploadedDocumentsTitle => 'Documentos Enviados';
+
+  @override
+  String selectNSelected(int count) {
+    return '$count selecionados';
+  }
+
+  @override
+  String get selectSearchHint => 'Pesquisar…';
+
+  @override
+  String get statusApproved => 'Aprovado';
+
+  @override
+  String get statusCompleted => 'Concluído';
+
+  @override
+  String get statusEscalated => 'Escalado';
+
+  @override
+  String get statusInProgress => 'Em Andamento';
+
+  @override
+  String get statusNone => 'Nenhum';
+
+  @override
+  String get statusRejected => 'Rejeitado';
 }

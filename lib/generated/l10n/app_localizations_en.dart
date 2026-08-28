@@ -141,4 +141,161 @@ class AppLocalizationsEn extends AppLocalizations {
   String dashboardSessionSummary(String role, String advisorId) {
     return 'Signed in as $role · advisor $advisorId';
   }
+
+  @override
+  String get appErrorWidgetEmptyDescription => 'There\'s no data to show right now.';
+
+  @override
+  String get appErrorWidgetEmptyTitle => 'Nothing Here Yet';
+
+  @override
+  String get appErrorWidgetForbiddenDescription => 'You do not have permission to perform this action.';
+
+  @override
+  String get appErrorWidgetForbiddenTitle => 'Access Denied';
+
+  @override
+  String get appErrorWidgetMaintenanceDescription =>
+      'This feature is temporarily unavailable while we make improvements.';
+
+  @override
+  String get appErrorWidgetMaintenanceTitle => 'Under Maintenance';
+
+  @override
+  String get appErrorWidgetNetworkDescription => 'No internet connection. Please check your network and try again.';
+
+  @override
+  String get appErrorWidgetNetworkTitle => 'No Connection';
+
+  @override
+  String get appErrorWidgetNotFoundDescription => 'The item you\'re looking for doesn\'t exist or has been moved.';
+
+  @override
+  String get appErrorWidgetNotFoundTitle => 'Not Found';
+
+  @override
+  String get appErrorWidgetServerDescription => 'Something went wrong on our end. Please try again later.';
+
+  @override
+  String get appErrorWidgetServerTitle => 'Server Error';
+
+  @override
+  String get appErrorWidgetServiceUnavailableDescription =>
+      'The service is temporarily unavailable. Please try again shortly.';
+
+  @override
+  String get appErrorWidgetServiceUnavailableTitle => 'Service Unavailable';
+
+  @override
+  String get appErrorWidgetTimeoutDescription => 'The request took too long to respond. Please try again.';
+
+  @override
+  String get appErrorWidgetTimeoutTitle => 'Request Timed Out';
+
+  @override
+  String get appErrorWidgetUnauthorizedDescription => 'Your session has expired. Please log in again.';
+
+  @override
+  String get appErrorWidgetUnauthorizedTitle => 'Session Expired';
+
+  @override
+  String get appErrorWidgetUnknownDescription => 'An unexpected error occurred. Please try again.';
+
+  @override
+  String get appErrorWidgetUnknownTitle => 'Something Went Wrong';
+
+  @override
+  String get appErrorWidgetValidationDescription =>
+      'Some of the information provided isn\'t valid. Please review and try again.';
+
+  @override
+  String get appErrorWidgetValidationTitle => 'Invalid Information';
+
+  @override
+  String get commonBrowseFile => 'Browse File';
+
+  @override
+  String get commonButtonCancel => 'Cancel';
+
+  @override
+  String get commonButtonClear => 'Clear';
+
+  @override
+  String get commonButtonOk => 'OK';
+
+  @override
+  String get commonButtonRetry => 'Try Again';
+
+  @override
+  String commonDuplicateFile(String fileName) {
+    return 'A file with $fileName already exists.';
+  }
+
+  @override
+  String get commonFilePickFailed => 'Couldn\'t open the file picker. Please try again.';
+
+  @override
+  String commonFileTooLarge(String limit) {
+    return 'File must be smaller than $limit.';
+  }
+
+  @override
+  String commonFileTypeNotAllowed(String rejected, num allowedCount, String allowed) {
+    String _temp0 = intl.Intl.pluralLogic(
+      allowedCount,
+      locale: localeName,
+      other: 'types are',
+      one: 'type is',
+    );
+    return 'File type with $rejected is not allowed. Allowed file $_temp0 $allowed !';
+  }
+
+  @override
+  String get commonInputHint => 'Type...';
+
+  @override
+  String commonMaxFilesReached(int count) {
+    return 'Max file count is $count.';
+  }
+
+  @override
+  String get commonNoRecordFound => 'No Record Found!';
+
+  @override
+  String get commonRemove => 'Remove';
+
+  @override
+  String get commonSearchClear => 'Clear search';
+
+  @override
+  String get commonUnsupportedFileType => 'Unsupported file type. Please choose a supported file.';
+
+  @override
+  String get commonUploadedDocumentsTitle => 'Uploaded Documents';
+
+  @override
+  String selectNSelected(int count) {
+    return '$count selected';
+  }
+
+  @override
+  String get selectSearchHint => 'Search...';
+
+  @override
+  String get statusApproved => 'Approved';
+
+  @override
+  String get statusCompleted => 'Completed';
+
+  @override
+  String get statusEscalated => 'Escalated';
+
+  @override
+  String get statusInProgress => 'In Progress';
+
+  @override
+  String get statusNone => 'None';
+
+  @override
+  String get statusRejected => 'Rejected';
 }

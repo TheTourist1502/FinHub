@@ -9,6 +9,8 @@ environment:
   sdk: ^3.11.5
 
 dependencies:
+  # Document attachment on service-request forms.
+  file_picker: ^9.0.0
   flutter:
     sdk: flutter
   flutter_localizations:
@@ -18,6 +20,8 @@ dependencies:
   # Tokens and other credentials go to the platform keystore, never to
   # SharedPreferences — see StorageService.
   flutter_secure_storage: ^10.2.0
+  # Renders the bundled empty-state illustration.
+  flutter_svg: ^2.0.10
   # Declarative routing and the redirect hook the route guard hangs off.
   go_router: ^17.2.3
   # The app's own mark is the `mdi:finance` glyph. Icons are always static
@@ -27,8 +31,12 @@ dependencies:
   intl: ^0.20.2
   # AppLogger's backend. Diagnostic output never goes through print/debugPrint.
   logger: ^2.7.0
+  # Form state for every input in shared/widgets/inputs.
+  reactive_forms: ^18.2.2
   # Non-sensitive preferences — locale, onboarding state.
   shared_preferences: ^2.5.5
+  # Loading placeholders while data is in flight.
+  shimmer: ^3.0.0
 
 dev_dependencies:
   flutter_launcher_icons: ^0.14.4
@@ -44,6 +52,7 @@ flutter:
   uses-material-design: true
 
   assets:
+    - assets/images/
     # Every read goes through MockDataSource. Each feature adds its own
     # fixture directory on the day that feature lands.
     - assets/mock-data/auth/

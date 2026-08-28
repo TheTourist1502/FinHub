@@ -206,5 +206,219 @@
         "example": "FAP0001"
       }
     }
+  },
+  "appErrorWidgetEmptyDescription": "There's no data to show right now.",
+  "@appErrorWidgetEmptyDescription": {
+    "description": "AppErrorWidget default description for AppErrorCode.emptyResponse."
+  },
+  "appErrorWidgetEmptyTitle": "Nothing Here Yet",
+  "@appErrorWidgetEmptyTitle": {
+    "description": "AppErrorWidget default title for AppErrorCode.emptyResponse."
+  },
+  "appErrorWidgetForbiddenDescription": "You do not have permission to perform this action.",
+  "@appErrorWidgetForbiddenDescription": {
+    "description": "AppErrorWidget default description for AppErrorCode.forbidden."
+  },
+  "appErrorWidgetForbiddenTitle": "Access Denied",
+  "@appErrorWidgetForbiddenTitle": {
+    "description": "AppErrorWidget default title for AppErrorCode.forbidden."
+  },
+  "appErrorWidgetMaintenanceDescription": "This feature is temporarily unavailable while we make improvements.",
+  "@appErrorWidgetMaintenanceDescription": {
+    "description": "AppErrorWidget default description for AppErrorCode.maintenance."
+  },
+  "appErrorWidgetMaintenanceTitle": "Under Maintenance",
+  "@appErrorWidgetMaintenanceTitle": {
+    "description": "AppErrorWidget default title for AppErrorCode.maintenance."
+  },
+  "appErrorWidgetNetworkDescription": "No internet connection. Please check your network and try again.",
+  "@appErrorWidgetNetworkDescription": {
+    "description": "AppErrorWidget default description for AppErrorCode.networkError."
+  },
+  "appErrorWidgetNetworkTitle": "No Connection",
+  "@appErrorWidgetNetworkTitle": {
+    "description": "AppErrorWidget default title for AppErrorCode.networkError."
+  },
+  "appErrorWidgetNotFoundDescription": "The item you're looking for doesn't exist or has been moved.",
+  "@appErrorWidgetNotFoundDescription": {
+    "description": "AppErrorWidget default description for AppErrorCode.notFound."
+  },
+  "appErrorWidgetNotFoundTitle": "Not Found",
+  "@appErrorWidgetNotFoundTitle": {
+    "description": "AppErrorWidget default title for AppErrorCode.notFound."
+  },
+  "appErrorWidgetServerDescription": "Something went wrong on our end. Please try again later.",
+  "@appErrorWidgetServerDescription": {
+    "description": "AppErrorWidget default description for AppErrorCode.serverError."
+  },
+  "appErrorWidgetServerTitle": "Server Error",
+  "@appErrorWidgetServerTitle": {
+    "description": "AppErrorWidget default title for AppErrorCode.serverError."
+  },
+  "appErrorWidgetServiceUnavailableDescription": "The service is temporarily unavailable. Please try again shortly.",
+  "@appErrorWidgetServiceUnavailableDescription": {
+    "description": "AppErrorWidget default description for AppErrorCode.serviceUnavailable."
+  },
+  "appErrorWidgetServiceUnavailableTitle": "Service Unavailable",
+  "@appErrorWidgetServiceUnavailableTitle": {
+    "description": "AppErrorWidget default title for AppErrorCode.serviceUnavailable."
+  },
+  "appErrorWidgetTimeoutDescription": "The request took too long to respond. Please try again.",
+  "@appErrorWidgetTimeoutDescription": {
+    "description": "AppErrorWidget default description for AppErrorCode.timeout."
+  },
+  "appErrorWidgetTimeoutTitle": "Request Timed Out",
+  "@appErrorWidgetTimeoutTitle": {
+    "description": "AppErrorWidget default title for AppErrorCode.timeout."
+  },
+  "appErrorWidgetUnauthorizedDescription": "Your session has expired. Please log in again.",
+  "@appErrorWidgetUnauthorizedDescription": {
+    "description": "AppErrorWidget default description for AppErrorCode.unauthorized."
+  },
+  "appErrorWidgetUnauthorizedTitle": "Session Expired",
+  "@appErrorWidgetUnauthorizedTitle": {
+    "description": "AppErrorWidget default title for AppErrorCode.unauthorized."
+  },
+  "appErrorWidgetUnknownDescription": "An unexpected error occurred. Please try again.",
+  "@appErrorWidgetUnknownDescription": {
+    "description": "AppErrorWidget default description for AppErrorCode.unknown."
+  },
+  "appErrorWidgetUnknownTitle": "Something Went Wrong",
+  "@appErrorWidgetUnknownTitle": {
+    "description": "AppErrorWidget default title for AppErrorCode.unknown."
+  },
+  "appErrorWidgetValidationDescription": "Some of the information provided isn't valid. Please review and try again.",
+  "@appErrorWidgetValidationDescription": {
+    "description": "AppErrorWidget default description for AppErrorCode.validationError."
+  },
+  "appErrorWidgetValidationTitle": "Invalid Information",
+  "@appErrorWidgetValidationTitle": {
+    "description": "AppErrorWidget default title for AppErrorCode.validationError."
+  },
+  "commonBrowseFile": "Browse File",
+  "@commonBrowseFile": {
+    "description": "Button label to pick a document for upload."
+  },
+  "commonButtonCancel": "Cancel",
+  "@commonButtonCancel": {},
+  "commonButtonClear": "Clear",
+  "@commonButtonClear": {
+    "description": "Button that clears the currently selected value in a select sheet."
+  },
+  "commonButtonOk": "OK",
+  "@commonButtonOk": {},
+  "commonButtonRetry": "Try Again",
+  "@commonButtonRetry": {
+    "description": "Retry action button label for error states."
+  },
+  "commonDuplicateFile": "A file with {fileName} already exists.",
+  "@commonDuplicateFile": {
+    "description": "Snackbar shown when a picked document is already attached to the same upload card.",
+    "placeholders": {
+      "fileName": {
+        "type": "String"
+      }
+    }
+  },
+  "commonFilePickFailed": "Couldn't open the file picker. Please try again.",
+  "@commonFilePickFailed": {
+    "description": "Snackbar shown when the native file picker fails to open."
+  },
+  "commonFileTooLarge": "File must be smaller than {limit}.",
+  "@commonFileTooLarge": {
+    "description": "Snackbar shown when a picked document exceeds the upload size limit.",
+    "placeholders": {
+      "limit": {
+        "type": "String",
+        "example": "1 MB"
+      }
+    }
+  },
+  "commonFileTypeNotAllowed": "File type with {rejected} is not allowed. Allowed file {allowedCount, plural, =1{type is} other{types are}} {allowed} !",
+  "@commonFileTypeNotAllowed": {
+    "description": "Snackbar naming the rejected file extension(s) and the ones the card accepts. allowedCount drives the singular/plural wording of the second sentence.",
+    "placeholders": {
+      "rejected": {
+        "type": "String"
+      },
+      "allowedCount": {
+        "type": "num"
+      },
+      "allowed": {
+        "type": "String"
+      }
+    }
+  },
+  "commonInputHint": "Type...",
+  "@commonInputHint": {
+    "description": "Default placeholder for any text input that has no more specific hint of its own."
+  },
+  "commonMaxFilesReached": "Max file count is {count}.",
+  "@commonMaxFilesReached": {
+    "description": "Snackbar shown when a pick would exceed the maximum number of files the request accepts. States the ceiling itself rather than the slots still free, which is zero on the pick that hits the limit.",
+    "placeholders": {
+      "count": {
+        "type": "int",
+        "example": "4"
+      }
+    }
+  },
+  "commonNoRecordFound": "No Record Found!",
+  "@commonNoRecordFound": {
+    "description": "Empty-state message shown when a list has no items."
+  },
+  "commonRemove": "Remove",
+  "@commonRemove": {
+    "description": "Icon button tooltip to remove an attached document."
+  },
+  "commonSearchClear": "Clear search",
+  "@commonSearchClear": {
+    "description": "Tooltip and accessibility label for the clear button in any search box."
+  },
+  "commonUnsupportedFileType": "Unsupported file type. Please choose a supported file.",
+  "@commonUnsupportedFileType": {
+    "description": "Snackbar shown when a picked document's extension isn't accepted."
+  },
+  "commonUploadedDocumentsTitle": "Uploaded Documents",
+  "@commonUploadedDocumentsTitle": {
+    "description": "Section header listing every document attached to an upload card."
+  },
+  "selectNSelected": "{count} selected",
+  "@selectNSelected": {
+    "description": "Chip label and trigger text showing how many options are selected.",
+    "placeholders": {
+      "count": {
+        "type": "int",
+        "example": "3"
+      }
+    }
+  },
+  "selectSearchHint": "Search...",
+  "@selectSearchHint": {
+    "description": "Placeholder text in the search bar inside select bottom sheets."
+  },
+  "statusApproved": "Approved",
+  "@statusApproved": {
+    "description": "Overall request/task status chip: approved."
+  },
+  "statusCompleted": "Completed",
+  "@statusCompleted": {
+    "description": "Overall request/task status chip: completed."
+  },
+  "statusEscalated": "Escalated",
+  "@statusEscalated": {
+    "description": "Overall request/task status chip: escalated to a higher review tier."
+  },
+  "statusInProgress": "In Progress",
+  "@statusInProgress": {
+    "description": "Overall request/task status chip: in progress."
+  },
+  "statusNone": "None",
+  "@statusNone": {
+    "description": "Overall request/task status chip: no status set."
+  },
+  "statusRejected": "Rejected",
+  "@statusRejected": {
+    "description": "Overall request/task status chip: rejected."
   }
 }
