@@ -72,5 +72,139 @@
         "example": "Full Name"
       }
     }
+  },
+  "authLoginTitle": "Welcome back",
+  "@authLoginTitle": {
+    "description": "Heading on the sign-in screen."
+  },
+  "authLoginSubtitle": "Sign in to your advisor workspace.",
+  "@authLoginSubtitle": {
+    "description": "Subheading under the sign-in title."
+  },
+  "authIdentifierLabel": "Username or email",
+  "@authIdentifierLabel": {
+    "description": "Label of the sign-in identifier field."
+  },
+  "authIdentifierHint": "e.g. daniel.alvarez",
+  "@authIdentifierHint": {
+    "description": "Placeholder of the sign-in identifier field."
+  },
+  "authPasswordLabel": "Password",
+  "@authPasswordLabel": {
+    "description": "Label of the password field."
+  },
+  "authPasswordHint": "Enter your password",
+  "@authPasswordHint": {
+    "description": "Placeholder of the password field."
+  },
+  "authShowPassword": "Show password",
+  "@authShowPassword": {
+    "description": "Tooltip on the reveal-password button."
+  },
+  "authHidePassword": "Hide password",
+  "@authHidePassword": {
+    "description": "Tooltip on the hide-password button."
+  },
+  "authLoginButton": "Sign in",
+  "@authLoginButton": {
+    "description": "Submit button on the sign-in form."
+  },
+  "authSignOutButton": "Sign out",
+  "@authSignOutButton": {
+    "description": "Ends the session and returns to the sign-in screen."
+  },
+  "authInvalidCredentials": "That username or password is not correct.",
+  "@authInvalidCredentials": {
+    "description": "Shown under both fields after a refused sign-in. Deliberately does not say which half was wrong."
+  },
+  "validationIdentifierRequired": "Enter your username or email.",
+  "@validationIdentifierRequired": {
+    "description": "Validation error when the identifier field is empty."
+  },
+  "validationPasswordRequired": "Enter your password.",
+  "@validationPasswordRequired": {
+    "description": "Validation error when the password field is empty."
+  },
+  "accessDeniedTitle": "Access denied",
+  "@accessDeniedTitle": {
+    "description": "Title of the screen shown when a role check fails."
+  },
+  "accessDeniedMessage": "Your role does not have access to this area.",
+  "@accessDeniedMessage": {
+    "description": "Body of the access-denied screen."
+  },
+  "accessDeniedBackButton": "Back to home",
+  "@accessDeniedBackButton": {
+    "description": "Returns the user to their landing tab."
+  },
+  "navHome": "Home",
+  "@navHome": {
+    "description": "Bottom navigation label for the home tab."
+  },
+  "navHouseholds": "Households",
+  "@navHouseholds": {
+    "description": "Bottom navigation label for the households tab."
+  },
+  "navRealTime": "Real-Time",
+  "@navRealTime": {
+    "description": "Bottom navigation label for the real-time tab."
+  },
+  "navServiceRequests": "Requests",
+  "@navServiceRequests": {
+    "description": "Bottom navigation label for the service-requests tab."
+  },
+  "navCommissions": "Commissions",
+  "@navCommissions": {
+    "description": "Bottom navigation label for the leadership commissions tab."
+  },
+  "navInsights": "Insights",
+  "@navInsights": {
+    "description": "Bottom navigation label for the market-insights tab."
+  },
+  "roleAdvisor": "Advisor",
+  "@roleAdvisor": {
+    "description": "Display name of the advisor role."
+  },
+  "roleLeadership": "Leadership",
+  "@roleLeadership": {
+    "description": "Display name of the leadership role."
+  },
+  "comingSoonTitle": "{tab} is on the way",
+  "@comingSoonTitle": {
+    "description": "Placeholder shown in a bottom-nav tab whose feature has not shipped yet.",
+    "placeholders": {
+      "tab": {
+        "type": "String",
+        "example": "Insights"
+      }
+    }
+  },
+  "comingSoonMessage": "This tab is wired up and waiting for its screens.",
+  "@comingSoonMessage": {
+    "description": "Body of the not-yet-built tab placeholder."
+  },
+  "dashboardGreeting": "Hello, {name}",
+  "@dashboardGreeting": {
+    "description": "Personalised greeting shown at the top of the dashboard.",
+    "placeholders": {
+      "name": {
+        "type": "String",
+        "example": "Karan"
+      }
+    }
+  },
+  "dashboardSessionSummary": "Signed in as {role} · advisor {advisorId}",
+  "@dashboardSessionSummary": {
+    "description": "Dashboard subtitle naming the signed-in role and advisor id.",
+    "placeholders": {
+      "role": {
+        "type": "String",
+        "example": "advisor"
+      },
+      "advisorId": {
+        "type": "String",
+        "example": "FAP0001"
+      }
+    }
   }
 }

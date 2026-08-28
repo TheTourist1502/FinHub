@@ -164,6 +164,174 @@ abstract class AppLocalizations {
   /// In en, this message translates to:
   /// **'{fieldName} is required !'**
   String validationFieldRequired(String fieldName);
+
+  /// Heading on the sign-in screen.
+  ///
+  /// In en, this message translates to:
+  /// **'Welcome back'**
+  String get authLoginTitle;
+
+  /// Subheading under the sign-in title.
+  ///
+  /// In en, this message translates to:
+  /// **'Sign in to your advisor workspace.'**
+  String get authLoginSubtitle;
+
+  /// Label of the sign-in identifier field.
+  ///
+  /// In en, this message translates to:
+  /// **'Username or email'**
+  String get authIdentifierLabel;
+
+  /// Placeholder of the sign-in identifier field.
+  ///
+  /// In en, this message translates to:
+  /// **'e.g. daniel.alvarez'**
+  String get authIdentifierHint;
+
+  /// Label of the password field.
+  ///
+  /// In en, this message translates to:
+  /// **'Password'**
+  String get authPasswordLabel;
+
+  /// Placeholder of the password field.
+  ///
+  /// In en, this message translates to:
+  /// **'Enter your password'**
+  String get authPasswordHint;
+
+  /// Tooltip on the reveal-password button.
+  ///
+  /// In en, this message translates to:
+  /// **'Show password'**
+  String get authShowPassword;
+
+  /// Tooltip on the hide-password button.
+  ///
+  /// In en, this message translates to:
+  /// **'Hide password'**
+  String get authHidePassword;
+
+  /// Submit button on the sign-in form.
+  ///
+  /// In en, this message translates to:
+  /// **'Sign in'**
+  String get authLoginButton;
+
+  /// Ends the session and returns to the sign-in screen.
+  ///
+  /// In en, this message translates to:
+  /// **'Sign out'**
+  String get authSignOutButton;
+
+  /// Shown under both fields after a refused sign-in. Deliberately does not say which half was wrong.
+  ///
+  /// In en, this message translates to:
+  /// **'That username or password is not correct.'**
+  String get authInvalidCredentials;
+
+  /// Validation error when the identifier field is empty.
+  ///
+  /// In en, this message translates to:
+  /// **'Enter your username or email.'**
+  String get validationIdentifierRequired;
+
+  /// Validation error when the password field is empty.
+  ///
+  /// In en, this message translates to:
+  /// **'Enter your password.'**
+  String get validationPasswordRequired;
+
+  /// Title of the screen shown when a role check fails.
+  ///
+  /// In en, this message translates to:
+  /// **'Access denied'**
+  String get accessDeniedTitle;
+
+  /// Body of the access-denied screen.
+  ///
+  /// In en, this message translates to:
+  /// **'Your role does not have access to this area.'**
+  String get accessDeniedMessage;
+
+  /// Returns the user to their landing tab.
+  ///
+  /// In en, this message translates to:
+  /// **'Back to home'**
+  String get accessDeniedBackButton;
+
+  /// Bottom navigation label for the home tab.
+  ///
+  /// In en, this message translates to:
+  /// **'Home'**
+  String get navHome;
+
+  /// Bottom navigation label for the households tab.
+  ///
+  /// In en, this message translates to:
+  /// **'Households'**
+  String get navHouseholds;
+
+  /// Bottom navigation label for the real-time tab.
+  ///
+  /// In en, this message translates to:
+  /// **'Real-Time'**
+  String get navRealTime;
+
+  /// Bottom navigation label for the service-requests tab.
+  ///
+  /// In en, this message translates to:
+  /// **'Requests'**
+  String get navServiceRequests;
+
+  /// Bottom navigation label for the leadership commissions tab.
+  ///
+  /// In en, this message translates to:
+  /// **'Commissions'**
+  String get navCommissions;
+
+  /// Bottom navigation label for the market-insights tab.
+  ///
+  /// In en, this message translates to:
+  /// **'Insights'**
+  String get navInsights;
+
+  /// Display name of the advisor role.
+  ///
+  /// In en, this message translates to:
+  /// **'Advisor'**
+  String get roleAdvisor;
+
+  /// Display name of the leadership role.
+  ///
+  /// In en, this message translates to:
+  /// **'Leadership'**
+  String get roleLeadership;
+
+  /// Placeholder shown in a bottom-nav tab whose feature has not shipped yet.
+  ///
+  /// In en, this message translates to:
+  /// **'{tab} is on the way'**
+  String comingSoonTitle(String tab);
+
+  /// Body of the not-yet-built tab placeholder.
+  ///
+  /// In en, this message translates to:
+  /// **'This tab is wired up and waiting for its screens.'**
+  String get comingSoonMessage;
+
+  /// Personalised greeting shown at the top of the dashboard.
+  ///
+  /// In en, this message translates to:
+  /// **'Hello, {name}'**
+  String dashboardGreeting(String name);
+
+  /// Dashboard subtitle naming the signed-in role and advisor id.
+  ///
+  /// In en, this message translates to:
+  /// **'Signed in as {role} · advisor {advisorId}'**
+  String dashboardSessionSummary(String role, String advisorId);
 }
 
 class _AppLocalizationsDelegate extends LocalizationsDelegate<AppLocalizations> {

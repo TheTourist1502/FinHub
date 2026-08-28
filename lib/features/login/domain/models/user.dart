@@ -1,3 +1,5 @@
+import 'package:finhub/features/login/domain/models/invalid_session_exception.dart';
+
 /// The roles an admissible session can carry.
 ///
 /// A `client` role exists in the wider product but is deliberately absent
@@ -31,7 +33,7 @@ class User {
   /// Rebuilds a user from [toJson] output or from a token's claim map.
   factory User.fromJson(Map<String, dynamic> json) {
     final role = UserRole.tryParse(json['role'] as String?);
-    if (role == null) throw ArgumentError.value(json['role'], 'role', 'Not an admissible role');
+    if (role == null) throw InvalidSessionException('Role "${json['role']}" is not admissible');
     return User(
       id: json['id'] as String,
       username: json['username'] as String,

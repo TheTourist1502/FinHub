@@ -2,13 +2,11 @@ import 'dart:async';
 
 import 'package:finhub/app.dart';
 import 'package:finhub/core/auth/session_root.dart';
-import 'package:finhub/core/storage/storage_provider.dart';
 import 'package:finhub/core/observability/error_reporter.dart';
 import 'package:finhub/core/observability/logging_error_reporter.dart';
 import 'package:finhub/core/observability/observability_provider.dart';
 import 'package:finhub/core/observability/provider_error_observer.dart';
 import 'package:finhub/core/storage/storage_provider.dart';
-import 'package:finhub/core/storage/storage_service.dart';
 import 'package:flutter/foundation.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
@@ -55,21 +53,26 @@ Future<void> main() async {
     return true;
   };
 
-  final storageService = await StorageService.init();
+  final storageService = await createStorageService();
 
+  // SessionRoot owns the ProviderScope so sign-out can discard the whole
+  // container at once rather than invalidating providers one by one.
   runApp(
-    ProviderScope(
-      observers: [ProviderErrorObserver(reporter)],
-      // Riverpod 3 retries every failed provider up to 10x with exponential
-      // backoff by default. The app has its own retry UX (retry buttons,
-      // pull-to-refresh), so disable the built-in retry to avoid delaying
-      // error states from reaching the UI.
-      retry: (retryCount, error) => null,
-      overrides: [
-        storageServiceProvider.overrideWithValue(storageService),
-        errorReporterProvider.overrideWithValue(reporter),
-      ],
-      child: const App(),
+    SessionRoot(
+      scopeBuilder: (scopeKey) => ProviderScope(
+        key: scopeKey,
+        observers: [ProviderErrorObserver(reporter)],
+        // Riverpod 3 retries every failed provider up to 10x with exponential
+        // backoff by default. The app has its own retry UX (retry buttons,
+        // pull-to-refresh), so disable the built-in retry to avoid delaying
+        // error states from reaching the UI.
+        retry: (retryCount, error) => null,
+        overrides: [
+          storageServiceProvider.overrideWithValue(storageService),
+          errorReporterProvider.overrideWithValue(reporter),
+        ],
+        child: const App(),
+      ),
     ),
   );
 }

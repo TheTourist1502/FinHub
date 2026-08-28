@@ -51,6 +51,96 @@ class AppLocalizationsPt extends AppLocalizations {
   String validationFieldRequired(String fieldName) {
     return '$fieldName é obrigatório !';
   }
+
+  @override
+  String get authLoginTitle => 'Bem-vindo de volta';
+
+  @override
+  String get authLoginSubtitle => 'Entre no seu espaço de assessor.';
+
+  @override
+  String get authIdentifierLabel => 'Usuário ou e-mail';
+
+  @override
+  String get authIdentifierHint => 'ex.: daniel.alvarez';
+
+  @override
+  String get authPasswordLabel => 'Senha';
+
+  @override
+  String get authPasswordHint => 'Digite sua senha';
+
+  @override
+  String get authShowPassword => 'Mostrar senha';
+
+  @override
+  String get authHidePassword => 'Ocultar senha';
+
+  @override
+  String get authLoginButton => 'Entrar';
+
+  @override
+  String get authSignOutButton => 'Sair';
+
+  @override
+  String get authInvalidCredentials => 'Usuário ou senha incorretos.';
+
+  @override
+  String get validationIdentifierRequired => 'Informe seu usuário ou e-mail.';
+
+  @override
+  String get validationPasswordRequired => 'Informe sua senha.';
+
+  @override
+  String get accessDeniedTitle => 'Acesso negado';
+
+  @override
+  String get accessDeniedMessage => 'Seu perfil não tem acesso a esta área.';
+
+  @override
+  String get accessDeniedBackButton => 'Voltar ao início';
+
+  @override
+  String get navHome => 'Início';
+
+  @override
+  String get navHouseholds => 'Famílias';
+
+  @override
+  String get navRealTime => 'Tempo real';
+
+  @override
+  String get navServiceRequests => 'Solicitações';
+
+  @override
+  String get navCommissions => 'Comissões';
+
+  @override
+  String get navInsights => 'Insights';
+
+  @override
+  String get roleAdvisor => 'Assessor';
+
+  @override
+  String get roleLeadership => 'Liderança';
+
+  @override
+  String comingSoonTitle(String tab) {
+    return '$tab está a caminho';
+  }
+
+  @override
+  String get comingSoonMessage => 'Esta aba já está conectada e aguarda suas telas.';
+
+  @override
+  String dashboardGreeting(String name) {
+    return 'Olá, $name';
+  }
+
+  @override
+  String dashboardSessionSummary(String role, String advisorId) {
+    return 'Sessão iniciada como $role · assessor $advisorId';
+  }
 }
 
 /// The translations for Portuguese, as used in Brazil (`pt_BR`).
@@ -99,5 +189,95 @@ class AppLocalizationsPtBr extends AppLocalizationsPt {
   @override
   String validationFieldRequired(String fieldName) {
     return '$fieldName é obrigatório !';
+  }
+
+  @override
+  String get authLoginTitle => 'Bem-vindo de volta';
+
+  @override
+  String get authLoginSubtitle => 'Entre no seu espaço de assessor.';
+
+  @override
+  String get authIdentifierLabel => 'Usuário ou e-mail';
+
+  @override
+  String get authIdentifierHint => 'ex.: daniel.alvarez';
+
+  @override
+  String get authPasswordLabel => 'Senha';
+
+  @override
+  String get authPasswordHint => 'Digite sua senha';
+
+  @override
+  String get authShowPassword => 'Mostrar senha';
+
+  @override
+  String get authHidePassword => 'Ocultar senha';
+
+  @override
+  String get authLoginButton => 'Entrar';
+
+  @override
+  String get authSignOutButton => 'Sair';
+
+  @override
+  String get authInvalidCredentials => 'Usuário ou senha incorretos.';
+
+  @override
+  String get validationIdentifierRequired => 'Informe seu usuário ou e-mail.';
+
+  @override
+  String get validationPasswordRequired => 'Informe sua senha.';
+
+  @override
+  String get accessDeniedTitle => 'Acesso negado';
+
+  @override
+  String get accessDeniedMessage => 'Seu perfil não tem acesso a esta área.';
+
+  @override
+  String get accessDeniedBackButton => 'Voltar ao início';
+
+  @override
+  String get navHome => 'Início';
+
+  @override
+  String get navHouseholds => 'Famílias';
+
+  @override
+  String get navRealTime => 'Tempo real';
+
+  @override
+  String get navServiceRequests => 'Solicitações';
+
+  @override
+  String get navCommissions => 'Comissões';
+
+  @override
+  String get navInsights => 'Insights';
+
+  @override
+  String get roleAdvisor => 'Assessor';
+
+  @override
+  String get roleLeadership => 'Liderança';
+
+  @override
+  String comingSoonTitle(String tab) {
+    return '$tab está a caminho';
+  }
+
+  @override
+  String get comingSoonMessage => 'Esta aba já está conectada e aguarda suas telas.';
+
+  @override
+  String dashboardGreeting(String name) {
+    return 'Olá, $name';
+  }
+
+  @override
+  String dashboardSessionSummary(String role, String advisorId) {
+    return 'Sessão iniciada como $role · assessor $advisorId';
   }
 }

@@ -1,4 +1,5 @@
 import 'package:finhub/core/auth/jwt_decoder.dart';
+import 'package:finhub/core/config/app_constants.dart';
 import 'package:finhub/core/storage/storage_service.dart';
 import 'package:finhub/core/utils/app_logger.dart';
 import 'package:finhub/features/login/domain/models/invalid_session_exception.dart';
@@ -21,14 +22,11 @@ class AuthService {
   Future<User> persistSession(String token) async {
     final claims = JwtDecoder.decode(token);
     if (claims == null) throw const InvalidSessionException('Token payload is not readable');
-    final User user;
-    try {
-      user = User.fromJson(claims);
-    } on ArgumentError catch (e) {
-      throw InvalidSessionException('Token claims name no admissible session: $e');
-    }
-    await _storage.setSecure(StorageKeys.authToken, token);
-    await _storage.setJson(StorageKeys.cachedUser, user.toJson());
+    final user = User.fromJson(claims);
+    await _storage.setSecure(StorageKeys.accessToken, token);
+    // The profile carries PII beyond the token's own claims, so it goes to
+    // the secure store alongside the token.
+    await _storage.setJson(StorageKeys.userInfo, user.toJson(), secure: true);
     return user;
   }
 
@@ -37,18 +35,18 @@ class AuthService {
   /// An expired or unreadable token clears itself on the way out, so the next
   /// cold start does not re-examine it.
   Future<User?> getCurrentUser() async {
-    final token = await _storage.getSecure(StorageKeys.authToken);
+    final token = await _storage.getSecure(StorageKeys.accessToken);
     if (token == null) return null;
     if (JwtDecoder.isExpired(token)) {
       AppLogger.i('Stored session token has expired; clearing it');
       await clearAuthData();
       return null;
     }
-    final cached = _storage.getJson(StorageKeys.cachedUser);
+    final cached = await _storage.getJson(StorageKeys.userInfo, secure: true);
     if (cached == null) return null;
     try {
       return User.fromJson(cached);
-    } on ArgumentError catch (e, s) {
+    } on InvalidSessionException catch (e, s) {
       AppLogger.e('Cached user could not be restored; clearing the session', e, s);
       await clearAuthData();
       return null;

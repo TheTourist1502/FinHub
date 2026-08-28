@@ -1,5 +1,7 @@
 import 'package:finhub/features/login/domain/models/user.dart';
+import 'package:flutter/foundation.dart';
 
+@immutable
 /// Names the advisor a read is scoped to.
 ///
 /// An advisor reads their own book; a leadership user reads whichever advisor

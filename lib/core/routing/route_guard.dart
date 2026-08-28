@@ -1,3 +1,4 @@
+import 'package:finhub/core/roles/role_experience.dart';
 import 'package:finhub/core/routing/app_routes.dart';
 import 'package:finhub/features/login/presentation/providers/login_provider.dart';
 
@@ -19,8 +20,9 @@ String? routeGuard({required AuthState state, required String location}) {
     return '${AppRoutes.login}?redirect=${Uri.encodeComponent(location)}';
   }
 
-  // A signed-in user has no business on the login screen.
-  if (location.startsWith(AppRoutes.login)) return AppRoutes.home;
+  // A signed-in user has no business on the login screen. Compare paths, not
+  // prefixes — `/login-help` is a different route, not this one.
+  if (Uri.parse(location).path == AppRoutes.login) return RoleExperience.landingRouteFor(user.role);
 
   final roles = policy?.roles;
   if (roles != null && !roles.contains(user.role)) return AppRoutes.accessDenied;
