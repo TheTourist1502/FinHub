@@ -1,0 +1,62 @@
+{
+  "FAP0001": {
+    "id": "FAP0001-SUMMARY",
+    "totalAumCents": 3177106.8,
+    "totalCommissionCents": 39713.83,
+    "asOfDate": "2026-08-21T21:00:00Z"
+  },
+  "FAP0002": {
+    "id": "FAP0002-SUMMARY",
+    "totalAumCents": 3470338.28,
+    "totalCommissionCents": 43379.23,
+    "asOfDate": "2026-08-21T21:00:00Z"
+  },
+  "FAP0003": {
+    "id": "FAP0003-SUMMARY",
+    "totalAumCents": 4204688.21,
+    "totalCommissionCents": 52558.6,
+    "asOfDate": "2026-08-21T21:00:00Z"
+  },
+  "FAP0004": {
+    "id": "FAP0004-SUMMARY",
+    "totalAumCents": 3720890.63,
+    "totalCommissionCents": 46511.13,
+    "asOfDate": "2026-08-21T21:00:00Z"
+  },
+  "FAP0005": {
+    "id": "FAP0005-SUMMARY",
+    "totalAumCents": 3423775.68,
+    "totalCommissionCents": 42797.2,
+    "asOfDate": "2026-08-21T21:00:00Z"
+  },
+  "FAP0006": {
+    "id": "FAP0006-SUMMARY",
+    "totalAumCents": 4098482.58,
+    "totalCommissionCents": 51231.03,
+    "asOfDate": "2026-08-21T21:00:00Z"
+  },
+  "FAP0007": {
+    "id": "FAP0007-SUMMARY",
+    "totalAumCents": 3944965.22,
+    "totalCommissionCents": 49312.07,
+    "asOfDate": "2026-08-21T21:00:00Z"
+  },
+  "FAP0008": {
+    "id": "FAP0008-SUMMARY",
+    "totalAumCents": 3528994.38,
+    "totalCommissionCents": 44112.43,
+    "asOfDate": "2026-08-21T21:00:00Z"
+  },
+  "FAP0009": {
+    "id": "FAP0009-SUMMARY",
+    "totalAumCents": 3123059.46,
+    "totalCommissionCents": 39038.24,
+    "asOfDate": "2026-08-21T21:00:00Z"
+  },
+  "FAP0010": {
+    "id": "FAP0010-SUMMARY",
+    "totalAumCents": 3415787.41,
+    "totalCommissionCents": 42697.34,
+    "asOfDate": "2026-08-21T21:00:00Z"
+  }
+}

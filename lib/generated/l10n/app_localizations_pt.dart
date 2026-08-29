@@ -489,6 +489,118 @@ class AppLocalizationsPt extends AppLocalizations {
 
   @override
   String get riskProfileSpeculative => 'Especulativo';
+
+  @override
+  String get dashboardAssetAllocation => 'Alocação de Ativos';
+
+  @override
+  String get dashboardAumLabel => 'AUM';
+
+  @override
+  String get dashboardByAum => '( Por AUM )';
+
+  @override
+  String get dashboardHeroYtdLabel => 'YTD';
+
+  @override
+  String dashboardHouseholdIdLabel(String code) {
+    return 'ID Família: #$code';
+  }
+
+  @override
+  String get dashboardQuickActionAccountMaintenance => 'Manutenção da conta';
+
+  @override
+  String get dashboardQuickActionAssetMovement => 'Movimentação de ativos';
+
+  @override
+  String get dashboardQuickActionClientSearch => 'Buscar cliente';
+
+  @override
+  String get dashboardQuickActionInvestorPortal => 'Portal do Investidor';
+
+  @override
+  String get dashboardQuickActionInvestorPortalLaunchFailedMessage =>
+      'Não foi possível abrir o Portal do Investidor. Tente novamente.';
+
+  @override
+  String get dashboardQuickActionMeetingNotes => 'Notas de reunião';
+
+  @override
+  String get dashboardQuickActionMyCommissions => 'Comissões';
+
+  @override
+  String get dashboardQuickActionOnlineAccess => 'Acesso online';
+
+  @override
+  String get dashboardQuickActionTasksDashboard => 'Painel de tarefas';
+
+  @override
+  String get dashboardRecentTransactions => 'Transações Recentes';
+
+  @override
+  String dashboardRecentTransactionsAsOf(String date) {
+    return '( Em $date )';
+  }
+
+  @override
+  String get dashboardTopHouseholds => 'Top 5 Famílias';
+
+  @override
+  String get dashboardTopHouseholdsShort => 'Top Famílias';
+
+  @override
+  String get dashboardTotalAum => 'AUM TOTAL';
+
+  @override
+  String get dashboardTotalCommissions => 'COMISSÃO TOTAL';
+
+  @override
+  String get dashboardTransactionDateToday => 'Hoje';
+
+  @override
+  String get dashboardTransactionDateYesterday => 'Ontem';
+
+  @override
+  String get dashboardViewAll => 'Ver todos';
+
+  @override
+  String get dashboardViewTransactionHistory => 'Ver histórico de transações';
+
+  @override
+  String get dashboardYtdChangeLabel => 'Variação YTD';
+
+  @override
+  String get historyChartNoData => 'Nenhum dado disponível para este período.';
+
+  @override
+  String get historyChartRangeCurrentMonth => 'Mês Atual';
+
+  @override
+  String get historyChartRangePastSixMonths => 'Últimos 6M';
+
+  @override
+  String get historyChartRangePastThreeMonths => 'Últimos 3M';
+
+  @override
+  String get historyChartRangeYtd => 'YTD';
+
+  @override
+  String historyChartWeekTooltip(int week, String date, String value) {
+    return 'Comissão da Semana$week $date é $value';
+  }
+
+  @override
+  String get transactionTypeNonTrade => 'Sem Negociação';
+
+  @override
+  String get viewTransactionsTypeBuy => 'Compra';
+
+  @override
+  String get viewTransactionsTypeSell => 'Venda';
+
+  @override
+  String get viewTransactionsTitle => 'Histórico de Transações';
 }
 
 /// The translations for Portuguese, as used in Brazil (`pt_BR`).
@@ -976,4 +1088,116 @@ class AppLocalizationsPtBr extends AppLocalizationsPt {
 
   @override
   String get riskProfileSpeculative => 'Especulativo';
+
+  @override
+  String get dashboardAssetAllocation => 'Alocação de Ativos';
+
+  @override
+  String get dashboardAumLabel => 'AUM';
+
+  @override
+  String get dashboardByAum => '( Por AUM )';
+
+  @override
+  String get dashboardHeroYtdLabel => 'YTD';
+
+  @override
+  String dashboardHouseholdIdLabel(String code) {
+    return 'ID Família: #$code';
+  }
+
+  @override
+  String get dashboardQuickActionAccountMaintenance => 'Manutenção da conta';
+
+  @override
+  String get dashboardQuickActionAssetMovement => 'Movimentação de ativos';
+
+  @override
+  String get dashboardQuickActionClientSearch => 'Buscar cliente';
+
+  @override
+  String get dashboardQuickActionInvestorPortal => 'Portal do Investidor';
+
+  @override
+  String get dashboardQuickActionInvestorPortalLaunchFailedMessage =>
+      'Não foi possível abrir o Portal do Investidor. Tente novamente.';
+
+  @override
+  String get dashboardQuickActionMeetingNotes => 'Notas de reunião';
+
+  @override
+  String get dashboardQuickActionMyCommissions => 'Comissões';
+
+  @override
+  String get dashboardQuickActionOnlineAccess => 'Acesso online';
+
+  @override
+  String get dashboardQuickActionTasksDashboard => 'Painel de tarefas';
+
+  @override
+  String get dashboardRecentTransactions => 'Transações Recentes';
+
+  @override
+  String dashboardRecentTransactionsAsOf(String date) {
+    return '( Em $date )';
+  }
+
+  @override
+  String get dashboardTopHouseholds => 'Top 5 Famílias';
+
+  @override
+  String get dashboardTopHouseholdsShort => 'Top Famílias';
+
+  @override
+  String get dashboardTotalAum => 'AUM TOTAL';
+
+  @override
+  String get dashboardTotalCommissions => 'COMISSÃO TOTAL';
+
+  @override
+  String get dashboardTransactionDateToday => 'Hoje';
+
+  @override
+  String get dashboardTransactionDateYesterday => 'Ontem';
+
+  @override
+  String get dashboardViewAll => 'Ver todos';
+
+  @override
+  String get dashboardViewTransactionHistory => 'Ver histórico de transações';
+
+  @override
+  String get dashboardYtdChangeLabel => 'Variação YTD';
+
+  @override
+  String get historyChartNoData => 'Nenhum dado disponível para este período.';
+
+  @override
+  String get historyChartRangeCurrentMonth => 'Mês Atual';
+
+  @override
+  String get historyChartRangePastSixMonths => 'Últimos 6M';
+
+  @override
+  String get historyChartRangePastThreeMonths => 'Últimos 3M';
+
+  @override
+  String get historyChartRangeYtd => 'YTD';
+
+  @override
+  String historyChartWeekTooltip(int week, String date, String value) {
+    return 'Comissão da Semana$week $date é $value';
+  }
+
+  @override
+  String get transactionTypeNonTrade => 'Sem Negociação';
+
+  @override
+  String get viewTransactionsTypeBuy => 'Compra';
+
+  @override
+  String get viewTransactionsTypeSell => 'Venda';
+
+  @override
+  String get viewTransactionsTitle => 'Histórico de Transações';
 }

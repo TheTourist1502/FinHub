@@ -980,6 +980,216 @@ abstract class AppLocalizations {
   /// In en, this message translates to:
   /// **'Speculative'**
   String get riskProfileSpeculative;
+
+  /// Section heading for the asset allocation donut chart on the dashboard.
+  ///
+  /// In en, this message translates to:
+  /// **'Asset Allocation'**
+  String get dashboardAssetAllocation;
+
+  /// AUM column label on household cards.
+  ///
+  /// In en, this message translates to:
+  /// **'AUM'**
+  String get dashboardAumLabel;
+
+  /// De-emphasized suffix appended after the top households section heading, indicating the ranking metric.
+  ///
+  /// In en, this message translates to:
+  /// **'( By AUM )'**
+  String get dashboardByAum;
+
+  /// Period label shown next to the Total AUM / Total Commissions hero value on the dashboard.
+  ///
+  /// In en, this message translates to:
+  /// **'YTD'**
+  String get dashboardHeroYtdLabel;
+
+  /// Household code label shown on household cards.
+  ///
+  /// In en, this message translates to:
+  /// **'Household ID: #{code}'**
+  String dashboardHouseholdIdLabel(String code);
+
+  /// Quick action label for account maintenance.
+  ///
+  /// In en, this message translates to:
+  /// **'Account Maintenance'**
+  String get dashboardQuickActionAccountMaintenance;
+
+  /// Quick action label for asset movement.
+  ///
+  /// In en, this message translates to:
+  /// **'Asset Movement'**
+  String get dashboardQuickActionAssetMovement;
+
+  /// Quick action label for client search.
+  ///
+  /// In en, this message translates to:
+  /// **'Client Search'**
+  String get dashboardQuickActionClientSearch;
+
+  /// Quick action label for opening Investor Portal in an external browser.
+  ///
+  /// In en, this message translates to:
+  /// **'Investor Portal'**
+  String get dashboardQuickActionInvestorPortal;
+
+  /// Error shown when the Investor Portal external link fails to open.
+  ///
+  /// In en, this message translates to:
+  /// **'Could not open the Investor Portal. Please try again.'**
+  String get dashboardQuickActionInvestorPortalLaunchFailedMessage;
+
+  /// Quick action label for meeting notes.
+  ///
+  /// In en, this message translates to:
+  /// **'Meeting Notes'**
+  String get dashboardQuickActionMeetingNotes;
+
+  /// Quick action label for my commissions.
+  ///
+  /// In en, this message translates to:
+  /// **'Commissions'**
+  String get dashboardQuickActionMyCommissions;
+
+  /// Quick action label for online access.
+  ///
+  /// In en, this message translates to:
+  /// **'Online Access'**
+  String get dashboardQuickActionOnlineAccess;
+
+  /// Quick action label for tasks dashboard.
+  ///
+  /// In en, this message translates to:
+  /// **'Tasks Dashboard'**
+  String get dashboardQuickActionTasksDashboard;
+
+  /// Section heading for the recent transactions list on the dashboard.
+  ///
+  /// In en, this message translates to:
+  /// **'Recent Transactions'**
+  String get dashboardRecentTransactions;
+
+  /// Qualifier appended to the recent transactions heading, showing the snapshot date of the newest transaction.
+  ///
+  /// In en, this message translates to:
+  /// **'( As of {date} )'**
+  String dashboardRecentTransactionsAsOf(String date);
+
+  /// Section heading for the top-5 household cards on the dashboard. Shown when there are 5 or more households.
+  ///
+  /// In en, this message translates to:
+  /// **'Top 5 Households'**
+  String get dashboardTopHouseholds;
+
+  /// Section heading for the top household cards on the dashboard. Shown instead of dashboardTopHouseholds when there are fewer than 5 households, since 'Top 5' would overstate the count.
+  ///
+  /// In en, this message translates to:
+  /// **'Top Households'**
+  String get dashboardTopHouseholdsShort;
+
+  /// Eyebrow label above the Total AUM hero value on the dashboard.
+  ///
+  /// In en, this message translates to:
+  /// **'TOTAL AUM'**
+  String get dashboardTotalAum;
+
+  /// Eyebrow label above the Total Commission hero value on the dashboard.
+  ///
+  /// In en, this message translates to:
+  /// **'TOTAL COMMISSION'**
+  String get dashboardTotalCommissions;
+
+  /// Relative date label for transactions that occurred today.
+  ///
+  /// In en, this message translates to:
+  /// **'Today'**
+  String get dashboardTransactionDateToday;
+
+  /// Relative date label for transactions that occurred yesterday.
+  ///
+  /// In en, this message translates to:
+  /// **'Yesterday'**
+  String get dashboardTransactionDateYesterday;
+
+  /// Link button label to view all households.
+  ///
+  /// In en, this message translates to:
+  /// **'View All'**
+  String get dashboardViewAll;
+
+  /// Link button label at the bottom of the recent transactions section.
+  ///
+  /// In en, this message translates to:
+  /// **'View Transaction History'**
+  String get dashboardViewTransactionHistory;
+
+  /// YTD Change column label on household cards.
+  ///
+  /// In en, this message translates to:
+  /// **'YTD Change'**
+  String get dashboardYtdChangeLabel;
+
+  /// Message shown in place of the chart when the selected filter window has no data points.
+  ///
+  /// In en, this message translates to:
+  /// **'No data available for this period.'**
+  String get historyChartNoData;
+
+  /// Spelled-out name of the 1M filter window, shown in the chart's change row (the chip itself still reads "1M").
+  ///
+  /// In en, this message translates to:
+  /// **'Current Month'**
+  String get historyChartRangeCurrentMonth;
+
+  /// Spelled-out name of the 6M filter window, shown in the chart's change row (the chip itself still reads "6M").
+  ///
+  /// In en, this message translates to:
+  /// **'Past 6M'**
+  String get historyChartRangePastSixMonths;
+
+  /// Spelled-out name of the 3M filter window, shown in the chart's change row (the chip itself still reads "3M").
+  ///
+  /// In en, this message translates to:
+  /// **'Past 3M'**
+  String get historyChartRangePastThreeMonths;
+
+  /// Name of the YTD filter window, shown in the chart's change row.
+  ///
+  /// In en, this message translates to:
+  /// **'YTD'**
+  String get historyChartRangeYtd;
+
+  /// Sentence shown in the commission chart's touch tooltip — the only chart that still shows one.
+  ///
+  /// In en, this message translates to:
+  /// **'Commission of Week{week} {date} is {value}'**
+  String historyChartWeekTooltip(int week, String date, String value);
+
+  /// Placeholder transaction-type label shown when a transaction has no type.
+  ///
+  /// In en, this message translates to:
+  /// **'Non-Trade'**
+  String get transactionTypeNonTrade;
+
+  /// Badge label for a BUY transaction type on the transaction history card.
+  ///
+  /// In en, this message translates to:
+  /// **'Buy'**
+  String get viewTransactionsTypeBuy;
+
+  /// Badge label for a SELL transaction type on the transaction history card.
+  ///
+  /// In en, this message translates to:
+  /// **'Sell'**
+  String get viewTransactionsTypeSell;
+
+  /// AppBar title for the full-screen transaction history screen.
+  ///
+  /// In en, this message translates to:
+  /// **'Transactions History'**
+  String get viewTransactionsTitle;
 }
 
 class _AppLocalizationsDelegate extends LocalizationsDelegate<AppLocalizations> {

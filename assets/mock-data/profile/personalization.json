@@ -1,0 +1,81 @@
+{
+  "default": {
+    "quickActions": [
+      {
+        "id": "QA1",
+        "label": "My Commissions",
+        "order": 1,
+        "isEnabled": true,
+        "quickActionKey": "commissions"
+      },
+      {
+        "id": "QA2",
+        "label": "Tasks",
+        "order": 2,
+        "isEnabled": true,
+        "quickActionKey": "tasks_dashboard"
+      },
+      {
+        "id": "QA3",
+        "label": "Client Search",
+        "order": 3,
+        "isEnabled": true,
+        "quickActionKey": "client_search"
+      },
+      {
+        "id": "QA4",
+        "label": "Account Maintenance",
+        "order": 4,
+        "isEnabled": false,
+        "quickActionKey": "account_maintenance"
+      },
+      {
+        "id": "QA5",
+        "label": "Online Access",
+        "order": 5,
+        "isEnabled": false,
+        "quickActionKey": "online_access"
+      },
+      {
+        "id": "QA6",
+        "label": "Asset Movement",
+        "order": 6,
+        "isEnabled": false,
+        "quickActionKey": "asset_movement"
+      },
+      {
+        "id": "QA7",
+        "label": "Investor Portal",
+        "order": 7,
+        "isEnabled": false,
+        "quickActionKey": "investor_portal"
+      }
+    ],
+    "notifications": [
+      {
+        "id": "SERVICE_REQUEST",
+        "label": "Service Requests",
+        "actionKey": "service_request",
+        "isEnabled": true
+      },
+      {
+        "id": "TASK",
+        "label": "Tasks",
+        "actionKey": "task",
+        "isEnabled": true
+      },
+      {
+        "id": "MARKET_INSIGHT",
+        "label": "Market Insights",
+        "actionKey": "market_insight",
+        "isEnabled": true
+      },
+      {
+        "id": "SYSTEM",
+        "label": "System",
+        "actionKey": "system",
+        "isEnabled": true
+      }
+    ]
+  }
+}

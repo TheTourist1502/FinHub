@@ -1,5 +1,14 @@
 import 'package:finhub/features/login/domain/models/user.dart';
+import 'package:finhub/features/login/presentation/providers/login_provider.dart';
 import 'package:flutter/foundation.dart';
+import 'package:flutter_riverpod/flutter_riverpod.dart';
+
+/// The advisor the signed-in user is currently reading.
+///
+/// An advisor reads their own book. Leadership resolves to the advisor picked
+/// in the FA selector — until that screen ships, leadership reads nothing and
+/// [DataScope.isResolved] stays `false`.
+final dataScopeProvider = Provider<DataScope>((ref) => DataScope.forUser(ref.watch(currentUserProvider)));
 
 @immutable
 /// Names the advisor a read is scoped to.

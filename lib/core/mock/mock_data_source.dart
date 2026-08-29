@@ -21,6 +21,13 @@ class MockDataSource {
 
   final Map<String, Map<String, dynamic>> _cache = {};
 
+  /// Fixtures the user has edited in-app, held for the life of the session.
+  ///
+  /// The bundle is read-only, so a screen that writes (personalisation, say)
+  /// parks its result here and every later read sees it. Sign-out discards the
+  /// container along with this map.
+  final Map<String, Map<String, dynamic>> _edits = {};
+
   /// Reads a whole fixture, e.g. `auth/users.json`.
   Future<Map<String, dynamic>> read(String path) async {
     final cached = _cache[path];
@@ -39,4 +46,23 @@ class MockDataSource {
     final record = (key == null ? null : file[key]) ?? file['default'];
     return record as Map<String, dynamic>?;
   }
+
+  /// Reads the list in [path] keyed by [key], falling back to `default`.
+  ///
+  /// Returns an empty list when neither is present — an advisor with no rows
+  /// is an ordinary empty state, not an error.
+  Future<List<Map<String, dynamic>>> listScoped(String path, String? key) async {
+    final file = await read(path);
+    final rows = (key == null ? null : file[key]) ?? file['default'];
+    if (rows is! List) return const [];
+    return rows.cast<Map<String, dynamic>>();
+  }
+
+  /// Reads the `default` record of an editable fixture, or the session's own
+  /// edit of it if one has been saved.
+  Future<Map<String, dynamic>> readEditable(String path) async =>
+      _edits[path] ?? (await read(path))['default'] as Map<String, dynamic>;
+
+  /// Records an in-app edit to [path] for the rest of the session.
+  void saveEditable(String path, Map<String, dynamic> data) => _edits[path] = data;
 }

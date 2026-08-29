@@ -1,0 +1,1062 @@
+{
+  "FAP0001": [
+    {
+      "weekDate": "2026-02-21T21:00:00Z",
+      "commissionCents": 32770.54
+    },
+    {
+      "weekDate": "2026-02-28T21:00:00Z",
+      "commissionCents": 32468.13
+    },
+    {
+      "weekDate": "2026-03-07T21:00:00Z",
+      "commissionCents": 32549.13
+    },
+    {
+      "weekDate": "2026-03-14T21:00:00Z",
+      "commissionCents": 33476.09
+    },
+    {
+      "weekDate": "2026-03-21T21:00:00Z",
+      "commissionCents": 32775.6
+    },
+    {
+      "weekDate": "2026-03-28T21:00:00Z",
+      "commissionCents": 33643.17
+    },
+    {
+      "weekDate": "2026-04-04T21:00:00Z",
+      "commissionCents": 33291.71
+    },
+    {
+      "weekDate": "2026-04-11T21:00:00Z",
+      "commissionCents": 32855.09
+    },
+    {
+      "weekDate": "2026-04-18T21:00:00Z",
+      "commissionCents": 31903.64
+    },
+    {
+      "weekDate": "2026-04-25T21:00:00Z",
+      "commissionCents": 32964.81
+    },
+    {
+      "weekDate": "2026-05-02T21:00:00Z",
+      "commissionCents": 33357.9
+    },
+    {
+      "weekDate": "2026-05-09T21:00:00Z",
+      "commissionCents": 34286.9
+    },
+    {
+      "weekDate": "2026-05-16T21:00:00Z",
+      "commissionCents": 33716.6
+    },
+    {
+      "weekDate": "2026-05-23T21:00:00Z",
+      "commissionCents": 35253.33
+    },
+    {
+      "weekDate": "2026-05-30T21:00:00Z",
+      "commissionCents": 34911.08
+    },
+    {
+      "weekDate": "2026-06-06T21:00:00Z",
+      "commissionCents": 34640.38
+    },
+    {
+      "weekDate": "2026-06-13T21:00:00Z",
+      "commissionCents": 35799.79
+    },
+    {
+      "weekDate": "2026-06-20T21:00:00Z",
+      "commissionCents": 35620.15
+    },
+    {
+      "weekDate": "2026-06-27T21:00:00Z",
+      "commissionCents": 36112.83
+    },
+    {
+      "weekDate": "2026-07-04T21:00:00Z",
+      "commissionCents": 35164.08
+    },
+    {
+      "weekDate": "2026-07-11T21:00:00Z",
+      "commissionCents": 35885.98
+    },
+    {
+      "weekDate": "2026-07-18T21:00:00Z",
+      "commissionCents": 37637.66
+    },
+    {
+      "weekDate": "2026-07-25T21:00:00Z",
+      "commissionCents": 39228.77
+    },
+    {
+      "weekDate": "2026-08-01T21:00:00Z",
+      "commissionCents": 40569.65
+    },
+    {
+      "weekDate": "2026-08-08T21:00:00Z",
+      "commissionCents": 40969.76
+    },
+    {
+      "weekDate": "2026-08-15T21:00:00Z",
+      "commissionCents": 39713.83
+    }
+  ],
+  "FAP0002": [
+    {
+      "weekDate": "2026-02-21T21:00:00Z",
+      "commissionCents": 36416.39
+    },
+    {
+      "weekDate": "2026-02-28T21:00:00Z",
+      "commissionCents": 37739.59
+    },
+    {
+      "weekDate": "2026-03-07T21:00:00Z",
+      "commissionCents": 38051.27
+    },
+    {
+      "weekDate": "2026-03-14T21:00:00Z",
+      "commissionCents": 39295.25
+    },
+    {
+      "weekDate": "2026-03-21T21:00:00Z",
+      "commissionCents": 41038.28
+    },
+    {
+      "weekDate": "2026-03-28T21:00:00Z",
+      "commissionCents": 41580.21
+    },
+    {
+      "weekDate": "2026-04-04T21:00:00Z",
+      "commissionCents": 43297.19
+    },
+    {
+      "weekDate": "2026-04-11T21:00:00Z",
+      "commissionCents": 43362.59
+    },
+    {
+      "weekDate": "2026-04-18T21:00:00Z",
+      "commissionCents": 43017.35
+    },
+    {
+      "weekDate": "2026-04-25T21:00:00Z",
+      "commissionCents": 44883.66
+    },
+    {
+      "weekDate": "2026-05-02T21:00:00Z",
+      "commissionCents": 44933.75
+    },
+    {
+      "weekDate": "2026-05-09T21:00:00Z",
+      "commissionCents": 43886.41
+    },
+    {
+      "weekDate": "2026-05-16T21:00:00Z",
+      "commissionCents": 44854.27
+    },
+    {
+      "weekDate": "2026-05-23T21:00:00Z",
+      "commissionCents": 44280.62
+    },
+    {
+      "weekDate": "2026-05-30T21:00:00Z",
+      "commissionCents": 44861.18
+    },
+    {
+      "weekDate": "2026-06-06T21:00:00Z",
+      "commissionCents": 44465.37
+    },
+    {
+      "weekDate": "2026-06-13T21:00:00Z",
+      "commissionCents": 43136.2
+    },
+    {
+      "weekDate": "2026-06-20T21:00:00Z",
+      "commissionCents": 42061.88
+    },
+    {
+      "weekDate": "2026-06-27T21:00:00Z",
+      "commissionCents": 42540.28
+    },
+    {
+      "weekDate": "2026-07-04T21:00:00Z",
+      "commissionCents": 43226.04
+    },
+    {
+      "weekDate": "2026-07-11T21:00:00Z",
+      "commissionCents": 44698.84
+    },
+    {
+      "weekDate": "2026-07-18T21:00:00Z",
+      "commissionCents": 44041.74
+    },
+    {
+      "weekDate": "2026-07-25T21:00:00Z",
+      "commissionCents": 44888.47
+    },
+    {
+      "weekDate": "2026-08-01T21:00:00Z",
+      "commissionCents": 46264.98
+    },
+    {
+      "weekDate": "2026-08-08T21:00:00Z",
+      "commissionCents": 46158.94
+    },
+    {
+      "weekDate": "2026-08-15T21:00:00Z",
+      "commissionCents": 43379.23
+    }
+  ],
+  "FAP0003": [
+    {
+      "weekDate": "2026-02-21T21:00:00Z",
+      "commissionCents": 46477.98
+    },
+    {
+      "weekDate": "2026-02-28T21:00:00Z",
+      "commissionCents": 46141.55
+    },
+    {
+      "weekDate": "2026-03-07T21:00:00Z",
+      "commissionCents": 47282.66
+    },
+    {
+      "weekDate": "2026-03-14T21:00:00Z",
+      "commissionCents": 45933.48
+    },
+    {
+      "weekDate": "2026-03-21T21:00:00Z",
+      "commissionCents": 46202.15
+    },
+    {
+      "weekDate": "2026-03-28T21:00:00Z",
+      "commissionCents": 47364.79
+    },
+    {
+      "weekDate": "2026-04-04T21:00:00Z",
+      "commissionCents": 46505.05
+    },
+    {
+      "weekDate": "2026-04-11T21:00:00Z",
+      "commissionCents": 47520.12
+    },
+    {
+      "weekDate": "2026-04-18T21:00:00Z",
+      "commissionCents": 46883.16
+    },
+    {
+      "weekDate": "2026-04-25T21:00:00Z",
+      "commissionCents": 46204.28
+    },
+    {
+      "weekDate": "2026-05-02T21:00:00Z",
+      "commissionCents": 45942.81
+    },
+    {
+      "weekDate": "2026-05-09T21:00:00Z",
+      "commissionCents": 45157.04
+    },
+    {
+      "weekDate": "2026-05-16T21:00:00Z",
+      "commissionCents": 45809.18
+    },
+    {
+      "weekDate": "2026-05-23T21:00:00Z",
+      "commissionCents": 47469.53
+    },
+    {
+      "weekDate": "2026-05-30T21:00:00Z",
+      "commissionCents": 47267.38
+    },
+    {
+      "weekDate": "2026-06-06T21:00:00Z",
+      "commissionCents": 47199.46
+    },
+    {
+      "weekDate": "2026-06-13T21:00:00Z",
+      "commissionCents": 48594.08
+    },
+    {
+      "weekDate": "2026-06-20T21:00:00Z",
+      "commissionCents": 49457.06
+    },
+    {
+      "weekDate": "2026-06-27T21:00:00Z",
+      "commissionCents": 51689.29
+    },
+    {
+      "weekDate": "2026-07-04T21:00:00Z",
+      "commissionCents": 51424.5
+    },
+    {
+      "weekDate": "2026-07-11T21:00:00Z",
+      "commissionCents": 50682.84
+    },
+    {
+      "weekDate": "2026-07-18T21:00:00Z",
+      "commissionCents": 49436.54
+    },
+    {
+      "weekDate": "2026-07-25T21:00:00Z",
+      "commissionCents": 49996.37
+    },
+    {
+      "weekDate": "2026-08-01T21:00:00Z",
+      "commissionCents": 48598.94
+    },
+    {
+      "weekDate": "2026-08-08T21:00:00Z",
+      "commissionCents": 50531.17
+    },
+    {
+      "weekDate": "2026-08-15T21:00:00Z",
+      "commissionCents": 52558.6
+    }
+  ],
+  "FAP0004": [
+    {
+      "weekDate": "2026-02-21T21:00:00Z",
+      "commissionCents": 40662.64
+    },
+    {
+      "weekDate": "2026-02-28T21:00:00Z",
+      "commissionCents": 39523.51
+    },
+    {
+      "weekDate": "2026-03-07T21:00:00Z",
+      "commissionCents": 40935.17
+    },
+    {
+      "weekDate": "2026-03-14T21:00:00Z",
+      "commissionCents": 41025.28
+    },
+    {
+      "weekDate": "2026-03-21T21:00:00Z",
+      "commissionCents": 40106.77
+    },
+    {
+      "weekDate": "2026-03-28T21:00:00Z",
+      "commissionCents": 39712.51
+    },
+    {
+      "weekDate": "2026-04-04T21:00:00Z",
+      "commissionCents": 41300.15
+    },
+    {
+      "weekDate": "2026-04-11T21:00:00Z",
+      "commissionCents": 40819.94
+    },
+    {
+      "weekDate": "2026-04-18T21:00:00Z",
+      "commissionCents": 41087.65
+    },
+    {
+      "weekDate": "2026-04-25T21:00:00Z",
+      "commissionCents": 42855.86
+    },
+    {
+      "weekDate": "2026-05-02T21:00:00Z",
+      "commissionCents": 43722.2
+    },
+    {
+      "weekDate": "2026-05-09T21:00:00Z",
+      "commissionCents": 43464.01
+    },
+    {
+      "weekDate": "2026-05-16T21:00:00Z",
+      "commissionCents": 42480.0
+    },
+    {
+      "weekDate": "2026-05-23T21:00:00Z",
+      "commissionCents": 41447.46
+    },
+    {
+      "weekDate": "2026-05-30T21:00:00Z",
+      "commissionCents": 40592.55
+    },
+    {
+      "weekDate": "2026-06-06T21:00:00Z",
+      "commissionCents": 42080.38
+    },
+    {
+      "weekDate": "2026-06-13T21:00:00Z",
+      "commissionCents": 40840.14
+    },
+    {
+      "weekDate": "2026-06-20T21:00:00Z",
+      "commissionCents": 40377.77
+    },
+    {
+      "weekDate": "2026-06-27T21:00:00Z",
+      "commissionCents": 39687.52
+    },
+    {
+      "weekDate": "2026-07-04T21:00:00Z",
+      "commissionCents": 38508.56
+    },
+    {
+      "weekDate": "2026-07-11T21:00:00Z",
+      "commissionCents": 37567.65
+    },
+    {
+      "weekDate": "2026-07-18T21:00:00Z",
+      "commissionCents": 37623.02
+    },
+    {
+      "weekDate": "2026-07-25T21:00:00Z",
+      "commissionCents": 37151.46
+    },
+    {
+      "weekDate": "2026-08-01T21:00:00Z",
+      "commissionCents": 36406.54
+    },
+    {
+      "weekDate": "2026-08-08T21:00:00Z",
+      "commissionCents": 36470.34
+    },
+    {
+      "weekDate": "2026-08-15T21:00:00Z",
+      "commissionCents": 46511.13
+    }
+  ],
+  "FAP0005": [
+    {
+      "weekDate": "2026-02-21T21:00:00Z",
+      "commissionCents": 36335.74
+    },
+    {
+      "weekDate": "2026-02-28T21:00:00Z",
+      "commissionCents": 38116.11
+    },
+    {
+      "weekDate": "2026-03-07T21:00:00Z",
+      "commissionCents": 39160.45
+    },
+    {
+      "weekDate": "2026-03-14T21:00:00Z",
+      "commissionCents": 39305.54
+    },
+    {
+      "weekDate": "2026-03-21T21:00:00Z",
+      "commissionCents": 40670.57
+    },
+    {
+      "weekDate": "2026-03-28T21:00:00Z",
+      "commissionCents": 40145.1
+    },
+    {
+      "weekDate": "2026-04-04T21:00:00Z",
+      "commissionCents": 41284.99
+    },
+    {
+      "weekDate": "2026-04-11T21:00:00Z",
+      "commissionCents": 40696.27
+    },
+    {
+      "weekDate": "2026-04-18T21:00:00Z",
+      "commissionCents": 42083.19
+    },
+    {
+      "weekDate": "2026-04-25T21:00:00Z",
+      "commissionCents": 40993.93
+    },
+    {
+      "weekDate": "2026-05-02T21:00:00Z",
+      "commissionCents": 42978.37
+    },
+    {
+      "weekDate": "2026-05-09T21:00:00Z",
+      "commissionCents": 43915.86
+    },
+    {
+      "weekDate": "2026-05-16T21:00:00Z",
+      "commissionCents": 44031.99
+    },
+    {
+      "weekDate": "2026-05-23T21:00:00Z",
+      "commissionCents": 46111.01
+    },
+    {
+      "weekDate": "2026-05-30T21:00:00Z",
+      "commissionCents": 47074.12
+    },
+    {
+      "weekDate": "2026-06-06T21:00:00Z",
+      "commissionCents": 47717.32
+    },
+    {
+      "weekDate": "2026-06-13T21:00:00Z",
+      "commissionCents": 49089.21
+    },
+    {
+      "weekDate": "2026-06-20T21:00:00Z",
+      "commissionCents": 51221.57
+    },
+    {
+      "weekDate": "2026-06-27T21:00:00Z",
+      "commissionCents": 50835.05
+    },
+    {
+      "weekDate": "2026-07-04T21:00:00Z",
+      "commissionCents": 50613.03
+    },
+    {
+      "weekDate": "2026-07-11T21:00:00Z",
+      "commissionCents": 51694.49
+    },
+    {
+      "weekDate": "2026-07-18T21:00:00Z",
+      "commissionCents": 52278.32
+    },
+    {
+      "weekDate": "2026-07-25T21:00:00Z",
+      "commissionCents": 53361.59
+    },
+    {
+      "weekDate": "2026-08-01T21:00:00Z",
+      "commissionCents": 52278.39
+    },
+    {
+      "weekDate": "2026-08-08T21:00:00Z",
+      "commissionCents": 52012.45
+    },
+    {
+      "weekDate": "2026-08-15T21:00:00Z",
+      "commissionCents": 42797.2
+    }
+  ],
+  "FAP0006": [
+    {
+      "weekDate": "2026-02-21T21:00:00Z",
+      "commissionCents": 45455.18
+    },
+    {
+      "weekDate": "2026-02-28T21:00:00Z",
+      "commissionCents": 44686.09
+    },
+    {
+      "weekDate": "2026-03-07T21:00:00Z",
+      "commissionCents": 46113.11
+    },
+    {
+      "weekDate": "2026-03-14T21:00:00Z",
+      "commissionCents": 48162.0
+    },
+    {
+      "weekDate": "2026-03-21T21:00:00Z",
+      "commissionCents": 48613.69
+    },
+    {
+      "weekDate": "2026-03-28T21:00:00Z",
+      "commissionCents": 48887.65
+    },
+    {
+      "weekDate": "2026-04-04T21:00:00Z",
+      "commissionCents": 49998.4
+    },
+    {
+      "weekDate": "2026-04-11T21:00:00Z",
+      "commissionCents": 50363.73
+    },
+    {
+      "weekDate": "2026-04-18T21:00:00Z",
+      "commissionCents": 49876.24
+    },
+    {
+      "weekDate": "2026-04-25T21:00:00Z",
+      "commissionCents": 50660.1
+    },
+    {
+      "weekDate": "2026-05-02T21:00:00Z",
+      "commissionCents": 50771.99
+    },
+    {
+      "weekDate": "2026-05-09T21:00:00Z",
+      "commissionCents": 52159.31
+    },
+    {
+      "weekDate": "2026-05-16T21:00:00Z",
+      "commissionCents": 52778.0
+    },
+    {
+      "weekDate": "2026-05-23T21:00:00Z",
+      "commissionCents": 54916.81
+    },
+    {
+      "weekDate": "2026-05-30T21:00:00Z",
+      "commissionCents": 54234.79
+    },
+    {
+      "weekDate": "2026-06-06T21:00:00Z",
+      "commissionCents": 56028.09
+    },
+    {
+      "weekDate": "2026-06-13T21:00:00Z",
+      "commissionCents": 55972.8
+    },
+    {
+      "weekDate": "2026-06-20T21:00:00Z",
+      "commissionCents": 55155.92
+    },
+    {
+      "weekDate": "2026-06-27T21:00:00Z",
+      "commissionCents": 56353.27
+    },
+    {
+      "weekDate": "2026-07-04T21:00:00Z",
+      "commissionCents": 55332.92
+    },
+    {
+      "weekDate": "2026-07-11T21:00:00Z",
+      "commissionCents": 56208.18
+    },
+    {
+      "weekDate": "2026-07-18T21:00:00Z",
+      "commissionCents": 58942.21
+    },
+    {
+      "weekDate": "2026-07-25T21:00:00Z",
+      "commissionCents": 61639.9
+    },
+    {
+      "weekDate": "2026-08-01T21:00:00Z",
+      "commissionCents": 63256.33
+    },
+    {
+      "weekDate": "2026-08-08T21:00:00Z",
+      "commissionCents": 65964.84
+    },
+    {
+      "weekDate": "2026-08-15T21:00:00Z",
+      "commissionCents": 51231.03
+    }
+  ],
+  "FAP0007": [
+    {
+      "weekDate": "2026-02-21T21:00:00Z",
+      "commissionCents": 43598.96
+    },
+    {
+      "weekDate": "2026-02-28T21:00:00Z",
+      "commissionCents": 45271.0
+    },
+    {
+      "weekDate": "2026-03-07T21:00:00Z",
+      "commissionCents": 46810.64
+    },
+    {
+      "weekDate": "2026-03-14T21:00:00Z",
+      "commissionCents": 48647.91
+    },
+    {
+      "weekDate": "2026-03-21T21:00:00Z",
+      "commissionCents": 48062.05
+    },
+    {
+      "weekDate": "2026-03-28T21:00:00Z",
+      "commissionCents": 47954.44
+    },
+    {
+      "weekDate": "2026-04-04T21:00:00Z",
+      "commissionCents": 49416.07
+    },
+    {
+      "weekDate": "2026-04-11T21:00:00Z",
+      "commissionCents": 48037.78
+    },
+    {
+      "weekDate": "2026-04-18T21:00:00Z",
+      "commissionCents": 48941.13
+    },
+    {
+      "weekDate": "2026-04-25T21:00:00Z",
+      "commissionCents": 51099.07
+    },
+    {
+      "weekDate": "2026-05-02T21:00:00Z",
+      "commissionCents": 50495.07
+    },
+    {
+      "weekDate": "2026-05-09T21:00:00Z",
+      "commissionCents": 52196.29
+    },
+    {
+      "weekDate": "2026-05-16T21:00:00Z",
+      "commissionCents": 53620.54
+    },
+    {
+      "weekDate": "2026-05-23T21:00:00Z",
+      "commissionCents": 52371.13
+    },
+    {
+      "weekDate": "2026-05-30T21:00:00Z",
+      "commissionCents": 53235.77
+    },
+    {
+      "weekDate": "2026-06-06T21:00:00Z",
+      "commissionCents": 53445.9
+    },
+    {
+      "weekDate": "2026-06-13T21:00:00Z",
+      "commissionCents": 54706.8
+    },
+    {
+      "weekDate": "2026-06-20T21:00:00Z",
+      "commissionCents": 57203.85
+    },
+    {
+      "weekDate": "2026-06-27T21:00:00Z",
+      "commissionCents": 59872.13
+    },
+    {
+      "weekDate": "2026-07-04T21:00:00Z",
+      "commissionCents": 61097.31
+    },
+    {
+      "weekDate": "2026-07-11T21:00:00Z",
+      "commissionCents": 62590.84
+    },
+    {
+      "weekDate": "2026-07-18T21:00:00Z",
+      "commissionCents": 65356.95
+    },
+    {
+      "weekDate": "2026-07-25T21:00:00Z",
+      "commissionCents": 66239.72
+    },
+    {
+      "weekDate": "2026-08-01T21:00:00Z",
+      "commissionCents": 64771.51
+    },
+    {
+      "weekDate": "2026-08-08T21:00:00Z",
+      "commissionCents": 65145.01
+    },
+    {
+      "weekDate": "2026-08-15T21:00:00Z",
+      "commissionCents": 49312.07
+    }
+  ],
+  "FAP0008": [
+    {
+      "weekDate": "2026-02-21T21:00:00Z",
+      "commissionCents": 37396.73
+    },
+    {
+      "weekDate": "2026-02-28T21:00:00Z",
+      "commissionCents": 36807.84
+    },
+    {
+      "weekDate": "2026-03-07T21:00:00Z",
+      "commissionCents": 36502.29
+    },
+    {
+      "weekDate": "2026-03-14T21:00:00Z",
+      "commissionCents": 37357.15
+    },
+    {
+      "weekDate": "2026-03-21T21:00:00Z",
+      "commissionCents": 38013.98
+    },
+    {
+      "weekDate": "2026-03-28T21:00:00Z",
+      "commissionCents": 37972.31
+    },
+    {
+      "weekDate": "2026-04-04T21:00:00Z",
+      "commissionCents": 39709.93
+    },
+    {
+      "weekDate": "2026-04-11T21:00:00Z",
+      "commissionCents": 39669.87
+    },
+    {
+      "weekDate": "2026-04-18T21:00:00Z",
+      "commissionCents": 39735.93
+    },
+    {
+      "weekDate": "2026-04-25T21:00:00Z",
+      "commissionCents": 39182.71
+    },
+    {
+      "weekDate": "2026-05-02T21:00:00Z",
+      "commissionCents": 40353.72
+    },
+    {
+      "weekDate": "2026-05-09T21:00:00Z",
+      "commissionCents": 41693.54
+    },
+    {
+      "weekDate": "2026-05-16T21:00:00Z",
+      "commissionCents": 40821.18
+    },
+    {
+      "weekDate": "2026-05-23T21:00:00Z",
+      "commissionCents": 41669.44
+    },
+    {
+      "weekDate": "2026-05-30T21:00:00Z",
+      "commissionCents": 43062.37
+    },
+    {
+      "weekDate": "2026-06-06T21:00:00Z",
+      "commissionCents": 42877.26
+    },
+    {
+      "weekDate": "2026-06-13T21:00:00Z",
+      "commissionCents": 43144.7
+    },
+    {
+      "weekDate": "2026-06-20T21:00:00Z",
+      "commissionCents": 42402.47
+    },
+    {
+      "weekDate": "2026-06-27T21:00:00Z",
+      "commissionCents": 42037.27
+    },
+    {
+      "weekDate": "2026-07-04T21:00:00Z",
+      "commissionCents": 41099.79
+    },
+    {
+      "weekDate": "2026-07-11T21:00:00Z",
+      "commissionCents": 43081.32
+    },
+    {
+      "weekDate": "2026-07-18T21:00:00Z",
+      "commissionCents": 42897.11
+    },
+    {
+      "weekDate": "2026-07-25T21:00:00Z",
+      "commissionCents": 42522.02
+    },
+    {
+      "weekDate": "2026-08-01T21:00:00Z",
+      "commissionCents": 42492.7
+    },
+    {
+      "weekDate": "2026-08-08T21:00:00Z",
+      "commissionCents": 44327.83
+    },
+    {
+      "weekDate": "2026-08-15T21:00:00Z",
+      "commissionCents": 44112.43
+    }
+  ],
+  "FAP0009": [
+    {
+      "weekDate": "2026-02-21T21:00:00Z",
+      "commissionCents": 32596.28
+    },
+    {
+      "weekDate": "2026-02-28T21:00:00Z",
+      "commissionCents": 31985.26
+    },
+    {
+      "weekDate": "2026-03-07T21:00:00Z",
+      "commissionCents": 32765.72
+    },
+    {
+      "weekDate": "2026-03-14T21:00:00Z",
+      "commissionCents": 32584.78
+    },
+    {
+      "weekDate": "2026-03-21T21:00:00Z",
+      "commissionCents": 31878.65
+    },
+    {
+      "weekDate": "2026-03-28T21:00:00Z",
+      "commissionCents": 31796.5
+    },
+    {
+      "weekDate": "2026-04-04T21:00:00Z",
+      "commissionCents": 30985.12
+    },
+    {
+      "weekDate": "2026-04-11T21:00:00Z",
+      "commissionCents": 32236.61
+    },
+    {
+      "weekDate": "2026-04-18T21:00:00Z",
+      "commissionCents": 32271.24
+    },
+    {
+      "weekDate": "2026-04-25T21:00:00Z",
+      "commissionCents": 31445.83
+    },
+    {
+      "weekDate": "2026-05-02T21:00:00Z",
+      "commissionCents": 32684.45
+    },
+    {
+      "weekDate": "2026-05-09T21:00:00Z",
+      "commissionCents": 33078.6
+    },
+    {
+      "weekDate": "2026-05-16T21:00:00Z",
+      "commissionCents": 34553.02
+    },
+    {
+      "weekDate": "2026-05-23T21:00:00Z",
+      "commissionCents": 35729.78
+    },
+    {
+      "weekDate": "2026-05-30T21:00:00Z",
+      "commissionCents": 36243.47
+    },
+    {
+      "weekDate": "2026-06-06T21:00:00Z",
+      "commissionCents": 37484.23
+    },
+    {
+      "weekDate": "2026-06-13T21:00:00Z",
+      "commissionCents": 38097.55
+    },
+    {
+      "weekDate": "2026-06-20T21:00:00Z",
+      "commissionCents": 38004.71
+    },
+    {
+      "weekDate": "2026-06-27T21:00:00Z",
+      "commissionCents": 37161.29
+    },
+    {
+      "weekDate": "2026-07-04T21:00:00Z",
+      "commissionCents": 38273.03
+    },
+    {
+      "weekDate": "2026-07-11T21:00:00Z",
+      "commissionCents": 40184.07
+    },
+    {
+      "weekDate": "2026-07-18T21:00:00Z",
+      "commissionCents": 39263.8
+    },
+    {
+      "weekDate": "2026-07-25T21:00:00Z",
+      "commissionCents": 40428.17
+    },
+    {
+      "weekDate": "2026-08-01T21:00:00Z",
+      "commissionCents": 41363.29
+    },
+    {
+      "weekDate": "2026-08-08T21:00:00Z",
+      "commissionCents": 41472.63
+    },
+    {
+      "weekDate": "2026-08-15T21:00:00Z",
+      "commissionCents": 39038.24
+    }
+  ],
+  "FAP0010": [
+    {
+      "weekDate": "2026-02-21T21:00:00Z",
+      "commissionCents": 36599.35
+    },
+    {
+      "weekDate": "2026-02-28T21:00:00Z",
+      "commissionCents": 36726.46
+    },
+    {
+      "weekDate": "2026-03-07T21:00:00Z",
+      "commissionCents": 36085.08
+    },
+    {
+      "weekDate": "2026-03-14T21:00:00Z",
+      "commissionCents": 36136.29
+    },
+    {
+      "weekDate": "2026-03-21T21:00:00Z",
+      "commissionCents": 35831.61
+    },
+    {
+      "weekDate": "2026-03-28T21:00:00Z",
+      "commissionCents": 34850.76
+    },
+    {
+      "weekDate": "2026-04-04T21:00:00Z",
+      "commissionCents": 36554.33
+    },
+    {
+      "weekDate": "2026-04-11T21:00:00Z",
+      "commissionCents": 37901.83
+    },
+    {
+      "weekDate": "2026-04-18T21:00:00Z",
+      "commissionCents": 38018.97
+    },
+    {
+      "weekDate": "2026-04-25T21:00:00Z",
+      "commissionCents": 39667.56
+    },
+    {
+      "weekDate": "2026-05-02T21:00:00Z",
+      "commissionCents": 38647.11
+    },
+    {
+      "weekDate": "2026-05-09T21:00:00Z",
+      "commissionCents": 39468.3
+    },
+    {
+      "weekDate": "2026-05-16T21:00:00Z",
+      "commissionCents": 40258.13
+    },
+    {
+      "weekDate": "2026-05-23T21:00:00Z",
+      "commissionCents": 39747.05
+    },
+    {
+      "weekDate": "2026-05-30T21:00:00Z",
+      "commissionCents": 40097.72
+    },
+    {
+      "weekDate": "2026-06-06T21:00:00Z",
+      "commissionCents": 41046.49
+    },
+    {
+      "weekDate": "2026-06-13T21:00:00Z",
+      "commissionCents": 40257.82
+    },
+    {
+      "weekDate": "2026-06-20T21:00:00Z",
+      "commissionCents": 40144.46
+    },
+    {
+      "weekDate": "2026-06-27T21:00:00Z",
+      "commissionCents": 40055.75
+    },
+    {
+      "weekDate": "2026-07-04T21:00:00Z",
+      "commissionCents": 40654.87
+    },
+    {
+      "weekDate": "2026-07-11T21:00:00Z",
+      "commissionCents": 42383.49
+    },
+    {
+      "weekDate": "2026-07-18T21:00:00Z",
+      "commissionCents": 42257.28
+    },
+    {
+      "weekDate": "2026-07-25T21:00:00Z",
+      "commissionCents": 44324.4
+    },
+    {
+      "weekDate": "2026-08-01T21:00:00Z",
+      "commissionCents": 45327.42
+    },
+    {
+      "weekDate": "2026-08-08T21:00:00Z",
+      "commissionCents": 45527.27
+    },
+    {
+      "weekDate": "2026-08-15T21:00:00Z",
+      "commissionCents": 42697.34
+    }
+  ]
+}

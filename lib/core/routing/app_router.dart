@@ -30,6 +30,28 @@ final appRouterProvider = Provider<GoRouter>((ref) {
         builder: (context, routerState) => LoginScreen(redirectTo: routerState.uri.queryParameters['redirect']),
       ),
       GoRoute(path: AppRoutes.accessDenied, builder: (context, routerState) => const AccessDeniedScreen()),
+      // Pushed above the shell from the dashboard. Their screens land on their
+      // own days; until then the destination is the coming-soon placeholder.
+      GoRoute(
+        path: AppRoutes.newServiceRequest,
+        builder: (context, routerState) => ComingSoonScreen(tabLabel: context.l10n.navServiceRequests),
+      ),
+      GoRoute(
+        path: AppRoutes.viewTransactions,
+        builder: (context, routerState) => ComingSoonScreen(tabLabel: context.l10n.viewTransactionsTitle),
+      ),
+      GoRoute(
+        path: AppRoutes.accounts,
+        builder: (context, routerState) => ComingSoonScreen(tabLabel: context.l10n.dashboardQuickActionClientSearch),
+      ),
+      GoRoute(
+        path: AppRoutes.taskDashboard,
+        builder: (context, routerState) => ComingSoonScreen(tabLabel: context.l10n.dashboardQuickActionTasksDashboard),
+      ),
+      GoRoute(
+        path: AppRoutes.myCommissions,
+        builder: (context, routerState) => ComingSoonScreen(tabLabel: context.l10n.dashboardQuickActionMyCommissions),
+      ),
       // One branch per entry in AppRoutes.shellBranches, in that order — the
       // shell maps a role's tabs back to these indexes.
       StatefulShellRoute.indexedStack(

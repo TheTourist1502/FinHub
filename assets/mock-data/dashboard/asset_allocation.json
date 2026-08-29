@@ -1,0 +1,262 @@
+{
+  "FAP0001": [
+    {
+      "assetClass": "Equities",
+      "marketValueCents": 1421119.87,
+      "allocationPercentage": 44.73,
+      "asOfDate": "2026-08-21T21:00:00Z"
+    },
+    {
+      "assetClass": "Fixed Income",
+      "marketValueCents": 782203.69,
+      "allocationPercentage": 24.62,
+      "asOfDate": "2026-08-21T21:00:00Z"
+    },
+    {
+      "assetClass": "Alternatives",
+      "marketValueCents": 509607.93,
+      "allocationPercentage": 16.04,
+      "asOfDate": "2026-08-21T21:00:00Z"
+    },
+    {
+      "assetClass": "Cash",
+      "marketValueCents": 463857.59,
+      "allocationPercentage": 14.6,
+      "asOfDate": "2026-08-21T21:00:00Z"
+    }
+  ],
+  "FAP0002": [
+    {
+      "assetClass": "Equities",
+      "marketValueCents": 472660.07,
+      "allocationPercentage": 13.62,
+      "asOfDate": "2026-08-21T21:00:00Z"
+    },
+    {
+      "assetClass": "Fixed Income",
+      "marketValueCents": 192603.77,
+      "allocationPercentage": 5.55,
+      "asOfDate": "2026-08-21T21:00:00Z"
+    },
+    {
+      "assetClass": "Alternatives",
+      "marketValueCents": 1436720.05,
+      "allocationPercentage": 41.4,
+      "asOfDate": "2026-08-21T21:00:00Z"
+    },
+    {
+      "assetClass": "Cash",
+      "marketValueCents": 1368007.35,
+      "allocationPercentage": 39.42,
+      "asOfDate": "2026-08-21T21:00:00Z"
+    }
+  ],
+  "FAP0003": [
+    {
+      "assetClass": "Equities",
+      "marketValueCents": 1053694.87,
+      "allocationPercentage": 25.06,
+      "asOfDate": "2026-08-21T21:00:00Z"
+    },
+    {
+      "assetClass": "Fixed Income",
+      "marketValueCents": 1493925.72,
+      "allocationPercentage": 35.53,
+      "asOfDate": "2026-08-21T21:00:00Z"
+    },
+    {
+      "assetClass": "Alternatives",
+      "marketValueCents": 1372830.7,
+      "allocationPercentage": 32.65,
+      "asOfDate": "2026-08-21T21:00:00Z"
+    },
+    {
+      "assetClass": "Cash",
+      "marketValueCents": 284657.39,
+      "allocationPercentage": 6.77,
+      "asOfDate": "2026-08-21T21:00:00Z"
+    }
+  ],
+  "FAP0004": [
+    {
+      "assetClass": "Equities",
+      "marketValueCents": 1357008.81,
+      "allocationPercentage": 36.47,
+      "asOfDate": "2026-08-21T21:00:00Z"
+    },
+    {
+      "assetClass": "Fixed Income",
+      "marketValueCents": 1471240.16,
+      "allocationPercentage": 39.54,
+      "asOfDate": "2026-08-21T21:00:00Z"
+    },
+    {
+      "assetClass": "Alternatives",
+      "marketValueCents": 458413.73,
+      "allocationPercentage": 12.32,
+      "asOfDate": "2026-08-21T21:00:00Z"
+    },
+    {
+      "assetClass": "Cash",
+      "marketValueCents": 434227.94,
+      "allocationPercentage": 11.67,
+      "asOfDate": "2026-08-21T21:00:00Z"
+    }
+  ],
+  "FAP0005": [
+    {
+      "assetClass": "Equities",
+      "marketValueCents": 1233244.0,
+      "allocationPercentage": 36.02,
+      "asOfDate": "2026-08-21T21:00:00Z"
+    },
+    {
+      "assetClass": "Fixed Income",
+      "marketValueCents": 1461609.84,
+      "allocationPercentage": 42.69,
+      "asOfDate": "2026-08-21T21:00:00Z"
+    },
+    {
+      "assetClass": "Alternatives",
+      "marketValueCents": 255413.67,
+      "allocationPercentage": 7.46,
+      "asOfDate": "2026-08-21T21:00:00Z"
+    },
+    {
+      "assetClass": "Cash",
+      "marketValueCents": 473508.18,
+      "allocationPercentage": 13.83,
+      "asOfDate": "2026-08-21T21:00:00Z"
+    }
+  ],
+  "FAP0006": [
+    {
+      "assetClass": "Equities",
+      "marketValueCents": 695102.65,
+      "allocationPercentage": 16.96,
+      "asOfDate": "2026-08-21T21:00:00Z"
+    },
+    {
+      "assetClass": "Fixed Income",
+      "marketValueCents": 1967681.49,
+      "allocationPercentage": 48.01,
+      "asOfDate": "2026-08-21T21:00:00Z"
+    },
+    {
+      "assetClass": "Alternatives",
+      "marketValueCents": 285254.39,
+      "allocationPercentage": 6.96,
+      "asOfDate": "2026-08-21T21:00:00Z"
+    },
+    {
+      "assetClass": "Cash",
+      "marketValueCents": 1150444.06,
+      "allocationPercentage": 28.07,
+      "asOfDate": "2026-08-21T21:00:00Z"
+    }
+  ],
+  "FAP0007": [
+    {
+      "assetClass": "Equities",
+      "marketValueCents": 1196507.95,
+      "allocationPercentage": 30.33,
+      "asOfDate": "2026-08-21T21:00:00Z"
+    },
+    {
+      "assetClass": "Fixed Income",
+      "marketValueCents": 1366930.45,
+      "allocationPercentage": 34.65,
+      "asOfDate": "2026-08-21T21:00:00Z"
+    },
+    {
+      "assetClass": "Alternatives",
+      "marketValueCents": 349918.42,
+      "allocationPercentage": 8.87,
+      "asOfDate": "2026-08-21T21:00:00Z"
+    },
+    {
+      "assetClass": "Cash",
+      "marketValueCents": 1031608.41,
+      "allocationPercentage": 26.15,
+      "asOfDate": "2026-08-21T21:00:00Z"
+    }
+  ],
+  "FAP0008": [
+    {
+      "assetClass": "Equities",
+      "marketValueCents": 1351604.85,
+      "allocationPercentage": 38.3,
+      "asOfDate": "2026-08-21T21:00:00Z"
+    },
+    {
+      "assetClass": "Fixed Income",
+      "marketValueCents": 293612.33,
+      "allocationPercentage": 8.32,
+      "asOfDate": "2026-08-21T21:00:00Z"
+    },
+    {
+      "assetClass": "Alternatives",
+      "marketValueCents": 1655804.16,
+      "allocationPercentage": 46.92,
+      "asOfDate": "2026-08-21T21:00:00Z"
+    },
+    {
+      "assetClass": "Cash",
+      "marketValueCents": 227620.14,
+      "allocationPercentage": 6.45,
+      "asOfDate": "2026-08-21T21:00:00Z"
+    }
+  ],
+  "FAP0009": [
+    {
+      "assetClass": "Equities",
+      "marketValueCents": 1217680.88,
+      "allocationPercentage": 38.99,
+      "asOfDate": "2026-08-21T21:00:00Z"
+    },
+    {
+      "assetClass": "Fixed Income",
+      "marketValueCents": 1400067.56,
+      "allocationPercentage": 44.83,
+      "asOfDate": "2026-08-21T21:00:00Z"
+    },
+    {
+      "assetClass": "Alternatives",
+      "marketValueCents": 289195.31,
+      "allocationPercentage": 9.26,
+      "asOfDate": "2026-08-21T21:00:00Z"
+    },
+    {
+      "assetClass": "Cash",
+      "marketValueCents": 216115.71,
+      "allocationPercentage": 6.92,
+      "asOfDate": "2026-08-21T21:00:00Z"
+    }
+  ],
+  "FAP0010": [
+    {
+      "assetClass": "Equities",
+      "marketValueCents": 716973.78,
+      "allocationPercentage": 20.99,
+      "asOfDate": "2026-08-21T21:00:00Z"
+    },
+    {
+      "assetClass": "Fixed Income",
+      "marketValueCents": 527397.58,
+      "allocationPercentage": 15.44,
+      "asOfDate": "2026-08-21T21:00:00Z"
+    },
+    {
+      "assetClass": "Alternatives",
+      "marketValueCents": 1155219.3,
+      "allocationPercentage": 33.82,
+      "asOfDate": "2026-08-21T21:00:00Z"
+    },
+    {
+      "assetClass": "Cash",
+      "marketValueCents": 1016196.75,
+      "allocationPercentage": 29.75,
+      "asOfDate": "2026-08-21T21:00:00Z"
+    }
+  ]
+}

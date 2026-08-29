@@ -676,5 +676,168 @@
   "riskProfileSpeculative": "Speculative",
   "@riskProfileSpeculative": {
     "description": "Risk-profile badge label for the highest tier of the Low/Moderate/High/Speculative scale."
+  },
+  "dashboardAssetAllocation": "Asset Allocation",
+  "@dashboardAssetAllocation": {
+    "description": "Section heading for the asset allocation donut chart on the dashboard."
+  },
+  "dashboardAumLabel": "AUM",
+  "@dashboardAumLabel": {
+    "description": "AUM column label on household cards."
+  },
+  "dashboardByAum": "( By AUM )",
+  "@dashboardByAum": {
+    "description": "De-emphasized suffix appended after the top households section heading, indicating the ranking metric."
+  },
+  "dashboardHeroYtdLabel": "YTD",
+  "@dashboardHeroYtdLabel": {
+    "description": "Period label shown next to the Total AUM / Total Commissions hero value on the dashboard."
+  },
+  "dashboardHouseholdIdLabel": "Household ID: #{code}",
+  "@dashboardHouseholdIdLabel": {
+    "description": "Household code label shown on household cards.",
+    "placeholders": {
+      "code": {
+        "type": "String",
+        "example": "882910"
+      }
+    }
+  },
+  "dashboardQuickActionAccountMaintenance": "Account Maintenance",
+  "@dashboardQuickActionAccountMaintenance": {
+    "description": "Quick action label for account maintenance."
+  },
+  "dashboardQuickActionAssetMovement": "Asset Movement",
+  "@dashboardQuickActionAssetMovement": {
+    "description": "Quick action label for asset movement."
+  },
+  "dashboardQuickActionClientSearch": "Client Search",
+  "@dashboardQuickActionClientSearch": {
+    "description": "Quick action label for client search."
+  },
+  "dashboardQuickActionInvestorPortal": "Investor Portal",
+  "@dashboardQuickActionInvestorPortal": {
+    "description": "Quick action label for opening Investor Portal in an external browser."
+  },
+  "dashboardQuickActionInvestorPortalLaunchFailedMessage": "Could not open the Investor Portal. Please try again.",
+  "@dashboardQuickActionInvestorPortalLaunchFailedMessage": {
+    "description": "Error shown when the Investor Portal external link fails to open."
+  },
+  "dashboardQuickActionMeetingNotes": "Meeting Notes",
+  "@dashboardQuickActionMeetingNotes": {
+    "description": "Quick action label for meeting notes."
+  },
+  "dashboardQuickActionMyCommissions": "Commissions",
+  "@dashboardQuickActionMyCommissions": {
+    "description": "Quick action label for my commissions."
+  },
+  "dashboardQuickActionOnlineAccess": "Online Access",
+  "@dashboardQuickActionOnlineAccess": {
+    "description": "Quick action label for online access."
+  },
+  "dashboardQuickActionTasksDashboard": "Tasks Dashboard",
+  "@dashboardQuickActionTasksDashboard": {
+    "description": "Quick action label for tasks dashboard."
+  },
+  "dashboardRecentTransactions": "Recent Transactions",
+  "@dashboardRecentTransactions": {
+    "description": "Section heading for the recent transactions list on the dashboard."
+  },
+  "dashboardRecentTransactionsAsOf": "( As of {date} )",
+  "@dashboardRecentTransactionsAsOf": {
+    "description": "Qualifier appended to the recent transactions heading, showing the snapshot date of the newest transaction.",
+    "placeholders": {
+      "date": {
+        "type": "String",
+        "example": "19 Oct 2023"
+      }
+    }
+  },
+  "dashboardTopHouseholds": "Top 5 Households",
+  "@dashboardTopHouseholds": {
+    "description": "Section heading for the top-5 household cards on the dashboard. Shown when there are 5 or more households."
+  },
+  "dashboardTopHouseholdsShort": "Top Households",
+  "@dashboardTopHouseholdsShort": {
+    "description": "Section heading for the top household cards on the dashboard. Shown instead of dashboardTopHouseholds when there are fewer than 5 households, since 'Top 5' would overstate the count."
+  },
+  "dashboardTotalAum": "TOTAL AUM",
+  "@dashboardTotalAum": {
+    "description": "Eyebrow label above the Total AUM hero value on the dashboard."
+  },
+  "dashboardTotalCommissions": "TOTAL COMMISSION",
+  "@dashboardTotalCommissions": {
+    "description": "Eyebrow label above the Total Commission hero value on the dashboard."
+  },
+  "dashboardTransactionDateToday": "Today",
+  "@dashboardTransactionDateToday": {
+    "description": "Relative date label for transactions that occurred today."
+  },
+  "dashboardTransactionDateYesterday": "Yesterday",
+  "@dashboardTransactionDateYesterday": {
+    "description": "Relative date label for transactions that occurred yesterday."
+  },
+  "dashboardViewAll": "View All",
+  "@dashboardViewAll": {
+    "description": "Link button label to view all households."
+  },
+  "dashboardViewTransactionHistory": "View Transaction History",
+  "@dashboardViewTransactionHistory": {
+    "description": "Link button label at the bottom of the recent transactions section."
+  },
+  "dashboardYtdChangeLabel": "YTD Change",
+  "@dashboardYtdChangeLabel": {
+    "description": "YTD Change column label on household cards."
+  },
+  "historyChartNoData": "No data available for this period.",
+  "@historyChartNoData": {
+    "description": "Message shown in place of the chart when the selected filter window has no data points."
+  },
+  "historyChartRangeCurrentMonth": "Current Month",
+  "@historyChartRangeCurrentMonth": {
+    "description": "Spelled-out name of the 1M filter window, shown in the chart's change row (the chip itself still reads \"1M\")."
+  },
+  "historyChartRangePastSixMonths": "Past 6M",
+  "@historyChartRangePastSixMonths": {
+    "description": "Spelled-out name of the 6M filter window, shown in the chart's change row (the chip itself still reads \"6M\")."
+  },
+  "historyChartRangePastThreeMonths": "Past 3M",
+  "@historyChartRangePastThreeMonths": {
+    "description": "Spelled-out name of the 3M filter window, shown in the chart's change row (the chip itself still reads \"3M\")."
+  },
+  "historyChartRangeYtd": "YTD",
+  "@historyChartRangeYtd": {
+    "description": "Name of the YTD filter window, shown in the chart's change row."
+  },
+  "historyChartWeekTooltip": "Commission of Week{week} {date} is {value}",
+  "@historyChartWeekTooltip": {
+    "description": "Sentence shown in the commission chart's touch tooltip — the only chart that still shows one.",
+    "placeholders": {
+      "week": {
+        "type": "int"
+      },
+      "date": {
+        "type": "String"
+      },
+      "value": {
+        "type": "String"
+      }
+    }
+  },
+  "transactionTypeNonTrade": "Non-Trade",
+  "@transactionTypeNonTrade": {
+    "description": "Placeholder transaction-type label shown when a transaction has no type."
+  },
+  "viewTransactionsTypeBuy": "Buy",
+  "@viewTransactionsTypeBuy": {
+    "description": "Badge label for a BUY transaction type on the transaction history card."
+  },
+  "viewTransactionsTypeSell": "Sell",
+  "@viewTransactionsTypeSell": {
+    "description": "Badge label for a SELL transaction type on the transaction history card."
+  },
+  "viewTransactionsTitle": "Transactions History",
+  "@viewTransactionsTitle": {
+    "description": "AppBar title for the full-screen transaction history screen."
   }
 }

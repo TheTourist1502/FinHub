@@ -1,0 +1,202 @@
+{
+  "FAP0001": [
+    {
+      "id": "HHP001-INSIGHT",
+      "householdId": "HHP001",
+      "householdName": "Johnson Household",
+      "totalAumCents": 1432694.23,
+      "aumChangeCents": -82438.31,
+      "aumChangePercentage": -5.44,
+      "asOfDate": "2026-08-21T21:00:00Z"
+    },
+    {
+      "id": "HHP002-INSIGHT",
+      "householdId": "HHP002",
+      "householdName": "Martinez Household",
+      "totalAumCents": 931172.14,
+      "aumChangeCents": -7878.03,
+      "aumChangePercentage": -0.84,
+      "asOfDate": "2026-08-21T21:00:00Z"
+    }
+  ],
+  "FAP0002": [
+    {
+      "id": "HHP003-INSIGHT",
+      "householdId": "HHP003",
+      "householdName": "Martinez Household",
+      "totalAumCents": 2147549.12,
+      "aumChangeCents": -63671.1,
+      "aumChangePercentage": -2.88,
+      "asOfDate": "2026-08-21T21:00:00Z"
+    },
+    {
+      "id": "HHP004-INSIGHT",
+      "householdId": "HHP004",
+      "householdName": "Nguyen Household",
+      "totalAumCents": 710624.54,
+      "aumChangeCents": 76613.23,
+      "aumChangePercentage": 12.08,
+      "asOfDate": "2026-08-21T21:00:00Z"
+    }
+  ],
+  "FAP0003": [
+    {
+      "id": "HHP005-INSIGHT",
+      "householdId": "HHP005",
+      "householdName": "Nguyen Household",
+      "totalAumCents": 2439746.13,
+      "aumChangeCents": 129376.62,
+      "aumChangePercentage": 5.6,
+      "asOfDate": "2026-08-21T21:00:00Z"
+    },
+    {
+      "id": "HHP006-INSIGHT",
+      "householdId": "HHP006",
+      "householdName": "Costa Household",
+      "totalAumCents": 977885.93,
+      "aumChangeCents": 255425.4,
+      "aumChangePercentage": 35.35,
+      "asOfDate": "2026-08-21T21:00:00Z"
+    }
+  ],
+  "FAP0004": [
+    {
+      "id": "HHP007-INSIGHT",
+      "householdId": "HHP007",
+      "householdName": "Costa Household",
+      "totalAumCents": 2262282.43,
+      "aumChangeCents": 180112.1,
+      "aumChangePercentage": 8.65,
+      "asOfDate": "2026-08-21T21:00:00Z"
+    },
+    {
+      "id": "HHP008-INSIGHT",
+      "householdId": "HHP008",
+      "householdName": "Johnson Household",
+      "totalAumCents": 1179907.25,
+      "aumChangeCents": 429130.2,
+      "aumChangePercentage": 57.16,
+      "asOfDate": "2026-08-21T21:00:00Z"
+    }
+  ],
+  "FAP0005": [
+    {
+      "id": "HHP009-INSIGHT",
+      "householdId": "HHP009",
+      "householdName": "Johnson Household",
+      "totalAumCents": 1766040.83,
+      "aumChangeCents": 127733.18,
+      "aumChangePercentage": 7.8,
+      "asOfDate": "2026-08-21T21:00:00Z"
+    },
+    {
+      "id": "HHP010-INSIGHT",
+      "householdId": "HHP010",
+      "householdName": "Martinez Household",
+      "totalAumCents": 809899.55,
+      "aumChangeCents": -68881.38,
+      "aumChangePercentage": -7.84,
+      "asOfDate": "2026-08-21T21:00:00Z"
+    }
+  ],
+  "FAP0006": [
+    {
+      "id": "HHP011-INSIGHT",
+      "householdId": "HHP011",
+      "householdName": "Martinez Household",
+      "totalAumCents": 2435699.44,
+      "aumChangeCents": -404173.96,
+      "aumChangePercentage": -14.23,
+      "asOfDate": "2026-08-21T21:00:00Z"
+    },
+    {
+      "id": "HHP012-INSIGHT",
+      "householdId": "HHP012",
+      "householdName": "Nguyen Household",
+      "totalAumCents": 1171031.81,
+      "aumChangeCents": 389978.6,
+      "aumChangePercentage": 49.93,
+      "asOfDate": "2026-08-21T21:00:00Z"
+    }
+  ],
+  "FAP0007": [
+    {
+      "id": "HHP013-INSIGHT",
+      "householdId": "HHP013",
+      "householdName": "Nguyen Household",
+      "totalAumCents": 1624925.85,
+      "aumChangeCents": 304069.28,
+      "aumChangePercentage": 23.02,
+      "asOfDate": "2026-08-21T21:00:00Z"
+    },
+    {
+      "id": "HHP014-INSIGHT",
+      "householdId": "HHP014",
+      "householdName": "Costa Household",
+      "totalAumCents": 1536319.46,
+      "aumChangeCents": -6448.79,
+      "aumChangePercentage": -0.42,
+      "asOfDate": "2026-08-21T21:00:00Z"
+    }
+  ],
+  "FAP0008": [
+    {
+      "id": "HHP015-INSIGHT",
+      "householdId": "HHP015",
+      "householdName": "Costa Household",
+      "totalAumCents": 2004902.94,
+      "aumChangeCents": 33539.72,
+      "aumChangePercentage": 1.7,
+      "asOfDate": "2026-08-21T21:00:00Z"
+    },
+    {
+      "id": "HHP016-INSIGHT",
+      "householdId": "HHP016",
+      "householdName": "Johnson Household",
+      "totalAumCents": 503966.77,
+      "aumChangeCents": 56596.84,
+      "aumChangePercentage": 12.65,
+      "asOfDate": "2026-08-21T21:00:00Z"
+    }
+  ],
+  "FAP0009": [
+    {
+      "id": "HHP017-INSIGHT",
+      "householdId": "HHP017",
+      "householdName": "Johnson Household",
+      "totalAumCents": 1831186.77,
+      "aumChangeCents": 580949.06,
+      "aumChangePercentage": 46.47,
+      "asOfDate": "2026-08-21T21:00:00Z"
+    },
+    {
+      "id": "HHP018-INSIGHT",
+      "householdId": "HHP018",
+      "householdName": "Martinez Household",
+      "totalAumCents": 726574.99,
+      "aumChangeCents": 209313.32,
+      "aumChangePercentage": 40.47,
+      "asOfDate": "2026-08-21T21:00:00Z"
+    }
+  ],
+  "FAP0010": [
+    {
+      "id": "HHP019-INSIGHT",
+      "householdId": "HHP019",
+      "householdName": "Martinez Household",
+      "totalAumCents": 1938628.59,
+      "aumChangeCents": 434723.21,
+      "aumChangePercentage": 28.91,
+      "asOfDate": "2026-08-21T21:00:00Z"
+    },
+    {
+      "id": "HHP020-INSIGHT",
+      "householdId": "HHP020",
+      "householdName": "Nguyen Household",
+      "totalAumCents": 728382.12,
+      "aumChangeCents": 153723.65,
+      "aumChangePercentage": 26.75,
+      "asOfDate": "2026-08-21T21:00:00Z"
+    }
+  ]
+}

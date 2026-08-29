@@ -491,4 +491,116 @@ class AppLocalizationsEs extends AppLocalizations {
 
   @override
   String get riskProfileSpeculative => 'Especulativo';
+
+  @override
+  String get dashboardAssetAllocation => 'Asignación de Activos';
+
+  @override
+  String get dashboardAumLabel => 'AUM';
+
+  @override
+  String get dashboardByAum => '( Por AUM )';
+
+  @override
+  String get dashboardHeroYtdLabel => 'YTD';
+
+  @override
+  String dashboardHouseholdIdLabel(String code) {
+    return 'ID Hogar: #$code';
+  }
+
+  @override
+  String get dashboardQuickActionAccountMaintenance => 'Mantenimiento de Cuenta';
+
+  @override
+  String get dashboardQuickActionAssetMovement => 'Movimiento de Activos';
+
+  @override
+  String get dashboardQuickActionClientSearch => 'Buscar Cliente';
+
+  @override
+  String get dashboardQuickActionInvestorPortal => 'Portal del Inversor';
+
+  @override
+  String get dashboardQuickActionInvestorPortalLaunchFailedMessage =>
+      'No se pudo abrir el Portal del Inversor. Inténtalo de nuevo.';
+
+  @override
+  String get dashboardQuickActionMeetingNotes => 'Notas de Reunión';
+
+  @override
+  String get dashboardQuickActionMyCommissions => 'Comisiones';
+
+  @override
+  String get dashboardQuickActionOnlineAccess => 'Acceso en Línea';
+
+  @override
+  String get dashboardQuickActionTasksDashboard => 'Panel de Tareas';
+
+  @override
+  String get dashboardRecentTransactions => 'Transacciones Recientes';
+
+  @override
+  String dashboardRecentTransactionsAsOf(String date) {
+    return '( Al $date )';
+  }
+
+  @override
+  String get dashboardTopHouseholds => 'Top 5 Hogares';
+
+  @override
+  String get dashboardTopHouseholdsShort => 'Top Hogares';
+
+  @override
+  String get dashboardTotalAum => 'AUM TOTAL';
+
+  @override
+  String get dashboardTotalCommissions => 'COMISIÓN TOTAL';
+
+  @override
+  String get dashboardTransactionDateToday => 'Hoy';
+
+  @override
+  String get dashboardTransactionDateYesterday => 'Ayer';
+
+  @override
+  String get dashboardViewAll => 'Ver Todo';
+
+  @override
+  String get dashboardViewTransactionHistory => 'Ver Historial de Transacciones';
+
+  @override
+  String get dashboardYtdChangeLabel => 'Cambio YTD';
+
+  @override
+  String get historyChartNoData => 'No hay datos disponibles para este período.';
+
+  @override
+  String get historyChartRangeCurrentMonth => 'Mes Actual';
+
+  @override
+  String get historyChartRangePastSixMonths => 'Últimos 6M';
+
+  @override
+  String get historyChartRangePastThreeMonths => 'Últimos 3M';
+
+  @override
+  String get historyChartRangeYtd => 'YTD';
+
+  @override
+  String historyChartWeekTooltip(int week, String date, String value) {
+    return 'Comisión de la Semana$week $date es $value';
+  }
+
+  @override
+  String get transactionTypeNonTrade => 'Sin Operación';
+
+  @override
+  String get viewTransactionsTypeBuy => 'Compra';
+
+  @override
+  String get viewTransactionsTypeSell => 'Venta';
+
+  @override
+  String get viewTransactionsTitle => 'Historial de Transacciones';
 }

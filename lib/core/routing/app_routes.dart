@@ -43,6 +43,21 @@ abstract final class AppRoutes {
   /// Shown when a role check fails.
   static const String accessDenied = '/access-denied';
 
+  /// The new service-request form, pushed from the dashboard's quick actions.
+  static const String newServiceRequest = '/service-requests/add';
+
+  /// Full transaction history, pushed from the dashboard's recent-transactions card.
+  static const String viewTransactions = '/view-transactions';
+
+  /// The advisor's account list, reachable from a dashboard quick action.
+  static const String accounts = '/accounts';
+
+  /// The task dashboard, reachable from a dashboard quick action.
+  static const String taskDashboard = '/task-dashboard';
+
+  /// The advisor's own commission detail, reachable from a dashboard quick action.
+  static const String myCommissions = '/my-commissions';
+
   /// Every branch of the bottom-navigation shell, in the order the router
   /// registers them.
   ///
