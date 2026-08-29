@@ -300,4 +300,195 @@ class AppLocalizationsEs extends AppLocalizations {
 
   @override
   String get statusRejected => 'Rechazado';
+
+  @override
+  String get allocationChartRoundingNote =>
+      'ⓘ Los valores se redondean a dos decimales y los porcentajes a un decimal.';
+
+  @override
+  String get assetAllocationLabel => 'Asignación de Activos';
+
+  @override
+  String get assetClassLongAlternativeInvestment => 'Inversión Alternativa';
+
+  @override
+  String get assetClassLongAlternativeInvestments => 'Inversiones Alternativas';
+
+  @override
+  String get assetClassLongAlts => 'Alternativos';
+
+  @override
+  String get assetClassLongAnnuities => 'Anualidades';
+
+  @override
+  String get assetClassLongBonds => 'Bonos';
+
+  @override
+  String get assetClassLongCash => 'Efectivo y Equivalentes';
+
+  @override
+  String get assetClassLongDebentures => 'Debentures';
+
+  @override
+  String get assetClassLongDerivatives => 'Derivados';
+
+  @override
+  String get assetClassLongEquity => 'Acciones';
+
+  @override
+  String get assetClassLongFixedIncome => 'Renta Fija';
+
+  @override
+  String get assetClassLongMutualFunds => 'Fondos Mutuos';
+
+  @override
+  String get assetClassLongOthers => 'Otros';
+
+  @override
+  String get assetClassLongRealEstate => 'Bienes Raíces';
+
+  @override
+  String get assetClassLongRest => 'Resto';
+
+  @override
+  String get assetClassLongStructuredProducts => 'Productos Estructurados';
+
+  @override
+  String get assetClassMediumAlternativeInvestment => 'Inv. Alt.';
+
+  @override
+  String get assetClassMediumAlternativeInvestments => 'Invs. Alt.';
+
+  @override
+  String get assetClassMediumAlts => 'Alt';
+
+  @override
+  String get assetClassMediumAnnuities => 'Anualidades';
+
+  @override
+  String get assetClassMediumBonds => 'Bonos';
+
+  @override
+  String get assetClassMediumCash => 'Efectivo';
+
+  @override
+  String get assetClassMediumDebentures => 'Debentures';
+
+  @override
+  String get assetClassMediumDerivatives => 'Derivados';
+
+  @override
+  String get assetClassMediumEquity => 'Acciones';
+
+  @override
+  String get assetClassMediumFixedIncome => 'Renta Fija';
+
+  @override
+  String get assetClassMediumMutualFunds => 'Fondos Mutuos';
+
+  @override
+  String get assetClassMediumOthers => 'Otros';
+
+  @override
+  String get assetClassMediumRealEstate => 'Inm. Raíz';
+
+  @override
+  String get assetClassMediumRest => 'Resto';
+
+  @override
+  String get assetClassMediumStructuredProducts => 'Prod. Estr.';
+
+  @override
+  String get assetClassShortAlternativeInvestment => 'Invest. Alt.';
+
+  @override
+  String get assetClassShortAlts => 'Alt';
+
+  @override
+  String get assetClassShortAnnuities => 'Anual.';
+
+  @override
+  String get assetClassShortBonds => 'Bonos';
+
+  @override
+  String get assetClassShortCash => 'Efvo';
+
+  @override
+  String get assetClassShortDebentures => 'Dbnt';
+
+  @override
+  String get assetClassShortDerivatives => 'Deriv.';
+
+  @override
+  String get assetClassShortEquity => 'Ac';
+
+  @override
+  String get assetClassShortFixedIncome => 'RF';
+
+  @override
+  String get assetClassShortMutualFunds => 'FM';
+
+  @override
+  String get assetClassShortOthers => 'Otros';
+
+  @override
+  String get assetClassShortRealEstate => 'IR';
+
+  @override
+  String get assetClassShortRest => 'Resto';
+
+  @override
+  String get assetClassShortStructuredProducts => 'Prod. Estr.';
+
+  @override
+  String get commonButtonChange => 'Cambiar';
+
+  @override
+  String get commonSortBy => 'Ordenar por';
+
+  @override
+  String get historyChartBreadcrumbSeparator => ' > ';
+
+  @override
+  String get historyChartChangeRowSeparator => ' • ';
+
+  @override
+  String historyChartCommissionDataAsOf(String date) {
+    return 'ⓘ Este gráfico se basa en los datos hasta el $date. Los importes de comisiones YTD son provisionales y están sujetos a validación pendiente.';
+  }
+
+  @override
+  String historyChartDataAsOf(String date) {
+    return 'ⓘ Este gráfico se basa en los datos hasta el $date.';
+  }
+
+  @override
+  String get riskProfileConservative => 'Conservador';
+
+  @override
+  String get riskProfileGrowth => 'Crecimiento';
+
+  @override
+  String get riskProfileHighRisk => 'Riesgo Alto';
+
+  @override
+  String get riskProfileLowRisk => 'Riesgo Bajo';
+
+  @override
+  String get riskProfileModerate => 'Moderado';
+
+  @override
+  String get riskProfileModerateRisk => 'Riesgo Moderado';
+
+  @override
+  String get riskProfileModeratelyAggressive => 'Moderadamente Agresivo';
+
+  @override
+  String get riskProfileModeratelyConservative => 'Moderadamente Conservador';
+
+  @override
+  String get riskProfileSignificantRisk => 'Riesgo Significativo';
+
+  @override
+  String get riskProfileSpeculative => 'Especulativo';
 }

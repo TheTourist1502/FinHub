@@ -420,5 +420,261 @@
   "statusRejected": "Rejected",
   "@statusRejected": {
     "description": "Overall request/task status chip: rejected."
+  },
+  "allocationChartRoundingNote": "ⓘ Values are rounded to two decimal places and percentages to one decimal place.",
+  "@allocationChartRoundingNote": {
+    "description": "Footnote below every asset-allocation donut chart, explaining the rounding applied to values and percentages."
+  },
+  "assetAllocationLabel": "Asset Allocation",
+  "@assetAllocationLabel": {
+    "description": "Label above the asset-allocation segmented bar on household and account cards."
+  },
+  "assetClassLongAlternativeInvestment": "Alternative Investment",
+  "@assetClassLongAlternativeInvestment": {
+    "description": "Full-length label for the Alternative Investment asset class."
+  },
+  "assetClassLongAlternativeInvestments": "Alternative Investments",
+  "@assetClassLongAlternativeInvestments": {
+    "description": "Full-length label for the Alternative Investments (plural) asset class."
+  },
+  "assetClassLongAlts": "Alternatives",
+  "@assetClassLongAlts": {
+    "description": "Full-length label for the Alts asset class."
+  },
+  "assetClassLongAnnuities": "Annuities",
+  "@assetClassLongAnnuities": {
+    "description": "Full-length label for the Annuities asset class."
+  },
+  "assetClassLongBonds": "Bonds",
+  "@assetClassLongBonds": {
+    "description": "Full-length label for the Bonds asset class."
+  },
+  "assetClassLongCash": "Cash & Cash Equivalent",
+  "@assetClassLongCash": {
+    "description": "Full-length label for the Cash asset class."
+  },
+  "assetClassLongDebentures": "Debentures",
+  "@assetClassLongDebentures": {
+    "description": "Full-length label for the Debentures asset class."
+  },
+  "assetClassLongDerivatives": "Derivatives",
+  "@assetClassLongDerivatives": {
+    "description": "Full-length label for the Derivatives asset class."
+  },
+  "assetClassLongEquity": "Equity",
+  "@assetClassLongEquity": {
+    "description": "Full-length label for the Equity asset class."
+  },
+  "assetClassLongFixedIncome": "Fixed Income",
+  "@assetClassLongFixedIncome": {
+    "description": "Full-length label for the Fixed Income asset class."
+  },
+  "assetClassLongMutualFunds": "Mutual Funds",
+  "@assetClassLongMutualFunds": {
+    "description": "Full-length label for the Mutual Funds asset class."
+  },
+  "assetClassLongOthers": "Others",
+  "@assetClassLongOthers": {
+    "description": "Full-length label for the 'Others' asset class."
+  },
+  "assetClassLongRealEstate": "Real Estate",
+  "@assetClassLongRealEstate": {
+    "description": "Full-length label for the Real Estate asset class."
+  },
+  "assetClassLongRest": "Rest",
+  "@assetClassLongRest": {
+    "description": "Full-length label for the synthetic 'Rest' asset-class bucket (allocations collapsed beyond the top 3)."
+  },
+  "assetClassLongStructuredProducts": "Structured Products",
+  "@assetClassLongStructuredProducts": {
+    "description": "Full-length label for the Structured Products asset class."
+  },
+  "assetClassMediumAlternativeInvestment": "Alt. Inv.",
+  "@assetClassMediumAlternativeInvestment": {
+    "description": "Medium-length label for the Alternative Investment asset class."
+  },
+  "assetClassMediumAlternativeInvestments": "Alt. Invs.",
+  "@assetClassMediumAlternativeInvestments": {
+    "description": "Medium-length label for the Alternative Investments (plural) asset class."
+  },
+  "assetClassMediumAlts": "Alt",
+  "@assetClassMediumAlts": {
+    "description": "Medium-length label for the Alts asset class."
+  },
+  "assetClassMediumAnnuities": "Annuities",
+  "@assetClassMediumAnnuities": {
+    "description": "Medium-length label for the Annuities asset class."
+  },
+  "assetClassMediumBonds": "Bonds",
+  "@assetClassMediumBonds": {
+    "description": "Medium-length label for the Bonds asset class."
+  },
+  "assetClassMediumCash": "Cash",
+  "@assetClassMediumCash": {
+    "description": "Medium-length label for the Cash asset class."
+  },
+  "assetClassMediumDebentures": "Debentures",
+  "@assetClassMediumDebentures": {
+    "description": "Medium-length label for the Debentures asset class."
+  },
+  "assetClassMediumDerivatives": "Derivatives",
+  "@assetClassMediumDerivatives": {
+    "description": "Medium-length label for the Derivatives asset class."
+  },
+  "assetClassMediumEquity": "Equity",
+  "@assetClassMediumEquity": {
+    "description": "Medium-length label for the Equity asset class."
+  },
+  "assetClassMediumFixedIncome": "Fixed Inc.",
+  "@assetClassMediumFixedIncome": {
+    "description": "Medium-length label for the Fixed Income asset class."
+  },
+  "assetClassMediumMutualFunds": "Mutual Funds",
+  "@assetClassMediumMutualFunds": {
+    "description": "Medium-length label for the Mutual Funds asset class."
+  },
+  "assetClassMediumOthers": "Others",
+  "@assetClassMediumOthers": {
+    "description": "Medium-length label for the 'Others' asset class."
+  },
+  "assetClassMediumRealEstate": "Real Est.",
+  "@assetClassMediumRealEstate": {
+    "description": "Medium-length label for the Real Estate asset class."
+  },
+  "assetClassMediumRest": "Rest",
+  "@assetClassMediumRest": {
+    "description": "Medium-length label for the synthetic 'Rest' asset-class bucket (allocations collapsed beyond the top 3)."
+  },
+  "assetClassMediumStructuredProducts": "Str. Prod.",
+  "@assetClassMediumStructuredProducts": {
+    "description": "Medium-length label for the Structured Products asset class."
+  },
+  "assetClassShortAlternativeInvestment": "Alt. Invest.",
+  "@assetClassShortAlternativeInvestment": {
+    "description": "Short abbreviation for the Alternative Investment asset class."
+  },
+  "assetClassShortAlts": "Alt",
+  "@assetClassShortAlts": {
+    "description": "Short abbreviation for the Alts asset class."
+  },
+  "assetClassShortAnnuities": "Annty.",
+  "@assetClassShortAnnuities": {
+    "description": "Short abbreviation for the Annuities asset class."
+  },
+  "assetClassShortBonds": "Bonds",
+  "@assetClassShortBonds": {
+    "description": "Short abbreviation for the Bonds asset class."
+  },
+  "assetClassShortCash": "Cash",
+  "@assetClassShortCash": {
+    "description": "Short abbreviation for the Cash asset class."
+  },
+  "assetClassShortDebentures": "Dbnt",
+  "@assetClassShortDebentures": {
+    "description": "Short abbreviation for the Debentures asset class."
+  },
+  "assetClassShortDerivatives": "Deriv.",
+  "@assetClassShortDerivatives": {
+    "description": "Short abbreviation for the Derivatives asset class."
+  },
+  "assetClassShortEquity": "Eq",
+  "@assetClassShortEquity": {
+    "description": "Short abbreviation for the Equity asset class."
+  },
+  "assetClassShortFixedIncome": "FI",
+  "@assetClassShortFixedIncome": {
+    "description": "Short abbreviation for the Fixed Income asset class."
+  },
+  "assetClassShortMutualFunds": "MF",
+  "@assetClassShortMutualFunds": {
+    "description": "Short abbreviation for the Mutual Funds asset class."
+  },
+  "assetClassShortOthers": "Other",
+  "@assetClassShortOthers": {
+    "description": "Short abbreviation for the 'Others' asset class."
+  },
+  "assetClassShortRealEstate": "RE",
+  "@assetClassShortRealEstate": {
+    "description": "Short abbreviation for the Real Estate asset class."
+  },
+  "assetClassShortRest": "Rest",
+  "@assetClassShortRest": {
+    "description": "Short abbreviation for the synthetic 'Rest' asset-class bucket (allocations collapsed beyond the top 3)."
+  },
+  "assetClassShortStructuredProducts": "Str. Prod.",
+  "@assetClassShortStructuredProducts": {
+    "description": "Short abbreviation for the Structured Products asset class."
+  },
+  "commonButtonChange": "Change",
+  "@commonButtonChange": {},
+  "commonSortBy": "Sort By",
+  "@commonSortBy": {
+    "description": "Heading label displayed at the top of the sort options popup menu."
+  },
+  "historyChartBreadcrumbSeparator": " > ",
+  "@historyChartBreadcrumbSeparator": {
+    "description": "Separator between the filter chip label and the drilled-into month name in the change row breadcrumb, e.g. \"YTD > Mar\"."
+  },
+  "historyChartChangeRowSeparator": " • ",
+  "@historyChartChangeRowSeparator": {
+    "description": "Separator between the amount, filter label, and mode label in the commission chart's change row, e.g. \"$3,402 • YTD • Absolute\" — used in both value modes."
+  },
+  "historyChartCommissionDataAsOf": "ⓘ This chart is based on data as of {date}. YTD commission amounts are tentative and subject to pending validation.",
+  "@historyChartCommissionDataAsOf": {
+    "description": "Footnote below the commission chart, showing the most recent data point's date and the pending-validation disclaimer.",
+    "placeholders": {
+      "date": {
+        "type": "String"
+      }
+    }
+  },
+  "historyChartDataAsOf": "ⓘ This chart is based on data as of {date}.",
+  "@historyChartDataAsOf": {
+    "description": "Footnote below the AUM and commission charts, showing the most recent data point's date.",
+    "placeholders": {
+      "date": {
+        "type": "String"
+      }
+    }
+  },
+  "riskProfileConservative": "Conservative",
+  "@riskProfileConservative": {
+    "description": "Risk-profile badge label for the lowest tier of the Conservative to Significant Risk scale."
+  },
+  "riskProfileGrowth": "Growth",
+  "@riskProfileGrowth": {
+    "description": "Risk-profile badge label for the Growth mandate, which sits outside both severity scales."
+  },
+  "riskProfileHighRisk": "High Risk",
+  "@riskProfileHighRisk": {
+    "description": "Risk-profile badge label for the second-highest tier of the Low/Moderate/High/Speculative scale."
+  },
+  "riskProfileLowRisk": "Low Risk",
+  "@riskProfileLowRisk": {
+    "description": "Risk-profile badge label for the lowest tier of the Low/Moderate/High/Speculative scale."
+  },
+  "riskProfileModerate": "Moderate",
+  "@riskProfileModerate": {
+    "description": "Risk-profile badge label for the middle tier of the Conservative to Significant Risk scale."
+  },
+  "riskProfileModerateRisk": "Moderate Risk",
+  "@riskProfileModerateRisk": {
+    "description": "Risk-profile badge label for the middle tier of the Low/Moderate/High/Speculative scale."
+  },
+  "riskProfileModeratelyAggressive": "Moderately Aggressive",
+  "@riskProfileModeratelyAggressive": {
+    "description": "Risk-profile badge label for the second-highest tier of the Conservative to Significant Risk scale."
+  },
+  "riskProfileModeratelyConservative": "Moderately Conservative",
+  "@riskProfileModeratelyConservative": {
+    "description": "Risk-profile badge label for the second-lowest tier of the Conservative to Significant Risk scale."
+  },
+  "riskProfileSignificantRisk": "Significant Risk",
+  "@riskProfileSignificantRisk": {
+    "description": "Risk-profile badge label for the highest tier of the Conservative to Significant Risk scale."
+  },
+  "riskProfileSpeculative": "Speculative",
+  "@riskProfileSpeculative": {
+    "description": "Risk-profile badge label for the highest tier of the Low/Moderate/High/Speculative scale."
   }
 }

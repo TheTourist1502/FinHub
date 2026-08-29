@@ -9,8 +9,12 @@ environment:
   sdk: ^3.11.5
 
 dependencies:
+  # Avatar and client photo loading with a disk cache.
+  cached_network_image: ^3.4.1
   # Document attachment on service-request forms.
   file_picker: ^9.0.0
+  # Line and donut chart rendering for the AUM history and allocation views.
+  fl_chart: ^1.2.0
   flutter:
     sdk: flutter
   flutter_localizations:

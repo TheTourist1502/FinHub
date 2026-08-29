@@ -608,6 +608,378 @@ abstract class AppLocalizations {
   /// In en, this message translates to:
   /// **'Rejected'**
   String get statusRejected;
+
+  /// Footnote below every asset-allocation donut chart, explaining the rounding applied to values and percentages.
+  ///
+  /// In en, this message translates to:
+  /// **'ⓘ Values are rounded to two decimal places and percentages to one decimal place.'**
+  String get allocationChartRoundingNote;
+
+  /// Label above the asset-allocation segmented bar on household and account cards.
+  ///
+  /// In en, this message translates to:
+  /// **'Asset Allocation'**
+  String get assetAllocationLabel;
+
+  /// Full-length label for the Alternative Investment asset class.
+  ///
+  /// In en, this message translates to:
+  /// **'Alternative Investment'**
+  String get assetClassLongAlternativeInvestment;
+
+  /// Full-length label for the Alternative Investments (plural) asset class.
+  ///
+  /// In en, this message translates to:
+  /// **'Alternative Investments'**
+  String get assetClassLongAlternativeInvestments;
+
+  /// Full-length label for the Alts asset class.
+  ///
+  /// In en, this message translates to:
+  /// **'Alternatives'**
+  String get assetClassLongAlts;
+
+  /// Full-length label for the Annuities asset class.
+  ///
+  /// In en, this message translates to:
+  /// **'Annuities'**
+  String get assetClassLongAnnuities;
+
+  /// Full-length label for the Bonds asset class.
+  ///
+  /// In en, this message translates to:
+  /// **'Bonds'**
+  String get assetClassLongBonds;
+
+  /// Full-length label for the Cash asset class.
+  ///
+  /// In en, this message translates to:
+  /// **'Cash & Cash Equivalent'**
+  String get assetClassLongCash;
+
+  /// Full-length label for the Debentures asset class.
+  ///
+  /// In en, this message translates to:
+  /// **'Debentures'**
+  String get assetClassLongDebentures;
+
+  /// Full-length label for the Derivatives asset class.
+  ///
+  /// In en, this message translates to:
+  /// **'Derivatives'**
+  String get assetClassLongDerivatives;
+
+  /// Full-length label for the Equity asset class.
+  ///
+  /// In en, this message translates to:
+  /// **'Equity'**
+  String get assetClassLongEquity;
+
+  /// Full-length label for the Fixed Income asset class.
+  ///
+  /// In en, this message translates to:
+  /// **'Fixed Income'**
+  String get assetClassLongFixedIncome;
+
+  /// Full-length label for the Mutual Funds asset class.
+  ///
+  /// In en, this message translates to:
+  /// **'Mutual Funds'**
+  String get assetClassLongMutualFunds;
+
+  /// Full-length label for the 'Others' asset class.
+  ///
+  /// In en, this message translates to:
+  /// **'Others'**
+  String get assetClassLongOthers;
+
+  /// Full-length label for the Real Estate asset class.
+  ///
+  /// In en, this message translates to:
+  /// **'Real Estate'**
+  String get assetClassLongRealEstate;
+
+  /// Full-length label for the synthetic 'Rest' asset-class bucket (allocations collapsed beyond the top 3).
+  ///
+  /// In en, this message translates to:
+  /// **'Rest'**
+  String get assetClassLongRest;
+
+  /// Full-length label for the Structured Products asset class.
+  ///
+  /// In en, this message translates to:
+  /// **'Structured Products'**
+  String get assetClassLongStructuredProducts;
+
+  /// Medium-length label for the Alternative Investment asset class.
+  ///
+  /// In en, this message translates to:
+  /// **'Alt. Inv.'**
+  String get assetClassMediumAlternativeInvestment;
+
+  /// Medium-length label for the Alternative Investments (plural) asset class.
+  ///
+  /// In en, this message translates to:
+  /// **'Alt. Invs.'**
+  String get assetClassMediumAlternativeInvestments;
+
+  /// Medium-length label for the Alts asset class.
+  ///
+  /// In en, this message translates to:
+  /// **'Alt'**
+  String get assetClassMediumAlts;
+
+  /// Medium-length label for the Annuities asset class.
+  ///
+  /// In en, this message translates to:
+  /// **'Annuities'**
+  String get assetClassMediumAnnuities;
+
+  /// Medium-length label for the Bonds asset class.
+  ///
+  /// In en, this message translates to:
+  /// **'Bonds'**
+  String get assetClassMediumBonds;
+
+  /// Medium-length label for the Cash asset class.
+  ///
+  /// In en, this message translates to:
+  /// **'Cash'**
+  String get assetClassMediumCash;
+
+  /// Medium-length label for the Debentures asset class.
+  ///
+  /// In en, this message translates to:
+  /// **'Debentures'**
+  String get assetClassMediumDebentures;
+
+  /// Medium-length label for the Derivatives asset class.
+  ///
+  /// In en, this message translates to:
+  /// **'Derivatives'**
+  String get assetClassMediumDerivatives;
+
+  /// Medium-length label for the Equity asset class.
+  ///
+  /// In en, this message translates to:
+  /// **'Equity'**
+  String get assetClassMediumEquity;
+
+  /// Medium-length label for the Fixed Income asset class.
+  ///
+  /// In en, this message translates to:
+  /// **'Fixed Inc.'**
+  String get assetClassMediumFixedIncome;
+
+  /// Medium-length label for the Mutual Funds asset class.
+  ///
+  /// In en, this message translates to:
+  /// **'Mutual Funds'**
+  String get assetClassMediumMutualFunds;
+
+  /// Medium-length label for the 'Others' asset class.
+  ///
+  /// In en, this message translates to:
+  /// **'Others'**
+  String get assetClassMediumOthers;
+
+  /// Medium-length label for the Real Estate asset class.
+  ///
+  /// In en, this message translates to:
+  /// **'Real Est.'**
+  String get assetClassMediumRealEstate;
+
+  /// Medium-length label for the synthetic 'Rest' asset-class bucket (allocations collapsed beyond the top 3).
+  ///
+  /// In en, this message translates to:
+  /// **'Rest'**
+  String get assetClassMediumRest;
+
+  /// Medium-length label for the Structured Products asset class.
+  ///
+  /// In en, this message translates to:
+  /// **'Str. Prod.'**
+  String get assetClassMediumStructuredProducts;
+
+  /// Short abbreviation for the Alternative Investment asset class.
+  ///
+  /// In en, this message translates to:
+  /// **'Alt. Invest.'**
+  String get assetClassShortAlternativeInvestment;
+
+  /// Short abbreviation for the Alts asset class.
+  ///
+  /// In en, this message translates to:
+  /// **'Alt'**
+  String get assetClassShortAlts;
+
+  /// Short abbreviation for the Annuities asset class.
+  ///
+  /// In en, this message translates to:
+  /// **'Annty.'**
+  String get assetClassShortAnnuities;
+
+  /// Short abbreviation for the Bonds asset class.
+  ///
+  /// In en, this message translates to:
+  /// **'Bonds'**
+  String get assetClassShortBonds;
+
+  /// Short abbreviation for the Cash asset class.
+  ///
+  /// In en, this message translates to:
+  /// **'Cash'**
+  String get assetClassShortCash;
+
+  /// Short abbreviation for the Debentures asset class.
+  ///
+  /// In en, this message translates to:
+  /// **'Dbnt'**
+  String get assetClassShortDebentures;
+
+  /// Short abbreviation for the Derivatives asset class.
+  ///
+  /// In en, this message translates to:
+  /// **'Deriv.'**
+  String get assetClassShortDerivatives;
+
+  /// Short abbreviation for the Equity asset class.
+  ///
+  /// In en, this message translates to:
+  /// **'Eq'**
+  String get assetClassShortEquity;
+
+  /// Short abbreviation for the Fixed Income asset class.
+  ///
+  /// In en, this message translates to:
+  /// **'FI'**
+  String get assetClassShortFixedIncome;
+
+  /// Short abbreviation for the Mutual Funds asset class.
+  ///
+  /// In en, this message translates to:
+  /// **'MF'**
+  String get assetClassShortMutualFunds;
+
+  /// Short abbreviation for the 'Others' asset class.
+  ///
+  /// In en, this message translates to:
+  /// **'Other'**
+  String get assetClassShortOthers;
+
+  /// Short abbreviation for the Real Estate asset class.
+  ///
+  /// In en, this message translates to:
+  /// **'RE'**
+  String get assetClassShortRealEstate;
+
+  /// Short abbreviation for the synthetic 'Rest' asset-class bucket (allocations collapsed beyond the top 3).
+  ///
+  /// In en, this message translates to:
+  /// **'Rest'**
+  String get assetClassShortRest;
+
+  /// Short abbreviation for the Structured Products asset class.
+  ///
+  /// In en, this message translates to:
+  /// **'Str. Prod.'**
+  String get assetClassShortStructuredProducts;
+
+  /// No description provided for @commonButtonChange.
+  ///
+  /// In en, this message translates to:
+  /// **'Change'**
+  String get commonButtonChange;
+
+  /// Heading label displayed at the top of the sort options popup menu.
+  ///
+  /// In en, this message translates to:
+  /// **'Sort By'**
+  String get commonSortBy;
+
+  /// Separator between the filter chip label and the drilled-into month name in the change row breadcrumb, e.g. "YTD > Mar".
+  ///
+  /// In en, this message translates to:
+  /// **' > '**
+  String get historyChartBreadcrumbSeparator;
+
+  /// Separator between the amount, filter label, and mode label in the commission chart's change row, e.g. "$3,402 • YTD • Absolute" — used in both value modes.
+  ///
+  /// In en, this message translates to:
+  /// **' • '**
+  String get historyChartChangeRowSeparator;
+
+  /// Footnote below the commission chart, showing the most recent data point's date and the pending-validation disclaimer.
+  ///
+  /// In en, this message translates to:
+  /// **'ⓘ This chart is based on data as of {date}. YTD commission amounts are tentative and subject to pending validation.'**
+  String historyChartCommissionDataAsOf(String date);
+
+  /// Footnote below the AUM and commission charts, showing the most recent data point's date.
+  ///
+  /// In en, this message translates to:
+  /// **'ⓘ This chart is based on data as of {date}.'**
+  String historyChartDataAsOf(String date);
+
+  /// Risk-profile badge label for the lowest tier of the Conservative to Significant Risk scale.
+  ///
+  /// In en, this message translates to:
+  /// **'Conservative'**
+  String get riskProfileConservative;
+
+  /// Risk-profile badge label for the Growth mandate, which sits outside both severity scales.
+  ///
+  /// In en, this message translates to:
+  /// **'Growth'**
+  String get riskProfileGrowth;
+
+  /// Risk-profile badge label for the second-highest tier of the Low/Moderate/High/Speculative scale.
+  ///
+  /// In en, this message translates to:
+  /// **'High Risk'**
+  String get riskProfileHighRisk;
+
+  /// Risk-profile badge label for the lowest tier of the Low/Moderate/High/Speculative scale.
+  ///
+  /// In en, this message translates to:
+  /// **'Low Risk'**
+  String get riskProfileLowRisk;
+
+  /// Risk-profile badge label for the middle tier of the Conservative to Significant Risk scale.
+  ///
+  /// In en, this message translates to:
+  /// **'Moderate'**
+  String get riskProfileModerate;
+
+  /// Risk-profile badge label for the middle tier of the Low/Moderate/High/Speculative scale.
+  ///
+  /// In en, this message translates to:
+  /// **'Moderate Risk'**
+  String get riskProfileModerateRisk;
+
+  /// Risk-profile badge label for the second-highest tier of the Conservative to Significant Risk scale.
+  ///
+  /// In en, this message translates to:
+  /// **'Moderately Aggressive'**
+  String get riskProfileModeratelyAggressive;
+
+  /// Risk-profile badge label for the second-lowest tier of the Conservative to Significant Risk scale.
+  ///
+  /// In en, this message translates to:
+  /// **'Moderately Conservative'**
+  String get riskProfileModeratelyConservative;
+
+  /// Risk-profile badge label for the highest tier of the Conservative to Significant Risk scale.
+  ///
+  /// In en, this message translates to:
+  /// **'Significant Risk'**
+  String get riskProfileSignificantRisk;
+
+  /// Risk-profile badge label for the highest tier of the Low/Moderate/High/Speculative scale.
+  ///
+  /// In en, this message translates to:
+  /// **'Speculative'**
+  String get riskProfileSpeculative;
 }
 
 class _AppLocalizationsDelegate extends LocalizationsDelegate<AppLocalizations> {
