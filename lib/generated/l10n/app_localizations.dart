@@ -1190,6 +1190,60 @@ abstract class AppLocalizations {
   /// In en, this message translates to:
   /// **'Transactions History'**
   String get viewTransactionsTitle;
+
+  /// Header label above the accounts list showing the total count. Pluralised only when the count is greater than 1.
+  ///
+  /// In en, this message translates to:
+  /// **'{count, plural, =0{ALL ACCOUNT ({count})} =1{ALL ACCOUNT ({count})} other{ALL ACCOUNTS ({count})}}'**
+  String accountsAllLabel(int count);
+
+  /// Custodian label shown on an account card.
+  ///
+  /// In en, this message translates to:
+  /// **'Custodian : {name}'**
+  String accountsCustodianLabel(String name);
+
+  /// Filter chip label to show all accounts (no type filter).
+  ///
+  /// In en, this message translates to:
+  /// **'All'**
+  String get accountsFilterAll;
+
+  /// Filter chip label to show only accounts linked to a household.
+  ///
+  /// In en, this message translates to:
+  /// **'Household-linked'**
+  String get accountsFilterHouseholdLinked;
+
+  /// Filter chip label to show only standalone accounts (not linked to any household).
+  ///
+  /// In en, this message translates to:
+  /// **'Standalone'**
+  String get accountsFilterStandalone;
+
+  /// Account Number label shown on an account card.
+  ///
+  /// In en, this message translates to:
+  /// **'Account Number : {number}'**
+  String accountsIdLabel(String number);
+
+  /// Inline error shown when fetching the next account page fails.
+  ///
+  /// In en, this message translates to:
+  /// **'Failed to load more accounts'**
+  String get accountsPaginationError;
+
+  /// Short label for the name sort field.
+  ///
+  /// In en, this message translates to:
+  /// **'Name'**
+  String get commonName;
+
+  /// Link button label for asset allocation details.
+  ///
+  /// In en, this message translates to:
+  /// **'View Details'**
+  String get dashboardViewDetails;
 }
 
 class _AppLocalizationsDelegate extends LocalizationsDelegate<AppLocalizations> {

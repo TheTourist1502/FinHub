@@ -601,4 +601,44 @@ class AppLocalizationsEn extends AppLocalizations {
 
   @override
   String get viewTransactionsTitle => 'Transactions History';
+
+  @override
+  String accountsAllLabel(int count) {
+    String _temp0 = intl.Intl.pluralLogic(
+      count,
+      locale: localeName,
+      other: 'ALL ACCOUNTS ($count)',
+      one: 'ALL ACCOUNT ($count)',
+      zero: 'ALL ACCOUNT ($count)',
+    );
+    return '$_temp0';
+  }
+
+  @override
+  String accountsCustodianLabel(String name) {
+    return 'Custodian : $name';
+  }
+
+  @override
+  String get accountsFilterAll => 'All';
+
+  @override
+  String get accountsFilterHouseholdLinked => 'Household-linked';
+
+  @override
+  String get accountsFilterStandalone => 'Standalone';
+
+  @override
+  String accountsIdLabel(String number) {
+    return 'Account Number : $number';
+  }
+
+  @override
+  String get accountsPaginationError => 'Failed to load more accounts';
+
+  @override
+  String get commonName => 'Name';
+
+  @override
+  String get dashboardViewDetails => 'View Details';
 }

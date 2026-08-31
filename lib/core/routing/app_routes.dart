@@ -52,6 +52,9 @@ abstract final class AppRoutes {
   /// The advisor's account list, reachable from a dashboard quick action.
   static const String accounts = '/accounts';
 
+  /// A single account's detail, pushed from an account card.
+  static const String accountDetailView = '/accounts/detailed-account-view/:accountId';
+
   /// The task dashboard, reachable from a dashboard quick action.
   static const String taskDashboard = '/task-dashboard';
 

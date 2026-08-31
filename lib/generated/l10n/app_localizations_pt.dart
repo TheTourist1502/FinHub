@@ -601,6 +601,46 @@ class AppLocalizationsPt extends AppLocalizations {
 
   @override
   String get viewTransactionsTitle => 'Histórico de Transações';
+
+  @override
+  String accountsAllLabel(int count) {
+    String _temp0 = intl.Intl.pluralLogic(
+      count,
+      locale: localeName,
+      other: 'TODAS AS CONTAS ($count)',
+      one: 'TODA A CONTA ($count)',
+      zero: 'TODA A CONTA ($count)',
+    );
+    return '$_temp0';
+  }
+
+  @override
+  String accountsCustodianLabel(String name) {
+    return 'Custodiante : $name';
+  }
+
+  @override
+  String get accountsFilterAll => 'Todos';
+
+  @override
+  String get accountsFilterHouseholdLinked => 'Vinculado à família';
+
+  @override
+  String get accountsFilterStandalone => 'Independente';
+
+  @override
+  String accountsIdLabel(String number) {
+    return 'Número da conta : $number';
+  }
+
+  @override
+  String get accountsPaginationError => 'Falha ao carregar mais contas';
+
+  @override
+  String get commonName => 'Nome';
+
+  @override
+  String get dashboardViewDetails => 'Ver detalhes';
 }
 
 /// The translations for Portuguese, as used in Brazil (`pt_BR`).
@@ -1200,4 +1240,44 @@ class AppLocalizationsPtBr extends AppLocalizationsPt {
 
   @override
   String get viewTransactionsTitle => 'Histórico de Transações';
+
+  @override
+  String accountsAllLabel(int count) {
+    String _temp0 = intl.Intl.pluralLogic(
+      count,
+      locale: localeName,
+      other: 'TODAS AS CONTAS ($count)',
+      one: 'TODA A CONTA ($count)',
+      zero: 'TODA A CONTA ($count)',
+    );
+    return '$_temp0';
+  }
+
+  @override
+  String accountsCustodianLabel(String name) {
+    return 'Custodiante : $name';
+  }
+
+  @override
+  String get accountsFilterAll => 'Todos';
+
+  @override
+  String get accountsFilterHouseholdLinked => 'Vinculado à família';
+
+  @override
+  String get accountsFilterStandalone => 'Independente';
+
+  @override
+  String accountsIdLabel(String number) {
+    return 'Número da conta : $number';
+  }
+
+  @override
+  String get accountsPaginationError => 'Falha ao carregar mais contas';
+
+  @override
+  String get commonName => 'Nome';
+
+  @override
+  String get dashboardViewDetails => 'Ver detalhes';
 }

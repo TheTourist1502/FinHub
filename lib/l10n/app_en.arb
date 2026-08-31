@@ -839,5 +839,59 @@
   "viewTransactionsTitle": "Transactions History",
   "@viewTransactionsTitle": {
     "description": "AppBar title for the full-screen transaction history screen."
+  },
+  "accountsAllLabel": "{count, plural, =0{ALL ACCOUNT ({count})} =1{ALL ACCOUNT ({count})} other{ALL ACCOUNTS ({count})}}",
+  "@accountsAllLabel": {
+    "description": "Header label above the accounts list showing the total count. Pluralised only when the count is greater than 1.",
+    "placeholders": {
+      "count": {
+        "type": "int",
+        "example": "24"
+      }
+    }
+  },
+  "accountsCustodianLabel": "Custodian : {name}",
+  "@accountsCustodianLabel": {
+    "description": "Custodian label shown on an account card.",
+    "placeholders": {
+      "name": {
+        "type": "String",
+        "example": "PERSHING"
+      }
+    }
+  },
+  "accountsFilterAll": "All",
+  "@accountsFilterAll": {
+    "description": "Filter chip label to show all accounts (no type filter)."
+  },
+  "accountsFilterHouseholdLinked": "Household-linked",
+  "@accountsFilterHouseholdLinked": {
+    "description": "Filter chip label to show only accounts linked to a household."
+  },
+  "accountsFilterStandalone": "Standalone",
+  "@accountsFilterStandalone": {
+    "description": "Filter chip label to show only standalone accounts (not linked to any household)."
+  },
+  "accountsIdLabel": "Account Number : {number}",
+  "@accountsIdLabel": {
+    "description": "Account Number label shown on an account card.",
+    "placeholders": {
+      "number": {
+        "type": "String",
+        "example": "ACC-00123"
+      }
+    }
+  },
+  "accountsPaginationError": "Failed to load more accounts",
+  "@accountsPaginationError": {
+    "description": "Inline error shown when fetching the next account page fails."
+  },
+  "commonName": "Name",
+  "@commonName": {
+    "description": "Short label for the name sort field."
+  },
+  "dashboardViewDetails": "View Details",
+  "@dashboardViewDetails": {
+    "description": "Link button label for asset allocation details."
   }
 }

@@ -1,5 +1,6 @@
 import 'dart:convert';
 
+import 'package:flutter/foundation.dart' show visibleForTesting;
 import 'package:flutter/services.dart' show rootBundle;
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 
@@ -28,6 +29,11 @@ class MockDataSource {
   /// container along with this map.
   final Map<String, Map<String, dynamic>> _edits = {};
 
+  /// Injects [file] as the already-decoded contents of [path], so a test can
+  /// exercise the scoping and envelope rules without an asset bundle.
+  @visibleForTesting
+  void seedForTest(String path, Map<String, dynamic> file) => _cache[path] = file;
+
   /// Reads a whole fixture, e.g. `auth/users.json`.
   Future<Map<String, dynamic>> read(String path) async {
     final cached = _cache[path];
@@ -49,11 +55,16 @@ class MockDataSource {
 
   /// Reads the list in [path] keyed by [key], falling back to `default`.
   ///
+  /// Accepts both fixture shapes: a bare JSON array, and the page envelope
+  /// `{data, nextCursor, totalCount}` the paged list endpoints returned. A
+  /// caller that needs the cursor reads the envelope itself with [readScoped].
+  ///
   /// Returns an empty list when neither is present — an advisor with no rows
   /// is an ordinary empty state, not an error.
   Future<List<Map<String, dynamic>>> listScoped(String path, String? key) async {
     final file = await read(path);
-    final rows = (key == null ? null : file[key]) ?? file['default'];
+    final record = (key == null ? null : file[key]) ?? file['default'];
+    final rows = record is Map<String, dynamic> ? record['data'] : record;
     if (rows is! List) return const [];
     return rows.cast<Map<String, dynamic>>();
   }
@@ -65,4 +76,43 @@ class MockDataSource {
 
   /// Records an in-app edit to [path] for the rest of the session.
   void saveEditable(String path, Map<String, dynamic> data) => _edits[path] = data;
+}
+// ---------------------------------------------------------------------------
+// List helpers — the filtering the list endpoints used to do server-side
+// ---------------------------------------------------------------------------
+
+/// Filters [rows] to those [keep] accepts.
+List<Map<String, dynamic>> filterRows(
+  List<Map<String, dynamic>> rows,
+  bool Function(Map<String, dynamic>) keep,
+) => rows.where(keep).toList();
+
+/// Applies a case-insensitive substring search over [fields].
+List<Map<String, dynamic>> searchRows(
+  List<Map<String, dynamic>> rows,
+  String? search,
+  List<String> fields,
+) {
+  if (search == null || search.trim().isEmpty) return rows;
+  final needle = search.trim().toLowerCase();
+  return filterRows(
+    rows,
+    (row) => fields.any((field) => '${row[field] ?? ''}'.toLowerCase().contains(needle)),
+  );
+}
+
+/// Sorts [rows] by [field], numerically when both values are numbers and
+/// alphabetically otherwise. Descending unless [ascending] is true.
+List<Map<String, dynamic>> sortRows(
+  List<Map<String, dynamic>> rows,
+  String field, {
+  required bool ascending,
+}) {
+  final sorted = [...rows]..sort((a, b) {
+    final left = a[field];
+    final right = b[field];
+    if (left is num && right is num) return left.compareTo(right);
+    return '$left'.toLowerCase().compareTo('$right'.toLowerCase());
+  });
+  return ascending ? sorted : sorted.reversed.toList();
 }

@@ -182,5 +182,14 @@
   "transactionTypeNonTrade": "Sin Operación",
   "viewTransactionsTypeBuy": "Compra",
   "viewTransactionsTypeSell": "Venta",
-  "viewTransactionsTitle": "Historial de Transacciones"
+  "viewTransactionsTitle": "Historial de Transacciones",
+  "accountsAllLabel": "{count, plural, =0{TODA LA CUENTA ({count})} =1{TODA LA CUENTA ({count})} other{TODAS LAS CUENTAS ({count})}}",
+  "accountsCustodianLabel": "Custodio : {name}",
+  "accountsFilterAll": "Todos",
+  "accountsFilterHouseholdLinked": "Vinculado al hogar",
+  "accountsFilterStandalone": "Independiente",
+  "accountsIdLabel": "Número de cuenta : {number}",
+  "accountsPaginationError": "No se pudieron cargar más cuentas",
+  "commonName": "Nombre",
+  "dashboardViewDetails": "Ver Detalles"
 }
