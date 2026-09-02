@@ -1244,6 +1244,246 @@ abstract class AppLocalizations {
   /// In en, this message translates to:
   /// **'View Details'**
   String get dashboardViewDetails;
+
+  /// Account number label on the account detail top card.
+  ///
+  /// In en, this message translates to:
+  /// **'Account: {number}'**
+  String accountDetailAccountNumberLabel(String number);
+
+  /// Header showing total position count on the Positions tab. Pluralised only when the count is greater than 1.
+  ///
+  /// In en, this message translates to:
+  /// **'{count, plural, =0{ALL HOLDING ({count})} =1{ALL HOLDING ({count})} other{ALL HOLDINGS ({count})}}'**
+  String accountDetailAllHoldings(int count);
+
+  /// Header above the transaction list on the Transactions tab.
+  ///
+  /// In en, this message translates to:
+  /// **'Last 30 Transactions'**
+  String get accountDetailAllTransactionsHeader;
+
+  /// Section heading for the asset allocation donut chart on the account detail screen.
+  ///
+  /// In en, this message translates to:
+  /// **'Asset Allocation'**
+  String get accountDetailAssetAllocation;
+
+  /// Section header for the AUM trend chart in the Overview tab.
+  ///
+  /// In en, this message translates to:
+  /// **'AUM Trend'**
+  String get accountDetailAumTrend;
+
+  /// Empty-state message shown in place of the AUM trend chart when no history is available.
+  ///
+  /// In en, this message translates to:
+  /// **'No AUM trend data yet'**
+  String get accountDetailAumTrendEmpty;
+
+  /// Period label shown next to the hero value on the account detail and household detail top cards.
+  ///
+  /// In en, this message translates to:
+  /// **'YTD'**
+  String get accountDetailHeroYtdLabel;
+
+  /// Section heading for the latest activity list on the Overview tab.
+  ///
+  /// In en, this message translates to:
+  /// **'Latest Activity'**
+  String get accountDetailLatestActivity;
+
+  /// Section heading for the holdings/positions table on the account detail screen.
+  ///
+  /// In en, this message translates to:
+  /// **'Positions'**
+  String get accountDetailPositions;
+
+  /// Empty-state message on the Positions tab when the selected asset-class filter matches no holdings.
+  ///
+  /// In en, this message translates to:
+  /// **'No holdings in this asset class'**
+  String get accountDetailPositionsEmptyFilter;
+
+  /// Filter chip label on the Positions tab that clears the asset-class filter.
+  ///
+  /// In en, this message translates to:
+  /// **'All Asset Classes'**
+  String get accountDetailPositionsFilterAll;
+
+  /// Label preceding the risk-profile badge on the account detail top card.
+  ///
+  /// In en, this message translates to:
+  /// **'Risk Profile:'**
+  String get accountDetailRiskProfileLabel;
+
+  /// AppBar label on the account detail screen.
+  ///
+  /// In en, this message translates to:
+  /// **'Account Details'**
+  String get accountDetailScreenTitle;
+
+  /// Label for the Overview tab on the account detail screen.
+  ///
+  /// In en, this message translates to:
+  /// **'Overview'**
+  String get accountDetailTabOverview;
+
+  /// Label for the Transactions tab on the account detail screen.
+  ///
+  /// In en, this message translates to:
+  /// **'Transactions'**
+  String get accountDetailTabTransactions;
+
+  /// Date group header label for today's transactions on the Transactions tab.
+  ///
+  /// In en, this message translates to:
+  /// **'TODAY'**
+  String get accountDetailToday;
+
+  /// Empty-state message on the Transactions tab when a search query returns no results.
+  ///
+  /// In en, this message translates to:
+  /// **'No transactions match your search'**
+  String get accountDetailTransactionsEmptySearch;
+
+  /// Placeholder text in the search field on the Transactions tab.
+  ///
+  /// In en, this message translates to:
+  /// **'Search'**
+  String get accountDetailTransactionsSearchHint;
+
+  /// Short popup label for amount sort option.
+  ///
+  /// In en, this message translates to:
+  /// **'Amount'**
+  String get commonAmount;
+
+  /// Short popup label for date sort option.
+  ///
+  /// In en, this message translates to:
+  /// **'Date'**
+  String get commonDate;
+
+  /// Short label for the market value sort field.
+  ///
+  /// In en, this message translates to:
+  /// **'Value'**
+  String get commonValue;
+
+  /// Filter chip label to show every transaction type.
+  ///
+  /// In en, this message translates to:
+  /// **'All Transactions'**
+  String get transactionFilterAllTransactions;
+
+  /// Filter chip label to show only non-trade transactions (everything other than BUY and SELL).
+  ///
+  /// In en, this message translates to:
+  /// **'Non-Trade'**
+  String get transactionFilterNonTrade;
+
+  /// Filter chip label to show only trades (BUY and SELL transactions).
+  ///
+  /// In en, this message translates to:
+  /// **'Trade'**
+  String get transactionFilterTrade;
+
+  /// Unit price label on a transaction card (no share suffix).
+  ///
+  /// In en, this message translates to:
+  /// **'Price: {price}'**
+  String transactionPrice(String price);
+
+  /// Asset class label on a transaction history card.
+  ///
+  /// In en, this message translates to:
+  /// **'Asset Class: {assetClass}'**
+  String viewTransactionsAssetClass(String assetClass);
+
+  /// Description label on a transaction card, shown in place of the type badge when the transaction has no type.
+  ///
+  /// In en, this message translates to:
+  /// **'Description: {description}'**
+  String viewTransactionsDescription(String description);
+
+  /// Close button label on the transaction detail bottom sheet.
+  ///
+  /// In en, this message translates to:
+  /// **'Close'**
+  String get viewTransactionsDetailClose;
+
+  /// Transaction amount field label in the transaction detail bottom sheet.
+  ///
+  /// In en, this message translates to:
+  /// **'Transaction Amount'**
+  String get viewTransactionsDetailLabelAmount;
+
+  /// Asset class field label in the transaction detail bottom sheet.
+  ///
+  /// In en, this message translates to:
+  /// **'Asset Class'**
+  String get viewTransactionsDetailLabelAssetClass;
+
+  /// Transaction date field label in the transaction detail bottom sheet.
+  ///
+  /// In en, this message translates to:
+  /// **'Transaction Date'**
+  String get viewTransactionsDetailLabelDate;
+
+  /// Row label for the transaction description in the transaction detail bottom sheet.
+  ///
+  /// In en, this message translates to:
+  /// **'Description'**
+  String get viewTransactionsDetailLabelDescription;
+
+  /// Per-unit share price field label in the transaction detail bottom sheet.
+  ///
+  /// In en, this message translates to:
+  /// **'Price Per Unit'**
+  String get viewTransactionsDetailLabelPricePerUnit;
+
+  /// Quantity field label in the transaction detail bottom sheet.
+  ///
+  /// In en, this message translates to:
+  /// **'Quantity'**
+  String get viewTransactionsDetailLabelQuantity;
+
+  /// Section header for the additional details fields in the transaction detail bottom sheet.
+  ///
+  /// In en, this message translates to:
+  /// **'Additional Details'**
+  String get viewTransactionsDetailLabelTradeDetails;
+
+  /// Trade ID field label in the transaction detail bottom sheet.
+  ///
+  /// In en, this message translates to:
+  /// **'Trade ID'**
+  String get viewTransactionsDetailLabelTradeId;
+
+  /// Title of the transaction detail bottom sheet.
+  ///
+  /// In en, this message translates to:
+  /// **'Transaction Details'**
+  String get viewTransactionsDetailTitle;
+
+  /// Quantity label on a transaction history card.
+  ///
+  /// In en, this message translates to:
+  /// **'Quantity: {qty}'**
+  String viewTransactionsQuantity(double qty);
+
+  /// Abbreviated form of viewTransactionsQuantity, used only when the full wording would wrap to a second line.
+  ///
+  /// In en, this message translates to:
+  /// **'Qty: {qty}'**
+  String viewTransactionsQuantityShort(double qty);
+
+  /// View Details button label on a transaction history card.
+  ///
+  /// In en, this message translates to:
+  /// **'View Details'**
+  String get viewTransactionsViewDetails;
 }
 
 class _AppLocalizationsDelegate extends LocalizationsDelegate<AppLocalizations> {

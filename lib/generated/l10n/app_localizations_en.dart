@@ -641,4 +641,151 @@ class AppLocalizationsEn extends AppLocalizations {
 
   @override
   String get dashboardViewDetails => 'View Details';
+
+  @override
+  String accountDetailAccountNumberLabel(String number) {
+    return 'Account: $number';
+  }
+
+  @override
+  String accountDetailAllHoldings(int count) {
+    String _temp0 = intl.Intl.pluralLogic(
+      count,
+      locale: localeName,
+      other: 'ALL HOLDINGS ($count)',
+      one: 'ALL HOLDING ($count)',
+      zero: 'ALL HOLDING ($count)',
+    );
+    return '$_temp0';
+  }
+
+  @override
+  String get accountDetailAllTransactionsHeader => 'Last 30 Transactions';
+
+  @override
+  String get accountDetailAssetAllocation => 'Asset Allocation';
+
+  @override
+  String get accountDetailAumTrend => 'AUM Trend';
+
+  @override
+  String get accountDetailAumTrendEmpty => 'No AUM trend data yet';
+
+  @override
+  String get accountDetailHeroYtdLabel => 'YTD';
+
+  @override
+  String get accountDetailLatestActivity => 'Latest Activity';
+
+  @override
+  String get accountDetailPositions => 'Positions';
+
+  @override
+  String get accountDetailPositionsEmptyFilter => 'No holdings in this asset class';
+
+  @override
+  String get accountDetailPositionsFilterAll => 'All Asset Classes';
+
+  @override
+  String get accountDetailRiskProfileLabel => 'Risk Profile:';
+
+  @override
+  String get accountDetailScreenTitle => 'Account Details';
+
+  @override
+  String get accountDetailTabOverview => 'Overview';
+
+  @override
+  String get accountDetailTabTransactions => 'Transactions';
+
+  @override
+  String get accountDetailToday => 'TODAY';
+
+  @override
+  String get accountDetailTransactionsEmptySearch => 'No transactions match your search';
+
+  @override
+  String get accountDetailTransactionsSearchHint => 'Search';
+
+  @override
+  String get commonAmount => 'Amount';
+
+  @override
+  String get commonDate => 'Date';
+
+  @override
+  String get commonValue => 'Value';
+
+  @override
+  String get transactionFilterAllTransactions => 'All Transactions';
+
+  @override
+  String get transactionFilterNonTrade => 'Non-Trade';
+
+  @override
+  String get transactionFilterTrade => 'Trade';
+
+  @override
+  String transactionPrice(String price) {
+    return 'Price: $price';
+  }
+
+  @override
+  String viewTransactionsAssetClass(String assetClass) {
+    return 'Asset Class: $assetClass';
+  }
+
+  @override
+  String viewTransactionsDescription(String description) {
+    return 'Description: $description';
+  }
+
+  @override
+  String get viewTransactionsDetailClose => 'Close';
+
+  @override
+  String get viewTransactionsDetailLabelAmount => 'Transaction Amount';
+
+  @override
+  String get viewTransactionsDetailLabelAssetClass => 'Asset Class';
+
+  @override
+  String get viewTransactionsDetailLabelDate => 'Transaction Date';
+
+  @override
+  String get viewTransactionsDetailLabelDescription => 'Description';
+
+  @override
+  String get viewTransactionsDetailLabelPricePerUnit => 'Price Per Unit';
+
+  @override
+  String get viewTransactionsDetailLabelQuantity => 'Quantity';
+
+  @override
+  String get viewTransactionsDetailLabelTradeDetails => 'Additional Details';
+
+  @override
+  String get viewTransactionsDetailLabelTradeId => 'Trade ID';
+
+  @override
+  String get viewTransactionsDetailTitle => 'Transaction Details';
+
+  @override
+  String viewTransactionsQuantity(double qty) {
+    final intl.NumberFormat qtyNumberFormat = intl.NumberFormat.decimalPattern(localeName);
+    final String qtyString = qtyNumberFormat.format(qty);
+
+    return 'Quantity: $qtyString';
+  }
+
+  @override
+  String viewTransactionsQuantityShort(double qty) {
+    final intl.NumberFormat qtyNumberFormat = intl.NumberFormat.decimalPattern(localeName);
+    final String qtyString = qtyNumberFormat.format(qty);
+
+    return 'Qty: $qtyString';
+  }
+
+  @override
+  String get viewTransactionsViewDetails => 'View Details';
 }

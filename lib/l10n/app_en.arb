@@ -893,5 +893,203 @@
   "dashboardViewDetails": "View Details",
   "@dashboardViewDetails": {
     "description": "Link button label for asset allocation details."
+  },
+  "accountDetailAccountNumberLabel": "Account: {number}",
+  "@accountDetailAccountNumberLabel": {
+    "description": "Account number label on the account detail top card.",
+    "placeholders": {
+      "number": {
+        "type": "String"
+      }
+    }
+  },
+  "accountDetailAllHoldings": "{count, plural, =0{ALL HOLDING ({count})} =1{ALL HOLDING ({count})} other{ALL HOLDINGS ({count})}}",
+  "@accountDetailAllHoldings": {
+    "description": "Header showing total position count on the Positions tab. Pluralised only when the count is greater than 1.",
+    "placeholders": {
+      "count": {
+        "type": "int",
+        "example": "6"
+      }
+    }
+  },
+  "accountDetailAllTransactionsHeader": "Last 30 Transactions",
+  "@accountDetailAllTransactionsHeader": {
+    "description": "Header above the transaction list on the Transactions tab."
+  },
+  "accountDetailAssetAllocation": "Asset Allocation",
+  "@accountDetailAssetAllocation": {
+    "description": "Section heading for the asset allocation donut chart on the account detail screen."
+  },
+  "accountDetailAumTrend": "AUM Trend",
+  "@accountDetailAumTrend": {
+    "description": "Section header for the AUM trend chart in the Overview tab."
+  },
+  "accountDetailAumTrendEmpty": "No AUM trend data yet",
+  "@accountDetailAumTrendEmpty": {
+    "description": "Empty-state message shown in place of the AUM trend chart when no history is available."
+  },
+  "accountDetailHeroYtdLabel": "YTD",
+  "@accountDetailHeroYtdLabel": {
+    "description": "Period label shown next to the hero value on the account detail and household detail top cards."
+  },
+  "accountDetailLatestActivity": "Latest Activity",
+  "@accountDetailLatestActivity": {
+    "description": "Section heading for the latest activity list on the Overview tab."
+  },
+  "accountDetailPositions": "Positions",
+  "@accountDetailPositions": {
+    "description": "Section heading for the holdings/positions table on the account detail screen."
+  },
+  "accountDetailPositionsEmptyFilter": "No holdings in this asset class",
+  "@accountDetailPositionsEmptyFilter": {
+    "description": "Empty-state message on the Positions tab when the selected asset-class filter matches no holdings."
+  },
+  "accountDetailPositionsFilterAll": "All Asset Classes",
+  "@accountDetailPositionsFilterAll": {
+    "description": "Filter chip label on the Positions tab that clears the asset-class filter."
+  },
+  "accountDetailRiskProfileLabel": "Risk Profile:",
+  "@accountDetailRiskProfileLabel": {
+    "description": "Label preceding the risk-profile badge on the account detail top card."
+  },
+  "accountDetailScreenTitle": "Account Details",
+  "@accountDetailScreenTitle": {
+    "description": "AppBar label on the account detail screen."
+  },
+  "accountDetailTabOverview": "Overview",
+  "@accountDetailTabOverview": {
+    "description": "Label for the Overview tab on the account detail screen."
+  },
+  "accountDetailTabTransactions": "Transactions",
+  "@accountDetailTabTransactions": {
+    "description": "Label for the Transactions tab on the account detail screen."
+  },
+  "accountDetailToday": "TODAY",
+  "@accountDetailToday": {
+    "description": "Date group header label for today's transactions on the Transactions tab."
+  },
+  "accountDetailTransactionsEmptySearch": "No transactions match your search",
+  "@accountDetailTransactionsEmptySearch": {
+    "description": "Empty-state message on the Transactions tab when a search query returns no results."
+  },
+  "accountDetailTransactionsSearchHint": "Search",
+  "@accountDetailTransactionsSearchHint": {
+    "description": "Placeholder text in the search field on the Transactions tab."
+  },
+  "commonAmount": "Amount",
+  "@commonAmount": {
+    "description": "Short popup label for amount sort option."
+  },
+  "commonDate": "Date",
+  "@commonDate": {
+    "description": "Short popup label for date sort option."
+  },
+  "commonValue": "Value",
+  "@commonValue": {
+    "description": "Short label for the market value sort field."
+  },
+  "transactionFilterAllTransactions": "All Transactions",
+  "@transactionFilterAllTransactions": {
+    "description": "Filter chip label to show every transaction type."
+  },
+  "transactionFilterNonTrade": "Non-Trade",
+  "@transactionFilterNonTrade": {
+    "description": "Filter chip label to show only non-trade transactions (everything other than BUY and SELL)."
+  },
+  "transactionFilterTrade": "Trade",
+  "@transactionFilterTrade": {
+    "description": "Filter chip label to show only trades (BUY and SELL transactions)."
+  },
+  "transactionPrice": "Price: {price}",
+  "@transactionPrice": {
+    "description": "Unit price label on a transaction card (no share suffix).",
+    "placeholders": {
+      "price": {
+        "type": "String"
+      }
+    }
+  },
+  "viewTransactionsAssetClass": "Asset Class: {assetClass}",
+  "@viewTransactionsAssetClass": {
+    "description": "Asset class label on a transaction history card.",
+    "placeholders": {
+      "assetClass": {
+        "type": "String"
+      }
+    }
+  },
+  "viewTransactionsDescription": "Description: {description}",
+  "@viewTransactionsDescription": {
+    "description": "Description label on a transaction card, shown in place of the type badge when the transaction has no type.",
+    "placeholders": {
+      "description": {
+        "type": "String"
+      }
+    }
+  },
+  "viewTransactionsDetailClose": "Close",
+  "@viewTransactionsDetailClose": {
+    "description": "Close button label on the transaction detail bottom sheet."
+  },
+  "viewTransactionsDetailLabelAmount": "Transaction Amount",
+  "@viewTransactionsDetailLabelAmount": {
+    "description": "Transaction amount field label in the transaction detail bottom sheet."
+  },
+  "viewTransactionsDetailLabelAssetClass": "Asset Class",
+  "@viewTransactionsDetailLabelAssetClass": {
+    "description": "Asset class field label in the transaction detail bottom sheet."
+  },
+  "viewTransactionsDetailLabelDate": "Transaction Date",
+  "@viewTransactionsDetailLabelDate": {
+    "description": "Transaction date field label in the transaction detail bottom sheet."
+  },
+  "viewTransactionsDetailLabelDescription": "Description",
+  "@viewTransactionsDetailLabelDescription": {
+    "description": "Row label for the transaction description in the transaction detail bottom sheet."
+  },
+  "viewTransactionsDetailLabelPricePerUnit": "Price Per Unit",
+  "@viewTransactionsDetailLabelPricePerUnit": {
+    "description": "Per-unit share price field label in the transaction detail bottom sheet."
+  },
+  "viewTransactionsDetailLabelQuantity": "Quantity",
+  "@viewTransactionsDetailLabelQuantity": {
+    "description": "Quantity field label in the transaction detail bottom sheet."
+  },
+  "viewTransactionsDetailLabelTradeDetails": "Additional Details",
+  "@viewTransactionsDetailLabelTradeDetails": {
+    "description": "Section header for the additional details fields in the transaction detail bottom sheet."
+  },
+  "viewTransactionsDetailLabelTradeId": "Trade ID",
+  "@viewTransactionsDetailLabelTradeId": {
+    "description": "Trade ID field label in the transaction detail bottom sheet."
+  },
+  "viewTransactionsDetailTitle": "Transaction Details",
+  "@viewTransactionsDetailTitle": {
+    "description": "Title of the transaction detail bottom sheet."
+  },
+  "viewTransactionsQuantity": "Quantity: {qty}",
+  "@viewTransactionsQuantity": {
+    "description": "Quantity label on a transaction history card.",
+    "placeholders": {
+      "qty": {
+        "type": "double",
+        "format": "decimalPattern"
+      }
+    }
+  },
+  "viewTransactionsQuantityShort": "Qty: {qty}",
+  "@viewTransactionsQuantityShort": {
+    "description": "Abbreviated form of viewTransactionsQuantity, used only when the full wording would wrap to a second line.",
+    "placeholders": {
+      "qty": {
+        "type": "double",
+        "format": "decimalPattern"
+      }
+    }
+  },
+  "viewTransactionsViewDetails": "View Details",
+  "@viewTransactionsViewDetails": {
+    "description": "View Details button label on a transaction history card."
   }
 }

@@ -2,6 +2,7 @@ import 'package:finhub/core/l10n/l10n.dart';
 import 'package:finhub/core/routing/app_routes.dart';
 import 'package:finhub/core/routing/route_guard.dart';
 import 'package:finhub/features/access_denied/presentation/screens/access_denied_screen.dart';
+import 'package:finhub/features/account_detail_view/presentation/screens/account_detail_screen.dart';
 import 'package:finhub/features/accounts/presentation/screens/accounts_screen.dart';
 import 'package:finhub/features/dashboard/presentation/screens/dashboard_screen.dart';
 import 'package:finhub/features/home/presentation/screens/coming_soon_screen.dart';
@@ -47,7 +48,8 @@ final appRouterProvider = Provider<GoRouter>((ref) {
       ),
       GoRoute(
         path: AppRoutes.accountDetailView,
-        builder: (context, routerState) => ComingSoonScreen(tabLabel: context.l10n.dashboardViewDetails),
+        builder: (context, routerState) =>
+            AccountDetailScreen(accountId: routerState.pathParameters['accountId'] ?? ''),
       ),
       GoRoute(
         path: AppRoutes.taskDashboard,

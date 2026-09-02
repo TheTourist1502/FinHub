@@ -641,6 +641,153 @@ class AppLocalizationsPt extends AppLocalizations {
 
   @override
   String get dashboardViewDetails => 'Ver detalhes';
+
+  @override
+  String accountDetailAccountNumberLabel(String number) {
+    return 'Conta: $number';
+  }
+
+  @override
+  String accountDetailAllHoldings(int count) {
+    String _temp0 = intl.Intl.pluralLogic(
+      count,
+      locale: localeName,
+      other: 'TODAS AS POSIÇÕES ($count)',
+      one: 'TODA A POSIÇÃO ($count)',
+      zero: 'TODA A POSIÇÃO ($count)',
+    );
+    return '$_temp0';
+  }
+
+  @override
+  String get accountDetailAllTransactionsHeader => 'Últimas 30 Transações';
+
+  @override
+  String get accountDetailAssetAllocation => 'Alocação de ativos';
+
+  @override
+  String get accountDetailAumTrend => 'Tendência de AUM';
+
+  @override
+  String get accountDetailAumTrendEmpty => 'Ainda não há dados de tendência de AUM';
+
+  @override
+  String get accountDetailHeroYtdLabel => 'YTD';
+
+  @override
+  String get accountDetailLatestActivity => 'Atividade recente';
+
+  @override
+  String get accountDetailPositions => 'Posições';
+
+  @override
+  String get accountDetailPositionsEmptyFilter => 'Nenhuma posição nesta classe de ativos';
+
+  @override
+  String get accountDetailPositionsFilterAll => 'Todas as classes de ativos';
+
+  @override
+  String get accountDetailRiskProfileLabel => 'Perfil de Risco:';
+
+  @override
+  String get accountDetailScreenTitle => 'Detalhes da conta';
+
+  @override
+  String get accountDetailTabOverview => 'Visão geral';
+
+  @override
+  String get accountDetailTabTransactions => 'Transações';
+
+  @override
+  String get accountDetailToday => 'HOJE';
+
+  @override
+  String get accountDetailTransactionsEmptySearch => 'Nenhuma transação corresponde à sua pesquisa';
+
+  @override
+  String get accountDetailTransactionsSearchHint => 'Pesquisar';
+
+  @override
+  String get commonAmount => 'Valor';
+
+  @override
+  String get commonDate => 'Data';
+
+  @override
+  String get commonValue => 'Valor';
+
+  @override
+  String get transactionFilterAllTransactions => 'Todas as transações';
+
+  @override
+  String get transactionFilterNonTrade => 'Não negociações';
+
+  @override
+  String get transactionFilterTrade => 'Negociações';
+
+  @override
+  String transactionPrice(String price) {
+    return 'Preço: $price';
+  }
+
+  @override
+  String viewTransactionsAssetClass(String assetClass) {
+    return 'Classe de Ativo: $assetClass';
+  }
+
+  @override
+  String viewTransactionsDescription(String description) {
+    return 'Descrição: $description';
+  }
+
+  @override
+  String get viewTransactionsDetailClose => 'Fechar';
+
+  @override
+  String get viewTransactionsDetailLabelAmount => 'Valor da Transação';
+
+  @override
+  String get viewTransactionsDetailLabelAssetClass => 'Classe de Ativo';
+
+  @override
+  String get viewTransactionsDetailLabelDate => 'Data da Transação';
+
+  @override
+  String get viewTransactionsDetailLabelDescription => 'Descrição';
+
+  @override
+  String get viewTransactionsDetailLabelPricePerUnit => 'Preço Por Unidade';
+
+  @override
+  String get viewTransactionsDetailLabelQuantity => 'Quantidade';
+
+  @override
+  String get viewTransactionsDetailLabelTradeDetails => 'Detalhes Adicionais';
+
+  @override
+  String get viewTransactionsDetailLabelTradeId => 'ID da Operação';
+
+  @override
+  String get viewTransactionsDetailTitle => 'Detalhes da Transação';
+
+  @override
+  String viewTransactionsQuantity(double qty) {
+    final intl.NumberFormat qtyNumberFormat = intl.NumberFormat.decimalPattern(localeName);
+    final String qtyString = qtyNumberFormat.format(qty);
+
+    return 'Quantidade: $qtyString';
+  }
+
+  @override
+  String viewTransactionsQuantityShort(double qty) {
+    final intl.NumberFormat qtyNumberFormat = intl.NumberFormat.decimalPattern(localeName);
+    final String qtyString = qtyNumberFormat.format(qty);
+
+    return 'Qtd.: $qtyString';
+  }
+
+  @override
+  String get viewTransactionsViewDetails => 'Ver Detalhes';
 }
 
 /// The translations for Portuguese, as used in Brazil (`pt_BR`).
@@ -1280,4 +1427,151 @@ class AppLocalizationsPtBr extends AppLocalizationsPt {
 
   @override
   String get dashboardViewDetails => 'Ver detalhes';
+
+  @override
+  String accountDetailAccountNumberLabel(String number) {
+    return 'Conta: $number';
+  }
+
+  @override
+  String accountDetailAllHoldings(int count) {
+    String _temp0 = intl.Intl.pluralLogic(
+      count,
+      locale: localeName,
+      other: 'TODAS AS POSIÇÕES ($count)',
+      one: 'TODA A POSIÇÃO ($count)',
+      zero: 'TODA A POSIÇÃO ($count)',
+    );
+    return '$_temp0';
+  }
+
+  @override
+  String get accountDetailAllTransactionsHeader => 'Últimas 30 Transações';
+
+  @override
+  String get accountDetailAssetAllocation => 'Alocação de ativos';
+
+  @override
+  String get accountDetailAumTrend => 'Tendência de AUM';
+
+  @override
+  String get accountDetailAumTrendEmpty => 'Ainda não há dados de tendência de AUM';
+
+  @override
+  String get accountDetailHeroYtdLabel => 'YTD';
+
+  @override
+  String get accountDetailLatestActivity => 'Atividade recente';
+
+  @override
+  String get accountDetailPositions => 'Posições';
+
+  @override
+  String get accountDetailPositionsEmptyFilter => 'Nenhuma posição nesta classe de ativos';
+
+  @override
+  String get accountDetailPositionsFilterAll => 'Todas as classes de ativos';
+
+  @override
+  String get accountDetailRiskProfileLabel => 'Perfil de Risco:';
+
+  @override
+  String get accountDetailScreenTitle => 'Detalhes da conta';
+
+  @override
+  String get accountDetailTabOverview => 'Visão geral';
+
+  @override
+  String get accountDetailTabTransactions => 'Transações';
+
+  @override
+  String get accountDetailToday => 'HOJE';
+
+  @override
+  String get accountDetailTransactionsEmptySearch => 'Nenhuma transação corresponde à sua pesquisa';
+
+  @override
+  String get accountDetailTransactionsSearchHint => 'Pesquisar';
+
+  @override
+  String get commonAmount => 'Valor';
+
+  @override
+  String get commonDate => 'Data';
+
+  @override
+  String get commonValue => 'Valor';
+
+  @override
+  String get transactionFilterAllTransactions => 'Todas as transações';
+
+  @override
+  String get transactionFilterNonTrade => 'Não negociações';
+
+  @override
+  String get transactionFilterTrade => 'Negociações';
+
+  @override
+  String transactionPrice(String price) {
+    return 'Preço: $price';
+  }
+
+  @override
+  String viewTransactionsAssetClass(String assetClass) {
+    return 'Classe de Ativo: $assetClass';
+  }
+
+  @override
+  String viewTransactionsDescription(String description) {
+    return 'Descrição: $description';
+  }
+
+  @override
+  String get viewTransactionsDetailClose => 'Fechar';
+
+  @override
+  String get viewTransactionsDetailLabelAmount => 'Valor da Transação';
+
+  @override
+  String get viewTransactionsDetailLabelAssetClass => 'Classe de Ativo';
+
+  @override
+  String get viewTransactionsDetailLabelDate => 'Data da Transação';
+
+  @override
+  String get viewTransactionsDetailLabelDescription => 'Descrição';
+
+  @override
+  String get viewTransactionsDetailLabelPricePerUnit => 'Preço Por Unidade';
+
+  @override
+  String get viewTransactionsDetailLabelQuantity => 'Quantidade';
+
+  @override
+  String get viewTransactionsDetailLabelTradeDetails => 'Detalhes Adicionais';
+
+  @override
+  String get viewTransactionsDetailLabelTradeId => 'ID da Operação';
+
+  @override
+  String get viewTransactionsDetailTitle => 'Detalhes da Transação';
+
+  @override
+  String viewTransactionsQuantity(double qty) {
+    final intl.NumberFormat qtyNumberFormat = intl.NumberFormat.decimalPattern(localeName);
+    final String qtyString = qtyNumberFormat.format(qty);
+
+    return 'Quantidade: $qtyString';
+  }
+
+  @override
+  String viewTransactionsQuantityShort(double qty) {
+    final intl.NumberFormat qtyNumberFormat = intl.NumberFormat.decimalPattern(localeName);
+    final String qtyString = qtyNumberFormat.format(qty);
+
+    return 'Qtd.: $qtyString';
+  }
+
+  @override
+  String get viewTransactionsViewDetails => 'Ver Detalhes';
 }

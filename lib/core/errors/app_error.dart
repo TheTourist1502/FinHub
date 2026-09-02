@@ -17,7 +17,7 @@
 ///   UnknownError(:final message) => message ?? 'Unknown error',
 /// };
 /// ```
-sealed class AppError {
+sealed class AppError implements Exception {
   const AppError();
 
   /// Server-provided short title (RFC 7807 `title`), if present.

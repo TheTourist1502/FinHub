@@ -643,4 +643,151 @@ class AppLocalizationsEs extends AppLocalizations {
 
   @override
   String get dashboardViewDetails => 'Ver Detalles';
+
+  @override
+  String accountDetailAccountNumberLabel(String number) {
+    return 'Cuenta: $number';
+  }
+
+  @override
+  String accountDetailAllHoldings(int count) {
+    String _temp0 = intl.Intl.pluralLogic(
+      count,
+      locale: localeName,
+      other: 'TODAS LAS POSICIONES ($count)',
+      one: 'TODA LA POSICIÓN ($count)',
+      zero: 'TODA LA POSICIÓN ($count)',
+    );
+    return '$_temp0';
+  }
+
+  @override
+  String get accountDetailAllTransactionsHeader => 'Últimas 30 Transacciones';
+
+  @override
+  String get accountDetailAssetAllocation => 'Asignación de activos';
+
+  @override
+  String get accountDetailAumTrend => 'Tendencia de AUM';
+
+  @override
+  String get accountDetailAumTrendEmpty => 'Aún no hay datos de tendencia de AUM';
+
+  @override
+  String get accountDetailHeroYtdLabel => 'YTD';
+
+  @override
+  String get accountDetailLatestActivity => 'Últimas actividades';
+
+  @override
+  String get accountDetailPositions => 'Posiciones';
+
+  @override
+  String get accountDetailPositionsEmptyFilter => 'No hay posiciones en esta clase de activos';
+
+  @override
+  String get accountDetailPositionsFilterAll => 'Todas las clases de activos';
+
+  @override
+  String get accountDetailRiskProfileLabel => 'Perfil de Riesgo:';
+
+  @override
+  String get accountDetailScreenTitle => 'Detalles de la cuenta';
+
+  @override
+  String get accountDetailTabOverview => 'Resumen';
+
+  @override
+  String get accountDetailTabTransactions => 'Transacciones';
+
+  @override
+  String get accountDetailToday => 'HOY';
+
+  @override
+  String get accountDetailTransactionsEmptySearch => 'Ninguna transacción coincide con tu búsqueda';
+
+  @override
+  String get accountDetailTransactionsSearchHint => 'Buscar';
+
+  @override
+  String get commonAmount => 'Monto';
+
+  @override
+  String get commonDate => 'Fecha';
+
+  @override
+  String get commonValue => 'Valor';
+
+  @override
+  String get transactionFilterAllTransactions => 'Todas las transacciones';
+
+  @override
+  String get transactionFilterNonTrade => 'No operaciones';
+
+  @override
+  String get transactionFilterTrade => 'Operaciones';
+
+  @override
+  String transactionPrice(String price) {
+    return 'Precio: $price';
+  }
+
+  @override
+  String viewTransactionsAssetClass(String assetClass) {
+    return 'Clase de Activo: $assetClass';
+  }
+
+  @override
+  String viewTransactionsDescription(String description) {
+    return 'Descripción: $description';
+  }
+
+  @override
+  String get viewTransactionsDetailClose => 'Cerrar';
+
+  @override
+  String get viewTransactionsDetailLabelAmount => 'Monto de Transacción';
+
+  @override
+  String get viewTransactionsDetailLabelAssetClass => 'Clase de Activo';
+
+  @override
+  String get viewTransactionsDetailLabelDate => 'Fecha de Transacción';
+
+  @override
+  String get viewTransactionsDetailLabelDescription => 'Descripción';
+
+  @override
+  String get viewTransactionsDetailLabelPricePerUnit => 'Precio Por Unidad';
+
+  @override
+  String get viewTransactionsDetailLabelQuantity => 'Cantidad';
+
+  @override
+  String get viewTransactionsDetailLabelTradeDetails => 'Detalles Adicionales';
+
+  @override
+  String get viewTransactionsDetailLabelTradeId => 'ID Operación';
+
+  @override
+  String get viewTransactionsDetailTitle => 'Detalles de Transacción';
+
+  @override
+  String viewTransactionsQuantity(double qty) {
+    final intl.NumberFormat qtyNumberFormat = intl.NumberFormat.decimalPattern(localeName);
+    final String qtyString = qtyNumberFormat.format(qty);
+
+    return 'Cantidad: $qtyString';
+  }
+
+  @override
+  String viewTransactionsQuantityShort(double qty) {
+    final intl.NumberFormat qtyNumberFormat = intl.NumberFormat.decimalPattern(localeName);
+    final String qtyString = qtyNumberFormat.format(qty);
+
+    return 'Cant.: $qtyString';
+  }
+
+  @override
+  String get viewTransactionsViewDetails => 'Ver Detalles';
 }
