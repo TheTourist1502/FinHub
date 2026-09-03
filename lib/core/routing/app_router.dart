@@ -9,6 +9,7 @@ import 'package:finhub/features/home/presentation/screens/coming_soon_screen.dar
 import 'package:finhub/features/home/presentation/screens/home_shell_screen.dart';
 import 'package:finhub/features/login/presentation/providers/login_provider.dart';
 import 'package:finhub/features/login/presentation/screens/login_screen.dart';
+import 'package:finhub/features/view_transactions/presentation/screens/view_transaction_screen.dart';
 import 'package:flutter/widgets.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 import 'package:go_router/go_router.dart';
@@ -40,7 +41,7 @@ final appRouterProvider = Provider<GoRouter>((ref) {
       ),
       GoRoute(
         path: AppRoutes.viewTransactions,
-        builder: (context, routerState) => ComingSoonScreen(tabLabel: context.l10n.viewTransactionsTitle),
+        builder: (context, routerState) => const ViewTransactionScreen(),
       ),
       GoRoute(
         path: AppRoutes.accounts,

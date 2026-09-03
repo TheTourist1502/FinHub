@@ -11,7 +11,7 @@ import 'package:flutter_riverpod/flutter_riverpod.dart';
 const List<Locale> appSupportedLocales = [
   Locale('en'),
   Locale('es'),
-  Locale('pt', 'BR'),
+  Locale('hi'),
 ];
 
 /// Provides the active [Locale] and persists the user's choice across sessions.
@@ -48,7 +48,7 @@ class LocaleNotifier extends AsyncNotifier<Locale> {
     state = AsyncData(locale);
   }
 
-  /// Serialises a [Locale] to a storage-friendly tag (e.g. `'pt_BR'`, `'en'`).
+  /// Serialises a [Locale] to a storage-friendly tag (e.g. `'pt_BR'`, `'en'`) — the country half is kept so a region-qualified locale still round-trips.
   static String _localeToTag(Locale locale) =>
       locale.countryCode != null ? '${locale.languageCode}_${locale.countryCode}' : locale.languageCode;
 

@@ -1091,5 +1091,21 @@
   "viewTransactionsViewDetails": "View Details",
   "@viewTransactionsViewDetails": {
     "description": "View Details button label on a transaction history card."
+  },
+  "viewTransactionsEmpty": "No transactions match this filter",
+  "@viewTransactionsEmpty": {
+    "description": "Empty-state message on the transaction history screen when the active filter or search matches no loaded transactions."
+  },
+  "viewTransactionsPaginationError": "Failed to load more transactions",
+  "@viewTransactionsPaginationError": {
+    "description": "Inline error message shown below the transaction list when a pagination request fails."
+  },
+  "viewTransactionsSearchHint": "Search",
+  "@viewTransactionsSearchHint": {
+    "description": "Placeholder text in the search field on the transaction history screen."
+  },
+  "viewTransactionsAllHeader": "Last 30 Transactions",
+  "@viewTransactionsAllHeader": {
+    "description": "Header label on the transaction history screen."
   }
 }

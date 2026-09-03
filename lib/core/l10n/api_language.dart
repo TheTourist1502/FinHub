@@ -1,21 +1,18 @@
 import 'package:flutter/widgets.dart';
 
-/// Maps [locale] to the `en`/`es`/`prt` language codes accepted by backend
+/// Maps [locale] to the `en`/`es`/`hi` language codes accepted by backend
 /// endpoints (e.g. `PATCH /v1/profile/preferences`, the market-insights
-/// list API) — Portuguese is `"prt"`, not Flutter's `"pt"` `languageCode`.
-/// Falls back to `"en"` for any other supported app locale (e.g. a future
-/// non-Portuguese/Spanish addition).
+/// list API). Falls back to `"en"` for any other locale.
 String apiLangForLocale(Locale locale) => switch (locale.languageCode) {
   'es' => 'es',
-  'pt' => 'prt',
+  'hi' => 'hi',
   _ => 'en',
 };
 
-/// Maps a backend `en`/`es`/`prt` language code back to a [Locale], for use
-/// with `showLanguageSelectionSheet`'s `kLanguageOptions` (Portuguese is
-/// keyed there as `pt_BR`, and as `"prt"` — not `"pt"` — by the backend).
+/// Maps a backend `en`/`es`/`hi` language code back to a [Locale], for use
+/// with `showLanguageSelectionSheet`'s `kLanguageOptions`.
 Locale localeForApiLang(String lang) => switch (lang) {
   'es' => const Locale('es'),
-  'prt' => const Locale('pt', 'BR'),
+  'hi' => const Locale('hi'),
   _ => const Locale('en'),
 };

@@ -7,7 +7,7 @@ import 'package:intl/intl.dart' as intl;
 
 import 'app_localizations_en.dart';
 import 'app_localizations_es.dart';
-import 'app_localizations_pt.dart';
+import 'app_localizations_hi.dart';
 
 // ignore_for_file: type=lint
 
@@ -91,7 +91,7 @@ abstract class AppLocalizations {
   ];
 
   /// A list of this localizations delegate's supported locales.
-  static const List<Locale> supportedLocales = <Locale>[Locale('en'), Locale('es'), Locale('pt'), Locale('pt', 'BR')];
+  static const List<Locale> supportedLocales = <Locale>[Locale('en'), Locale('es'), Locale('hi')];
 
   /// App name displayed in OS dialogs and the app shell.
   ///
@@ -1484,6 +1484,30 @@ abstract class AppLocalizations {
   /// In en, this message translates to:
   /// **'View Details'**
   String get viewTransactionsViewDetails;
+
+  /// Empty-state message on the transaction history screen when the active filter or search matches no loaded transactions.
+  ///
+  /// In en, this message translates to:
+  /// **'No transactions match this filter'**
+  String get viewTransactionsEmpty;
+
+  /// Inline error message shown below the transaction list when a pagination request fails.
+  ///
+  /// In en, this message translates to:
+  /// **'Failed to load more transactions'**
+  String get viewTransactionsPaginationError;
+
+  /// Placeholder text in the search field on the transaction history screen.
+  ///
+  /// In en, this message translates to:
+  /// **'Search'**
+  String get viewTransactionsSearchHint;
+
+  /// Header label on the transaction history screen.
+  ///
+  /// In en, this message translates to:
+  /// **'Last 30 Transactions'**
+  String get viewTransactionsAllHeader;
 }
 
 class _AppLocalizationsDelegate extends LocalizationsDelegate<AppLocalizations> {
@@ -1495,33 +1519,21 @@ class _AppLocalizationsDelegate extends LocalizationsDelegate<AppLocalizations> 
   }
 
   @override
-  bool isSupported(Locale locale) => <String>['en', 'es', 'pt'].contains(locale.languageCode);
+  bool isSupported(Locale locale) => <String>['en', 'es', 'hi'].contains(locale.languageCode);
 
   @override
   bool shouldReload(_AppLocalizationsDelegate old) => false;
 }
 
 AppLocalizations lookupAppLocalizations(Locale locale) {
-  // Lookup logic when language+country codes are specified.
-  switch (locale.languageCode) {
-    case 'pt':
-      {
-        switch (locale.countryCode) {
-          case 'BR':
-            return AppLocalizationsPtBr();
-        }
-        break;
-      }
-  }
-
   // Lookup logic when only language code is specified.
   switch (locale.languageCode) {
     case 'en':
       return AppLocalizationsEn();
     case 'es':
       return AppLocalizationsEs();
-    case 'pt':
-      return AppLocalizationsPt();
+    case 'hi':
+      return AppLocalizationsHi();
   }
 
   throw FlutterError(

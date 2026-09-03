@@ -790,4 +790,16 @@ class AppLocalizationsEs extends AppLocalizations {
 
   @override
   String get viewTransactionsViewDetails => 'Ver Detalles';
+
+  @override
+  String get viewTransactionsEmpty => 'Ninguna transacción coincide con este filtro';
+
+  @override
+  String get viewTransactionsPaginationError => 'No se pudieron cargar más transacciones';
+
+  @override
+  String get viewTransactionsSearchHint => 'Buscar';
+
+  @override
+  String get viewTransactionsAllHeader => 'Últimas 30 Transacciones';
 }

@@ -61,10 +61,12 @@ flutter:
     - assets/images/
     # Every read goes through MockDataSource. Each feature adds its own
     # fixture directory on the day that feature lands.
+    - assets/mock-data/accounts/
     - assets/mock-data/auth/
     - assets/mock-data/commissions/
     - assets/mock-data/dashboard/
     - assets/mock-data/profile/
+    - assets/mock-data/transactions/
 
   fonts:
     - family: Inter

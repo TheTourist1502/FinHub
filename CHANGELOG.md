@@ -2,6 +2,28 @@
 
 Versions follow semver. `feat` commits bump minor (major post-1.0), `fix` commits bump patch. Starts at 0.0.0.
 
+## [0.9.0] - Unreleased (staged)
+feat: add view transactions list feature
+
+- Added `assets/mock-data/transactions/all.json` fixture.
+- New `lib/features/view_transactions/` feature: `domain` models (`view_transactions_page.dart`, `view_transactions_response.dart`), `domain/view_transactions_repository.dart`, `data/view_transactions_mock_repository.dart`, `presentation/providers/view_transaction_provider.dart`.
+- New presentation widgets: `view_transaction_screen.dart`, `view_transaction_empty_sliver.dart`, `view_transaction_filter_chips.dart`, `view_transaction_history_list.dart`, `view_transaction_list_item.dart`, `view_transaction_pagination_sliver.dart`, `view_transaction_scroll_view.dart`, `view_transaction_search_field.dart`, `view_transaction_shimmer.dart`, `view_transaction_sort_header.dart`.
+- Updated `app_router.dart` to wire the view-transactions route, and `pubspec.yaml`.
+- Fixed `pubspec.yaml`: registered `assets/mock-data/accounts/` and `assets/mock-data/transactions/`. The accounts directory was never declared, so the Day 10/11 fixtures were not bundled at runtime.
+- Localisation now ships English, Spanish and Hindi. Added `app_hi.arb` (236 keys) and its generated class; removed `app_pt.arb`, `app_pt_BR.arb` and `app_localizations_pt.dart`.
+- Updated `locale_provider.dart` (`appSupportedLocales`) and `api_language.dart` (`en`/`es`/`hi`, dropping the `prt` mapping).
+- Updated `.claude/rules/l10n.md` and `.claude/docs/folder-structure.md` for the new locale set.
+
+## [0.8.0] - 79558a6
+feat: add transaction detail components and localization updates
+
+- Added `assets/mock-data/accounts/allocation.json`, `aum_history.json`, `detail.json`, `positions.json`, `transactions.json` fixtures.
+- New `lib/features/account_detail_view/` feature: domain models (`account_aum_trend.dart`, `account_position.dart`, `account_transaction.dart`, `detailed_account.dart`), `data/account_detail_mock_repository.dart`, `domain/account_detail_repository.dart`, `presentation/providers/account_detail_provider.dart`, screen and widgets (`account_detail_screen.dart`, `account_detail_allocation_section.dart`, `account_detail_overview_tab.dart`, `account_detail_positions_tab.dart`, `account_detail_shimmer.dart`, `account_detail_top_card.dart`, `account_detail_transactions_tab.dart`).
+- New `lib/features/view_transactions/domain/models/view_transaction.dart`.
+- New shared widgets: `layout/detail_page_bar.dart`, and a `transaction/` family — `transaction_card.dart`, `transaction_date_label.dart`, `transaction_detail_bottom_sheet.dart`, `transaction_detail_cell.dart`, `transaction_detail_financials.dart`, `transaction_detail_header.dart`, `transaction_detail_row.dart`, `transaction_detail_section_label.dart`, `transaction_detail_trade_info.dart`, `transaction_filter.dart`, `transaction_filter_chip.dart`, `transaction_search.dart`, `transaction_sheet_close_button.dart`.
+- Updated `core/errors/app_error.dart` (now implements `Exception`), `core/routing/app_router.dart` (account-detail route).
+- Updated generated l10n classes and all 4 ARB files with account-detail/transaction strings.
+
 ## [0.7.0] - 079b4c5
 feat: add account management features including account cards, filter chips, and pagination
 

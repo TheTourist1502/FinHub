@@ -231,5 +231,9 @@
   "viewTransactionsDetailTitle": "Detalles de Transacción",
   "viewTransactionsQuantity": "Cantidad: {qty}",
   "viewTransactionsQuantityShort": "Cant.: {qty}",
-  "viewTransactionsViewDetails": "Ver Detalles"
+  "viewTransactionsViewDetails": "Ver Detalles",
+  "viewTransactionsEmpty": "Ninguna transacción coincide con este filtro",
+  "viewTransactionsPaginationError": "No se pudieron cargar más transacciones",
+  "viewTransactionsSearchHint": "Buscar",
+  "viewTransactionsAllHeader": "Últimas 30 Transacciones"
 }
