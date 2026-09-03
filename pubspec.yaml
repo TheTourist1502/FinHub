@@ -65,6 +65,7 @@ flutter:
     - assets/mock-data/auth/
     - assets/mock-data/commissions/
     - assets/mock-data/dashboard/
+    - assets/mock-data/households/
     - assets/mock-data/profile/
     - assets/mock-data/transactions/
 

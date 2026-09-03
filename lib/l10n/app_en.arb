@@ -1107,5 +1107,159 @@
   "viewTransactionsAllHeader": "Last 30 Transactions",
   "@viewTransactionsAllHeader": {
     "description": "Header label on the transaction history screen."
+  },
+  "accountsSearchHint": "Search by account...",
+  "@accountsSearchHint": {
+    "description": "Placeholder text in the search field when the Accounts tab is active."
+  },
+  "householdsSearchHint": "Search by household...",
+  "@householdsSearchHint": {
+    "description": "Placeholder text in the search field when the Households tab is active."
+  },
+  "householdsTitle": "Households",
+  "@householdsTitle": {
+    "description": "Screen title for the Households feature."
+  },
+  "householdsAccountsTabLabel": "Accounts",
+  "@householdsAccountsTabLabel": {
+    "description": "Label for the Accounts pill tab on the Households shell screen."
+  },
+  "householdsAllLabel": "{count, plural, =0{ALL HOUSEHOLD ({count})} =1{ALL HOUSEHOLD ({count})} other{ALL HOUSEHOLDS ({count})}}",
+  "@householdsAllLabel": {
+    "description": "Header label above the household list showing the total count. Pluralised only when the count is greater than 1.",
+    "placeholders": {
+      "count": {
+        "type": "int",
+        "example": "12"
+      }
+    }
+  },
+  "householdsHouseholdIdLabel": "ID: {code}",
+  "@householdsHouseholdIdLabel": {
+    "description": "Sub-heading on a household card showing the household identifier.",
+    "placeholders": {
+      "code": {
+        "type": "String",
+        "example": "HH-AH-003"
+      }
+    }
+  },
+  "householdsTotalAccounts": "{count} Accounts",
+  "@householdsTotalAccounts": {
+    "description": "Total account count shown on a household card.",
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "householdsPaginationError": "Failed to load more households",
+  "@householdsPaginationError": {
+    "description": "Inline error shown when fetching the next household page fails."
+  },
+  "householdDetailScreenTitle": "Household Details",
+  "@householdDetailScreenTitle": {
+    "description": "AppBar title on the household detailed view screen."
+  },
+  "householdDetailTabOverview": "Overview",
+  "@householdDetailTabOverview": {
+    "description": "Overview tab label on the household detail screen."
+  },
+  "householdDetailTabAccounts": "Accounts",
+  "@householdDetailTabAccounts": {
+    "description": "Accounts tab label on the household detail screen."
+  },
+  "householdDetailTabTransactions": "Transactions",
+  "@householdDetailTabTransactions": {
+    "description": "Transactions tab label on the household detail screen."
+  },
+  "householdDetailSubtitle": "{code} • {count} Accounts",
+  "@householdDetailSubtitle": {
+    "description": "Sub-heading on the household detail top card showing code and account count.",
+    "placeholders": {
+      "code": {
+        "type": "String"
+      },
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "householdDetailTotalAum": "Total AUM",
+  "@householdDetailTotalAum": {
+    "description": "Eyebrow label above the total AUM value on the household detail top card."
+  },
+  "householdDetailYtdPerformance": "YTD Change",
+  "@householdDetailYtdPerformance": {
+    "description": "Label next to the YTD return figure on the household detail top card."
+  },
+  "householdDetailAssetAllocation": "Asset Allocation",
+  "@householdDetailAssetAllocation": {
+    "description": "Section heading for the asset allocation donut on the overview tab."
+  },
+  "householdDetailTopAccounts": "Top Accounts",
+  "@householdDetailTopAccounts": {
+    "description": "Section heading for the top accounts list on the overview tab."
+  },
+  "householdDetailSeeAll": "See all ({count})",
+  "@householdDetailSeeAll": {
+    "description": "Link to see all top accounts. {count} is the total number of accounts.",
+    "placeholders": {
+      "count": {
+        "type": "int",
+        "example": "4"
+      }
+    }
+  },
+  "householdDetailAccountTypeLabel": "Account Type: {type}",
+  "@householdDetailAccountTypeLabel": {
+    "description": "Account type label on the top accounts row in the household overview tab.",
+    "placeholders": {
+      "type": {
+        "type": "String"
+      }
+    }
+  },
+  "householdDetailAccountNumberLabel": "Account Number: {number}",
+  "@householdDetailAccountNumberLabel": {
+    "description": "Short account number label on the top accounts card in the overview tab.",
+    "placeholders": {
+      "number": {
+        "type": "String"
+      }
+    }
+  },
+  "householdDetailAllAccountsHeader": "{count, plural, =0{ALL ACCOUNT ({count})} =1{ALL ACCOUNT ({count})} other{ALL ACCOUNTS ({count})}}",
+  "@householdDetailAllAccountsHeader": {
+    "description": "Header above the accounts list showing the total count. Pluralised only when the count is greater than 1.",
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "householdDetailNoAccountsFound": "No accounts found.",
+  "@householdDetailNoAccountsFound": {
+    "description": "Empty-state when no accounts match the search query."
+  },
+  "householdDetailAllTransactionsHeader": "Last 30 Transactions",
+  "@householdDetailAllTransactionsHeader": {
+    "description": "Header label above the transaction list on the household detail screen."
+  },
+  "householdDetailNoTransactionsFound": "No transactions found.",
+  "@householdDetailNoTransactionsFound": {
+    "description": "Empty-state when no transactions match the search."
+  },
+  "householdDetailTransactionsEmptySearch": "No transactions match your search",
+  "@householdDetailTransactionsEmptySearch": {
+    "description": "Empty-state message on the Transactions tab when a search query returns no results."
+  },
+  "householdDetailTransactionsSearchHint": "Search",
+  "@householdDetailTransactionsSearchHint": {
+    "description": "Placeholder in the transactions search field on the household detail screen."
+  },
+  "householdDetailToday": "TODAY",
+  "@householdDetailToday": {
+    "description": "Date group header for today's transactions."
   }
 }

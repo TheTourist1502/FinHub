@@ -7,6 +7,9 @@ import 'package:finhub/features/accounts/presentation/screens/accounts_screen.da
 import 'package:finhub/features/dashboard/presentation/screens/dashboard_screen.dart';
 import 'package:finhub/features/home/presentation/screens/coming_soon_screen.dart';
 import 'package:finhub/features/home/presentation/screens/home_shell_screen.dart';
+import 'package:finhub/features/households/presentation/screens/households_list_screen.dart';
+import 'package:finhub/features/households/presentation/screens/households_shell_screen.dart';
+import 'package:finhub/features/households_detailed_view/presentation/screens/household_detail_screen.dart';
 import 'package:finhub/features/login/presentation/providers/login_provider.dart';
 import 'package:finhub/features/login/presentation/screens/login_screen.dart';
 import 'package:finhub/features/view_transactions/presentation/screens/view_transaction_screen.dart';
@@ -44,13 +47,14 @@ final appRouterProvider = Provider<GoRouter>((ref) {
         builder: (context, routerState) => const ViewTransactionScreen(),
       ),
       GoRoute(
-        path: AppRoutes.accounts,
-        builder: (context, routerState) => const AccountsScreen(),
-      ),
-      GoRoute(
         path: AppRoutes.accountDetailView,
         builder: (context, routerState) =>
             AccountDetailScreen(accountId: routerState.pathParameters['accountId'] ?? ''),
+      ),
+      GoRoute(
+        path: AppRoutes.householdsDetailedView,
+        builder: (context, routerState) =>
+            HouseholdDetailScreen(householdId: routerState.pathParameters['householdId'] ?? ''),
       ),
       GoRoute(
         path: AppRoutes.taskDashboard,
@@ -66,7 +70,7 @@ final appRouterProvider = Provider<GoRouter>((ref) {
         builder: (context, routerState, navigationShell) => HomeShellScreen(navigationShell: navigationShell),
         branches: [
           _branch(AppRoutes.home, (context) => const DashboardScreen()),
-          _branch(AppRoutes.households, (context) => ComingSoonScreen(tabLabel: context.l10n.navHouseholds)),
+          _householdsBranch(),
           _branch(AppRoutes.realTime, (context) => ComingSoonScreen(tabLabel: context.l10n.navRealTime)),
           _branch(AppRoutes.serviceRequests, (context) => ComingSoonScreen(tabLabel: context.l10n.navServiceRequests)),
           _branch(AppRoutes.commissions, (context) => ComingSoonScreen(tabLabel: context.l10n.navCommissions)),
@@ -81,6 +85,23 @@ final appRouterProvider = Provider<GoRouter>((ref) {
 /// to its `routes:` list as that feature grows.
 StatefulShellBranch _branch(String path, Widget Function(BuildContext context) builder) =>
     StatefulShellBranch(routes: [GoRoute(path: path, builder: (context, routerState) => builder(context))]);
+
+/// The Households branch: a pathless [ShellRoute] wrapping both
+/// `AppRoutes.households` and `AppRoutes.accounts`, so [HouseholdsShellScreen]
+/// mounts the pill switcher and the shared search box once and only the
+/// routed tab content underneath it transitions.
+StatefulShellBranch _householdsBranch() => StatefulShellBranch(
+  routes: [
+    ShellRoute(
+      builder: (context, routerState, child) =>
+          HouseholdsShellScreen(location: routerState.uri, child: child),
+      routes: [
+        GoRoute(path: AppRoutes.households, builder: (context, routerState) => const HouseholdsListScreen()),
+        GoRoute(path: AppRoutes.accounts, builder: (context, routerState) => const AccountsScreen()),
+      ],
+    ),
+  ],
+);
 
 /// Re-runs the router's redirect whenever the session state changes.
 class _RouterChangeNotifier extends ChangeNotifier {

@@ -800,4 +800,115 @@ class AppLocalizationsEn extends AppLocalizations {
 
   @override
   String get viewTransactionsAllHeader => 'Last 30 Transactions';
+
+  @override
+  String get accountsSearchHint => 'Search by account...';
+
+  @override
+  String get householdsSearchHint => 'Search by household...';
+
+  @override
+  String get householdsTitle => 'Households';
+
+  @override
+  String get householdsAccountsTabLabel => 'Accounts';
+
+  @override
+  String householdsAllLabel(int count) {
+    String _temp0 = intl.Intl.pluralLogic(
+      count,
+      locale: localeName,
+      other: 'ALL HOUSEHOLDS ($count)',
+      one: 'ALL HOUSEHOLD ($count)',
+      zero: 'ALL HOUSEHOLD ($count)',
+    );
+    return '$_temp0';
+  }
+
+  @override
+  String householdsHouseholdIdLabel(String code) {
+    return 'ID: $code';
+  }
+
+  @override
+  String householdsTotalAccounts(int count) {
+    return '$count Accounts';
+  }
+
+  @override
+  String get householdsPaginationError => 'Failed to load more households';
+
+  @override
+  String get householdDetailScreenTitle => 'Household Details';
+
+  @override
+  String get householdDetailTabOverview => 'Overview';
+
+  @override
+  String get householdDetailTabAccounts => 'Accounts';
+
+  @override
+  String get householdDetailTabTransactions => 'Transactions';
+
+  @override
+  String householdDetailSubtitle(String code, int count) {
+    return '$code • $count Accounts';
+  }
+
+  @override
+  String get householdDetailTotalAum => 'Total AUM';
+
+  @override
+  String get householdDetailYtdPerformance => 'YTD Change';
+
+  @override
+  String get householdDetailAssetAllocation => 'Asset Allocation';
+
+  @override
+  String get householdDetailTopAccounts => 'Top Accounts';
+
+  @override
+  String householdDetailSeeAll(int count) {
+    return 'See all ($count)';
+  }
+
+  @override
+  String householdDetailAccountTypeLabel(String type) {
+    return 'Account Type: $type';
+  }
+
+  @override
+  String householdDetailAccountNumberLabel(String number) {
+    return 'Account Number: $number';
+  }
+
+  @override
+  String householdDetailAllAccountsHeader(int count) {
+    String _temp0 = intl.Intl.pluralLogic(
+      count,
+      locale: localeName,
+      other: 'ALL ACCOUNTS ($count)',
+      one: 'ALL ACCOUNT ($count)',
+      zero: 'ALL ACCOUNT ($count)',
+    );
+    return '$_temp0';
+  }
+
+  @override
+  String get householdDetailNoAccountsFound => 'No accounts found.';
+
+  @override
+  String get householdDetailAllTransactionsHeader => 'Last 30 Transactions';
+
+  @override
+  String get householdDetailNoTransactionsFound => 'No transactions found.';
+
+  @override
+  String get householdDetailTransactionsEmptySearch => 'No transactions match your search';
+
+  @override
+  String get householdDetailTransactionsSearchHint => 'Search';
+
+  @override
+  String get householdDetailToday => 'TODAY';
 }

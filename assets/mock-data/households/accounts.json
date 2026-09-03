@@ -1,0 +1,3162 @@
+{
+  "HHP001": [
+    {
+      "id": "ACCP001",
+      "accountId": "ACCP001",
+      "householdId": "HHP001",
+      "accountNumber": "BRK8X4M9217",
+      "accountName": "Michael Johnson Investment Account",
+      "accountType": "Investment",
+      "currentValueCents": 213966.66,
+      "cashAvailableCents": 0.0,
+      "riskProfile": "Moderate",
+      "riskScore": 48,
+      "aumChangeCents": 8775.1,
+      "aumChangePercentage": 4.28,
+      "custodian": "Pershing",
+      "status": "Active",
+      "asOfDate": "2026-08-21T21:00:00Z",
+      "assetAllocation": [
+        {
+          "assetClass": "Equities",
+          "marketValueCents": 52486.02,
+          "allocationPercentage": 24.53
+        },
+        {
+          "assetClass": "Fixed Income",
+          "marketValueCents": 56957.92,
+          "allocationPercentage": 26.62
+        },
+        {
+          "assetClass": "Alternatives",
+          "marketValueCents": 49190.94,
+          "allocationPercentage": 22.99
+        },
+        {
+          "assetClass": "Cash",
+          "marketValueCents": 55353.17,
+          "allocationPercentage": 25.87
+        }
+      ]
+    },
+    {
+      "id": "ACCP002",
+      "accountId": "ACCP002",
+      "householdId": "HHP001",
+      "accountNumber": "INV5Q7T3841",
+      "accountName": "Emily Carter Brokerage Account",
+      "accountType": "Brokerage",
+      "currentValueCents": 381215.25,
+      "cashAvailableCents": 10359.0,
+      "riskProfile": "Growth",
+      "riskScore": 72,
+      "aumChangeCents": -164700.84,
+      "aumChangePercentage": -30.17,
+      "custodian": "Pershing",
+      "status": "Active",
+      "asOfDate": "2026-08-21T21:00:00Z",
+      "assetAllocation": [
+        {
+          "assetClass": "Equities",
+          "marketValueCents": 54933.12,
+          "allocationPercentage": 14.41
+        },
+        {
+          "assetClass": "Fixed Income",
+          "marketValueCents": 72545.26,
+          "allocationPercentage": 19.03
+        },
+        {
+          "assetClass": "Alternatives",
+          "marketValueCents": 113106.56,
+          "allocationPercentage": 29.67
+        },
+        {
+          "assetClass": "Cash",
+          "marketValueCents": 140630.31,
+          "allocationPercentage": 36.89
+        }
+      ]
+    },
+    {
+      "id": "ACCP003",
+      "accountId": "ACCP003",
+      "householdId": "HHP001",
+      "accountNumber": "ACC9L2P6508",
+      "accountName": "Rodriguez Family Joint Account",
+      "accountType": "Joint",
+      "currentValueCents": 301832.53,
+      "cashAvailableCents": 5464.18,
+      "riskProfile": "Conservative",
+      "riskScore": 25,
+      "aumChangeCents": 121047.46,
+      "aumChangePercentage": 66.96,
+      "custodian": "Pershing",
+      "status": "Active",
+      "asOfDate": "2026-08-21T21:00:00Z",
+      "assetAllocation": [
+        {
+          "assetClass": "Equities",
+          "marketValueCents": 74643.18,
+          "allocationPercentage": 24.73
+        },
+        {
+          "assetClass": "Fixed Income",
+          "marketValueCents": 58404.59,
+          "allocationPercentage": 19.35
+        },
+        {
+          "assetClass": "Alternatives",
+          "marketValueCents": 104947.17,
+          "allocationPercentage": 34.77
+        },
+        {
+          "assetClass": "Cash",
+          "marketValueCents": 63807.4,
+          "allocationPercentage": 21.14
+        }
+      ]
+    },
+    {
+      "id": "ACCP004",
+      "accountId": "ACCP004",
+      "householdId": "HHP001",
+      "accountNumber": "TRD4N8K1735",
+      "accountName": "David Miller Individual Portfolio",
+      "accountType": "Individual",
+      "currentValueCents": 320285.46,
+      "cashAvailableCents": 6438.99,
+      "riskProfile": "Aggressive",
+      "riskScore": 90,
+      "aumChangeCents": -42068.6,
+      "aumChangePercentage": -11.61,
+      "custodian": "Pershing",
+      "status": "Active",
+      "asOfDate": "2026-08-21T21:00:00Z",
+      "assetAllocation": [
+        {
+          "assetClass": "Equities",
+          "marketValueCents": 28345.26,
+          "allocationPercentage": 8.85
+        },
+        {
+          "assetClass": "Fixed Income",
+          "marketValueCents": 89391.67,
+          "allocationPercentage": 27.91
+        },
+        {
+          "assetClass": "Alternatives",
+          "marketValueCents": 97270.69,
+          "allocationPercentage": 30.37
+        },
+        {
+          "assetClass": "Cash",
+          "marketValueCents": 105277.83,
+          "allocationPercentage": 32.87
+        }
+      ]
+    },
+    {
+      "id": "ACCP005",
+      "accountId": "ACCP005",
+      "householdId": "HHP001",
+      "accountNumber": "WLT7H5R8426",
+      "accountName": "Garcia Wealth Management",
+      "accountType": "Investment",
+      "currentValueCents": 215394.33,
+      "cashAvailableCents": 40594.18,
+      "riskProfile": "Moderate",
+      "riskScore": 48,
+      "aumChangeCents": -5491.43,
+      "aumChangePercentage": -2.49,
+      "custodian": "Pershing",
+      "status": "Active",
+      "asOfDate": "2026-08-21T21:00:00Z",
+      "assetAllocation": [
+        {
+          "assetClass": "Equities",
+          "marketValueCents": 47839.08,
+          "allocationPercentage": 22.21
+        },
+        {
+          "assetClass": "Fixed Income",
+          "marketValueCents": 43380.42,
+          "allocationPercentage": 20.14
+        },
+        {
+          "assetClass": "Alternatives",
+          "marketValueCents": 69787.76,
+          "allocationPercentage": 32.4
+        },
+        {
+          "assetClass": "Cash",
+          "marketValueCents": 54408.61,
+          "allocationPercentage": 25.26
+        }
+      ]
+    }
+  ],
+  "HHP002": [
+    {
+      "id": "ACCP006",
+      "accountId": "ACCP006",
+      "householdId": "HHP002",
+      "accountNumber": "BRG3C9V5174",
+      "accountName": "Sophia Martinez Brokerage Account",
+      "accountType": "Brokerage",
+      "currentValueCents": 284438.05,
+      "cashAvailableCents": 8200.5,
+      "riskProfile": "Growth",
+      "riskScore": 72,
+      "aumChangeCents": 85868.42,
+      "aumChangePercentage": 43.24,
+      "custodian": "Pershing",
+      "status": "Active",
+      "asOfDate": "2026-08-21T21:00:00Z",
+      "assetAllocation": [
+        {
+          "assetClass": "Equities",
+          "marketValueCents": 90394.41,
+          "allocationPercentage": 31.78
+        },
+        {
+          "assetClass": "Fixed Income",
+          "marketValueCents": 72986.8,
+          "allocationPercentage": 25.66
+        },
+        {
+          "assetClass": "Alternatives",
+          "marketValueCents": 82003.49,
+          "allocationPercentage": 28.83
+        },
+        {
+          "assetClass": "Cash",
+          "marketValueCents": 39081.79,
+          "allocationPercentage": 13.74
+        }
+      ]
+    },
+    {
+      "id": "ACCP007",
+      "accountId": "ACCP007",
+      "householdId": "HHP002",
+      "accountNumber": "INV6J1X2948",
+      "accountName": "Hernandez Family Trust",
+      "accountType": "Joint",
+      "currentValueCents": 296856.94,
+      "cashAvailableCents": 29368.73,
+      "riskProfile": "Moderate",
+      "riskScore": 48,
+      "aumChangeCents": -115214.47,
+      "aumChangePercentage": -27.96,
+      "custodian": "Pershing",
+      "status": "Active",
+      "asOfDate": "2026-08-21T21:00:00Z",
+      "assetAllocation": [
+        {
+          "assetClass": "Equities",
+          "marketValueCents": 129370.25,
+          "allocationPercentage": 43.58
+        },
+        {
+          "assetClass": "Fixed Income",
+          "marketValueCents": 64210.16,
+          "allocationPercentage": 21.63
+        },
+        {
+          "assetClass": "Alternatives",
+          "marketValueCents": 51207.82,
+          "allocationPercentage": 17.25
+        },
+        {
+          "assetClass": "Cash",
+          "marketValueCents": 52068.71,
+          "allocationPercentage": 17.54
+        }
+      ]
+    },
+    {
+      "id": "ACCP008",
+      "accountId": "ACCP008",
+      "householdId": "HHP002",
+      "accountNumber": "ACC2M7F8651",
+      "accountName": "James Anderson Investment Portfolio",
+      "accountType": "Individual",
+      "currentValueCents": 349877.15,
+      "cashAvailableCents": 26061.12,
+      "riskProfile": "Aggressive",
+      "riskScore": 90,
+      "aumChangeCents": 21468.02,
+      "aumChangePercentage": 6.54,
+      "custodian": "Pershing",
+      "status": "Active",
+      "asOfDate": "2026-08-21T21:00:00Z",
+      "assetAllocation": [
+        {
+          "assetClass": "Equities",
+          "marketValueCents": 56295.23,
+          "allocationPercentage": 16.09
+        },
+        {
+          "assetClass": "Fixed Income",
+          "marketValueCents": 111260.93,
+          "allocationPercentage": 31.8
+        },
+        {
+          "assetClass": "Alternatives",
+          "marketValueCents": 110876.07,
+          "allocationPercentage": 31.69
+        },
+        {
+          "assetClass": "Cash",
+          "marketValueCents": 71479.9,
+          "allocationPercentage": 20.43
+        }
+      ]
+    }
+  ],
+  "HHP003": [
+    {
+      "id": "ACCP011",
+      "accountId": "ACCP011",
+      "householdId": "HHP003",
+      "accountNumber": "INV2867825A",
+      "accountName": "Olivia Martinez Investment Account",
+      "accountType": "Investment",
+      "currentValueCents": 490775.25,
+      "cashAvailableCents": 11020.13,
+      "riskProfile": "Conservative",
+      "riskScore": 25,
+      "aumChangeCents": -85598.99,
+      "aumChangePercentage": -14.85,
+      "custodian": "Pershing",
+      "status": "Active",
+      "asOfDate": "2026-08-21T21:00:00Z",
+      "assetAllocation": [
+        {
+          "assetClass": "Equities",
+          "marketValueCents": 142717.44,
+          "allocationPercentage": 29.08
+        },
+        {
+          "assetClass": "Fixed Income",
+          "marketValueCents": 115872.04,
+          "allocationPercentage": 23.61
+        },
+        {
+          "assetClass": "Alternatives",
+          "marketValueCents": 126129.24,
+          "allocationPercentage": 25.7
+        },
+        {
+          "assetClass": "Cash",
+          "marketValueCents": 106105.61,
+          "allocationPercentage": 21.62
+        }
+      ]
+    },
+    {
+      "id": "ACCP012",
+      "accountId": "ACCP012",
+      "householdId": "HHP003",
+      "accountNumber": "BRO2719583V",
+      "accountName": "Daniel Hernandez Brokerage Account",
+      "accountType": "Brokerage",
+      "currentValueCents": 490333.87,
+      "cashAvailableCents": 24541.49,
+      "riskProfile": "Moderate",
+      "riskScore": 48,
+      "aumChangeCents": 113484.47,
+      "aumChangePercentage": 30.11,
+      "custodian": "Pershing",
+      "status": "Active",
+      "asOfDate": "2026-08-21T21:00:00Z",
+      "assetAllocation": [
+        {
+          "assetClass": "Equities",
+          "marketValueCents": 135577.32,
+          "allocationPercentage": 27.65
+        },
+        {
+          "assetClass": "Fixed Income",
+          "marketValueCents": 116944.63,
+          "allocationPercentage": 23.85
+        },
+        {
+          "assetClass": "Alternatives",
+          "marketValueCents": 151660.27,
+          "allocationPercentage": 30.93
+        },
+        {
+          "assetClass": "Cash",
+          "marketValueCents": 86151.66,
+          "allocationPercentage": 17.57
+        }
+      ]
+    },
+    {
+      "id": "ACCP013",
+      "accountId": "ACCP013",
+      "householdId": "HHP003",
+      "accountNumber": "JOI1533224A",
+      "accountName": "Ana Anderson Family Joint Account",
+      "accountType": "Joint",
+      "currentValueCents": 166847.62,
+      "cashAvailableCents": 10469.74,
+      "riskProfile": "Growth",
+      "riskScore": 72,
+      "aumChangeCents": 40346.57,
+      "aumChangePercentage": 31.89,
+      "custodian": "Pershing",
+      "status": "Active",
+      "asOfDate": "2026-08-21T21:00:00Z",
+      "assetAllocation": [
+        {
+          "assetClass": "Equities",
+          "marketValueCents": 47484.83,
+          "allocationPercentage": 28.46
+        },
+        {
+          "assetClass": "Fixed Income",
+          "marketValueCents": 51005.32,
+          "allocationPercentage": 30.57
+        },
+        {
+          "assetClass": "Alternatives",
+          "marketValueCents": 15550.2,
+          "allocationPercentage": 9.32
+        },
+        {
+          "assetClass": "Cash",
+          "marketValueCents": 52823.96,
+          "allocationPercentage": 31.66
+        }
+      ]
+    },
+    {
+      "id": "ACCP014",
+      "accountId": "ACCP014",
+      "householdId": "HHP003",
+      "accountNumber": "IND4335942W",
+      "accountName": "Lucas Ramirez Individual Portfolio",
+      "accountType": "Individual",
+      "currentValueCents": 444942.22,
+      "cashAvailableCents": 24522.37,
+      "riskProfile": "Aggressive",
+      "riskScore": 90,
+      "aumChangeCents": -45207.66,
+      "aumChangePercentage": -9.22,
+      "custodian": "Pershing",
+      "status": "Active",
+      "asOfDate": "2026-08-21T21:00:00Z",
+      "assetAllocation": [
+        {
+          "assetClass": "Equities",
+          "marketValueCents": 117375.76,
+          "allocationPercentage": 26.38
+        },
+        {
+          "assetClass": "Fixed Income",
+          "marketValueCents": 68209.64,
+          "allocationPercentage": 15.33
+        },
+        {
+          "assetClass": "Alternatives",
+          "marketValueCents": 152348.22,
+          "allocationPercentage": 34.24
+        },
+        {
+          "assetClass": "Cash",
+          "marketValueCents": 107008.6,
+          "allocationPercentage": 24.05
+        }
+      ]
+    },
+    {
+      "id": "ACCP015",
+      "accountId": "ACCP015",
+      "householdId": "HHP003",
+      "accountNumber": "INV5667265Z",
+      "accountName": "Maria Torres Investment Account",
+      "accountType": "Investment",
+      "currentValueCents": 554650.16,
+      "cashAvailableCents": 34146.33,
+      "riskProfile": "Conservative",
+      "riskScore": 25,
+      "aumChangeCents": -86695.49,
+      "aumChangePercentage": -13.52,
+      "custodian": "Pershing",
+      "status": "Active",
+      "asOfDate": "2026-08-21T21:00:00Z",
+      "assetAllocation": [
+        {
+          "assetClass": "Equities",
+          "marketValueCents": 174659.34,
+          "allocationPercentage": 31.49
+        },
+        {
+          "assetClass": "Fixed Income",
+          "marketValueCents": 63951.16,
+          "allocationPercentage": 11.53
+        },
+        {
+          "assetClass": "Alternatives",
+          "marketValueCents": 157076.93,
+          "allocationPercentage": 28.32
+        },
+        {
+          "assetClass": "Cash",
+          "marketValueCents": 158962.74,
+          "allocationPercentage": 28.66
+        }
+      ]
+    }
+  ],
+  "HHP004": [
+    {
+      "id": "ACCP016",
+      "accountId": "ACCP016",
+      "householdId": "HHP004",
+      "accountNumber": "BRO8090293K",
+      "accountName": "Peter Nguyen Brokerage Account",
+      "accountType": "Brokerage",
+      "currentValueCents": 258935.67,
+      "cashAvailableCents": 9689.12,
+      "riskProfile": "Moderate",
+      "riskScore": 48,
+      "aumChangeCents": 100245.58,
+      "aumChangePercentage": 63.17,
+      "custodian": "Pershing",
+      "status": "Active",
+      "asOfDate": "2026-08-21T21:00:00Z",
+      "assetAllocation": [
+        {
+          "assetClass": "Equities",
+          "marketValueCents": 44174.43,
+          "allocationPercentage": 17.06
+        },
+        {
+          "assetClass": "Fixed Income",
+          "marketValueCents": 67142.02,
+          "allocationPercentage": 25.93
+        },
+        {
+          "assetClass": "Alternatives",
+          "marketValueCents": 71181.42,
+          "allocationPercentage": 27.49
+        },
+        {
+          "assetClass": "Cash",
+          "marketValueCents": 76437.81,
+          "allocationPercentage": 29.52
+        }
+      ]
+    },
+    {
+      "id": "ACCP017",
+      "accountId": "ACCP017",
+      "householdId": "HHP004",
+      "accountNumber": "JOI2714803C",
+      "accountName": "Elena Okafor Family Joint Account",
+      "accountType": "Joint",
+      "currentValueCents": 309963.65,
+      "cashAvailableCents": 16154.07,
+      "riskProfile": "Growth",
+      "riskScore": 72,
+      "aumChangeCents": 2963.3,
+      "aumChangePercentage": 0.97,
+      "custodian": "Pershing",
+      "status": "Active",
+      "asOfDate": "2026-08-21T21:00:00Z",
+      "assetAllocation": [
+        {
+          "assetClass": "Equities",
+          "marketValueCents": 83473.21,
+          "allocationPercentage": 26.93
+        },
+        {
+          "assetClass": "Fixed Income",
+          "marketValueCents": 133532.34,
+          "allocationPercentage": 43.08
+        },
+        {
+          "assetClass": "Alternatives",
+          "marketValueCents": 40760.22,
+          "allocationPercentage": 13.15
+        },
+        {
+          "assetClass": "Cash",
+          "marketValueCents": 52197.88,
+          "allocationPercentage": 16.84
+        }
+      ]
+    },
+    {
+      "id": "ACCP018",
+      "accountId": "ACCP018",
+      "householdId": "HHP004",
+      "accountNumber": "IND5437923Z",
+      "accountName": "Hugo Silva Individual Portfolio",
+      "accountType": "Individual",
+      "currentValueCents": 141725.22,
+      "cashAvailableCents": 20674.12,
+      "riskProfile": "Aggressive",
+      "riskScore": 90,
+      "aumChangeCents": -26595.65,
+      "aumChangePercentage": -15.8,
+      "custodian": "Pershing",
+      "status": "Active",
+      "asOfDate": "2026-08-21T21:00:00Z",
+      "assetAllocation": [
+        {
+          "assetClass": "Equities",
+          "marketValueCents": 58787.62,
+          "allocationPercentage": 41.48
+        },
+        {
+          "assetClass": "Fixed Income",
+          "marketValueCents": 16851.13,
+          "allocationPercentage": 11.89
+        },
+        {
+          "assetClass": "Alternatives",
+          "marketValueCents": 10119.18,
+          "allocationPercentage": 7.14
+        },
+        {
+          "assetClass": "Cash",
+          "marketValueCents": 55967.29,
+          "allocationPercentage": 39.49
+        }
+      ]
+    }
+  ],
+  "HHP005": [
+    {
+      "id": "ACCP021",
+      "accountId": "ACCP021",
+      "householdId": "HHP005",
+      "accountNumber": "INV5855124C",
+      "accountName": "Hugo Nguyen Investment Account",
+      "accountType": "Investment",
+      "currentValueCents": 547658.86,
+      "cashAvailableCents": 38991.77,
+      "riskProfile": "Conservative",
+      "riskScore": 25,
+      "aumChangeCents": 23063.89,
+      "aumChangePercentage": 4.4,
+      "custodian": "Pershing",
+      "status": "Active",
+      "asOfDate": "2026-08-21T21:00:00Z",
+      "assetAllocation": [
+        {
+          "assetClass": "Equities",
+          "marketValueCents": 152468.23,
+          "allocationPercentage": 27.84
+        },
+        {
+          "assetClass": "Fixed Income",
+          "marketValueCents": 160518.81,
+          "allocationPercentage": 29.31
+        },
+        {
+          "assetClass": "Alternatives",
+          "marketValueCents": 161395.07,
+          "allocationPercentage": 29.47
+        },
+        {
+          "assetClass": "Cash",
+          "marketValueCents": 73276.76,
+          "allocationPercentage": 13.38
+        }
+      ]
+    },
+    {
+      "id": "ACCP022",
+      "accountId": "ACCP022",
+      "householdId": "HHP005",
+      "accountNumber": "BRO8606962U",
+      "accountName": "Clara Okafor Brokerage Account",
+      "accountType": "Brokerage",
+      "currentValueCents": 537055.21,
+      "cashAvailableCents": 7319.43,
+      "riskProfile": "Moderate",
+      "riskScore": 48,
+      "aumChangeCents": 10603.42,
+      "aumChangePercentage": 2.01,
+      "custodian": "Pershing",
+      "status": "Active",
+      "asOfDate": "2026-08-21T21:00:00Z",
+      "assetAllocation": [
+        {
+          "assetClass": "Equities",
+          "marketValueCents": 117078.04,
+          "allocationPercentage": 21.8
+        },
+        {
+          "assetClass": "Fixed Income",
+          "marketValueCents": 35875.29,
+          "allocationPercentage": 6.68
+        },
+        {
+          "assetClass": "Alternatives",
+          "marketValueCents": 201664.23,
+          "allocationPercentage": 37.55
+        },
+        {
+          "assetClass": "Cash",
+          "marketValueCents": 182491.36,
+          "allocationPercentage": 33.98
+        }
+      ]
+    },
+    {
+      "id": "ACCP023",
+      "accountId": "ACCP023",
+      "householdId": "HHP005",
+      "accountNumber": "JOI5479144W",
+      "accountName": "Marco Silva Family Joint Account",
+      "accountType": "Joint",
+      "currentValueCents": 588327.29,
+      "cashAvailableCents": 29161.59,
+      "riskProfile": "Growth",
+      "riskScore": 72,
+      "aumChangeCents": 146033.37,
+      "aumChangePercentage": 33.02,
+      "custodian": "Pershing",
+      "status": "Active",
+      "asOfDate": "2026-08-21T21:00:00Z",
+      "assetAllocation": [
+        {
+          "assetClass": "Equities",
+          "marketValueCents": 169555.92,
+          "allocationPercentage": 28.82
+        },
+        {
+          "assetClass": "Fixed Income",
+          "marketValueCents": 61656.7,
+          "allocationPercentage": 10.48
+        },
+        {
+          "assetClass": "Alternatives",
+          "marketValueCents": 158671.87,
+          "allocationPercentage": 26.97
+        },
+        {
+          "assetClass": "Cash",
+          "marketValueCents": 198442.79,
+          "allocationPercentage": 33.73
+        }
+      ]
+    },
+    {
+      "id": "ACCP024",
+      "accountId": "ACCP024",
+      "householdId": "HHP005",
+      "accountNumber": "IND3871230R",
+      "accountName": "Nina Kowalski Individual Portfolio",
+      "accountType": "Individual",
+      "currentValueCents": 484563.4,
+      "cashAvailableCents": 7353.11,
+      "riskProfile": "Aggressive",
+      "riskScore": 90,
+      "aumChangeCents": 20114.18,
+      "aumChangePercentage": 4.33,
+      "custodian": "Pershing",
+      "status": "Active",
+      "asOfDate": "2026-08-21T21:00:00Z",
+      "assetAllocation": [
+        {
+          "assetClass": "Equities",
+          "marketValueCents": 42786.95,
+          "allocationPercentage": 8.83
+        },
+        {
+          "assetClass": "Fixed Income",
+          "marketValueCents": 81358.19,
+          "allocationPercentage": 16.79
+        },
+        {
+          "assetClass": "Alternatives",
+          "marketValueCents": 300332.4,
+          "allocationPercentage": 61.98
+        },
+        {
+          "assetClass": "Cash",
+          "marketValueCents": 60037.41,
+          "allocationPercentage": 12.39
+        }
+      ]
+    },
+    {
+      "id": "ACCP025",
+      "accountId": "ACCP025",
+      "householdId": "HHP005",
+      "accountNumber": "INV4684531V",
+      "accountName": "Victor Ivanov Investment Account",
+      "accountType": "Investment",
+      "currentValueCents": 282141.37,
+      "cashAvailableCents": 34574.11,
+      "riskProfile": "Conservative",
+      "riskScore": 25,
+      "aumChangeCents": -70438.24,
+      "aumChangePercentage": -19.98,
+      "custodian": "Pershing",
+      "status": "Active",
+      "asOfDate": "2026-08-21T21:00:00Z",
+      "assetAllocation": [
+        {
+          "assetClass": "Equities",
+          "marketValueCents": 98608.41,
+          "allocationPercentage": 34.95
+        },
+        {
+          "assetClass": "Fixed Income",
+          "marketValueCents": 48217.96,
+          "allocationPercentage": 17.09
+        },
+        {
+          "assetClass": "Alternatives",
+          "marketValueCents": 64384.66,
+          "allocationPercentage": 22.82
+        },
+        {
+          "assetClass": "Cash",
+          "marketValueCents": 70930.34,
+          "allocationPercentage": 25.14
+        }
+      ]
+    }
+  ],
+  "HHP006": [
+    {
+      "id": "ACCP026",
+      "accountId": "ACCP026",
+      "householdId": "HHP006",
+      "accountNumber": "BRO1538552Z",
+      "accountName": "Leila Costa Brokerage Account",
+      "accountType": "Brokerage",
+      "currentValueCents": 277726.52,
+      "cashAvailableCents": 12048.34,
+      "riskProfile": "Moderate",
+      "riskScore": 48,
+      "aumChangeCents": -30581.98,
+      "aumChangePercentage": -9.92,
+      "custodian": "Pershing",
+      "status": "Active",
+      "asOfDate": "2026-08-21T21:00:00Z",
+      "assetAllocation": [
+        {
+          "assetClass": "Equities",
+          "marketValueCents": 64599.19,
+          "allocationPercentage": 23.26
+        },
+        {
+          "assetClass": "Fixed Income",
+          "marketValueCents": 114756.6,
+          "allocationPercentage": 41.32
+        },
+        {
+          "assetClass": "Alternatives",
+          "marketValueCents": 56350.71,
+          "allocationPercentage": 20.29
+        },
+        {
+          "assetClass": "Cash",
+          "marketValueCents": 42020.02,
+          "allocationPercentage": 15.13
+        }
+      ]
+    },
+    {
+      "id": "ACCP027",
+      "accountId": "ACCP027",
+      "householdId": "HHP006",
+      "accountNumber": "JOI6279418G",
+      "accountName": "Michael Dubois Family Joint Account",
+      "accountType": "Joint",
+      "currentValueCents": 447719.33,
+      "cashAvailableCents": 17803.44,
+      "riskProfile": "Growth",
+      "riskScore": 72,
+      "aumChangeCents": 234198.77,
+      "aumChangePercentage": 109.68,
+      "custodian": "Pershing",
+      "status": "Active",
+      "asOfDate": "2026-08-21T21:00:00Z",
+      "assetAllocation": [
+        {
+          "assetClass": "Equities",
+          "marketValueCents": 51263.86,
+          "allocationPercentage": 11.45
+        },
+        {
+          "assetClass": "Fixed Income",
+          "marketValueCents": 197668.08,
+          "allocationPercentage": 44.15
+        },
+        {
+          "assetClass": "Alternatives",
+          "marketValueCents": 130689.27,
+          "allocationPercentage": 29.19
+        },
+        {
+          "assetClass": "Cash",
+          "marketValueCents": 68098.11,
+          "allocationPercentage": 15.21
+        }
+      ]
+    },
+    {
+      "id": "ACCP028",
+      "accountId": "ACCP028",
+      "householdId": "HHP006",
+      "accountNumber": "IND8698256E",
+      "accountName": "Emily Rossi Individual Portfolio",
+      "accountType": "Individual",
+      "currentValueCents": 252440.08,
+      "cashAvailableCents": 11098.24,
+      "riskProfile": "Aggressive",
+      "riskScore": 90,
+      "aumChangeCents": 51808.61,
+      "aumChangePercentage": 25.82,
+      "custodian": "Pershing",
+      "status": "Active",
+      "asOfDate": "2026-08-21T21:00:00Z",
+      "assetAllocation": [
+        {
+          "assetClass": "Equities",
+          "marketValueCents": 93781.49,
+          "allocationPercentage": 37.15
+        },
+        {
+          "assetClass": "Fixed Income",
+          "marketValueCents": 36452.35,
+          "allocationPercentage": 14.44
+        },
+        {
+          "assetClass": "Alternatives",
+          "marketValueCents": 47534.47,
+          "allocationPercentage": 18.83
+        },
+        {
+          "assetClass": "Cash",
+          "marketValueCents": 74697.02,
+          "allocationPercentage": 29.59
+        }
+      ]
+    }
+  ],
+  "HHP007": [
+    {
+      "id": "ACCP031",
+      "accountId": "ACCP031",
+      "householdId": "HHP007",
+      "accountNumber": "INV2839607E",
+      "accountName": "Emily Costa Investment Account",
+      "accountType": "Investment",
+      "currentValueCents": 433723.02,
+      "cashAvailableCents": 35643.57,
+      "riskProfile": "Conservative",
+      "riskScore": 25,
+      "aumChangeCents": 34673.54,
+      "aumChangePercentage": 8.69,
+      "custodian": "Pershing",
+      "status": "Active",
+      "asOfDate": "2026-08-21T21:00:00Z",
+      "assetAllocation": [
+        {
+          "assetClass": "Equities",
+          "marketValueCents": 52567.23,
+          "allocationPercentage": 12.12
+        },
+        {
+          "assetClass": "Fixed Income",
+          "marketValueCents": 127904.92,
+          "allocationPercentage": 29.49
+        },
+        {
+          "assetClass": "Alternatives",
+          "marketValueCents": 120705.12,
+          "allocationPercentage": 27.83
+        },
+        {
+          "assetClass": "Cash",
+          "marketValueCents": 132502.38,
+          "allocationPercentage": 30.55
+        }
+      ]
+    },
+    {
+      "id": "ACCP032",
+      "accountId": "ACCP032",
+      "householdId": "HHP007",
+      "accountNumber": "BRO2065818M",
+      "accountName": "David Dubois Brokerage Account",
+      "accountType": "Brokerage",
+      "currentValueCents": 310809.64,
+      "cashAvailableCents": 44825.46,
+      "riskProfile": "Moderate",
+      "riskScore": 48,
+      "aumChangeCents": 54765.56,
+      "aumChangePercentage": 21.39,
+      "custodian": "Pershing",
+      "status": "Active",
+      "asOfDate": "2026-08-21T21:00:00Z",
+      "assetAllocation": [
+        {
+          "assetClass": "Equities",
+          "marketValueCents": 146018.37,
+          "allocationPercentage": 46.98
+        },
+        {
+          "assetClass": "Fixed Income",
+          "marketValueCents": 16068.86,
+          "allocationPercentage": 5.17
+        },
+        {
+          "assetClass": "Alternatives",
+          "marketValueCents": 81587.53,
+          "allocationPercentage": 26.25
+        },
+        {
+          "assetClass": "Cash",
+          "marketValueCents": 67134.88,
+          "allocationPercentage": 21.6
+        }
+      ]
+    },
+    {
+      "id": "ACCP033",
+      "accountId": "ACCP033",
+      "householdId": "HHP007",
+      "accountNumber": "JOI1192619V",
+      "accountName": "Sophia Rossi Family Joint Account",
+      "accountType": "Joint",
+      "currentValueCents": 480360.91,
+      "cashAvailableCents": 30676.97,
+      "riskProfile": "Growth",
+      "riskScore": 72,
+      "aumChangeCents": 88037.33,
+      "aumChangePercentage": 22.44,
+      "custodian": "Pershing",
+      "status": "Active",
+      "asOfDate": "2026-08-21T21:00:00Z",
+      "assetAllocation": [
+        {
+          "assetClass": "Equities",
+          "marketValueCents": 29686.3,
+          "allocationPercentage": 6.18
+        },
+        {
+          "assetClass": "Fixed Income",
+          "marketValueCents": 104862.79,
+          "allocationPercentage": 21.83
+        },
+        {
+          "assetClass": "Alternatives",
+          "marketValueCents": 208716.82,
+          "allocationPercentage": 43.45
+        },
+        {
+          "assetClass": "Cash",
+          "marketValueCents": 137143.04,
+          "allocationPercentage": 28.55
+        }
+      ]
+    },
+    {
+      "id": "ACCP034",
+      "accountId": "ACCP034",
+      "householdId": "HHP007",
+      "accountNumber": "IND5476583Y",
+      "accountName": "James Fischer Individual Portfolio",
+      "accountType": "Individual",
+      "currentValueCents": 440480.9,
+      "cashAvailableCents": 5019.85,
+      "riskProfile": "Aggressive",
+      "riskScore": 90,
+      "aumChangeCents": 40210.94,
+      "aumChangePercentage": 10.05,
+      "custodian": "Pershing",
+      "status": "Active",
+      "asOfDate": "2026-08-21T21:00:00Z",
+      "assetAllocation": [
+        {
+          "assetClass": "Equities",
+          "marketValueCents": 162757.69,
+          "allocationPercentage": 36.95
+        },
+        {
+          "assetClass": "Fixed Income",
+          "marketValueCents": 62504.24,
+          "allocationPercentage": 14.19
+        },
+        {
+          "assetClass": "Alternatives",
+          "marketValueCents": 141570.56,
+          "allocationPercentage": 32.14
+        },
+        {
+          "assetClass": "Cash",
+          "marketValueCents": 73648.41,
+          "allocationPercentage": 16.72
+        }
+      ]
+    },
+    {
+      "id": "ACCP035",
+      "accountId": "ACCP035",
+      "householdId": "HHP007",
+      "accountNumber": "INV8612220A",
+      "accountName": "Isabella Haddad Investment Account",
+      "accountType": "Investment",
+      "currentValueCents": 596907.96,
+      "cashAvailableCents": 39413.38,
+      "riskProfile": "Conservative",
+      "riskScore": 25,
+      "aumChangeCents": -37575.27,
+      "aumChangePercentage": -5.92,
+      "custodian": "Pershing",
+      "status": "Active",
+      "asOfDate": "2026-08-21T21:00:00Z",
+      "assetAllocation": [
+        {
+          "assetClass": "Equities",
+          "marketValueCents": 157165.87,
+          "allocationPercentage": 26.33
+        },
+        {
+          "assetClass": "Fixed Income",
+          "marketValueCents": 173879.29,
+          "allocationPercentage": 29.13
+        },
+        {
+          "assetClass": "Alternatives",
+          "marketValueCents": 193457.87,
+          "allocationPercentage": 32.41
+        },
+        {
+          "assetClass": "Cash",
+          "marketValueCents": 72464.63,
+          "allocationPercentage": 12.14
+        }
+      ]
+    }
+  ],
+  "HHP008": [
+    {
+      "id": "ACCP036",
+      "accountId": "ACCP036",
+      "householdId": "HHP008",
+      "accountNumber": "BRO9398441Y",
+      "accountName": "Carlos Johnson Brokerage Account",
+      "accountType": "Brokerage",
+      "currentValueCents": 209325.94,
+      "cashAvailableCents": 41068.25,
+      "riskProfile": "Moderate",
+      "riskScore": 48,
+      "aumChangeCents": 101202.12,
+      "aumChangePercentage": 93.6,
+      "custodian": "Pershing",
+      "status": "Active",
+      "asOfDate": "2026-08-21T21:00:00Z",
+      "assetAllocation": [
+        {
+          "assetClass": "Equities",
+          "marketValueCents": 15866.91,
+          "allocationPercentage": 7.58
+        },
+        {
+          "assetClass": "Fixed Income",
+          "marketValueCents": 72740.76,
+          "allocationPercentage": 34.75
+        },
+        {
+          "assetClass": "Alternatives",
+          "marketValueCents": 89319.38,
+          "allocationPercentage": 42.67
+        },
+        {
+          "assetClass": "Cash",
+          "marketValueCents": 31398.89,
+          "allocationPercentage": 15.0
+        }
+      ]
+    },
+    {
+      "id": "ACCP037",
+      "accountId": "ACCP037",
+      "householdId": "HHP008",
+      "accountNumber": "JOI6007072U",
+      "accountName": "Olivia Carter Family Joint Account",
+      "accountType": "Joint",
+      "currentValueCents": 373831.44,
+      "cashAvailableCents": 8951.0,
+      "riskProfile": "Growth",
+      "riskScore": 72,
+      "aumChangeCents": 13653.25,
+      "aumChangePercentage": 3.79,
+      "custodian": "Pershing",
+      "status": "Active",
+      "asOfDate": "2026-08-21T21:00:00Z",
+      "assetAllocation": [
+        {
+          "assetClass": "Equities",
+          "marketValueCents": 113457.84,
+          "allocationPercentage": 30.35
+        },
+        {
+          "assetClass": "Fixed Income",
+          "marketValueCents": 37345.76,
+          "allocationPercentage": 9.99
+        },
+        {
+          "assetClass": "Alternatives",
+          "marketValueCents": 124112.04,
+          "allocationPercentage": 33.2
+        },
+        {
+          "assetClass": "Cash",
+          "marketValueCents": 98915.8,
+          "allocationPercentage": 26.46
+        }
+      ]
+    },
+    {
+      "id": "ACCP038",
+      "accountId": "ACCP038",
+      "householdId": "HHP008",
+      "accountNumber": "IND3710343R",
+      "accountName": "Daniel Rodriguez Individual Portfolio",
+      "accountType": "Individual",
+      "currentValueCents": 596749.87,
+      "cashAvailableCents": 41509.53,
+      "riskProfile": "Aggressive",
+      "riskScore": 90,
+      "aumChangeCents": 314274.83,
+      "aumChangePercentage": 111.26,
+      "custodian": "Pershing",
+      "status": "Active",
+      "asOfDate": "2026-08-21T21:00:00Z",
+      "assetAllocation": [
+        {
+          "assetClass": "Equities",
+          "marketValueCents": 175086.41,
+          "allocationPercentage": 29.34
+        },
+        {
+          "assetClass": "Fixed Income",
+          "marketValueCents": 106340.83,
+          "allocationPercentage": 17.82
+        },
+        {
+          "assetClass": "Alternatives",
+          "marketValueCents": 121259.57,
+          "allocationPercentage": 20.32
+        },
+        {
+          "assetClass": "Cash",
+          "marketValueCents": 194003.38,
+          "allocationPercentage": 32.51
+        }
+      ]
+    }
+  ],
+  "HHP009": [
+    {
+      "id": "ACCP041",
+      "accountId": "ACCP041",
+      "householdId": "HHP009",
+      "accountNumber": "INV2437026X",
+      "accountName": "Daniel Johnson Investment Account",
+      "accountType": "Investment",
+      "currentValueCents": 362995.23,
+      "cashAvailableCents": 3114.56,
+      "riskProfile": "Conservative",
+      "riskScore": 25,
+      "aumChangeCents": 139586.89,
+      "aumChangePercentage": 62.48,
+      "custodian": "Pershing",
+      "status": "Active",
+      "asOfDate": "2026-08-21T21:00:00Z",
+      "assetAllocation": [
+        {
+          "assetClass": "Equities",
+          "marketValueCents": 51617.92,
+          "allocationPercentage": 14.22
+        },
+        {
+          "assetClass": "Fixed Income",
+          "marketValueCents": 42180.05,
+          "allocationPercentage": 11.62
+        },
+        {
+          "assetClass": "Alternatives",
+          "marketValueCents": 122075.3,
+          "allocationPercentage": 33.63
+        },
+        {
+          "assetClass": "Cash",
+          "marketValueCents": 147085.67,
+          "allocationPercentage": 40.52
+        }
+      ]
+    },
+    {
+      "id": "ACCP042",
+      "accountId": "ACCP042",
+      "householdId": "HHP009",
+      "accountNumber": "BRO3109911E",
+      "accountName": "Ana Carter Brokerage Account",
+      "accountType": "Brokerage",
+      "currentValueCents": 449875.41,
+      "cashAvailableCents": 42608.19,
+      "riskProfile": "Moderate",
+      "riskScore": 48,
+      "aumChangeCents": -68104.72,
+      "aumChangePercentage": -13.15,
+      "custodian": "Pershing",
+      "status": "Active",
+      "asOfDate": "2026-08-21T21:00:00Z",
+      "assetAllocation": [
+        {
+          "assetClass": "Equities",
+          "marketValueCents": 164474.45,
+          "allocationPercentage": 36.56
+        },
+        {
+          "assetClass": "Fixed Income",
+          "marketValueCents": 128529.4,
+          "allocationPercentage": 28.57
+        },
+        {
+          "assetClass": "Alternatives",
+          "marketValueCents": 67796.22,
+          "allocationPercentage": 15.07
+        },
+        {
+          "assetClass": "Cash",
+          "marketValueCents": 89075.33,
+          "allocationPercentage": 19.8
+        }
+      ]
+    },
+    {
+      "id": "ACCP043",
+      "accountId": "ACCP043",
+      "householdId": "HHP009",
+      "accountNumber": "JOI9852897T",
+      "accountName": "Lucas Rodriguez Family Joint Account",
+      "accountType": "Joint",
+      "currentValueCents": 331568.97,
+      "cashAvailableCents": 9530.92,
+      "riskProfile": "Growth",
+      "riskScore": 72,
+      "aumChangeCents": 61461.77,
+      "aumChangePercentage": 22.75,
+      "custodian": "Pershing",
+      "status": "Active",
+      "asOfDate": "2026-08-21T21:00:00Z",
+      "assetAllocation": [
+        {
+          "assetClass": "Equities",
+          "marketValueCents": 81997.01,
+          "allocationPercentage": 24.73
+        },
+        {
+          "assetClass": "Fixed Income",
+          "marketValueCents": 68701.09,
+          "allocationPercentage": 20.72
+        },
+        {
+          "assetClass": "Alternatives",
+          "marketValueCents": 97879.16,
+          "allocationPercentage": 29.52
+        },
+        {
+          "assetClass": "Cash",
+          "marketValueCents": 82991.71,
+          "allocationPercentage": 25.03
+        }
+      ]
+    },
+    {
+      "id": "ACCP044",
+      "accountId": "ACCP044",
+      "householdId": "HHP009",
+      "accountNumber": "IND4374754W",
+      "accountName": "Maria Miller Individual Portfolio",
+      "accountType": "Individual",
+      "currentValueCents": 275858.15,
+      "cashAvailableCents": 44781.72,
+      "riskProfile": "Aggressive",
+      "riskScore": 90,
+      "aumChangeCents": 78589.3,
+      "aumChangePercentage": 39.84,
+      "custodian": "Pershing",
+      "status": "Active",
+      "asOfDate": "2026-08-21T21:00:00Z",
+      "assetAllocation": [
+        {
+          "assetClass": "Equities",
+          "marketValueCents": 100164.09,
+          "allocationPercentage": 36.31
+        },
+        {
+          "assetClass": "Fixed Income",
+          "marketValueCents": 126701.65,
+          "allocationPercentage": 45.93
+        },
+        {
+          "assetClass": "Alternatives",
+          "marketValueCents": 27585.81,
+          "allocationPercentage": 10.0
+        },
+        {
+          "assetClass": "Cash",
+          "marketValueCents": 21406.59,
+          "allocationPercentage": 7.76
+        }
+      ]
+    },
+    {
+      "id": "ACCP045",
+      "accountId": "ACCP045",
+      "householdId": "HHP009",
+      "accountNumber": "INV8350099Q",
+      "accountName": "Peter Garcia Investment Account",
+      "accountType": "Investment",
+      "currentValueCents": 345743.07,
+      "cashAvailableCents": 11155.75,
+      "riskProfile": "Conservative",
+      "riskScore": 25,
+      "aumChangeCents": -83800.06,
+      "aumChangePercentage": -19.51,
+      "custodian": "Pershing",
+      "status": "Active",
+      "asOfDate": "2026-08-21T21:00:00Z",
+      "assetAllocation": [
+        {
+          "assetClass": "Equities",
+          "marketValueCents": 48196.58,
+          "allocationPercentage": 13.94
+        },
+        {
+          "assetClass": "Fixed Income",
+          "marketValueCents": 130760.03,
+          "allocationPercentage": 37.82
+        },
+        {
+          "assetClass": "Alternatives",
+          "marketValueCents": 49510.41,
+          "allocationPercentage": 14.32
+        },
+        {
+          "assetClass": "Cash",
+          "marketValueCents": 117241.48,
+          "allocationPercentage": 33.91
+        }
+      ]
+    }
+  ],
+  "HHP010": [
+    {
+      "id": "ACCP046",
+      "accountId": "ACCP046",
+      "householdId": "HHP010",
+      "accountNumber": "BRO1352896S",
+      "accountName": "Elena Martinez Brokerage Account",
+      "accountType": "Brokerage",
+      "currentValueCents": 396960.76,
+      "cashAvailableCents": 26479.81,
+      "riskProfile": "Moderate",
+      "riskScore": 48,
+      "aumChangeCents": -116519.2,
+      "aumChangePercentage": -22.69,
+      "custodian": "Pershing",
+      "status": "Active",
+      "asOfDate": "2026-08-21T21:00:00Z",
+      "assetAllocation": [
+        {
+          "assetClass": "Equities",
+          "marketValueCents": 33424.1,
+          "allocationPercentage": 8.42
+        },
+        {
+          "assetClass": "Fixed Income",
+          "marketValueCents": 154139.86,
+          "allocationPercentage": 38.83
+        },
+        {
+          "assetClass": "Alternatives",
+          "marketValueCents": 48548.3,
+          "allocationPercentage": 12.23
+        },
+        {
+          "assetClass": "Cash",
+          "marketValueCents": 160848.5,
+          "allocationPercentage": 40.52
+        }
+      ]
+    },
+    {
+      "id": "ACCP047",
+      "accountId": "ACCP047",
+      "householdId": "HHP010",
+      "accountNumber": "JOI1987737H",
+      "accountName": "Hugo Hernandez Family Joint Account",
+      "accountType": "Joint",
+      "currentValueCents": 153700.16,
+      "cashAvailableCents": 1413.58,
+      "riskProfile": "Growth",
+      "riskScore": 72,
+      "aumChangeCents": -401.83,
+      "aumChangePercentage": -0.26,
+      "custodian": "Pershing",
+      "status": "Active",
+      "asOfDate": "2026-08-21T21:00:00Z",
+      "assetAllocation": [
+        {
+          "assetClass": "Equities",
+          "marketValueCents": 25360.53,
+          "allocationPercentage": 16.5
+        },
+        {
+          "assetClass": "Fixed Income",
+          "marketValueCents": 53533.77,
+          "allocationPercentage": 34.83
+        },
+        {
+          "assetClass": "Alternatives",
+          "marketValueCents": 34229.03,
+          "allocationPercentage": 22.27
+        },
+        {
+          "assetClass": "Cash",
+          "marketValueCents": 40576.84,
+          "allocationPercentage": 26.4
+        }
+      ]
+    },
+    {
+      "id": "ACCP048",
+      "accountId": "ACCP048",
+      "householdId": "HHP010",
+      "accountNumber": "IND9626108H",
+      "accountName": "Clara Anderson Individual Portfolio",
+      "accountType": "Individual",
+      "currentValueCents": 259238.63,
+      "cashAvailableCents": 21843.65,
+      "riskProfile": "Aggressive",
+      "riskScore": 90,
+      "aumChangeCents": 48039.65,
+      "aumChangePercentage": 22.75,
+      "custodian": "Pershing",
+      "status": "Active",
+      "asOfDate": "2026-08-21T21:00:00Z",
+      "assetAllocation": [
+        {
+          "assetClass": "Equities",
+          "marketValueCents": 84848.8,
+          "allocationPercentage": 32.73
+        },
+        {
+          "assetClass": "Fixed Income",
+          "marketValueCents": 85522.82,
+          "allocationPercentage": 32.99
+        },
+        {
+          "assetClass": "Alternatives",
+          "marketValueCents": 65224.44,
+          "allocationPercentage": 25.16
+        },
+        {
+          "assetClass": "Cash",
+          "marketValueCents": 23616.64,
+          "allocationPercentage": 9.11
+        }
+      ]
+    }
+  ],
+  "HHP011": [
+    {
+      "id": "ACCP051",
+      "accountId": "ACCP051",
+      "householdId": "HHP011",
+      "accountNumber": "INV1908841V",
+      "accountName": "Clara Martinez Investment Account",
+      "accountType": "Investment",
+      "currentValueCents": 446727.74,
+      "cashAvailableCents": 29078.09,
+      "riskProfile": "Conservative",
+      "riskScore": 25,
+      "aumChangeCents": -109648.7,
+      "aumChangePercentage": -19.71,
+      "custodian": "Pershing",
+      "status": "Active",
+      "asOfDate": "2026-08-21T21:00:00Z",
+      "assetAllocation": [
+        {
+          "assetClass": "Equities",
+          "marketValueCents": 110341.75,
+          "allocationPercentage": 24.7
+        },
+        {
+          "assetClass": "Fixed Income",
+          "marketValueCents": 77864.65,
+          "allocationPercentage": 17.43
+        },
+        {
+          "assetClass": "Alternatives",
+          "marketValueCents": 121733.31,
+          "allocationPercentage": 27.25
+        },
+        {
+          "assetClass": "Cash",
+          "marketValueCents": 136788.03,
+          "allocationPercentage": 30.62
+        }
+      ]
+    },
+    {
+      "id": "ACCP052",
+      "accountId": "ACCP052",
+      "householdId": "HHP011",
+      "accountNumber": "BRO6692553Z",
+      "accountName": "Marco Hernandez Brokerage Account",
+      "accountType": "Brokerage",
+      "currentValueCents": 550836.27,
+      "cashAvailableCents": 11189.54,
+      "riskProfile": "Moderate",
+      "riskScore": 48,
+      "aumChangeCents": -70954.31,
+      "aumChangePercentage": -11.41,
+      "custodian": "Pershing",
+      "status": "Active",
+      "asOfDate": "2026-08-21T21:00:00Z",
+      "assetAllocation": [
+        {
+          "assetClass": "Equities",
+          "marketValueCents": 107027.49,
+          "allocationPercentage": 19.43
+        },
+        {
+          "assetClass": "Fixed Income",
+          "marketValueCents": 163102.62,
+          "allocationPercentage": 29.61
+        },
+        {
+          "assetClass": "Alternatives",
+          "marketValueCents": 53320.95,
+          "allocationPercentage": 9.68
+        },
+        {
+          "assetClass": "Cash",
+          "marketValueCents": 227440.3,
+          "allocationPercentage": 41.29
+        }
+      ]
+    },
+    {
+      "id": "ACCP053",
+      "accountId": "ACCP053",
+      "householdId": "HHP011",
+      "accountNumber": "JOI8526486E",
+      "accountName": "Nina Anderson Family Joint Account",
+      "accountType": "Joint",
+      "currentValueCents": 330940.82,
+      "cashAvailableCents": 12534.53,
+      "riskProfile": "Growth",
+      "riskScore": 72,
+      "aumChangeCents": -24878.21,
+      "aumChangePercentage": -6.99,
+      "custodian": "Pershing",
+      "status": "Active",
+      "asOfDate": "2026-08-21T21:00:00Z",
+      "assetAllocation": [
+        {
+          "assetClass": "Equities",
+          "marketValueCents": 105007.52,
+          "allocationPercentage": 31.73
+        },
+        {
+          "assetClass": "Fixed Income",
+          "marketValueCents": 108813.34,
+          "allocationPercentage": 32.88
+        },
+        {
+          "assetClass": "Alternatives",
+          "marketValueCents": 46530.28,
+          "allocationPercentage": 14.06
+        },
+        {
+          "assetClass": "Cash",
+          "marketValueCents": 70589.68,
+          "allocationPercentage": 21.33
+        }
+      ]
+    },
+    {
+      "id": "ACCP054",
+      "accountId": "ACCP054",
+      "householdId": "HHP011",
+      "accountNumber": "IND2264748O",
+      "accountName": "Victor Ramirez Individual Portfolio",
+      "accountType": "Individual",
+      "currentValueCents": 524011.12,
+      "cashAvailableCents": 38518.51,
+      "riskProfile": "Aggressive",
+      "riskScore": 90,
+      "aumChangeCents": -111028.6,
+      "aumChangePercentage": -17.48,
+      "custodian": "Pershing",
+      "status": "Active",
+      "asOfDate": "2026-08-21T21:00:00Z",
+      "assetAllocation": [
+        {
+          "assetClass": "Equities",
+          "marketValueCents": 126286.68,
+          "allocationPercentage": 24.1
+        },
+        {
+          "assetClass": "Fixed Income",
+          "marketValueCents": 184032.71,
+          "allocationPercentage": 35.12
+        },
+        {
+          "assetClass": "Alternatives",
+          "marketValueCents": 82269.75,
+          "allocationPercentage": 15.7
+        },
+        {
+          "assetClass": "Cash",
+          "marketValueCents": 131421.99,
+          "allocationPercentage": 25.08
+        }
+      ]
+    },
+    {
+      "id": "ACCP055",
+      "accountId": "ACCP055",
+      "householdId": "HHP011",
+      "accountNumber": "INV1247595C",
+      "accountName": "Leila Torres Investment Account",
+      "accountType": "Investment",
+      "currentValueCents": 583183.49,
+      "cashAvailableCents": 38191.31,
+      "riskProfile": "Conservative",
+      "riskScore": 25,
+      "aumChangeCents": -87664.14,
+      "aumChangePercentage": -13.07,
+      "custodian": "Pershing",
+      "status": "Active",
+      "asOfDate": "2026-08-21T21:00:00Z",
+      "assetAllocation": [
+        {
+          "assetClass": "Equities",
+          "marketValueCents": 216186.12,
+          "allocationPercentage": 37.07
+        },
+        {
+          "assetClass": "Fixed Income",
+          "marketValueCents": 208138.19,
+          "allocationPercentage": 35.69
+        },
+        {
+          "assetClass": "Alternatives",
+          "marketValueCents": 106547.62,
+          "allocationPercentage": 18.27
+        },
+        {
+          "assetClass": "Cash",
+          "marketValueCents": 52311.56,
+          "allocationPercentage": 8.97
+        }
+      ]
+    }
+  ],
+  "HHP012": [
+    {
+      "id": "ACCP056",
+      "accountId": "ACCP056",
+      "householdId": "HHP012",
+      "accountNumber": "BRO9147706P",
+      "accountName": "Michael Nguyen Brokerage Account",
+      "accountType": "Brokerage",
+      "currentValueCents": 226873.65,
+      "cashAvailableCents": 18046.81,
+      "riskProfile": "Moderate",
+      "riskScore": 48,
+      "aumChangeCents": -56089.55,
+      "aumChangePercentage": -19.82,
+      "custodian": "Pershing",
+      "status": "Active",
+      "asOfDate": "2026-08-21T21:00:00Z",
+      "assetAllocation": [
+        {
+          "assetClass": "Equities",
+          "marketValueCents": 38205.52,
+          "allocationPercentage": 16.84
+        },
+        {
+          "assetClass": "Fixed Income",
+          "marketValueCents": 67086.54,
+          "allocationPercentage": 29.57
+        },
+        {
+          "assetClass": "Alternatives",
+          "marketValueCents": 46758.66,
+          "allocationPercentage": 20.61
+        },
+        {
+          "assetClass": "Cash",
+          "marketValueCents": 74800.24,
+          "allocationPercentage": 32.97
+        }
+      ]
+    },
+    {
+      "id": "ACCP057",
+      "accountId": "ACCP057",
+      "householdId": "HHP012",
+      "accountNumber": "JOI7358113A",
+      "accountName": "Emily Okafor Family Joint Account",
+      "accountType": "Joint",
+      "currentValueCents": 612654.42,
+      "cashAvailableCents": 11934.14,
+      "riskProfile": "Growth",
+      "riskScore": 72,
+      "aumChangeCents": 248531.56,
+      "aumChangePercentage": 68.25,
+      "custodian": "Pershing",
+      "status": "Active",
+      "asOfDate": "2026-08-21T21:00:00Z",
+      "assetAllocation": [
+        {
+          "assetClass": "Equities",
+          "marketValueCents": 283230.14,
+          "allocationPercentage": 46.23
+        },
+        {
+          "assetClass": "Fixed Income",
+          "marketValueCents": 96738.13,
+          "allocationPercentage": 15.79
+        },
+        {
+          "assetClass": "Alternatives",
+          "marketValueCents": 58569.76,
+          "allocationPercentage": 9.56
+        },
+        {
+          "assetClass": "Cash",
+          "marketValueCents": 174116.39,
+          "allocationPercentage": 28.42
+        }
+      ]
+    },
+    {
+      "id": "ACCP058",
+      "accountId": "ACCP058",
+      "householdId": "HHP012",
+      "accountNumber": "IND8633773J",
+      "accountName": "David Silva Individual Portfolio",
+      "accountType": "Individual",
+      "currentValueCents": 331503.74,
+      "cashAvailableCents": 43079.29,
+      "riskProfile": "Aggressive",
+      "riskScore": 90,
+      "aumChangeCents": 197536.59,
+      "aumChangePercentage": 147.45,
+      "custodian": "Pershing",
+      "status": "Active",
+      "asOfDate": "2026-08-21T21:00:00Z",
+      "assetAllocation": [
+        {
+          "assetClass": "Equities",
+          "marketValueCents": 33647.63,
+          "allocationPercentage": 10.15
+        },
+        {
+          "assetClass": "Fixed Income",
+          "marketValueCents": 106479.0,
+          "allocationPercentage": 32.12
+        },
+        {
+          "assetClass": "Alternatives",
+          "marketValueCents": 136579.54,
+          "allocationPercentage": 41.2
+        },
+        {
+          "assetClass": "Cash",
+          "marketValueCents": 54797.57,
+          "allocationPercentage": 16.53
+        }
+      ]
+    }
+  ],
+  "HHP013": [
+    {
+      "id": "ACCP061",
+      "accountId": "ACCP061",
+      "householdId": "HHP013",
+      "accountNumber": "INV9910817F",
+      "accountName": "David Nguyen Investment Account",
+      "accountType": "Investment",
+      "currentValueCents": 148439.79,
+      "cashAvailableCents": 22852.28,
+      "riskProfile": "Conservative",
+      "riskScore": 25,
+      "aumChangeCents": 69203.86,
+      "aumChangePercentage": 87.34,
+      "custodian": "Pershing",
+      "status": "Active",
+      "asOfDate": "2026-08-21T21:00:00Z",
+      "assetAllocation": [
+        {
+          "assetClass": "Equities",
+          "marketValueCents": 44056.93,
+          "allocationPercentage": 29.68
+        },
+        {
+          "assetClass": "Fixed Income",
+          "marketValueCents": 41251.42,
+          "allocationPercentage": 27.79
+        },
+        {
+          "assetClass": "Alternatives",
+          "marketValueCents": 7600.12,
+          "allocationPercentage": 5.12
+        },
+        {
+          "assetClass": "Cash",
+          "marketValueCents": 55531.33,
+          "allocationPercentage": 37.41
+        }
+      ]
+    },
+    {
+      "id": "ACCP062",
+      "accountId": "ACCP062",
+      "householdId": "HHP013",
+      "accountNumber": "BRO2149597T",
+      "accountName": "Sophia Okafor Brokerage Account",
+      "accountType": "Brokerage",
+      "currentValueCents": 153980.43,
+      "cashAvailableCents": 38781.86,
+      "riskProfile": "Moderate",
+      "riskScore": 48,
+      "aumChangeCents": 9762.05,
+      "aumChangePercentage": 6.77,
+      "custodian": "Pershing",
+      "status": "Active",
+      "asOfDate": "2026-08-21T21:00:00Z",
+      "assetAllocation": [
+        {
+          "assetClass": "Equities",
+          "marketValueCents": 31242.63,
+          "allocationPercentage": 20.29
+        },
+        {
+          "assetClass": "Fixed Income",
+          "marketValueCents": 75773.77,
+          "allocationPercentage": 49.21
+        },
+        {
+          "assetClass": "Alternatives",
+          "marketValueCents": 10840.22,
+          "allocationPercentage": 7.04
+        },
+        {
+          "assetClass": "Cash",
+          "marketValueCents": 36123.81,
+          "allocationPercentage": 23.46
+        }
+      ]
+    },
+    {
+      "id": "ACCP063",
+      "accountId": "ACCP063",
+      "householdId": "HHP013",
+      "accountNumber": "JOI5130808S",
+      "accountName": "James Silva Family Joint Account",
+      "accountType": "Joint",
+      "currentValueCents": 417259.58,
+      "cashAvailableCents": 27872.17,
+      "riskProfile": "Growth",
+      "riskScore": 72,
+      "aumChangeCents": 32255.18,
+      "aumChangePercentage": 8.38,
+      "custodian": "Pershing",
+      "status": "Active",
+      "asOfDate": "2026-08-21T21:00:00Z",
+      "assetAllocation": [
+        {
+          "assetClass": "Equities",
+          "marketValueCents": 63298.28,
+          "allocationPercentage": 15.17
+        },
+        {
+          "assetClass": "Fixed Income",
+          "marketValueCents": 31753.45,
+          "allocationPercentage": 7.61
+        },
+        {
+          "assetClass": "Alternatives",
+          "marketValueCents": 195486.11,
+          "allocationPercentage": 46.85
+        },
+        {
+          "assetClass": "Cash",
+          "marketValueCents": 126721.73,
+          "allocationPercentage": 30.37
+        }
+      ]
+    },
+    {
+      "id": "ACCP064",
+      "accountId": "ACCP064",
+      "householdId": "HHP013",
+      "accountNumber": "IND9770838K",
+      "accountName": "Isabella Kowalski Individual Portfolio",
+      "accountType": "Individual",
+      "currentValueCents": 587353.13,
+      "cashAvailableCents": 9191.66,
+      "riskProfile": "Aggressive",
+      "riskScore": 90,
+      "aumChangeCents": 202385.81,
+      "aumChangePercentage": 52.57,
+      "custodian": "Pershing",
+      "status": "Active",
+      "asOfDate": "2026-08-21T21:00:00Z",
+      "assetAllocation": [
+        {
+          "assetClass": "Equities",
+          "marketValueCents": 171037.23,
+          "allocationPercentage": 29.12
+        },
+        {
+          "assetClass": "Fixed Income",
+          "marketValueCents": 161815.79,
+          "allocationPercentage": 27.55
+        },
+        {
+          "assetClass": "Alternatives",
+          "marketValueCents": 90276.18,
+          "allocationPercentage": 15.37
+        },
+        {
+          "assetClass": "Cash",
+          "marketValueCents": 164223.94,
+          "allocationPercentage": 27.96
+        }
+      ]
+    },
+    {
+      "id": "ACCP065",
+      "accountId": "ACCP065",
+      "householdId": "HHP013",
+      "accountNumber": "INV5004485I",
+      "accountName": "Carlos Ivanov Investment Account",
+      "accountType": "Investment",
+      "currentValueCents": 317892.92,
+      "cashAvailableCents": 30226.06,
+      "riskProfile": "Conservative",
+      "riskScore": 25,
+      "aumChangeCents": -9537.62,
+      "aumChangePercentage": -2.91,
+      "custodian": "Pershing",
+      "status": "Active",
+      "asOfDate": "2026-08-21T21:00:00Z",
+      "assetAllocation": [
+        {
+          "assetClass": "Equities",
+          "marketValueCents": 20917.35,
+          "allocationPercentage": 6.58
+        },
+        {
+          "assetClass": "Fixed Income",
+          "marketValueCents": 78805.65,
+          "allocationPercentage": 24.79
+        },
+        {
+          "assetClass": "Alternatives",
+          "marketValueCents": 54327.9,
+          "allocationPercentage": 17.09
+        },
+        {
+          "assetClass": "Cash",
+          "marketValueCents": 163810.22,
+          "allocationPercentage": 51.53
+        }
+      ]
+    }
+  ],
+  "HHP014": [
+    {
+      "id": "ACCP066",
+      "accountId": "ACCP066",
+      "householdId": "HHP014",
+      "accountNumber": "BRO6304573Y",
+      "accountName": "Olivia Costa Brokerage Account",
+      "accountType": "Brokerage",
+      "currentValueCents": 587867.14,
+      "cashAvailableCents": 419.2,
+      "riskProfile": "Moderate",
+      "riskScore": 48,
+      "aumChangeCents": 152283.06,
+      "aumChangePercentage": 34.96,
+      "custodian": "Pershing",
+      "status": "Active",
+      "asOfDate": "2026-08-21T21:00:00Z",
+      "assetAllocation": [
+        {
+          "assetClass": "Equities",
+          "marketValueCents": 58551.57,
+          "allocationPercentage": 9.96
+        },
+        {
+          "assetClass": "Fixed Income",
+          "marketValueCents": 157901.11,
+          "allocationPercentage": 26.86
+        },
+        {
+          "assetClass": "Alternatives",
+          "marketValueCents": 295050.52,
+          "allocationPercentage": 50.19
+        },
+        {
+          "assetClass": "Cash",
+          "marketValueCents": 76363.94,
+          "allocationPercentage": 12.99
+        }
+      ]
+    },
+    {
+      "id": "ACCP067",
+      "accountId": "ACCP067",
+      "householdId": "HHP014",
+      "accountNumber": "JOI2677407C",
+      "accountName": "Daniel Dubois Family Joint Account",
+      "accountType": "Joint",
+      "currentValueCents": 388817.2,
+      "cashAvailableCents": 22764.81,
+      "riskProfile": "Growth",
+      "riskScore": 72,
+      "aumChangeCents": -70293.91,
+      "aumChangePercentage": -15.31,
+      "custodian": "Pershing",
+      "status": "Active",
+      "asOfDate": "2026-08-21T21:00:00Z",
+      "assetAllocation": [
+        {
+          "assetClass": "Equities",
+          "marketValueCents": 120455.57,
+          "allocationPercentage": 30.98
+        },
+        {
+          "assetClass": "Fixed Income",
+          "marketValueCents": 25972.99,
+          "allocationPercentage": 6.68
+        },
+        {
+          "assetClass": "Alternatives",
+          "marketValueCents": 74730.67,
+          "allocationPercentage": 19.22
+        },
+        {
+          "assetClass": "Cash",
+          "marketValueCents": 167696.86,
+          "allocationPercentage": 43.13
+        }
+      ]
+    },
+    {
+      "id": "ACCP068",
+      "accountId": "ACCP068",
+      "householdId": "HHP014",
+      "accountNumber": "IND6855396C",
+      "accountName": "Ana Rossi Individual Portfolio",
+      "accountType": "Individual",
+      "currentValueCents": 559635.12,
+      "cashAvailableCents": 16628.72,
+      "riskProfile": "Aggressive",
+      "riskScore": 90,
+      "aumChangeCents": -88437.94,
+      "aumChangePercentage": -13.65,
+      "custodian": "Pershing",
+      "status": "Active",
+      "asOfDate": "2026-08-21T21:00:00Z",
+      "assetAllocation": [
+        {
+          "assetClass": "Equities",
+          "marketValueCents": 46281.82,
+          "allocationPercentage": 8.27
+        },
+        {
+          "assetClass": "Fixed Income",
+          "marketValueCents": 242601.82,
+          "allocationPercentage": 43.35
+        },
+        {
+          "assetClass": "Alternatives",
+          "marketValueCents": 65869.05,
+          "allocationPercentage": 11.77
+        },
+        {
+          "assetClass": "Cash",
+          "marketValueCents": 204882.42,
+          "allocationPercentage": 36.61
+        }
+      ]
+    }
+  ],
+  "HHP015": [
+    {
+      "id": "ACCP071",
+      "accountId": "ACCP071",
+      "householdId": "HHP015",
+      "accountNumber": "INV2795765X",
+      "accountName": "Ana Costa Investment Account",
+      "accountType": "Investment",
+      "currentValueCents": 396611.82,
+      "cashAvailableCents": 12255.67,
+      "riskProfile": "Conservative",
+      "riskScore": 25,
+      "aumChangeCents": 96910.85,
+      "aumChangePercentage": 32.34,
+      "custodian": "Pershing",
+      "status": "Active",
+      "asOfDate": "2026-08-21T21:00:00Z",
+      "assetAllocation": [
+        {
+          "assetClass": "Equities",
+          "marketValueCents": 152021.31,
+          "allocationPercentage": 38.33
+        },
+        {
+          "assetClass": "Fixed Income",
+          "marketValueCents": 88127.15,
+          "allocationPercentage": 22.22
+        },
+        {
+          "assetClass": "Alternatives",
+          "marketValueCents": 134768.7,
+          "allocationPercentage": 33.98
+        },
+        {
+          "assetClass": "Cash",
+          "marketValueCents": 21694.67,
+          "allocationPercentage": 5.47
+        }
+      ]
+    },
+    {
+      "id": "ACCP072",
+      "accountId": "ACCP072",
+      "householdId": "HHP015",
+      "accountNumber": "BRO6752576G",
+      "accountName": "Lucas Dubois Brokerage Account",
+      "accountType": "Brokerage",
+      "currentValueCents": 463748.56,
+      "cashAvailableCents": 38381.08,
+      "riskProfile": "Moderate",
+      "riskScore": 48,
+      "aumChangeCents": 71819.88,
+      "aumChangePercentage": 18.32,
+      "custodian": "Pershing",
+      "status": "Active",
+      "asOfDate": "2026-08-21T21:00:00Z",
+      "assetAllocation": [
+        {
+          "assetClass": "Equities",
+          "marketValueCents": 102488.43,
+          "allocationPercentage": 22.1
+        },
+        {
+          "assetClass": "Fixed Income",
+          "marketValueCents": 107357.79,
+          "allocationPercentage": 23.15
+        },
+        {
+          "assetClass": "Alternatives",
+          "marketValueCents": 58525.07,
+          "allocationPercentage": 12.62
+        },
+        {
+          "assetClass": "Cash",
+          "marketValueCents": 195377.27,
+          "allocationPercentage": 42.13
+        }
+      ]
+    },
+    {
+      "id": "ACCP073",
+      "accountId": "ACCP073",
+      "householdId": "HHP015",
+      "accountNumber": "JOI5213115B",
+      "accountName": "Maria Rossi Family Joint Account",
+      "accountType": "Joint",
+      "currentValueCents": 166149.23,
+      "cashAvailableCents": 19060.91,
+      "riskProfile": "Growth",
+      "riskScore": 72,
+      "aumChangeCents": -8471.58,
+      "aumChangePercentage": -4.85,
+      "custodian": "Pershing",
+      "status": "Active",
+      "asOfDate": "2026-08-21T21:00:00Z",
+      "assetAllocation": [
+        {
+          "assetClass": "Equities",
+          "marketValueCents": 67240.59,
+          "allocationPercentage": 40.47
+        },
+        {
+          "assetClass": "Fixed Income",
+          "marketValueCents": 15551.57,
+          "allocationPercentage": 9.36
+        },
+        {
+          "assetClass": "Alternatives",
+          "marketValueCents": 35024.26,
+          "allocationPercentage": 21.08
+        },
+        {
+          "assetClass": "Cash",
+          "marketValueCents": 48349.43,
+          "allocationPercentage": 29.1
+        }
+      ]
+    },
+    {
+      "id": "ACCP074",
+      "accountId": "ACCP074",
+      "householdId": "HHP015",
+      "accountNumber": "IND1059486K",
+      "accountName": "Peter Fischer Individual Portfolio",
+      "accountType": "Individual",
+      "currentValueCents": 505559.61,
+      "cashAvailableCents": 28670.1,
+      "riskProfile": "Aggressive",
+      "riskScore": 90,
+      "aumChangeCents": -32477.28,
+      "aumChangePercentage": -6.04,
+      "custodian": "Pershing",
+      "status": "Active",
+      "asOfDate": "2026-08-21T21:00:00Z",
+      "assetAllocation": [
+        {
+          "assetClass": "Equities",
+          "marketValueCents": 296055.71,
+          "allocationPercentage": 58.56
+        },
+        {
+          "assetClass": "Fixed Income",
+          "marketValueCents": 104347.5,
+          "allocationPercentage": 20.64
+        },
+        {
+          "assetClass": "Alternatives",
+          "marketValueCents": 53285.98,
+          "allocationPercentage": 10.54
+        },
+        {
+          "assetClass": "Cash",
+          "marketValueCents": 51819.86,
+          "allocationPercentage": 10.25
+        }
+      ]
+    },
+    {
+      "id": "ACCP075",
+      "accountId": "ACCP075",
+      "householdId": "HHP015",
+      "accountNumber": "INV8412769R",
+      "accountName": "Elena Haddad Investment Account",
+      "accountType": "Investment",
+      "currentValueCents": 472833.72,
+      "cashAvailableCents": 25240.81,
+      "riskProfile": "Conservative",
+      "riskScore": 25,
+      "aumChangeCents": -94242.15,
+      "aumChangePercentage": -16.62,
+      "custodian": "Pershing",
+      "status": "Active",
+      "asOfDate": "2026-08-21T21:00:00Z",
+      "assetAllocation": [
+        {
+          "assetClass": "Equities",
+          "marketValueCents": 21135.67,
+          "allocationPercentage": 4.47
+        },
+        {
+          "assetClass": "Fixed Income",
+          "marketValueCents": 189133.49,
+          "allocationPercentage": 40.0
+        },
+        {
+          "assetClass": "Alternatives",
+          "marketValueCents": 126766.72,
+          "allocationPercentage": 26.81
+        },
+        {
+          "assetClass": "Cash",
+          "marketValueCents": 135750.56,
+          "allocationPercentage": 28.71
+        }
+      ]
+    }
+  ],
+  "HHP016": [
+    {
+      "id": "ACCP076",
+      "accountId": "ACCP076",
+      "householdId": "HHP016",
+      "accountNumber": "BRO3500715R",
+      "accountName": "Hugo Johnson Brokerage Account",
+      "accountType": "Brokerage",
+      "currentValueCents": 138014.07,
+      "cashAvailableCents": 16614.72,
+      "riskProfile": "Moderate",
+      "riskScore": 48,
+      "aumChangeCents": 27226.39,
+      "aumChangePercentage": 24.58,
+      "custodian": "Pershing",
+      "status": "Active",
+      "asOfDate": "2026-08-21T21:00:00Z",
+      "assetAllocation": [
+        {
+          "assetClass": "Equities",
+          "marketValueCents": 15788.81,
+          "allocationPercentage": 11.44
+        },
+        {
+          "assetClass": "Fixed Income",
+          "marketValueCents": 12531.68,
+          "allocationPercentage": 9.08
+        },
+        {
+          "assetClass": "Alternatives",
+          "marketValueCents": 59332.25,
+          "allocationPercentage": 42.99
+        },
+        {
+          "assetClass": "Cash",
+          "marketValueCents": 50375.14,
+          "allocationPercentage": 36.5
+        }
+      ]
+    },
+    {
+      "id": "ACCP077",
+      "accountId": "ACCP077",
+      "householdId": "HHP016",
+      "accountNumber": "JOI8210624E",
+      "accountName": "Clara Carter Family Joint Account",
+      "accountType": "Joint",
+      "currentValueCents": 140914.43,
+      "cashAvailableCents": 16409.32,
+      "riskProfile": "Growth",
+      "riskScore": 72,
+      "aumChangeCents": 76062.68,
+      "aumChangePercentage": 117.29,
+      "custodian": "Pershing",
+      "status": "Active",
+      "asOfDate": "2026-08-21T21:00:00Z",
+      "assetAllocation": [
+        {
+          "assetClass": "Equities",
+          "marketValueCents": 55759.84,
+          "allocationPercentage": 39.57
+        },
+        {
+          "assetClass": "Fixed Income",
+          "marketValueCents": 23842.72,
+          "allocationPercentage": 16.92
+        },
+        {
+          "assetClass": "Alternatives",
+          "marketValueCents": 25392.78,
+          "allocationPercentage": 18.02
+        },
+        {
+          "assetClass": "Cash",
+          "marketValueCents": 35919.09,
+          "allocationPercentage": 25.49
+        }
+      ]
+    },
+    {
+      "id": "ACCP078",
+      "accountId": "ACCP078",
+      "householdId": "HHP016",
+      "accountNumber": "IND1669324L",
+      "accountName": "Marco Rodriguez Individual Portfolio",
+      "accountType": "Individual",
+      "currentValueCents": 225038.27,
+      "cashAvailableCents": 11228.84,
+      "riskProfile": "Aggressive",
+      "riskScore": 90,
+      "aumChangeCents": -46692.23,
+      "aumChangePercentage": -17.18,
+      "custodian": "Pershing",
+      "status": "Active",
+      "asOfDate": "2026-08-21T21:00:00Z",
+      "assetAllocation": [
+        {
+          "assetClass": "Equities",
+          "marketValueCents": 86122.15,
+          "allocationPercentage": 38.27
+        },
+        {
+          "assetClass": "Fixed Income",
+          "marketValueCents": 30065.11,
+          "allocationPercentage": 13.36
+        },
+        {
+          "assetClass": "Alternatives",
+          "marketValueCents": 40461.88,
+          "allocationPercentage": 17.98
+        },
+        {
+          "assetClass": "Cash",
+          "marketValueCents": 68389.13,
+          "allocationPercentage": 30.39
+        }
+      ]
+    }
+  ],
+  "HHP017": [
+    {
+      "id": "ACCP081",
+      "accountId": "ACCP081",
+      "householdId": "HHP017",
+      "accountNumber": "INV6573147Z",
+      "accountName": "Marco Johnson Investment Account",
+      "accountType": "Investment",
+      "currentValueCents": 585407.94,
+      "cashAvailableCents": 36100.58,
+      "riskProfile": "Conservative",
+      "riskScore": 25,
+      "aumChangeCents": 279624.57,
+      "aumChangePercentage": 91.45,
+      "custodian": "Pershing",
+      "status": "Active",
+      "asOfDate": "2026-08-21T21:00:00Z",
+      "assetAllocation": [
+        {
+          "assetClass": "Equities",
+          "marketValueCents": 26870.22,
+          "allocationPercentage": 4.59
+        },
+        {
+          "assetClass": "Fixed Income",
+          "marketValueCents": 180364.19,
+          "allocationPercentage": 30.81
+        },
+        {
+          "assetClass": "Alternatives",
+          "marketValueCents": 235392.53,
+          "allocationPercentage": 40.21
+        },
+        {
+          "assetClass": "Cash",
+          "marketValueCents": 142781.0,
+          "allocationPercentage": 24.39
+        }
+      ]
+    },
+    {
+      "id": "ACCP082",
+      "accountId": "ACCP082",
+      "householdId": "HHP017",
+      "accountNumber": "BRO5163555I",
+      "accountName": "Nina Carter Brokerage Account",
+      "accountType": "Brokerage",
+      "currentValueCents": 199598.92,
+      "cashAvailableCents": 31557.52,
+      "riskProfile": "Moderate",
+      "riskScore": 48,
+      "aumChangeCents": 8839.75,
+      "aumChangePercentage": 4.63,
+      "custodian": "Pershing",
+      "status": "Active",
+      "asOfDate": "2026-08-21T21:00:00Z",
+      "assetAllocation": [
+        {
+          "assetClass": "Equities",
+          "marketValueCents": 61037.35,
+          "allocationPercentage": 30.58
+        },
+        {
+          "assetClass": "Fixed Income",
+          "marketValueCents": 60139.15,
+          "allocationPercentage": 30.13
+        },
+        {
+          "assetClass": "Alternatives",
+          "marketValueCents": 31776.15,
+          "allocationPercentage": 15.92
+        },
+        {
+          "assetClass": "Cash",
+          "marketValueCents": 46646.27,
+          "allocationPercentage": 23.37
+        }
+      ]
+    },
+    {
+      "id": "ACCP083",
+      "accountId": "ACCP083",
+      "householdId": "HHP017",
+      "accountNumber": "JOI1649691P",
+      "accountName": "Victor Rodriguez Family Joint Account",
+      "accountType": "Joint",
+      "currentValueCents": 231216.86,
+      "cashAvailableCents": 36746.4,
+      "riskProfile": "Growth",
+      "riskScore": 72,
+      "aumChangeCents": 26421.82,
+      "aumChangePercentage": 12.9,
+      "custodian": "Pershing",
+      "status": "Active",
+      "asOfDate": "2026-08-21T21:00:00Z",
+      "assetAllocation": [
+        {
+          "assetClass": "Equities",
+          "marketValueCents": 54428.45,
+          "allocationPercentage": 23.54
+        },
+        {
+          "assetClass": "Fixed Income",
+          "marketValueCents": 45110.41,
+          "allocationPercentage": 19.51
+        },
+        {
+          "assetClass": "Alternatives",
+          "marketValueCents": 71029.82,
+          "allocationPercentage": 30.72
+        },
+        {
+          "assetClass": "Cash",
+          "marketValueCents": 60648.18,
+          "allocationPercentage": 26.23
+        }
+      ]
+    },
+    {
+      "id": "ACCP084",
+      "accountId": "ACCP084",
+      "householdId": "HHP017",
+      "accountNumber": "IND6120253Z",
+      "accountName": "Leila Miller Individual Portfolio",
+      "accountType": "Individual",
+      "currentValueCents": 555661.52,
+      "cashAvailableCents": 10031.56,
+      "riskProfile": "Aggressive",
+      "riskScore": 90,
+      "aumChangeCents": 163381.08,
+      "aumChangePercentage": 41.65,
+      "custodian": "Pershing",
+      "status": "Active",
+      "asOfDate": "2026-08-21T21:00:00Z",
+      "assetAllocation": [
+        {
+          "assetClass": "Equities",
+          "marketValueCents": 69791.09,
+          "allocationPercentage": 12.56
+        },
+        {
+          "assetClass": "Fixed Income",
+          "marketValueCents": 115299.77,
+          "allocationPercentage": 20.75
+        },
+        {
+          "assetClass": "Alternatives",
+          "marketValueCents": 240379.17,
+          "allocationPercentage": 43.26
+        },
+        {
+          "assetClass": "Cash",
+          "marketValueCents": 130191.49,
+          "allocationPercentage": 23.43
+        }
+      ]
+    },
+    {
+      "id": "ACCP085",
+      "accountId": "ACCP085",
+      "householdId": "HHP017",
+      "accountNumber": "INV7685149K",
+      "accountName": "Michael Garcia Investment Account",
+      "accountType": "Investment",
+      "currentValueCents": 259301.53,
+      "cashAvailableCents": 3123.93,
+      "riskProfile": "Conservative",
+      "riskScore": 25,
+      "aumChangeCents": 102681.84,
+      "aumChangePercentage": 65.56,
+      "custodian": "Pershing",
+      "status": "Active",
+      "asOfDate": "2026-08-21T21:00:00Z",
+      "assetAllocation": [
+        {
+          "assetClass": "Equities",
+          "marketValueCents": 83780.32,
+          "allocationPercentage": 32.31
+        },
+        {
+          "assetClass": "Fixed Income",
+          "marketValueCents": 55905.41,
+          "allocationPercentage": 21.56
+        },
+        {
+          "assetClass": "Alternatives",
+          "marketValueCents": 62387.95,
+          "allocationPercentage": 24.06
+        },
+        {
+          "assetClass": "Cash",
+          "marketValueCents": 57227.85,
+          "allocationPercentage": 22.07
+        }
+      ]
+    }
+  ],
+  "HHP018": [
+    {
+      "id": "ACCP086",
+      "accountId": "ACCP086",
+      "householdId": "HHP018",
+      "accountNumber": "BRO6891254U",
+      "accountName": "Emily Martinez Brokerage Account",
+      "accountType": "Brokerage",
+      "currentValueCents": 374702.84,
+      "cashAvailableCents": 30578.32,
+      "riskProfile": "Moderate",
+      "riskScore": 48,
+      "aumChangeCents": 172099.16,
+      "aumChangePercentage": 84.94,
+      "custodian": "Pershing",
+      "status": "Active",
+      "asOfDate": "2026-08-21T21:00:00Z",
+      "assetAllocation": [
+        {
+          "assetClass": "Equities",
+          "marketValueCents": 105254.03,
+          "allocationPercentage": 28.09
+        },
+        {
+          "assetClass": "Fixed Income",
+          "marketValueCents": 98172.14,
+          "allocationPercentage": 26.2
+        },
+        {
+          "assetClass": "Alternatives",
+          "marketValueCents": 32261.91,
+          "allocationPercentage": 8.61
+        },
+        {
+          "assetClass": "Cash",
+          "marketValueCents": 138977.28,
+          "allocationPercentage": 37.09
+        }
+      ]
+    },
+    {
+      "id": "ACCP087",
+      "accountId": "ACCP087",
+      "householdId": "HHP018",
+      "accountNumber": "JOI6555772A",
+      "accountName": "David Hernandez Family Joint Account",
+      "accountType": "Joint",
+      "currentValueCents": 177670.88,
+      "cashAvailableCents": 43668.03,
+      "riskProfile": "Growth",
+      "riskScore": 72,
+      "aumChangeCents": -24747.59,
+      "aumChangePercentage": -12.23,
+      "custodian": "Pershing",
+      "status": "Active",
+      "asOfDate": "2026-08-21T21:00:00Z",
+      "assetAllocation": [
+        {
+          "assetClass": "Equities",
+          "marketValueCents": 82474.82,
+          "allocationPercentage": 46.42
+        },
+        {
+          "assetClass": "Fixed Income",
+          "marketValueCents": 27432.38,
+          "allocationPercentage": 15.44
+        },
+        {
+          "assetClass": "Alternatives",
+          "marketValueCents": 37470.79,
+          "allocationPercentage": 21.09
+        },
+        {
+          "assetClass": "Cash",
+          "marketValueCents": 30292.89,
+          "allocationPercentage": 17.05
+        }
+      ]
+    },
+    {
+      "id": "ACCP088",
+      "accountId": "ACCP088",
+      "householdId": "HHP018",
+      "accountNumber": "IND5453786B",
+      "accountName": "Sophia Anderson Individual Portfolio",
+      "accountType": "Individual",
+      "currentValueCents": 174201.27,
+      "cashAvailableCents": 19555.37,
+      "riskProfile": "Aggressive",
+      "riskScore": 90,
+      "aumChangeCents": 61961.75,
+      "aumChangePercentage": 55.2,
+      "custodian": "Pershing",
+      "status": "Active",
+      "asOfDate": "2026-08-21T21:00:00Z",
+      "assetAllocation": [
+        {
+          "assetClass": "Equities",
+          "marketValueCents": 66283.58,
+          "allocationPercentage": 38.05
+        },
+        {
+          "assetClass": "Fixed Income",
+          "marketValueCents": 64262.85,
+          "allocationPercentage": 36.89
+        },
+        {
+          "assetClass": "Alternatives",
+          "marketValueCents": 27976.72,
+          "allocationPercentage": 16.06
+        },
+        {
+          "assetClass": "Cash",
+          "marketValueCents": 15660.69,
+          "allocationPercentage": 8.99
+        }
+      ]
+    }
+  ],
+  "HHP019": [
+    {
+      "id": "ACCP091",
+      "accountId": "ACCP091",
+      "householdId": "HHP019",
+      "accountNumber": "INV4305700L",
+      "accountName": "Sophia Martinez Investment Account",
+      "accountType": "Investment",
+      "currentValueCents": 335648.7,
+      "cashAvailableCents": 42699.35,
+      "riskProfile": "Conservative",
+      "riskScore": 25,
+      "aumChangeCents": 177455.38,
+      "aumChangePercentage": 112.18,
+      "custodian": "Pershing",
+      "status": "Active",
+      "asOfDate": "2026-08-21T21:00:00Z",
+      "assetAllocation": [
+        {
+          "assetClass": "Equities",
+          "marketValueCents": 98277.94,
+          "allocationPercentage": 29.28
+        },
+        {
+          "assetClass": "Fixed Income",
+          "marketValueCents": 96599.7,
+          "allocationPercentage": 28.78
+        },
+        {
+          "assetClass": "Alternatives",
+          "marketValueCents": 18561.37,
+          "allocationPercentage": 5.53
+        },
+        {
+          "assetClass": "Cash",
+          "marketValueCents": 122209.69,
+          "allocationPercentage": 36.41
+        }
+      ]
+    },
+    {
+      "id": "ACCP092",
+      "accountId": "ACCP092",
+      "householdId": "HHP019",
+      "accountNumber": "BRO6266630V",
+      "accountName": "James Hernandez Brokerage Account",
+      "accountType": "Brokerage",
+      "currentValueCents": 544007.64,
+      "cashAvailableCents": 32388.94,
+      "riskProfile": "Moderate",
+      "riskScore": 48,
+      "aumChangeCents": -16162.44,
+      "aumChangePercentage": -2.89,
+      "custodian": "Pershing",
+      "status": "Active",
+      "asOfDate": "2026-08-21T21:00:00Z",
+      "assetAllocation": [
+        {
+          "assetClass": "Equities",
+          "marketValueCents": 52605.54,
+          "allocationPercentage": 9.67
+        },
+        {
+          "assetClass": "Fixed Income",
+          "marketValueCents": 134152.28,
+          "allocationPercentage": 24.66
+        },
+        {
+          "assetClass": "Alternatives",
+          "marketValueCents": 233216.08,
+          "allocationPercentage": 42.87
+        },
+        {
+          "assetClass": "Cash",
+          "marketValueCents": 124033.74,
+          "allocationPercentage": 22.8
+        }
+      ]
+    },
+    {
+      "id": "ACCP093",
+      "accountId": "ACCP093",
+      "householdId": "HHP019",
+      "accountNumber": "JOI6188935V",
+      "accountName": "Isabella Anderson Family Joint Account",
+      "accountType": "Joint",
+      "currentValueCents": 324196.45,
+      "cashAvailableCents": 18108.02,
+      "riskProfile": "Growth",
+      "riskScore": 72,
+      "aumChangeCents": -10993.6,
+      "aumChangePercentage": -3.28,
+      "custodian": "Pershing",
+      "status": "Active",
+      "asOfDate": "2026-08-21T21:00:00Z",
+      "assetAllocation": [
+        {
+          "assetClass": "Equities",
+          "marketValueCents": 66946.57,
+          "allocationPercentage": 20.65
+        },
+        {
+          "assetClass": "Fixed Income",
+          "marketValueCents": 52098.37,
+          "allocationPercentage": 16.07
+        },
+        {
+          "assetClass": "Alternatives",
+          "marketValueCents": 92201.47,
+          "allocationPercentage": 28.44
+        },
+        {
+          "assetClass": "Cash",
+          "marketValueCents": 112982.46,
+          "allocationPercentage": 34.85
+        }
+      ]
+    },
+    {
+      "id": "ACCP094",
+      "accountId": "ACCP094",
+      "householdId": "HHP019",
+      "accountNumber": "IND3135534G",
+      "accountName": "Carlos Ramirez Individual Portfolio",
+      "accountType": "Individual",
+      "currentValueCents": 330223.17,
+      "cashAvailableCents": 42316.37,
+      "riskProfile": "Aggressive",
+      "riskScore": 90,
+      "aumChangeCents": 102232.52,
+      "aumChangePercentage": 44.84,
+      "custodian": "Pershing",
+      "status": "Active",
+      "asOfDate": "2026-08-21T21:00:00Z",
+      "assetAllocation": [
+        {
+          "assetClass": "Equities",
+          "marketValueCents": 67695.75,
+          "allocationPercentage": 20.5
+        },
+        {
+          "assetClass": "Fixed Income",
+          "marketValueCents": 125715.96,
+          "allocationPercentage": 38.07
+        },
+        {
+          "assetClass": "Alternatives",
+          "marketValueCents": 121654.22,
+          "allocationPercentage": 36.84
+        },
+        {
+          "assetClass": "Cash",
+          "marketValueCents": 15157.24,
+          "allocationPercentage": 4.59
+        }
+      ]
+    },
+    {
+      "id": "ACCP095",
+      "accountId": "ACCP095",
+      "householdId": "HHP019",
+      "accountNumber": "INV3919694T",
+      "accountName": "Olivia Torres Investment Account",
+      "accountType": "Investment",
+      "currentValueCents": 404552.63,
+      "cashAvailableCents": 18273.38,
+      "riskProfile": "Conservative",
+      "riskScore": 25,
+      "aumChangeCents": 182191.35,
+      "aumChangePercentage": 81.93,
+      "custodian": "Pershing",
+      "status": "Active",
+      "asOfDate": "2026-08-21T21:00:00Z",
+      "assetAllocation": [
+        {
+          "assetClass": "Equities",
+          "marketValueCents": 56556.46,
+          "allocationPercentage": 13.98
+        },
+        {
+          "assetClass": "Fixed Income",
+          "marketValueCents": 64890.24,
+          "allocationPercentage": 16.04
+        },
+        {
+          "assetClass": "Alternatives",
+          "marketValueCents": 141310.23,
+          "allocationPercentage": 34.93
+        },
+        {
+          "assetClass": "Cash",
+          "marketValueCents": 141795.7,
+          "allocationPercentage": 35.05
+        }
+      ]
+    }
+  ],
+  "HHP020": [
+    {
+      "id": "ACCP096",
+      "accountId": "ACCP096",
+      "householdId": "HHP020",
+      "accountNumber": "BRO6098175J",
+      "accountName": "Daniel Nguyen Brokerage Account",
+      "accountType": "Brokerage",
+      "currentValueCents": 225091.34,
+      "cashAvailableCents": 35359.15,
+      "riskProfile": "Moderate",
+      "riskScore": 48,
+      "aumChangeCents": 55371.44,
+      "aumChangePercentage": 32.63,
+      "custodian": "Pershing",
+      "status": "Active",
+      "asOfDate": "2026-08-21T21:00:00Z",
+      "assetAllocation": [
+        {
+          "assetClass": "Equities",
+          "marketValueCents": 41596.88,
+          "allocationPercentage": 18.48
+        },
+        {
+          "assetClass": "Fixed Income",
+          "marketValueCents": 56655.49,
+          "allocationPercentage": 25.17
+        },
+        {
+          "assetClass": "Alternatives",
+          "marketValueCents": 60279.46,
+          "allocationPercentage": 26.78
+        },
+        {
+          "assetClass": "Cash",
+          "marketValueCents": 66582.02,
+          "allocationPercentage": 29.58
+        }
+      ]
+    },
+    {
+      "id": "ACCP097",
+      "accountId": "ACCP097",
+      "householdId": "HHP020",
+      "accountNumber": "JOI6406444O",
+      "accountName": "Ana Okafor Family Joint Account",
+      "accountType": "Joint",
+      "currentValueCents": 340893.01,
+      "cashAvailableCents": 30403.23,
+      "riskProfile": "Growth",
+      "riskScore": 72,
+      "aumChangeCents": 54562.18,
+      "aumChangePercentage": 19.06,
+      "custodian": "Pershing",
+      "status": "Active",
+      "asOfDate": "2026-08-21T21:00:00Z",
+      "assetAllocation": [
+        {
+          "assetClass": "Equities",
+          "marketValueCents": 105199.58,
+          "allocationPercentage": 30.86
+        },
+        {
+          "assetClass": "Fixed Income",
+          "marketValueCents": 135436.79,
+          "allocationPercentage": 39.73
+        },
+        {
+          "assetClass": "Alternatives",
+          "marketValueCents": 21271.72,
+          "allocationPercentage": 6.24
+        },
+        {
+          "assetClass": "Cash",
+          "marketValueCents": 78984.91,
+          "allocationPercentage": 23.17
+        }
+      ]
+    },
+    {
+      "id": "ACCP098",
+      "accountId": "ACCP098",
+      "householdId": "HHP020",
+      "accountNumber": "IND3846949V",
+      "accountName": "Lucas Silva Individual Portfolio",
+      "accountType": "Individual",
+      "currentValueCents": 162397.77,
+      "cashAvailableCents": 23195.34,
+      "riskProfile": "Aggressive",
+      "riskScore": 90,
+      "aumChangeCents": 43790.03,
+      "aumChangePercentage": 36.92,
+      "custodian": "Pershing",
+      "status": "Active",
+      "asOfDate": "2026-08-21T21:00:00Z",
+      "assetAllocation": [
+        {
+          "assetClass": "Equities",
+          "marketValueCents": 50229.63,
+          "allocationPercentage": 30.93
+        },
+        {
+          "assetClass": "Fixed Income",
+          "marketValueCents": 24749.42,
+          "allocationPercentage": 15.24
+        },
+        {
+          "assetClass": "Alternatives",
+          "marketValueCents": 39901.13,
+          "allocationPercentage": 24.57
+        },
+        {
+          "assetClass": "Cash",
+          "marketValueCents": 47517.59,
+          "allocationPercentage": 29.26
+        }
+      ]
+    }
+  ]
+}

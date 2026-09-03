@@ -1,0 +1,902 @@
+{
+  "HHP001": {
+    "id": "HHP001",
+    "householdId": "HHP001",
+    "householdName": "Johnson Household",
+    "totalAumCents": 1432694.23,
+    "aumChangeCents": -82438.31,
+    "aumChangePercentage": -5.44,
+    "asOfDate": "2026-08-21T21:00:00Z",
+    "totalAccounts": 5,
+    "status": "ACTIVE",
+    "assetAllocation": [
+      {
+        "assetClass": "Equities",
+        "marketValueCents": 466485.24,
+        "allocationPercentage": 32.56,
+        "id": "HHP001-ALLOC1",
+        "householdId": "HHP001",
+        "asOfDate": "2026-08-21T21:00:00Z"
+      },
+      {
+        "assetClass": "Fixed Income",
+        "marketValueCents": 427372.69,
+        "allocationPercentage": 29.83,
+        "id": "HHP001-ALLOC2",
+        "householdId": "HHP001",
+        "asOfDate": "2026-08-21T21:00:00Z"
+      },
+      {
+        "assetClass": "Alternatives",
+        "marketValueCents": 472932.37,
+        "allocationPercentage": 33.01,
+        "id": "HHP001-ALLOC3",
+        "householdId": "HHP001",
+        "asOfDate": "2026-08-21T21:00:00Z"
+      },
+      {
+        "assetClass": "Cash",
+        "marketValueCents": 66047.2,
+        "allocationPercentage": 4.61,
+        "id": "HHP001-ALLOC4",
+        "householdId": "HHP001",
+        "asOfDate": "2026-08-21T21:00:00Z"
+      }
+    ]
+  },
+  "HHP002": {
+    "id": "HHP002",
+    "householdId": "HHP002",
+    "householdName": "Martinez Household",
+    "totalAumCents": 931172.14,
+    "aumChangeCents": -7878.03,
+    "aumChangePercentage": -0.84,
+    "asOfDate": "2026-08-21T21:00:00Z",
+    "totalAccounts": 3,
+    "status": "ACTIVE",
+    "assetAllocation": [
+      {
+        "assetClass": "Equities",
+        "marketValueCents": 105967.39,
+        "allocationPercentage": 11.38,
+        "id": "HHP002-ALLOC1",
+        "householdId": "HHP002",
+        "asOfDate": "2026-08-21T21:00:00Z"
+      },
+      {
+        "assetClass": "Fixed Income",
+        "marketValueCents": 132319.56,
+        "allocationPercentage": 14.21,
+        "id": "HHP002-ALLOC2",
+        "householdId": "HHP002",
+        "asOfDate": "2026-08-21T21:00:00Z"
+      },
+      {
+        "assetClass": "Alternatives",
+        "marketValueCents": 355614.64,
+        "allocationPercentage": 38.19,
+        "id": "HHP002-ALLOC3",
+        "householdId": "HHP002",
+        "asOfDate": "2026-08-21T21:00:00Z"
+      },
+      {
+        "assetClass": "Cash",
+        "marketValueCents": 337270.55,
+        "allocationPercentage": 36.22,
+        "id": "HHP002-ALLOC4",
+        "householdId": "HHP002",
+        "asOfDate": "2026-08-21T21:00:00Z"
+      }
+    ]
+  },
+  "HHP003": {
+    "id": "HHP003",
+    "householdId": "HHP003",
+    "householdName": "Martinez Household",
+    "totalAumCents": 2147549.12,
+    "aumChangeCents": -63671.1,
+    "aumChangePercentage": -2.88,
+    "asOfDate": "2026-08-21T21:00:00Z",
+    "totalAccounts": 5,
+    "status": "ACTIVE",
+    "assetAllocation": [
+      {
+        "assetClass": "Equities",
+        "marketValueCents": 706973.17,
+        "allocationPercentage": 32.92,
+        "id": "HHP003-ALLOC1",
+        "householdId": "HHP003",
+        "asOfDate": "2026-08-21T21:00:00Z"
+      },
+      {
+        "assetClass": "Fixed Income",
+        "marketValueCents": 710624.0,
+        "allocationPercentage": 33.09,
+        "id": "HHP003-ALLOC2",
+        "householdId": "HHP003",
+        "asOfDate": "2026-08-21T21:00:00Z"
+      },
+      {
+        "assetClass": "Alternatives",
+        "marketValueCents": 560510.32,
+        "allocationPercentage": 26.1,
+        "id": "HHP003-ALLOC3",
+        "householdId": "HHP003",
+        "asOfDate": "2026-08-21T21:00:00Z"
+      },
+      {
+        "assetClass": "Cash",
+        "marketValueCents": 169656.38,
+        "allocationPercentage": 7.9,
+        "id": "HHP003-ALLOC4",
+        "householdId": "HHP003",
+        "asOfDate": "2026-08-21T21:00:00Z"
+      }
+    ]
+  },
+  "HHP004": {
+    "id": "HHP004",
+    "householdId": "HHP004",
+    "householdName": "Nguyen Household",
+    "totalAumCents": 710624.54,
+    "aumChangeCents": 76613.23,
+    "aumChangePercentage": 12.08,
+    "asOfDate": "2026-08-21T21:00:00Z",
+    "totalAccounts": 3,
+    "status": "ACTIVE",
+    "assetAllocation": [
+      {
+        "assetClass": "Equities",
+        "marketValueCents": 195919.19,
+        "allocationPercentage": 27.57,
+        "id": "HHP004-ALLOC1",
+        "householdId": "HHP004",
+        "asOfDate": "2026-08-21T21:00:00Z"
+      },
+      {
+        "assetClass": "Fixed Income",
+        "marketValueCents": 250068.78,
+        "allocationPercentage": 35.19,
+        "id": "HHP004-ALLOC2",
+        "householdId": "HHP004",
+        "asOfDate": "2026-08-21T21:00:00Z"
+      },
+      {
+        "assetClass": "Alternatives",
+        "marketValueCents": 156195.27,
+        "allocationPercentage": 21.98,
+        "id": "HHP004-ALLOC3",
+        "householdId": "HHP004",
+        "asOfDate": "2026-08-21T21:00:00Z"
+      },
+      {
+        "assetClass": "Cash",
+        "marketValueCents": 108370.24,
+        "allocationPercentage": 15.25,
+        "id": "HHP004-ALLOC4",
+        "householdId": "HHP004",
+        "asOfDate": "2026-08-21T21:00:00Z"
+      }
+    ]
+  },
+  "HHP005": {
+    "id": "HHP005",
+    "householdId": "HHP005",
+    "householdName": "Nguyen Household",
+    "totalAumCents": 2439746.13,
+    "aumChangeCents": 129376.62,
+    "aumChangePercentage": 5.6,
+    "asOfDate": "2026-08-21T21:00:00Z",
+    "totalAccounts": 5,
+    "status": "ACTIVE",
+    "assetAllocation": [
+      {
+        "assetClass": "Equities",
+        "marketValueCents": 382308.22,
+        "allocationPercentage": 15.67,
+        "id": "HHP005-ALLOC1",
+        "householdId": "HHP005",
+        "asOfDate": "2026-08-21T21:00:00Z"
+      },
+      {
+        "assetClass": "Fixed Income",
+        "marketValueCents": 609936.53,
+        "allocationPercentage": 25.0,
+        "id": "HHP005-ALLOC2",
+        "householdId": "HHP005",
+        "asOfDate": "2026-08-21T21:00:00Z"
+      },
+      {
+        "assetClass": "Alternatives",
+        "marketValueCents": 624087.06,
+        "allocationPercentage": 25.58,
+        "id": "HHP005-ALLOC3",
+        "householdId": "HHP005",
+        "asOfDate": "2026-08-21T21:00:00Z"
+      },
+      {
+        "assetClass": "Cash",
+        "marketValueCents": 823414.32,
+        "allocationPercentage": 33.75,
+        "id": "HHP005-ALLOC4",
+        "householdId": "HHP005",
+        "asOfDate": "2026-08-21T21:00:00Z"
+      }
+    ]
+  },
+  "HHP006": {
+    "id": "HHP006",
+    "householdId": "HHP006",
+    "householdName": "Costa Household",
+    "totalAumCents": 977885.93,
+    "aumChangeCents": 255425.4,
+    "aumChangePercentage": 35.35,
+    "asOfDate": "2026-08-21T21:00:00Z",
+    "totalAccounts": 3,
+    "status": "ACTIVE",
+    "assetAllocation": [
+      {
+        "assetClass": "Equities",
+        "marketValueCents": 327494.0,
+        "allocationPercentage": 33.49,
+        "id": "HHP006-ALLOC1",
+        "householdId": "HHP006",
+        "asOfDate": "2026-08-21T21:00:00Z"
+      },
+      {
+        "assetClass": "Fixed Income",
+        "marketValueCents": 317910.72,
+        "allocationPercentage": 32.51,
+        "id": "HHP006-ALLOC2",
+        "householdId": "HHP006",
+        "asOfDate": "2026-08-21T21:00:00Z"
+      },
+      {
+        "assetClass": "Alternatives",
+        "marketValueCents": 266180.55,
+        "allocationPercentage": 27.22,
+        "id": "HHP006-ALLOC3",
+        "householdId": "HHP006",
+        "asOfDate": "2026-08-21T21:00:00Z"
+      },
+      {
+        "assetClass": "Cash",
+        "marketValueCents": 66300.67,
+        "allocationPercentage": 6.78,
+        "id": "HHP006-ALLOC4",
+        "householdId": "HHP006",
+        "asOfDate": "2026-08-21T21:00:00Z"
+      }
+    ]
+  },
+  "HHP007": {
+    "id": "HHP007",
+    "householdId": "HHP007",
+    "householdName": "Costa Household",
+    "totalAumCents": 2262282.43,
+    "aumChangeCents": 180112.1,
+    "aumChangePercentage": 8.65,
+    "asOfDate": "2026-08-21T21:00:00Z",
+    "totalAccounts": 5,
+    "status": "ACTIVE",
+    "assetAllocation": [
+      {
+        "assetClass": "Equities",
+        "marketValueCents": 1259186.4,
+        "allocationPercentage": 55.66,
+        "id": "HHP007-ALLOC1",
+        "householdId": "HHP007",
+        "asOfDate": "2026-08-21T21:00:00Z"
+      },
+      {
+        "assetClass": "Fixed Income",
+        "marketValueCents": 152930.29,
+        "allocationPercentage": 6.76,
+        "id": "HHP007-ALLOC2",
+        "householdId": "HHP007",
+        "asOfDate": "2026-08-21T21:00:00Z"
+      },
+      {
+        "assetClass": "Alternatives",
+        "marketValueCents": 502679.16,
+        "allocationPercentage": 22.22,
+        "id": "HHP007-ALLOC3",
+        "householdId": "HHP007",
+        "asOfDate": "2026-08-21T21:00:00Z"
+      },
+      {
+        "assetClass": "Cash",
+        "marketValueCents": 347260.35,
+        "allocationPercentage": 15.35,
+        "id": "HHP007-ALLOC4",
+        "householdId": "HHP007",
+        "asOfDate": "2026-08-21T21:00:00Z"
+      }
+    ]
+  },
+  "HHP008": {
+    "id": "HHP008",
+    "householdId": "HHP008",
+    "householdName": "Johnson Household",
+    "totalAumCents": 1179907.25,
+    "aumChangeCents": 429130.2,
+    "aumChangePercentage": 57.16,
+    "asOfDate": "2026-08-21T21:00:00Z",
+    "totalAccounts": 3,
+    "status": "ACTIVE",
+    "assetAllocation": [
+      {
+        "assetClass": "Equities",
+        "marketValueCents": 270080.77,
+        "allocationPercentage": 22.89,
+        "id": "HHP008-ALLOC1",
+        "householdId": "HHP008",
+        "asOfDate": "2026-08-21T21:00:00Z"
+      },
+      {
+        "assetClass": "Fixed Income",
+        "marketValueCents": 265951.09,
+        "allocationPercentage": 22.54,
+        "id": "HHP008-ALLOC2",
+        "householdId": "HHP008",
+        "asOfDate": "2026-08-21T21:00:00Z"
+      },
+      {
+        "assetClass": "Alternatives",
+        "marketValueCents": 171322.53,
+        "allocationPercentage": 14.52,
+        "id": "HHP008-ALLOC3",
+        "householdId": "HHP008",
+        "asOfDate": "2026-08-21T21:00:00Z"
+      },
+      {
+        "assetClass": "Cash",
+        "marketValueCents": 472552.85,
+        "allocationPercentage": 40.05,
+        "id": "HHP008-ALLOC4",
+        "householdId": "HHP008",
+        "asOfDate": "2026-08-21T21:00:00Z"
+      }
+    ]
+  },
+  "HHP009": {
+    "id": "HHP009",
+    "householdId": "HHP009",
+    "householdName": "Johnson Household",
+    "totalAumCents": 1766040.83,
+    "aumChangeCents": 127733.18,
+    "aumChangePercentage": 7.8,
+    "asOfDate": "2026-08-21T21:00:00Z",
+    "totalAccounts": 5,
+    "status": "ACTIVE",
+    "assetAllocation": [
+      {
+        "assetClass": "Equities",
+        "marketValueCents": 559128.53,
+        "allocationPercentage": 31.66,
+        "id": "HHP009-ALLOC1",
+        "householdId": "HHP009",
+        "asOfDate": "2026-08-21T21:00:00Z"
+      },
+      {
+        "assetClass": "Fixed Income",
+        "marketValueCents": 399831.64,
+        "allocationPercentage": 22.64,
+        "id": "HHP009-ALLOC2",
+        "householdId": "HHP009",
+        "asOfDate": "2026-08-21T21:00:00Z"
+      },
+      {
+        "assetClass": "Alternatives",
+        "marketValueCents": 449987.2,
+        "allocationPercentage": 25.48,
+        "id": "HHP009-ALLOC3",
+        "householdId": "HHP009",
+        "asOfDate": "2026-08-21T21:00:00Z"
+      },
+      {
+        "assetClass": "Cash",
+        "marketValueCents": 357093.46,
+        "allocationPercentage": 20.22,
+        "id": "HHP009-ALLOC4",
+        "householdId": "HHP009",
+        "asOfDate": "2026-08-21T21:00:00Z"
+      }
+    ]
+  },
+  "HHP010": {
+    "id": "HHP010",
+    "householdId": "HHP010",
+    "householdName": "Martinez Household",
+    "totalAumCents": 809899.55,
+    "aumChangeCents": -68881.38,
+    "aumChangePercentage": -7.84,
+    "asOfDate": "2026-08-21T21:00:00Z",
+    "totalAccounts": 3,
+    "status": "ACTIVE",
+    "assetAllocation": [
+      {
+        "assetClass": "Equities",
+        "marketValueCents": 262488.44,
+        "allocationPercentage": 32.41,
+        "id": "HHP010-ALLOC1",
+        "householdId": "HHP010",
+        "asOfDate": "2026-08-21T21:00:00Z"
+      },
+      {
+        "assetClass": "Fixed Income",
+        "marketValueCents": 328333.28,
+        "allocationPercentage": 40.54,
+        "id": "HHP010-ALLOC2",
+        "householdId": "HHP010",
+        "asOfDate": "2026-08-21T21:00:00Z"
+      },
+      {
+        "assetClass": "Alternatives",
+        "marketValueCents": 169916.93,
+        "allocationPercentage": 20.98,
+        "id": "HHP010-ALLOC3",
+        "householdId": "HHP010",
+        "asOfDate": "2026-08-21T21:00:00Z"
+      },
+      {
+        "assetClass": "Cash",
+        "marketValueCents": 49160.9,
+        "allocationPercentage": 6.07,
+        "id": "HHP010-ALLOC4",
+        "householdId": "HHP010",
+        "asOfDate": "2026-08-21T21:00:00Z"
+      }
+    ]
+  },
+  "HHP011": {
+    "id": "HHP011",
+    "householdId": "HHP011",
+    "householdName": "Martinez Household",
+    "totalAumCents": 2435699.44,
+    "aumChangeCents": -404173.96,
+    "aumChangePercentage": -14.23,
+    "asOfDate": "2026-08-21T21:00:00Z",
+    "totalAccounts": 5,
+    "status": "ACTIVE",
+    "assetAllocation": [
+      {
+        "assetClass": "Equities",
+        "marketValueCents": 540968.85,
+        "allocationPercentage": 22.21,
+        "id": "HHP011-ALLOC1",
+        "householdId": "HHP011",
+        "asOfDate": "2026-08-21T21:00:00Z"
+      },
+      {
+        "assetClass": "Fixed Income",
+        "marketValueCents": 758963.95,
+        "allocationPercentage": 31.16,
+        "id": "HHP011-ALLOC2",
+        "householdId": "HHP011",
+        "asOfDate": "2026-08-21T21:00:00Z"
+      },
+      {
+        "assetClass": "Alternatives",
+        "marketValueCents": 714147.08,
+        "allocationPercentage": 29.32,
+        "id": "HHP011-ALLOC3",
+        "householdId": "HHP011",
+        "asOfDate": "2026-08-21T21:00:00Z"
+      },
+      {
+        "assetClass": "Cash",
+        "marketValueCents": 421619.57,
+        "allocationPercentage": 17.31,
+        "id": "HHP011-ALLOC4",
+        "householdId": "HHP011",
+        "asOfDate": "2026-08-21T21:00:00Z"
+      }
+    ]
+  },
+  "HHP012": {
+    "id": "HHP012",
+    "householdId": "HHP012",
+    "householdName": "Nguyen Household",
+    "totalAumCents": 1171031.81,
+    "aumChangeCents": 389978.6,
+    "aumChangePercentage": 49.93,
+    "asOfDate": "2026-08-21T21:00:00Z",
+    "totalAccounts": 3,
+    "status": "ACTIVE",
+    "assetAllocation": [
+      {
+        "assetClass": "Equities",
+        "marketValueCents": 425904.27,
+        "allocationPercentage": 36.37,
+        "id": "HHP012-ALLOC1",
+        "householdId": "HHP012",
+        "asOfDate": "2026-08-21T21:00:00Z"
+      },
+      {
+        "assetClass": "Fixed Income",
+        "marketValueCents": 180338.9,
+        "allocationPercentage": 15.4,
+        "id": "HHP012-ALLOC2",
+        "householdId": "HHP012",
+        "asOfDate": "2026-08-21T21:00:00Z"
+      },
+      {
+        "assetClass": "Alternatives",
+        "marketValueCents": 174132.43,
+        "allocationPercentage": 14.87,
+        "id": "HHP012-ALLOC3",
+        "householdId": "HHP012",
+        "asOfDate": "2026-08-21T21:00:00Z"
+      },
+      {
+        "assetClass": "Cash",
+        "marketValueCents": 390773.31,
+        "allocationPercentage": 33.37,
+        "id": "HHP012-ALLOC4",
+        "householdId": "HHP012",
+        "asOfDate": "2026-08-21T21:00:00Z"
+      }
+    ]
+  },
+  "HHP013": {
+    "id": "HHP013",
+    "householdId": "HHP013",
+    "householdName": "Nguyen Household",
+    "totalAumCents": 1624925.85,
+    "aumChangeCents": 304069.28,
+    "aumChangePercentage": 23.02,
+    "asOfDate": "2026-08-21T21:00:00Z",
+    "totalAccounts": 5,
+    "status": "ACTIVE",
+    "assetAllocation": [
+      {
+        "assetClass": "Equities",
+        "marketValueCents": 616009.39,
+        "allocationPercentage": 37.91,
+        "id": "HHP013-ALLOC1",
+        "householdId": "HHP013",
+        "asOfDate": "2026-08-21T21:00:00Z"
+      },
+      {
+        "assetClass": "Fixed Income",
+        "marketValueCents": 96358.1,
+        "allocationPercentage": 5.93,
+        "id": "HHP013-ALLOC2",
+        "householdId": "HHP013",
+        "asOfDate": "2026-08-21T21:00:00Z"
+      },
+      {
+        "assetClass": "Alternatives",
+        "marketValueCents": 473990.87,
+        "allocationPercentage": 29.17,
+        "id": "HHP013-ALLOC3",
+        "householdId": "HHP013",
+        "asOfDate": "2026-08-21T21:00:00Z"
+      },
+      {
+        "assetClass": "Cash",
+        "marketValueCents": 438567.49,
+        "allocationPercentage": 26.99,
+        "id": "HHP013-ALLOC4",
+        "householdId": "HHP013",
+        "asOfDate": "2026-08-21T21:00:00Z"
+      }
+    ]
+  },
+  "HHP014": {
+    "id": "HHP014",
+    "householdId": "HHP014",
+    "householdName": "Costa Household",
+    "totalAumCents": 1536319.46,
+    "aumChangeCents": -6448.79,
+    "aumChangePercentage": -0.42,
+    "asOfDate": "2026-08-21T21:00:00Z",
+    "totalAccounts": 3,
+    "status": "ACTIVE",
+    "assetAllocation": [
+      {
+        "assetClass": "Equities",
+        "marketValueCents": 520658.66,
+        "allocationPercentage": 33.89,
+        "id": "HHP014-ALLOC1",
+        "householdId": "HHP014",
+        "asOfDate": "2026-08-21T21:00:00Z"
+      },
+      {
+        "assetClass": "Fixed Income",
+        "marketValueCents": 283604.57,
+        "allocationPercentage": 18.46,
+        "id": "HHP014-ALLOC2",
+        "householdId": "HHP014",
+        "asOfDate": "2026-08-21T21:00:00Z"
+      },
+      {
+        "assetClass": "Alternatives",
+        "marketValueCents": 417264.37,
+        "allocationPercentage": 27.16,
+        "id": "HHP014-ALLOC3",
+        "householdId": "HHP014",
+        "asOfDate": "2026-08-21T21:00:00Z"
+      },
+      {
+        "assetClass": "Cash",
+        "marketValueCents": 314791.86,
+        "allocationPercentage": 20.49,
+        "id": "HHP014-ALLOC4",
+        "householdId": "HHP014",
+        "asOfDate": "2026-08-21T21:00:00Z"
+      }
+    ]
+  },
+  "HHP015": {
+    "id": "HHP015",
+    "householdId": "HHP015",
+    "householdName": "Costa Household",
+    "totalAumCents": 2004902.94,
+    "aumChangeCents": 33539.72,
+    "aumChangePercentage": 1.7,
+    "asOfDate": "2026-08-21T21:00:00Z",
+    "totalAccounts": 5,
+    "status": "ACTIVE",
+    "assetAllocation": [
+      {
+        "assetClass": "Equities",
+        "marketValueCents": 651192.47,
+        "allocationPercentage": 32.48,
+        "id": "HHP015-ALLOC1",
+        "householdId": "HHP015",
+        "asOfDate": "2026-08-21T21:00:00Z"
+      },
+      {
+        "assetClass": "Fixed Income",
+        "marketValueCents": 617309.62,
+        "allocationPercentage": 30.79,
+        "id": "HHP015-ALLOC2",
+        "householdId": "HHP015",
+        "asOfDate": "2026-08-21T21:00:00Z"
+      },
+      {
+        "assetClass": "Alternatives",
+        "marketValueCents": 586434.11,
+        "allocationPercentage": 29.25,
+        "id": "HHP015-ALLOC3",
+        "householdId": "HHP015",
+        "asOfDate": "2026-08-21T21:00:00Z"
+      },
+      {
+        "assetClass": "Cash",
+        "marketValueCents": 149966.74,
+        "allocationPercentage": 7.48,
+        "id": "HHP015-ALLOC4",
+        "householdId": "HHP015",
+        "asOfDate": "2026-08-21T21:00:00Z"
+      }
+    ]
+  },
+  "HHP016": {
+    "id": "HHP016",
+    "householdId": "HHP016",
+    "householdName": "Johnson Household",
+    "totalAumCents": 503966.77,
+    "aumChangeCents": 56596.84,
+    "aumChangePercentage": 12.65,
+    "asOfDate": "2026-08-21T21:00:00Z",
+    "totalAccounts": 3,
+    "status": "ACTIVE",
+    "assetAllocation": [
+      {
+        "assetClass": "Equities",
+        "marketValueCents": 218167.21,
+        "allocationPercentage": 43.29,
+        "id": "HHP016-ALLOC1",
+        "householdId": "HHP016",
+        "asOfDate": "2026-08-21T21:00:00Z"
+      },
+      {
+        "assetClass": "Fixed Income",
+        "marketValueCents": 138943.64,
+        "allocationPercentage": 27.57,
+        "id": "HHP016-ALLOC2",
+        "householdId": "HHP016",
+        "asOfDate": "2026-08-21T21:00:00Z"
+      },
+      {
+        "assetClass": "Alternatives",
+        "marketValueCents": 57804.99,
+        "allocationPercentage": 11.47,
+        "id": "HHP016-ALLOC3",
+        "householdId": "HHP016",
+        "asOfDate": "2026-08-21T21:00:00Z"
+      },
+      {
+        "assetClass": "Cash",
+        "marketValueCents": 89050.93,
+        "allocationPercentage": 17.67,
+        "id": "HHP016-ALLOC4",
+        "householdId": "HHP016",
+        "asOfDate": "2026-08-21T21:00:00Z"
+      }
+    ]
+  },
+  "HHP017": {
+    "id": "HHP017",
+    "householdId": "HHP017",
+    "householdName": "Johnson Household",
+    "totalAumCents": 1831186.77,
+    "aumChangeCents": 580949.06,
+    "aumChangePercentage": 46.47,
+    "asOfDate": "2026-08-21T21:00:00Z",
+    "totalAccounts": 5,
+    "status": "ACTIVE",
+    "assetAllocation": [
+      {
+        "assetClass": "Equities",
+        "marketValueCents": 522620.7,
+        "allocationPercentage": 28.54,
+        "id": "HHP017-ALLOC1",
+        "householdId": "HHP017",
+        "asOfDate": "2026-08-21T21:00:00Z"
+      },
+      {
+        "assetClass": "Fixed Income",
+        "marketValueCents": 388577.83,
+        "allocationPercentage": 21.22,
+        "id": "HHP017-ALLOC2",
+        "householdId": "HHP017",
+        "asOfDate": "2026-08-21T21:00:00Z"
+      },
+      {
+        "assetClass": "Alternatives",
+        "marketValueCents": 641830.96,
+        "allocationPercentage": 35.05,
+        "id": "HHP017-ALLOC3",
+        "householdId": "HHP017",
+        "asOfDate": "2026-08-21T21:00:00Z"
+      },
+      {
+        "assetClass": "Cash",
+        "marketValueCents": 278340.39,
+        "allocationPercentage": 15.2,
+        "id": "HHP017-ALLOC4",
+        "householdId": "HHP017",
+        "asOfDate": "2026-08-21T21:00:00Z"
+      }
+    ]
+  },
+  "HHP018": {
+    "id": "HHP018",
+    "householdId": "HHP018",
+    "householdName": "Martinez Household",
+    "totalAumCents": 726574.99,
+    "aumChangeCents": 209313.32,
+    "aumChangePercentage": 40.47,
+    "asOfDate": "2026-08-21T21:00:00Z",
+    "totalAccounts": 3,
+    "status": "ACTIVE",
+    "assetAllocation": [
+      {
+        "assetClass": "Equities",
+        "marketValueCents": 291792.52,
+        "allocationPercentage": 40.16,
+        "id": "HHP018-ALLOC1",
+        "householdId": "HHP018",
+        "asOfDate": "2026-08-21T21:00:00Z"
+      },
+      {
+        "assetClass": "Fixed Income",
+        "marketValueCents": 276243.81,
+        "allocationPercentage": 38.02,
+        "id": "HHP018-ALLOC2",
+        "householdId": "HHP018",
+        "asOfDate": "2026-08-21T21:00:00Z"
+      },
+      {
+        "assetClass": "Alternatives",
+        "marketValueCents": 118722.35,
+        "allocationPercentage": 16.34,
+        "id": "HHP018-ALLOC3",
+        "householdId": "HHP018",
+        "asOfDate": "2026-08-21T21:00:00Z"
+      },
+      {
+        "assetClass": "Cash",
+        "marketValueCents": 39743.65,
+        "allocationPercentage": 5.47,
+        "id": "HHP018-ALLOC4",
+        "householdId": "HHP018",
+        "asOfDate": "2026-08-21T21:00:00Z"
+      }
+    ]
+  },
+  "HHP019": {
+    "id": "HHP019",
+    "householdId": "HHP019",
+    "householdName": "Martinez Household",
+    "totalAumCents": 1938628.59,
+    "aumChangeCents": 434723.21,
+    "aumChangePercentage": 28.91,
+    "asOfDate": "2026-08-21T21:00:00Z",
+    "totalAccounts": 5,
+    "status": "ACTIVE",
+    "assetAllocation": [
+      {
+        "assetClass": "Equities",
+        "marketValueCents": 496870.51,
+        "allocationPercentage": 25.63,
+        "id": "HHP019-ALLOC1",
+        "householdId": "HHP019",
+        "asOfDate": "2026-08-21T21:00:00Z"
+      },
+      {
+        "assetClass": "Fixed Income",
+        "marketValueCents": 814999.46,
+        "allocationPercentage": 42.04,
+        "id": "HHP019-ALLOC2",
+        "householdId": "HHP019",
+        "asOfDate": "2026-08-21T21:00:00Z"
+      },
+      {
+        "assetClass": "Alternatives",
+        "marketValueCents": 482718.52,
+        "allocationPercentage": 24.9,
+        "id": "HHP019-ALLOC3",
+        "householdId": "HHP019",
+        "asOfDate": "2026-08-21T21:00:00Z"
+      },
+      {
+        "assetClass": "Cash",
+        "marketValueCents": 144040.1,
+        "allocationPercentage": 7.43,
+        "id": "HHP019-ALLOC4",
+        "householdId": "HHP019",
+        "asOfDate": "2026-08-21T21:00:00Z"
+      }
+    ]
+  },
+  "HHP020": {
+    "id": "HHP020",
+    "householdId": "HHP020",
+    "householdName": "Nguyen Household",
+    "totalAumCents": 728382.12,
+    "aumChangeCents": 153723.65,
+    "aumChangePercentage": 26.75,
+    "asOfDate": "2026-08-21T21:00:00Z",
+    "totalAccounts": 3,
+    "status": "ACTIVE",
+    "assetAllocation": [
+      {
+        "assetClass": "Equities",
+        "marketValueCents": 280208.6,
+        "allocationPercentage": 38.47,
+        "id": "HHP020-ALLOC1",
+        "householdId": "HHP020",
+        "asOfDate": "2026-08-21T21:00:00Z"
+      },
+      {
+        "assetClass": "Fixed Income",
+        "marketValueCents": 127903.9,
+        "allocationPercentage": 17.56,
+        "id": "HHP020-ALLOC2",
+        "householdId": "HHP020",
+        "asOfDate": "2026-08-21T21:00:00Z"
+      },
+      {
+        "assetClass": "Alternatives",
+        "marketValueCents": 259668.23,
+        "allocationPercentage": 35.65,
+        "id": "HHP020-ALLOC3",
+        "householdId": "HHP020",
+        "asOfDate": "2026-08-21T21:00:00Z"
+      },
+      {
+        "assetClass": "Cash",
+        "marketValueCents": 60601.39,
+        "allocationPercentage": 8.32,
+        "id": "HHP020-ALLOC4",
+        "householdId": "HHP020",
+        "asOfDate": "2026-08-21T21:00:00Z"
+      }
+    ]
+  }
+}

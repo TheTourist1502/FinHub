@@ -1508,6 +1508,168 @@ abstract class AppLocalizations {
   /// In en, this message translates to:
   /// **'Last 30 Transactions'**
   String get viewTransactionsAllHeader;
+
+  /// Placeholder text in the search field when the Accounts tab is active.
+  ///
+  /// In en, this message translates to:
+  /// **'Search by account...'**
+  String get accountsSearchHint;
+
+  /// Placeholder text in the search field when the Households tab is active.
+  ///
+  /// In en, this message translates to:
+  /// **'Search by household...'**
+  String get householdsSearchHint;
+
+  /// Screen title for the Households feature.
+  ///
+  /// In en, this message translates to:
+  /// **'Households'**
+  String get householdsTitle;
+
+  /// Label for the Accounts pill tab on the Households shell screen.
+  ///
+  /// In en, this message translates to:
+  /// **'Accounts'**
+  String get householdsAccountsTabLabel;
+
+  /// Header label above the household list showing the total count. Pluralised only when the count is greater than 1.
+  ///
+  /// In en, this message translates to:
+  /// **'{count, plural, =0{ALL HOUSEHOLD ({count})} =1{ALL HOUSEHOLD ({count})} other{ALL HOUSEHOLDS ({count})}}'**
+  String householdsAllLabel(int count);
+
+  /// Sub-heading on a household card showing the household identifier.
+  ///
+  /// In en, this message translates to:
+  /// **'ID: {code}'**
+  String householdsHouseholdIdLabel(String code);
+
+  /// Total account count shown on a household card.
+  ///
+  /// In en, this message translates to:
+  /// **'{count} Accounts'**
+  String householdsTotalAccounts(int count);
+
+  /// Inline error shown when fetching the next household page fails.
+  ///
+  /// In en, this message translates to:
+  /// **'Failed to load more households'**
+  String get householdsPaginationError;
+
+  /// AppBar title on the household detailed view screen.
+  ///
+  /// In en, this message translates to:
+  /// **'Household Details'**
+  String get householdDetailScreenTitle;
+
+  /// Overview tab label on the household detail screen.
+  ///
+  /// In en, this message translates to:
+  /// **'Overview'**
+  String get householdDetailTabOverview;
+
+  /// Accounts tab label on the household detail screen.
+  ///
+  /// In en, this message translates to:
+  /// **'Accounts'**
+  String get householdDetailTabAccounts;
+
+  /// Transactions tab label on the household detail screen.
+  ///
+  /// In en, this message translates to:
+  /// **'Transactions'**
+  String get householdDetailTabTransactions;
+
+  /// Sub-heading on the household detail top card showing code and account count.
+  ///
+  /// In en, this message translates to:
+  /// **'{code} • {count} Accounts'**
+  String householdDetailSubtitle(String code, int count);
+
+  /// Eyebrow label above the total AUM value on the household detail top card.
+  ///
+  /// In en, this message translates to:
+  /// **'Total AUM'**
+  String get householdDetailTotalAum;
+
+  /// Label next to the YTD return figure on the household detail top card.
+  ///
+  /// In en, this message translates to:
+  /// **'YTD Change'**
+  String get householdDetailYtdPerformance;
+
+  /// Section heading for the asset allocation donut on the overview tab.
+  ///
+  /// In en, this message translates to:
+  /// **'Asset Allocation'**
+  String get householdDetailAssetAllocation;
+
+  /// Section heading for the top accounts list on the overview tab.
+  ///
+  /// In en, this message translates to:
+  /// **'Top Accounts'**
+  String get householdDetailTopAccounts;
+
+  /// Link to see all top accounts. {count} is the total number of accounts.
+  ///
+  /// In en, this message translates to:
+  /// **'See all ({count})'**
+  String householdDetailSeeAll(int count);
+
+  /// Account type label on the top accounts row in the household overview tab.
+  ///
+  /// In en, this message translates to:
+  /// **'Account Type: {type}'**
+  String householdDetailAccountTypeLabel(String type);
+
+  /// Short account number label on the top accounts card in the overview tab.
+  ///
+  /// In en, this message translates to:
+  /// **'Account Number: {number}'**
+  String householdDetailAccountNumberLabel(String number);
+
+  /// Header above the accounts list showing the total count. Pluralised only when the count is greater than 1.
+  ///
+  /// In en, this message translates to:
+  /// **'{count, plural, =0{ALL ACCOUNT ({count})} =1{ALL ACCOUNT ({count})} other{ALL ACCOUNTS ({count})}}'**
+  String householdDetailAllAccountsHeader(int count);
+
+  /// Empty-state when no accounts match the search query.
+  ///
+  /// In en, this message translates to:
+  /// **'No accounts found.'**
+  String get householdDetailNoAccountsFound;
+
+  /// Header label above the transaction list on the household detail screen.
+  ///
+  /// In en, this message translates to:
+  /// **'Last 30 Transactions'**
+  String get householdDetailAllTransactionsHeader;
+
+  /// Empty-state when no transactions match the search.
+  ///
+  /// In en, this message translates to:
+  /// **'No transactions found.'**
+  String get householdDetailNoTransactionsFound;
+
+  /// Empty-state message on the Transactions tab when a search query returns no results.
+  ///
+  /// In en, this message translates to:
+  /// **'No transactions match your search'**
+  String get householdDetailTransactionsEmptySearch;
+
+  /// Placeholder in the transactions search field on the household detail screen.
+  ///
+  /// In en, this message translates to:
+  /// **'Search'**
+  String get householdDetailTransactionsSearchHint;
+
+  /// Date group header for today's transactions.
+  ///
+  /// In en, this message translates to:
+  /// **'TODAY'**
+  String get householdDetailToday;
 }
 
 class _AppLocalizationsDelegate extends LocalizationsDelegate<AppLocalizations> {

@@ -799,4 +799,115 @@ class AppLocalizationsHi extends AppLocalizations {
 
   @override
   String get viewTransactionsAllHeader => 'अंतिम 30 लेनदेन';
+
+  @override
+  String get accountsSearchHint => 'खाते से खोजें...';
+
+  @override
+  String get householdsSearchHint => 'परिवार से खोजें...';
+
+  @override
+  String get householdsTitle => 'परिवार';
+
+  @override
+  String get householdsAccountsTabLabel => 'खाते';
+
+  @override
+  String householdsAllLabel(int count) {
+    String _temp0 = intl.Intl.pluralLogic(
+      count,
+      locale: localeName,
+      other: 'सभी परिवार ($count)',
+      one: 'सभी परिवार ($count)',
+      zero: 'सभी परिवार ($count)',
+    );
+    return '$_temp0';
+  }
+
+  @override
+  String householdsHouseholdIdLabel(String code) {
+    return 'आईडी: $code';
+  }
+
+  @override
+  String householdsTotalAccounts(int count) {
+    return '$count खाते';
+  }
+
+  @override
+  String get householdsPaginationError => 'अधिक परिवार लोड करने में विफल';
+
+  @override
+  String get householdDetailScreenTitle => 'परिवार विवरण';
+
+  @override
+  String get householdDetailTabOverview => 'अवलोकन';
+
+  @override
+  String get householdDetailTabAccounts => 'खाते';
+
+  @override
+  String get householdDetailTabTransactions => 'लेनदेन';
+
+  @override
+  String householdDetailSubtitle(String code, int count) {
+    return '$code • $count खाते';
+  }
+
+  @override
+  String get householdDetailTotalAum => 'कुल एयूएम';
+
+  @override
+  String get householdDetailYtdPerformance => 'वर्ष-दर-वर्ष परिवर्तन';
+
+  @override
+  String get householdDetailAssetAllocation => 'परिसंपत्ति आवंटन';
+
+  @override
+  String get householdDetailTopAccounts => 'शीर्ष खाते';
+
+  @override
+  String householdDetailSeeAll(int count) {
+    return 'सभी देखें ($count)';
+  }
+
+  @override
+  String householdDetailAccountTypeLabel(String type) {
+    return 'खाता प्रकार: $type';
+  }
+
+  @override
+  String householdDetailAccountNumberLabel(String number) {
+    return 'खाता संख्या: $number';
+  }
+
+  @override
+  String householdDetailAllAccountsHeader(int count) {
+    String _temp0 = intl.Intl.pluralLogic(
+      count,
+      locale: localeName,
+      other: 'सभी खाते ($count)',
+      one: 'सभी खाते ($count)',
+      zero: 'सभी खाते ($count)',
+    );
+    return '$_temp0';
+  }
+
+  @override
+  String get householdDetailNoAccountsFound => 'कोई खाता नहीं मिला।';
+
+  @override
+  String get householdDetailAllTransactionsHeader => 'अंतिम 30 लेनदेन';
+
+  @override
+  String get householdDetailNoTransactionsFound => 'कोई लेनदेन नहीं मिला।';
+
+  @override
+  String get householdDetailTransactionsEmptySearch => 'आपकी खोज से कोई लेनदेन मेल नहीं खाता';
+
+  @override
+  String get householdDetailTransactionsSearchHint => 'खोजें';
+
+  @override
+  String get householdDetailToday => 'आज';
 }

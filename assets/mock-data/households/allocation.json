@@ -1,0 +1,682 @@
+{
+  "HHP001": [
+    {
+      "assetClass": "Equities",
+      "marketValueCents": 466485.24,
+      "allocationPercentage": 32.56,
+      "id": "HHP001-ALLOC1",
+      "householdId": "HHP001",
+      "asOfDate": "2026-08-21T21:00:00Z"
+    },
+    {
+      "assetClass": "Fixed Income",
+      "marketValueCents": 427372.69,
+      "allocationPercentage": 29.83,
+      "id": "HHP001-ALLOC2",
+      "householdId": "HHP001",
+      "asOfDate": "2026-08-21T21:00:00Z"
+    },
+    {
+      "assetClass": "Alternatives",
+      "marketValueCents": 472932.37,
+      "allocationPercentage": 33.01,
+      "id": "HHP001-ALLOC3",
+      "householdId": "HHP001",
+      "asOfDate": "2026-08-21T21:00:00Z"
+    },
+    {
+      "assetClass": "Cash",
+      "marketValueCents": 66047.2,
+      "allocationPercentage": 4.61,
+      "id": "HHP001-ALLOC4",
+      "householdId": "HHP001",
+      "asOfDate": "2026-08-21T21:00:00Z"
+    }
+  ],
+  "HHP002": [
+    {
+      "assetClass": "Equities",
+      "marketValueCents": 105967.39,
+      "allocationPercentage": 11.38,
+      "id": "HHP002-ALLOC1",
+      "householdId": "HHP002",
+      "asOfDate": "2026-08-21T21:00:00Z"
+    },
+    {
+      "assetClass": "Fixed Income",
+      "marketValueCents": 132319.56,
+      "allocationPercentage": 14.21,
+      "id": "HHP002-ALLOC2",
+      "householdId": "HHP002",
+      "asOfDate": "2026-08-21T21:00:00Z"
+    },
+    {
+      "assetClass": "Alternatives",
+      "marketValueCents": 355614.64,
+      "allocationPercentage": 38.19,
+      "id": "HHP002-ALLOC3",
+      "householdId": "HHP002",
+      "asOfDate": "2026-08-21T21:00:00Z"
+    },
+    {
+      "assetClass": "Cash",
+      "marketValueCents": 337270.55,
+      "allocationPercentage": 36.22,
+      "id": "HHP002-ALLOC4",
+      "householdId": "HHP002",
+      "asOfDate": "2026-08-21T21:00:00Z"
+    }
+  ],
+  "HHP003": [
+    {
+      "assetClass": "Equities",
+      "marketValueCents": 706973.17,
+      "allocationPercentage": 32.92,
+      "id": "HHP003-ALLOC1",
+      "householdId": "HHP003",
+      "asOfDate": "2026-08-21T21:00:00Z"
+    },
+    {
+      "assetClass": "Fixed Income",
+      "marketValueCents": 710624.0,
+      "allocationPercentage": 33.09,
+      "id": "HHP003-ALLOC2",
+      "householdId": "HHP003",
+      "asOfDate": "2026-08-21T21:00:00Z"
+    },
+    {
+      "assetClass": "Alternatives",
+      "marketValueCents": 560510.32,
+      "allocationPercentage": 26.1,
+      "id": "HHP003-ALLOC3",
+      "householdId": "HHP003",
+      "asOfDate": "2026-08-21T21:00:00Z"
+    },
+    {
+      "assetClass": "Cash",
+      "marketValueCents": 169656.38,
+      "allocationPercentage": 7.9,
+      "id": "HHP003-ALLOC4",
+      "householdId": "HHP003",
+      "asOfDate": "2026-08-21T21:00:00Z"
+    }
+  ],
+  "HHP004": [
+    {
+      "assetClass": "Equities",
+      "marketValueCents": 195919.19,
+      "allocationPercentage": 27.57,
+      "id": "HHP004-ALLOC1",
+      "householdId": "HHP004",
+      "asOfDate": "2026-08-21T21:00:00Z"
+    },
+    {
+      "assetClass": "Fixed Income",
+      "marketValueCents": 250068.78,
+      "allocationPercentage": 35.19,
+      "id": "HHP004-ALLOC2",
+      "householdId": "HHP004",
+      "asOfDate": "2026-08-21T21:00:00Z"
+    },
+    {
+      "assetClass": "Alternatives",
+      "marketValueCents": 156195.27,
+      "allocationPercentage": 21.98,
+      "id": "HHP004-ALLOC3",
+      "householdId": "HHP004",
+      "asOfDate": "2026-08-21T21:00:00Z"
+    },
+    {
+      "assetClass": "Cash",
+      "marketValueCents": 108370.24,
+      "allocationPercentage": 15.25,
+      "id": "HHP004-ALLOC4",
+      "householdId": "HHP004",
+      "asOfDate": "2026-08-21T21:00:00Z"
+    }
+  ],
+  "HHP005": [
+    {
+      "assetClass": "Equities",
+      "marketValueCents": 382308.22,
+      "allocationPercentage": 15.67,
+      "id": "HHP005-ALLOC1",
+      "householdId": "HHP005",
+      "asOfDate": "2026-08-21T21:00:00Z"
+    },
+    {
+      "assetClass": "Fixed Income",
+      "marketValueCents": 609936.53,
+      "allocationPercentage": 25.0,
+      "id": "HHP005-ALLOC2",
+      "householdId": "HHP005",
+      "asOfDate": "2026-08-21T21:00:00Z"
+    },
+    {
+      "assetClass": "Alternatives",
+      "marketValueCents": 624087.06,
+      "allocationPercentage": 25.58,
+      "id": "HHP005-ALLOC3",
+      "householdId": "HHP005",
+      "asOfDate": "2026-08-21T21:00:00Z"
+    },
+    {
+      "assetClass": "Cash",
+      "marketValueCents": 823414.32,
+      "allocationPercentage": 33.75,
+      "id": "HHP005-ALLOC4",
+      "householdId": "HHP005",
+      "asOfDate": "2026-08-21T21:00:00Z"
+    }
+  ],
+  "HHP006": [
+    {
+      "assetClass": "Equities",
+      "marketValueCents": 327494.0,
+      "allocationPercentage": 33.49,
+      "id": "HHP006-ALLOC1",
+      "householdId": "HHP006",
+      "asOfDate": "2026-08-21T21:00:00Z"
+    },
+    {
+      "assetClass": "Fixed Income",
+      "marketValueCents": 317910.72,
+      "allocationPercentage": 32.51,
+      "id": "HHP006-ALLOC2",
+      "householdId": "HHP006",
+      "asOfDate": "2026-08-21T21:00:00Z"
+    },
+    {
+      "assetClass": "Alternatives",
+      "marketValueCents": 266180.55,
+      "allocationPercentage": 27.22,
+      "id": "HHP006-ALLOC3",
+      "householdId": "HHP006",
+      "asOfDate": "2026-08-21T21:00:00Z"
+    },
+    {
+      "assetClass": "Cash",
+      "marketValueCents": 66300.67,
+      "allocationPercentage": 6.78,
+      "id": "HHP006-ALLOC4",
+      "householdId": "HHP006",
+      "asOfDate": "2026-08-21T21:00:00Z"
+    }
+  ],
+  "HHP007": [
+    {
+      "assetClass": "Equities",
+      "marketValueCents": 1259186.4,
+      "allocationPercentage": 55.66,
+      "id": "HHP007-ALLOC1",
+      "householdId": "HHP007",
+      "asOfDate": "2026-08-21T21:00:00Z"
+    },
+    {
+      "assetClass": "Fixed Income",
+      "marketValueCents": 152930.29,
+      "allocationPercentage": 6.76,
+      "id": "HHP007-ALLOC2",
+      "householdId": "HHP007",
+      "asOfDate": "2026-08-21T21:00:00Z"
+    },
+    {
+      "assetClass": "Alternatives",
+      "marketValueCents": 502679.16,
+      "allocationPercentage": 22.22,
+      "id": "HHP007-ALLOC3",
+      "householdId": "HHP007",
+      "asOfDate": "2026-08-21T21:00:00Z"
+    },
+    {
+      "assetClass": "Cash",
+      "marketValueCents": 347260.35,
+      "allocationPercentage": 15.35,
+      "id": "HHP007-ALLOC4",
+      "householdId": "HHP007",
+      "asOfDate": "2026-08-21T21:00:00Z"
+    }
+  ],
+  "HHP008": [
+    {
+      "assetClass": "Equities",
+      "marketValueCents": 270080.77,
+      "allocationPercentage": 22.89,
+      "id": "HHP008-ALLOC1",
+      "householdId": "HHP008",
+      "asOfDate": "2026-08-21T21:00:00Z"
+    },
+    {
+      "assetClass": "Fixed Income",
+      "marketValueCents": 265951.09,
+      "allocationPercentage": 22.54,
+      "id": "HHP008-ALLOC2",
+      "householdId": "HHP008",
+      "asOfDate": "2026-08-21T21:00:00Z"
+    },
+    {
+      "assetClass": "Alternatives",
+      "marketValueCents": 171322.53,
+      "allocationPercentage": 14.52,
+      "id": "HHP008-ALLOC3",
+      "householdId": "HHP008",
+      "asOfDate": "2026-08-21T21:00:00Z"
+    },
+    {
+      "assetClass": "Cash",
+      "marketValueCents": 472552.85,
+      "allocationPercentage": 40.05,
+      "id": "HHP008-ALLOC4",
+      "householdId": "HHP008",
+      "asOfDate": "2026-08-21T21:00:00Z"
+    }
+  ],
+  "HHP009": [
+    {
+      "assetClass": "Equities",
+      "marketValueCents": 559128.53,
+      "allocationPercentage": 31.66,
+      "id": "HHP009-ALLOC1",
+      "householdId": "HHP009",
+      "asOfDate": "2026-08-21T21:00:00Z"
+    },
+    {
+      "assetClass": "Fixed Income",
+      "marketValueCents": 399831.64,
+      "allocationPercentage": 22.64,
+      "id": "HHP009-ALLOC2",
+      "householdId": "HHP009",
+      "asOfDate": "2026-08-21T21:00:00Z"
+    },
+    {
+      "assetClass": "Alternatives",
+      "marketValueCents": 449987.2,
+      "allocationPercentage": 25.48,
+      "id": "HHP009-ALLOC3",
+      "householdId": "HHP009",
+      "asOfDate": "2026-08-21T21:00:00Z"
+    },
+    {
+      "assetClass": "Cash",
+      "marketValueCents": 357093.46,
+      "allocationPercentage": 20.22,
+      "id": "HHP009-ALLOC4",
+      "householdId": "HHP009",
+      "asOfDate": "2026-08-21T21:00:00Z"
+    }
+  ],
+  "HHP010": [
+    {
+      "assetClass": "Equities",
+      "marketValueCents": 262488.44,
+      "allocationPercentage": 32.41,
+      "id": "HHP010-ALLOC1",
+      "householdId": "HHP010",
+      "asOfDate": "2026-08-21T21:00:00Z"
+    },
+    {
+      "assetClass": "Fixed Income",
+      "marketValueCents": 328333.28,
+      "allocationPercentage": 40.54,
+      "id": "HHP010-ALLOC2",
+      "householdId": "HHP010",
+      "asOfDate": "2026-08-21T21:00:00Z"
+    },
+    {
+      "assetClass": "Alternatives",
+      "marketValueCents": 169916.93,
+      "allocationPercentage": 20.98,
+      "id": "HHP010-ALLOC3",
+      "householdId": "HHP010",
+      "asOfDate": "2026-08-21T21:00:00Z"
+    },
+    {
+      "assetClass": "Cash",
+      "marketValueCents": 49160.9,
+      "allocationPercentage": 6.07,
+      "id": "HHP010-ALLOC4",
+      "householdId": "HHP010",
+      "asOfDate": "2026-08-21T21:00:00Z"
+    }
+  ],
+  "HHP011": [
+    {
+      "assetClass": "Equities",
+      "marketValueCents": 540968.85,
+      "allocationPercentage": 22.21,
+      "id": "HHP011-ALLOC1",
+      "householdId": "HHP011",
+      "asOfDate": "2026-08-21T21:00:00Z"
+    },
+    {
+      "assetClass": "Fixed Income",
+      "marketValueCents": 758963.95,
+      "allocationPercentage": 31.16,
+      "id": "HHP011-ALLOC2",
+      "householdId": "HHP011",
+      "asOfDate": "2026-08-21T21:00:00Z"
+    },
+    {
+      "assetClass": "Alternatives",
+      "marketValueCents": 714147.08,
+      "allocationPercentage": 29.32,
+      "id": "HHP011-ALLOC3",
+      "householdId": "HHP011",
+      "asOfDate": "2026-08-21T21:00:00Z"
+    },
+    {
+      "assetClass": "Cash",
+      "marketValueCents": 421619.57,
+      "allocationPercentage": 17.31,
+      "id": "HHP011-ALLOC4",
+      "householdId": "HHP011",
+      "asOfDate": "2026-08-21T21:00:00Z"
+    }
+  ],
+  "HHP012": [
+    {
+      "assetClass": "Equities",
+      "marketValueCents": 425904.27,
+      "allocationPercentage": 36.37,
+      "id": "HHP012-ALLOC1",
+      "householdId": "HHP012",
+      "asOfDate": "2026-08-21T21:00:00Z"
+    },
+    {
+      "assetClass": "Fixed Income",
+      "marketValueCents": 180338.9,
+      "allocationPercentage": 15.4,
+      "id": "HHP012-ALLOC2",
+      "householdId": "HHP012",
+      "asOfDate": "2026-08-21T21:00:00Z"
+    },
+    {
+      "assetClass": "Alternatives",
+      "marketValueCents": 174132.43,
+      "allocationPercentage": 14.87,
+      "id": "HHP012-ALLOC3",
+      "householdId": "HHP012",
+      "asOfDate": "2026-08-21T21:00:00Z"
+    },
+    {
+      "assetClass": "Cash",
+      "marketValueCents": 390773.31,
+      "allocationPercentage": 33.37,
+      "id": "HHP012-ALLOC4",
+      "householdId": "HHP012",
+      "asOfDate": "2026-08-21T21:00:00Z"
+    }
+  ],
+  "HHP013": [
+    {
+      "assetClass": "Equities",
+      "marketValueCents": 616009.39,
+      "allocationPercentage": 37.91,
+      "id": "HHP013-ALLOC1",
+      "householdId": "HHP013",
+      "asOfDate": "2026-08-21T21:00:00Z"
+    },
+    {
+      "assetClass": "Fixed Income",
+      "marketValueCents": 96358.1,
+      "allocationPercentage": 5.93,
+      "id": "HHP013-ALLOC2",
+      "householdId": "HHP013",
+      "asOfDate": "2026-08-21T21:00:00Z"
+    },
+    {
+      "assetClass": "Alternatives",
+      "marketValueCents": 473990.87,
+      "allocationPercentage": 29.17,
+      "id": "HHP013-ALLOC3",
+      "householdId": "HHP013",
+      "asOfDate": "2026-08-21T21:00:00Z"
+    },
+    {
+      "assetClass": "Cash",
+      "marketValueCents": 438567.49,
+      "allocationPercentage": 26.99,
+      "id": "HHP013-ALLOC4",
+      "householdId": "HHP013",
+      "asOfDate": "2026-08-21T21:00:00Z"
+    }
+  ],
+  "HHP014": [
+    {
+      "assetClass": "Equities",
+      "marketValueCents": 520658.66,
+      "allocationPercentage": 33.89,
+      "id": "HHP014-ALLOC1",
+      "householdId": "HHP014",
+      "asOfDate": "2026-08-21T21:00:00Z"
+    },
+    {
+      "assetClass": "Fixed Income",
+      "marketValueCents": 283604.57,
+      "allocationPercentage": 18.46,
+      "id": "HHP014-ALLOC2",
+      "householdId": "HHP014",
+      "asOfDate": "2026-08-21T21:00:00Z"
+    },
+    {
+      "assetClass": "Alternatives",
+      "marketValueCents": 417264.37,
+      "allocationPercentage": 27.16,
+      "id": "HHP014-ALLOC3",
+      "householdId": "HHP014",
+      "asOfDate": "2026-08-21T21:00:00Z"
+    },
+    {
+      "assetClass": "Cash",
+      "marketValueCents": 314791.86,
+      "allocationPercentage": 20.49,
+      "id": "HHP014-ALLOC4",
+      "householdId": "HHP014",
+      "asOfDate": "2026-08-21T21:00:00Z"
+    }
+  ],
+  "HHP015": [
+    {
+      "assetClass": "Equities",
+      "marketValueCents": 651192.47,
+      "allocationPercentage": 32.48,
+      "id": "HHP015-ALLOC1",
+      "householdId": "HHP015",
+      "asOfDate": "2026-08-21T21:00:00Z"
+    },
+    {
+      "assetClass": "Fixed Income",
+      "marketValueCents": 617309.62,
+      "allocationPercentage": 30.79,
+      "id": "HHP015-ALLOC2",
+      "householdId": "HHP015",
+      "asOfDate": "2026-08-21T21:00:00Z"
+    },
+    {
+      "assetClass": "Alternatives",
+      "marketValueCents": 586434.11,
+      "allocationPercentage": 29.25,
+      "id": "HHP015-ALLOC3",
+      "householdId": "HHP015",
+      "asOfDate": "2026-08-21T21:00:00Z"
+    },
+    {
+      "assetClass": "Cash",
+      "marketValueCents": 149966.74,
+      "allocationPercentage": 7.48,
+      "id": "HHP015-ALLOC4",
+      "householdId": "HHP015",
+      "asOfDate": "2026-08-21T21:00:00Z"
+    }
+  ],
+  "HHP016": [
+    {
+      "assetClass": "Equities",
+      "marketValueCents": 218167.21,
+      "allocationPercentage": 43.29,
+      "id": "HHP016-ALLOC1",
+      "householdId": "HHP016",
+      "asOfDate": "2026-08-21T21:00:00Z"
+    },
+    {
+      "assetClass": "Fixed Income",
+      "marketValueCents": 138943.64,
+      "allocationPercentage": 27.57,
+      "id": "HHP016-ALLOC2",
+      "householdId": "HHP016",
+      "asOfDate": "2026-08-21T21:00:00Z"
+    },
+    {
+      "assetClass": "Alternatives",
+      "marketValueCents": 57804.99,
+      "allocationPercentage": 11.47,
+      "id": "HHP016-ALLOC3",
+      "householdId": "HHP016",
+      "asOfDate": "2026-08-21T21:00:00Z"
+    },
+    {
+      "assetClass": "Cash",
+      "marketValueCents": 89050.93,
+      "allocationPercentage": 17.67,
+      "id": "HHP016-ALLOC4",
+      "householdId": "HHP016",
+      "asOfDate": "2026-08-21T21:00:00Z"
+    }
+  ],
+  "HHP017": [
+    {
+      "assetClass": "Equities",
+      "marketValueCents": 522620.7,
+      "allocationPercentage": 28.54,
+      "id": "HHP017-ALLOC1",
+      "householdId": "HHP017",
+      "asOfDate": "2026-08-21T21:00:00Z"
+    },
+    {
+      "assetClass": "Fixed Income",
+      "marketValueCents": 388577.83,
+      "allocationPercentage": 21.22,
+      "id": "HHP017-ALLOC2",
+      "householdId": "HHP017",
+      "asOfDate": "2026-08-21T21:00:00Z"
+    },
+    {
+      "assetClass": "Alternatives",
+      "marketValueCents": 641830.96,
+      "allocationPercentage": 35.05,
+      "id": "HHP017-ALLOC3",
+      "householdId": "HHP017",
+      "asOfDate": "2026-08-21T21:00:00Z"
+    },
+    {
+      "assetClass": "Cash",
+      "marketValueCents": 278340.39,
+      "allocationPercentage": 15.2,
+      "id": "HHP017-ALLOC4",
+      "householdId": "HHP017",
+      "asOfDate": "2026-08-21T21:00:00Z"
+    }
+  ],
+  "HHP018": [
+    {
+      "assetClass": "Equities",
+      "marketValueCents": 291792.52,
+      "allocationPercentage": 40.16,
+      "id": "HHP018-ALLOC1",
+      "householdId": "HHP018",
+      "asOfDate": "2026-08-21T21:00:00Z"
+    },
+    {
+      "assetClass": "Fixed Income",
+      "marketValueCents": 276243.81,
+      "allocationPercentage": 38.02,
+      "id": "HHP018-ALLOC2",
+      "householdId": "HHP018",
+      "asOfDate": "2026-08-21T21:00:00Z"
+    },
+    {
+      "assetClass": "Alternatives",
+      "marketValueCents": 118722.35,
+      "allocationPercentage": 16.34,
+      "id": "HHP018-ALLOC3",
+      "householdId": "HHP018",
+      "asOfDate": "2026-08-21T21:00:00Z"
+    },
+    {
+      "assetClass": "Cash",
+      "marketValueCents": 39743.65,
+      "allocationPercentage": 5.47,
+      "id": "HHP018-ALLOC4",
+      "householdId": "HHP018",
+      "asOfDate": "2026-08-21T21:00:00Z"
+    }
+  ],
+  "HHP019": [
+    {
+      "assetClass": "Equities",
+      "marketValueCents": 496870.51,
+      "allocationPercentage": 25.63,
+      "id": "HHP019-ALLOC1",
+      "householdId": "HHP019",
+      "asOfDate": "2026-08-21T21:00:00Z"
+    },
+    {
+      "assetClass": "Fixed Income",
+      "marketValueCents": 814999.46,
+      "allocationPercentage": 42.04,
+      "id": "HHP019-ALLOC2",
+      "householdId": "HHP019",
+      "asOfDate": "2026-08-21T21:00:00Z"
+    },
+    {
+      "assetClass": "Alternatives",
+      "marketValueCents": 482718.52,
+      "allocationPercentage": 24.9,
+      "id": "HHP019-ALLOC3",
+      "householdId": "HHP019",
+      "asOfDate": "2026-08-21T21:00:00Z"
+    },
+    {
+      "assetClass": "Cash",
+      "marketValueCents": 144040.1,
+      "allocationPercentage": 7.43,
+      "id": "HHP019-ALLOC4",
+      "householdId": "HHP019",
+      "asOfDate": "2026-08-21T21:00:00Z"
+    }
+  ],
+  "HHP020": [
+    {
+      "assetClass": "Equities",
+      "marketValueCents": 280208.6,
+      "allocationPercentage": 38.47,
+      "id": "HHP020-ALLOC1",
+      "householdId": "HHP020",
+      "asOfDate": "2026-08-21T21:00:00Z"
+    },
+    {
+      "assetClass": "Fixed Income",
+      "marketValueCents": 127903.9,
+      "allocationPercentage": 17.56,
+      "id": "HHP020-ALLOC2",
+      "householdId": "HHP020",
+      "asOfDate": "2026-08-21T21:00:00Z"
+    },
+    {
+      "assetClass": "Alternatives",
+      "marketValueCents": 259668.23,
+      "allocationPercentage": 35.65,
+      "id": "HHP020-ALLOC3",
+      "householdId": "HHP020",
+      "asOfDate": "2026-08-21T21:00:00Z"
+    },
+    {
+      "assetClass": "Cash",
+      "marketValueCents": 60601.39,
+      "allocationPercentage": 8.32,
+      "id": "HHP020-ALLOC4",
+      "householdId": "HHP020",
+      "asOfDate": "2026-08-21T21:00:00Z"
+    }
+  ]
+}

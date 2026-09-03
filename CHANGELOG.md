@@ -2,6 +2,17 @@
 
 Versions follow semver. `feat` commits bump minor (major post-1.0), `fix` commits bump patch. Starts at 0.0.0.
 
+## [0.10.0] - Unreleased (staged)
+feat: add households list and household detail view features
+
+- Added `assets/mock-data/households/` fixtures: `list.json`, `detail.json`, `allocation.json`, `accounts.json`, `transactions.json`.
+- New `lib/features/households/` feature: `domain` models (`household_detail.dart`, `household_list_state.dart`, `household_page.dart`, `household_sort_field.dart`), `domain/households_repository.dart`, `data/households_mock_repository.dart`, `presentation/providers/households_provider.dart`, screens (`households_list_screen.dart`, `households_shell_screen.dart`), widgets (`household_card.dart`, `households_shimmer.dart`).
+- New `lib/features/households_detailed_view/` feature: `domain/models/household_detail_view.dart`, `domain/household_detail_view_repository.dart`, `data/household_detail_view_mock_repository.dart`, `presentation/providers/household_detail_view_provider.dart`, `presentation/screens/household_detail_screen.dart`, widgets (`household_detail_shimmer.dart`, `households_accounts_tab.dart`, `households_asset_allocation.dart`, `households_detail_top_card.dart`, `households_latest_activity_card.dart`, `households_latest_activity_section.dart`, `households_overview_tab.dart`, `households_top_account_row.dart`, `households_top_accounts_card.dart`, `households_transactions_tab.dart`).
+- Updated `core/routing/app_routes.dart` (new `householdsDetailedView` route) and `app_router.dart`: the Households branch is now a pathless `ShellRoute` hosting `HouseholdsShellScreen` around both the Households and Accounts pill tabs (replacing the standalone `AccountsScreen` route and the Households `ComingSoonScreen` placeholder), plus a pushed route for the household detail screen.
+- Updated `pubspec.yaml` to register `assets/mock-data/households/`.
+- Updated generated l10n classes and all 3 ARB files with households/household-detail strings (Spanish and Hindi included).
+- Updated `.claude/docs/folder-structure.md` for the new files and corrected stale entries left over from an earlier placeholder pass.
+
 ## [0.9.0] - Unreleased (staged)
 feat: add view transactions list feature
 

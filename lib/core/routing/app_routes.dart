@@ -55,6 +55,9 @@ abstract final class AppRoutes {
   /// A single account's detail, pushed from an account card.
   static const String accountDetailView = '/accounts/detailed-account-view/:accountId';
 
+  /// A single household's detail, pushed from a household card.
+  static const String householdsDetailedView = '/households/detailed-view/:householdId';
+
   /// The task dashboard, reachable from a dashboard quick action.
   static const String taskDashboard = '/task-dashboard';
 
