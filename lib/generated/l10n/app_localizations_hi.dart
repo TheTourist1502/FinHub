@@ -910,4 +910,229 @@ class AppLocalizationsHi extends AppLocalizations {
 
   @override
   String get householdDetailToday => 'आज';
+
+  @override
+  String get commonButtonContinue => 'जारी रखें';
+
+  @override
+  String get realTimeSelectAccountTitle => 'एक वित्तीय खाता चुनें';
+
+  @override
+  String get realTimeSelectAccountSubtitle =>
+      'किसी खाते के लाइव पोज़िशन और लेनदेन देखें। डेटा सीधे स्रोत से प्राप्त होता है और खाता चुनने के बाद केवल पर्शिंग के लिए उपलब्ध है।';
+
+  @override
+  String get realTimeSelectAccountLabel => 'खाता संख्या चुनें';
+
+  @override
+  String get realTimeSelectAccountHint => 'खाता संख्या चुनें';
+
+  @override
+  String get realTimeDetailedViewTitle => 'रीयल-टाइम विस्तृत दृश्य';
+
+  @override
+  String get realTimePositionsTab => 'पोज़िशन';
+
+  @override
+  String get realTimeTransactionsTab => 'लेनदेन';
+
+  @override
+  String get realTimeChangeAccount => 'बदलें';
+
+  @override
+  String get realTimeDelayNote => 'रीयल-टाइम पोज़िशन और लेनदेन के लिए मार्केट फ़ीड में 15 मिनट की देरी होती है।';
+
+  @override
+  String realTimeCusipIdentifier(String cusip) {
+    return 'सीयूएसआईपी पहचानकर्ता: $cusip';
+  }
+
+  @override
+  String get realTimeMarketPriceLabel => 'बाज़ार मूल्य';
+
+  @override
+  String get realTimeClosePriceLabel => 'समापन मूल्य';
+
+  @override
+  String get realTimeNoPositions => 'कोई पोज़िशन नहीं मिली।';
+
+  @override
+  String get realTimeNoTransactions => 'कोई लेनदेन नहीं मिला।';
+
+  @override
+  String get realTimeSearchPositions => 'पोज़िशन खोजें...';
+
+  @override
+  String get realTimeSearchTransactions => 'लेनदेन खोजें...';
+
+  @override
+  String realTimeAllHoldings(int count) {
+    String _temp0 = intl.Intl.pluralLogic(
+      count,
+      locale: localeName,
+      other: 'सभी होल्डिंग्स ($count)',
+      one: 'सभी होल्डिंग ($count)',
+      zero: 'सभी होल्डिंग ($count)',
+    );
+    return '$_temp0';
+  }
+
+  @override
+  String realTimeAllTransactionsHeader(int count) {
+    String _temp0 = intl.Intl.pluralLogic(
+      count,
+      locale: localeName,
+      other: 'सभी लेनदेन',
+      one: 'सभी लेनदेन',
+      zero: 'सभी लेनदेन',
+    );
+    return '$_temp0 ($count)';
+  }
+
+  @override
+  String get realTimeAccountActivityLabel => 'गतिविधि विवरण';
+
+  @override
+  String get serviceRequestNewButton => 'नई सेवा अनुरोध';
+
+  @override
+  String get serviceRequestSearchHint => 'नाम या कोड से खोजें...';
+
+  @override
+  String get serviceRequestFilterAll => 'सभी';
+
+  @override
+  String get serviceRequestFilterActive => 'खुली';
+
+  @override
+  String get serviceRequestFilterClosed => 'बंद';
+
+  @override
+  String serviceRequestHeadingAll(int count) {
+    String _temp0 = intl.Intl.pluralLogic(
+      count,
+      locale: localeName,
+      other: 'सभी सेवा अनुरोध ($count)',
+      one: 'सभी सेवा अनुरोध ($count)',
+      zero: 'सभी सेवा अनुरोध ($count)',
+    );
+    return '$_temp0';
+  }
+
+  @override
+  String serviceRequestHeadingActive(int count) {
+    String _temp0 = intl.Intl.pluralLogic(
+      count,
+      locale: localeName,
+      other: 'खुले सेवा अनुरोध ($count)',
+      one: 'खुला सेवा अनुरोध ($count)',
+      zero: 'खुला सेवा अनुरोध ($count)',
+    );
+    return '$_temp0';
+  }
+
+  @override
+  String serviceRequestHeadingClosed(int count) {
+    String _temp0 = intl.Intl.pluralLogic(
+      count,
+      locale: localeName,
+      other: 'बंद सेवा अनुरोध ($count)',
+      one: 'बंद सेवा अनुरोध ($count)',
+      zero: 'बंद सेवा अनुरोध ($count)',
+    );
+    return '$_temp0';
+  }
+
+  @override
+  String get serviceRequestSectionActive => 'खुली';
+
+  @override
+  String get serviceRequestSectionClosed => 'बंद';
+
+  @override
+  String get serviceRequestEmpty => 'कोई सेवा अनुरोध नहीं मिला';
+
+  @override
+  String get serviceRequestEmptySearch => 'कोई मिलान सेवा अनुरोध नहीं मिला';
+
+  @override
+  String get serviceRequestView => 'देखें';
+
+  @override
+  String get serviceRequestDateToday => 'आज';
+
+  @override
+  String get serviceRequestDateYesterday => 'कल';
+
+  @override
+  String get serviceRequestDateTomorrow => 'कल';
+
+  @override
+  String get serviceRequestDetailFinancialAccountLabel => 'खाता संख्या :';
+
+  @override
+  String get serviceRequestDetailFinancialAccountTypeLabel => 'खाता प्रकार :';
+
+  @override
+  String get serviceRequestDetailRecordId => 'एसआर आईडी :';
+
+  @override
+  String get serviceRequestDetailStatus => 'वर्तमान स्थिति';
+
+  @override
+  String get serviceRequestDetailActionPending => 'लंबित कार्रवाई';
+
+  @override
+  String get serviceRequestDetailNoPendingAction => 'कोई लंबित कार्रवाई नहीं';
+
+  @override
+  String get serviceRequestDetailDueDateLabel => 'नियत तारीख :';
+
+  @override
+  String get serviceRequestDetailWorkflowStatus => 'वर्कफ़्लो स्थिति';
+
+  @override
+  String get serviceRequestDetailStepSubmitted => 'प्रस्तुत';
+
+  @override
+  String get serviceRequestDetailStepCompleted => 'पूर्ण';
+
+  @override
+  String get serviceRequestDetailOwner => 'स्वामी';
+
+  @override
+  String get serviceRequestDetailAssignedTo => 'सौंपा गया';
+
+  @override
+  String get serviceRequestDetailDueDate => 'नियत तारीख';
+
+  @override
+  String get serviceRequestDetailComments => 'टिप्पणियाँ';
+
+  @override
+  String get serviceRequestDetailViewMore => 'और देखें';
+
+  @override
+  String get serviceRequestDetailClose => 'बंद करें';
+
+  @override
+  String get serviceRequestSuccessTitle => 'अनुरोध सबमिट किया गया';
+
+  @override
+  String get serviceRequestSuccessRecordLabel => 'आपकी सेवा अनुरोध आईडी';
+
+  @override
+  String get serviceRequestSuccessConfirmation => 'सफलतापूर्वक बनाया गया।';
+
+  @override
+  String get serviceRequestSuccessCopied => 'रिकॉर्ड आईडी क्लिपबोर्ड पर कॉपी हो गई';
+
+  @override
+  String get serviceRequestSuccessRedirectPrefix => 'आप ';
+
+  @override
+  String get serviceRequestSuccessRedirectSuffix => ' सेकंड में सेवा अनुरोध होम पेज पर पुनर्निर्देशित होंगे।';
+
+  @override
+  String get serviceRequestSuccessGoButton => 'सेवा अनुरोध पर जाएं';
 }

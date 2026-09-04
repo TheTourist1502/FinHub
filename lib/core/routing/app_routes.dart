@@ -31,6 +31,10 @@ abstract final class AppRoutes {
   /// Real-time positions and activity tab.
   static const String realTime = '/real-time';
 
+  /// A single account's real-time detail, pushed from the Real-Time tab's
+  /// account selector. Renders outside the shell so the bottom nav is hidden.
+  static const String realTimeDetailedView = '/real-time/:accountId';
+
   /// Service requests tab — advisors only.
   static const String serviceRequests = '/service-requests';
 
@@ -45,6 +49,10 @@ abstract final class AppRoutes {
 
   /// The new service-request form, pushed from the dashboard's quick actions.
   static const String newServiceRequest = '/service-requests/add';
+
+  /// Service request success screen, pushed after a service request is
+  /// submitted. Renders outside the shell so the bottom nav is hidden.
+  static const String serviceRequestSuccess = '/service-requests/success';
 
   /// Full transaction history, pushed from the dashboard's recent-transactions card.
   static const String viewTransactions = '/view-transactions';
@@ -79,6 +87,9 @@ abstract final class AppRoutes {
     accessDenied: RoutePolicy(isPublic: true),
     serviceRequests: RoutePolicy(roles: {UserRole.advisor}),
     commissions: RoutePolicy(roles: {UserRole.leadership}),
+    // Backed by the advisor's own account list, with no leadership twin —
+    // `/real-time/:accountId` inherits this automatically.
+    realTime: RoutePolicy(roles: {UserRole.advisor}),
   };
 
   /// The policy governing [location], walking up to the nearest ancestor with

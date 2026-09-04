@@ -2,6 +2,27 @@
 
 Versions follow semver. `feat` commits bump minor (major post-1.0), `fix` commits bump patch. Starts at 0.0.0.
 
+## [0.12.0] - Unreleased (staged)
+feat: add service requests list, detail sheet and success screen
+
+- Added `assets/mock-data/service_requests/` fixtures: `active.json`, `closed.json`, both keyed by advisor id. `accounts.json`, `dropdowns.json` and `form_data.json` were left unported — every reader of them lives in the deferred `new_service_request` / `account_maintainance_sr` sub-flows, not in this feature.
+- New `lib/features/service_request/` feature: `domain/models` (`service_request_item.dart`, `service_request_task.dart`, `service_request_type.dart`), `domain/service_request_repository.dart`, `data/service_request_mock_repository.dart` (rewritten against `MockDataSource.listScoped`/`DataScope.advisorId`), `presentation/providers/service_request_provider.dart` (active/closed feeds, filter chips with graceful degradation on a single endpoint failure, live search), `presentation/screens/service_request_list_screen.dart` and `service_request_success_screen.dart`, and 18 presentation widgets covering the standalone request card, the detail bottom sheet with its workflow stepper, and the submission success screen. `service_request_account.dart`, `service_request_form_data.dart` and `service_request_type_display.dart` were left unported — nothing in this feature's scope references them, only the deferred sub-flows do.
+- Updated `core/routing/app_routes.dart` (new `serviceRequestSuccess` route) and `app_router.dart`: the Service Requests shell branch now renders `ServiceRequestListScreen` in place of `ComingSoonScreen`, plus a pushed route for the success screen guarded by an `_ExtraArgsGuard` against a lost `extra` payload. `AppRoutes.newServiceRequest` still renders `ComingSoonScreen`, unchanged.
+- Updated `pubspec.yaml` to register `assets/mock-data/service_requests/`.
+- Updated generated l10n classes and all 3 ARB files with service-request list/detail/success strings (Spanish and Hindi included).
+- Updated `.claude/docs/folder-structure.md` for the new files.
+
+## [0.11.0] - Unreleased (staged)
+feat: add real-time account picker and real-time detailed view features
+
+- Added `assets/mock-data/real_time/` fixtures: `holdings.json`, `activities.json`, both keyed by account id.
+- New `lib/features/real_time/` feature: `domain` models (`real_time_account.dart`, `real_time_account_page.dart`, `real_time_account_list_state.dart`), `domain/real_time_repository.dart`, `data/real_time_mock_repository.dart` (reads the existing `accounts/list.json` fixture rather than a separate dropdown file), `presentation/providers/real_time_provider.dart`, `presentation/screens/real_time_screen.dart`, `presentation/widgets/real_time_shimmer.dart`.
+- New `lib/features/real_time_detailed_view/` feature: `domain/models/real_time_detailed_data.dart`, `domain/models/real_time_position.dart`, `domain/models/real_time_transaction.dart`, `domain/real_time_detailed_view_repository.dart`, `data/real_time_detailed_view_mock_repository.dart`, `presentation/providers/real_time_detailed_view_provider.dart`, `presentation/screens/real_time_detailed_view_screen.dart`, and 18 presentation widgets covering the account header card, pill-tab positions/transactions layout, search + sort, empty states, and loading shimmers.
+- Updated `core/routing/app_routes.dart` (new `realTimeDetailedView` route, `realTime` restricted to the advisor role) and `app_router.dart`: the Real-Time shell branch now renders `RealTimeScreen` in place of `ComingSoonScreen`, plus a pushed route for the detailed view.
+- Updated `pubspec.yaml` to register `assets/mock-data/real_time/`.
+- Updated generated l10n classes and all 3 ARB files with real-time picker/detail strings (Spanish and Hindi included).
+- Updated `.claude/docs/folder-structure.md` for the new files.
+
 ## [0.10.0] - Unreleased (staged)
 feat: add households list and household detail view features
 

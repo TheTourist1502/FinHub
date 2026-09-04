@@ -913,4 +913,231 @@ class AppLocalizationsEs extends AppLocalizations {
 
   @override
   String get householdDetailToday => 'HOY';
+
+  @override
+  String get commonButtonContinue => 'Continuar';
+
+  @override
+  String get realTimeSelectAccountTitle => 'Seleccionar una cuenta financiera';
+
+  @override
+  String get realTimeSelectAccountSubtitle =>
+      'Acceda a posiciones y transacciones en vivo de una cuenta. Los datos se obtienen directamente de la fuente y existen solo para Pershing tras seleccionar la cuenta.';
+
+  @override
+  String get realTimeSelectAccountLabel => 'Seleccionar número de cuenta';
+
+  @override
+  String get realTimeSelectAccountHint => 'Seleccionar número de cuenta';
+
+  @override
+  String get realTimeDetailedViewTitle => 'Vista detallada en tiempo real';
+
+  @override
+  String get realTimePositionsTab => 'Posiciones';
+
+  @override
+  String get realTimeTransactionsTab => 'Transacciones';
+
+  @override
+  String get realTimeChangeAccount => 'Cambiar';
+
+  @override
+  String get realTimeDelayNote =>
+      'El flujo de mercado para posiciones y transacciones en tiempo real tiene un retraso de 15 min.';
+
+  @override
+  String realTimeCusipIdentifier(String cusip) {
+    return 'IDENTIFICADOR CUSIP: $cusip';
+  }
+
+  @override
+  String get realTimeMarketPriceLabel => 'PRECIO DE MERCADO';
+
+  @override
+  String get realTimeClosePriceLabel => 'PRECIO DE CIERRE';
+
+  @override
+  String get realTimeNoPositions => 'No se encontraron posiciones.';
+
+  @override
+  String get realTimeNoTransactions => 'No se encontraron transacciones.';
+
+  @override
+  String get realTimeSearchPositions => 'Buscar posiciones...';
+
+  @override
+  String get realTimeSearchTransactions => 'Buscar transacciones...';
+
+  @override
+  String realTimeAllHoldings(int count) {
+    String _temp0 = intl.Intl.pluralLogic(
+      count,
+      locale: localeName,
+      other: 'TODAS LAS POSICIONES ($count)',
+      one: 'TODA LA POSICIÓN ($count)',
+      zero: 'TODA LA POSICIÓN ($count)',
+    );
+    return '$_temp0';
+  }
+
+  @override
+  String realTimeAllTransactionsHeader(int count) {
+    String _temp0 = intl.Intl.pluralLogic(
+      count,
+      locale: localeName,
+      other: 'Todas las Transacciones',
+      one: 'Todas las Transacciones',
+      zero: 'Todas las Transacciones',
+    );
+    return '$_temp0 ($count)';
+  }
+
+  @override
+  String get realTimeAccountActivityLabel => 'DESCRIPCIÓN DE LA ACTIVIDAD';
+
+  @override
+  String get serviceRequestNewButton => 'Nueva Solicitud de Servicio';
+
+  @override
+  String get serviceRequestSearchHint => 'Buscar por nombre o código...';
+
+  @override
+  String get serviceRequestFilterAll => 'Todas';
+
+  @override
+  String get serviceRequestFilterActive => 'Abiertas';
+
+  @override
+  String get serviceRequestFilterClosed => 'Cerradas';
+
+  @override
+  String serviceRequestHeadingAll(int count) {
+    String _temp0 = intl.Intl.pluralLogic(
+      count,
+      locale: localeName,
+      other: 'Todas las Solicitudes de Servicio ($count)',
+      one: 'Toda la Solicitud de Servicio ($count)',
+      zero: 'Toda la Solicitud de Servicio ($count)',
+    );
+    return '$_temp0';
+  }
+
+  @override
+  String serviceRequestHeadingActive(int count) {
+    String _temp0 = intl.Intl.pluralLogic(
+      count,
+      locale: localeName,
+      other: 'Solicitudes de Servicio Abiertas ($count)',
+      one: 'Solicitud de Servicio Abierta ($count)',
+      zero: 'Solicitud de Servicio Abierta ($count)',
+    );
+    return '$_temp0';
+  }
+
+  @override
+  String serviceRequestHeadingClosed(int count) {
+    String _temp0 = intl.Intl.pluralLogic(
+      count,
+      locale: localeName,
+      other: 'Solicitudes de Servicio Cerradas ($count)',
+      one: 'Solicitud de Servicio Cerrada ($count)',
+      zero: 'Solicitud de Servicio Cerrada ($count)',
+    );
+    return '$_temp0';
+  }
+
+  @override
+  String get serviceRequestSectionActive => 'Abiertas';
+
+  @override
+  String get serviceRequestSectionClosed => 'Cerradas';
+
+  @override
+  String get serviceRequestEmpty => 'No se encontraron solicitudes de servicio';
+
+  @override
+  String get serviceRequestEmptySearch => 'No hay solicitudes de servicio que coincidan';
+
+  @override
+  String get serviceRequestView => 'Ver';
+
+  @override
+  String get serviceRequestDateToday => 'Hoy';
+
+  @override
+  String get serviceRequestDateYesterday => 'Ayer';
+
+  @override
+  String get serviceRequestDateTomorrow => 'Mañana';
+
+  @override
+  String get serviceRequestDetailFinancialAccountLabel => 'Número de Cuenta :';
+
+  @override
+  String get serviceRequestDetailFinancialAccountTypeLabel => 'Tipo de Cuenta :';
+
+  @override
+  String get serviceRequestDetailRecordId => 'ID SR :';
+
+  @override
+  String get serviceRequestDetailStatus => 'Estado Actual';
+
+  @override
+  String get serviceRequestDetailActionPending => 'Acción Pendiente';
+
+  @override
+  String get serviceRequestDetailNoPendingAction => 'Sin acción pendiente';
+
+  @override
+  String get serviceRequestDetailDueDateLabel => 'Fecha de Vencimiento :';
+
+  @override
+  String get serviceRequestDetailWorkflowStatus => 'Estado del Flujo de Trabajo';
+
+  @override
+  String get serviceRequestDetailStepSubmitted => 'Enviado';
+
+  @override
+  String get serviceRequestDetailStepCompleted => 'Completado';
+
+  @override
+  String get serviceRequestDetailOwner => 'Propietario';
+
+  @override
+  String get serviceRequestDetailAssignedTo => 'Asignado A';
+
+  @override
+  String get serviceRequestDetailDueDate => 'Fecha de Vencimiento';
+
+  @override
+  String get serviceRequestDetailComments => 'Comentarios';
+
+  @override
+  String get serviceRequestDetailViewMore => 'Ver más';
+
+  @override
+  String get serviceRequestDetailClose => 'Cerrar';
+
+  @override
+  String get serviceRequestSuccessTitle => 'Solicitud Enviada';
+
+  @override
+  String get serviceRequestSuccessRecordLabel => 'Tu ID de solicitud de servicio';
+
+  @override
+  String get serviceRequestSuccessConfirmation => 'Creada exitosamente';
+
+  @override
+  String get serviceRequestSuccessCopied => 'ID de registro copiado al portapapeles';
+
+  @override
+  String get serviceRequestSuccessRedirectPrefix =>
+      'Serás redirigido a la página de Inicio de Solicitudes de Servicio en ';
+
+  @override
+  String get serviceRequestSuccessRedirectSuffix => 's.';
+
+  @override
+  String get serviceRequestSuccessGoButton => 'Ir a Solicitud de Servicio';
 }

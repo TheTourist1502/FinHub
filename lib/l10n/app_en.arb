@@ -1261,5 +1261,271 @@
   "householdDetailToday": "TODAY",
   "@householdDetailToday": {
     "description": "Date group header for today's transactions."
+  },
+  "commonButtonContinue": "Continue",
+  "@commonButtonContinue": {},
+  "realTimeSelectAccountTitle": "Select a Financial Account",
+  "@realTimeSelectAccountTitle": {
+    "description": "Heading on the real-time account selector screen."
+  },
+  "realTimeSelectAccountSubtitle": "Access live positions and transactions for an account. Data is retrieved directly from the source and exists for Pershing only after account selection.",
+  "@realTimeSelectAccountSubtitle": {
+    "description": "Subtitle beneath the heading on the real-time account selector screen."
+  },
+  "realTimeSelectAccountLabel": "Select Account Number",
+  "@realTimeSelectAccountLabel": {
+    "description": "Field label above the account dropdown on the real-time screen."
+  },
+  "realTimeSelectAccountHint": "Select Account Number",
+  "@realTimeSelectAccountHint": {
+    "description": "Placeholder text in the account selector dropdown."
+  },
+  "realTimeDetailedViewTitle": "Real-Time Detailed View",
+  "@realTimeDetailedViewTitle": {
+    "description": "Title shown in the app bar of the real-time detailed view screen."
+  },
+  "realTimePositionsTab": "Positions",
+  "@realTimePositionsTab": {
+    "description": "Label for the Positions tab on the real-time detailed view screen."
+  },
+  "realTimeTransactionsTab": "Transactions",
+  "@realTimeTransactionsTab": {
+    "description": "Label for the Transactions tab on the real-time detailed view screen."
+  },
+  "realTimeChangeAccount": "Change",
+  "@realTimeChangeAccount": {
+    "description": "Button label to switch the selected account on the real-time detailed view."
+  },
+  "realTimeDelayNote": "Market feed for real-time positions and transactions is delayed by 15 min.",
+  "@realTimeDelayNote": {
+    "description": "Footnote noting real-time figures lag by 15 minutes."
+  },
+  "realTimeCusipIdentifier": "CUSIP IDENTIFIER: {cusip}",
+  "@realTimeCusipIdentifier": {
+    "description": "CUSIP label shown above each position card.",
+    "placeholders": {
+      "cusip": {
+        "type": "String",
+        "example": "037833100"
+      }
+    }
+  },
+  "realTimeMarketPriceLabel": "MARKET PRICE",
+  "@realTimeMarketPriceLabel": {
+    "description": "Label above the intraday market price value on a position card."
+  },
+  "realTimeClosePriceLabel": "CLOSE PRICE",
+  "@realTimeClosePriceLabel": {
+    "description": "Label above the prior-session closing price value on a position card."
+  },
+  "realTimeNoPositions": "No positions found.",
+  "@realTimeNoPositions": {
+    "description": "Empty-state message when no positions match the search query."
+  },
+  "realTimeNoTransactions": "No transactions found.",
+  "@realTimeNoTransactions": {
+    "description": "Empty-state message when no transactions match the search query."
+  },
+  "realTimeSearchPositions": "Search positions...",
+  "@realTimeSearchPositions": {
+    "description": "Placeholder in the positions search field on the real-time detailed view."
+  },
+  "realTimeSearchTransactions": "Search transactions...",
+  "@realTimeSearchTransactions": {
+    "description": "Placeholder in the transactions search field on the real-time detailed view."
+  },
+  "realTimeAllHoldings": "{count, plural, =0{ALL HOLDING ({count})} =1{ALL HOLDING ({count})} other{ALL HOLDINGS ({count})}}",
+  "@realTimeAllHoldings": {
+    "description": "Section heading for the holdings list on the positions tab. Pluralised only when the count is greater than 1.",
+    "placeholders": {
+      "count": {
+        "type": "int",
+        "example": "5"
+      }
+    }
+  },
+  "realTimeAllTransactionsHeader": "{count, plural, =0{All Transaction} =1{All Transaction} other{All Transactions}} ({count})",
+  "@realTimeAllTransactionsHeader": {
+    "description": "Header above the real-time activity list, with the number of transactions shown.",
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "realTimeAccountActivityLabel": "ACTIVITY DESCRIPTION",
+  "@realTimeAccountActivityLabel": {
+    "description": "Label above the activity description value on a transaction card."
+  },
+  "serviceRequestNewButton": "New Service Request",
+  "@serviceRequestNewButton": {
+    "description": "CTA button label to start a new service request; also used as the New Service Request page title."
+  },
+  "serviceRequestSearchHint": "Search by name or code...",
+  "@serviceRequestSearchHint": {
+    "description": "Placeholder text in the service request search field."
+  },
+  "serviceRequestFilterAll": "All",
+  "@serviceRequestFilterAll": {
+    "description": "Filter chip showing open and closed service requests together."
+  },
+  "serviceRequestFilterActive": "Open",
+  "@serviceRequestFilterActive": {
+    "description": "Filter chip showing only open service requests."
+  },
+  "serviceRequestFilterClosed": "Closed",
+  "@serviceRequestFilterClosed": {
+    "description": "Filter chip showing only closed service requests."
+  },
+  "serviceRequestHeadingAll": "{count, plural, =0{All Service Request ({count})} =1{All Service Request ({count})} other{All Service Requests ({count})}}",
+  "@serviceRequestHeadingAll": {
+    "description": "Heading for the all-service-requests list showing count.",
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "serviceRequestHeadingActive": "{count, plural, =0{Open Service Request ({count})} =1{Open Service Request ({count})} other{Open Service Requests ({count})}}",
+  "@serviceRequestHeadingActive": {
+    "description": "Heading for the open-service-requests list showing count.",
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "serviceRequestHeadingClosed": "{count, plural, =0{Closed Service Request ({count})} =1{Closed Service Request ({count})} other{Closed Service Requests ({count})}}",
+  "@serviceRequestHeadingClosed": {
+    "description": "Heading for the closed-service-requests list showing count.",
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "serviceRequestSectionActive": "Open",
+  "@serviceRequestSectionActive": {
+    "description": "Section header for open service requests."
+  },
+  "serviceRequestSectionClosed": "Closed",
+  "@serviceRequestSectionClosed": {
+    "description": "Section header for closed service requests."
+  },
+  "serviceRequestEmpty": "No service requests found",
+  "@serviceRequestEmpty": {
+    "description": "Empty-state message when the service request list is empty."
+  },
+  "serviceRequestEmptySearch": "No matching service requests",
+  "@serviceRequestEmptySearch": {
+    "description": "Empty-state message when a search query matches no service requests."
+  },
+  "serviceRequestView": "View",
+  "@serviceRequestView": {
+    "description": "Link label to view a service request's details."
+  },
+  "serviceRequestDateToday": "Today",
+  "@serviceRequestDateToday": {
+    "description": "Relative date label on a service request card for a date falling today."
+  },
+  "serviceRequestDateYesterday": "Yesterday",
+  "@serviceRequestDateYesterday": {
+    "description": "Relative date label on a service request card for a date falling yesterday."
+  },
+  "serviceRequestDateTomorrow": "Tomorrow",
+  "@serviceRequestDateTomorrow": {
+    "description": "Relative date label on a service request card for a date falling tomorrow."
+  },
+  "serviceRequestDetailFinancialAccountLabel": "Account Number :",
+  "@serviceRequestDetailFinancialAccountLabel": {
+    "description": "Label preceding the account number in the service request detail sheet header."
+  },
+  "serviceRequestDetailFinancialAccountTypeLabel": "Account Type :",
+  "@serviceRequestDetailFinancialAccountTypeLabel": {
+    "description": "Label preceding the account type in the service request detail sheet header."
+  },
+  "serviceRequestDetailRecordId": "SR Id :",
+  "@serviceRequestDetailRecordId": {
+    "description": "Label preceding the service request id in the detail sheet header; carries its own separator."
+  },
+  "serviceRequestDetailStatus": "Current Status",
+  "@serviceRequestDetailStatus": {
+    "description": "Label for a service request's overall status."
+  },
+  "serviceRequestDetailActionPending": "Action Pending",
+  "@serviceRequestDetailActionPending": {
+    "description": "Section title on the service request detail sheet for the stage awaiting action."
+  },
+  "serviceRequestDetailNoPendingAction": "No pending action",
+  "@serviceRequestDetailNoPendingAction": {
+    "description": "Shown on the detail sheet when a service request has no active workflow stage."
+  },
+  "serviceRequestDetailDueDateLabel": "Due Date :",
+  "@serviceRequestDetailDueDateLabel": {
+    "description": "Label preceding the due date under the pending action chip; carries its own separator."
+  },
+  "serviceRequestDetailWorkflowStatus": "Workflow Status",
+  "@serviceRequestDetailWorkflowStatus": {
+    "description": "Section title for the workflow timeline on the service request detail sheet."
+  },
+  "serviceRequestDetailStepSubmitted": "Submitted",
+  "@serviceRequestDetailStepSubmitted": {
+    "description": "Workflow stepper label for the request submission step."
+  },
+  "serviceRequestDetailStepCompleted": "Completed",
+  "@serviceRequestDetailStepCompleted": {
+    "description": "Workflow stepper label for the final, not-yet-reached completion step."
+  },
+  "serviceRequestDetailOwner": "Owner",
+  "@serviceRequestDetailOwner": {
+    "description": "Label for the queue or user that owns a workflow task."
+  },
+  "serviceRequestDetailAssignedTo": "Assigned To",
+  "@serviceRequestDetailAssignedTo": {
+    "description": "Label for the queue or user a workflow task was handed off to."
+  },
+  "serviceRequestDetailDueDate": "Due Date",
+  "@serviceRequestDetailDueDate": {
+    "description": "Label for a workflow task's due date."
+  },
+  "serviceRequestDetailComments": "Comments",
+  "@serviceRequestDetailComments": {
+    "description": "Label for a workflow task's reviewer comment."
+  },
+  "serviceRequestDetailViewMore": "View more",
+  "@serviceRequestDetailViewMore": {
+    "description": "Link that opens the full text of a truncated workflow task comment."
+  },
+  "serviceRequestDetailClose": "Close",
+  "@serviceRequestDetailClose": {
+    "description": "Button label that dismisses the service request detail sheet."
+  },
+  "serviceRequestSuccessTitle": "Request Submitted",
+  "@serviceRequestSuccessTitle": {
+    "description": "Title shown on the service request success screen."
+  },
+  "serviceRequestSuccessRecordLabel": "Your service request ID",
+  "@serviceRequestSuccessRecordLabel": {
+    "description": "Label for the service request ID on the success screen."
+  },
+  "serviceRequestSuccessConfirmation": "created successfully .",
+  "@serviceRequestSuccessConfirmation": {
+    "description": "Confirmation message shown below the service request ID."
+  },
+  "serviceRequestSuccessCopied": "Record ID copied to clipboard",
+  "@serviceRequestSuccessCopied": {
+    "description": "Confirmation message shown after copying the record ID."
+  },
+  "serviceRequestSuccessRedirectPrefix": "You will be redirected to Service Request Home page in ",
+  "@serviceRequestSuccessRedirectPrefix": {
+    "description": "Prefix text for the redirect countdown message."
+  },
+  "serviceRequestSuccessRedirectSuffix": "s.",
+  "@serviceRequestSuccessRedirectSuffix": {
+    "description": "Suffix text for the redirect countdown message."
+  },
+  "serviceRequestSuccessGoButton": "Go to Service Request",
+  "@serviceRequestSuccessGoButton": {
+    "description": "Button label to navigate to the service request home page immediately."
   }
 }

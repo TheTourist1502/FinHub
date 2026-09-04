@@ -1,0 +1,1012 @@
+{
+  "FAP0001": [
+    {
+      "id": "SRQ00041",
+      "name": "Withdrawal-Cash Distribution",
+      "accountNumber": "WLT7H5R8426",
+      "accountId": "ACCP005",
+      "financialAccountId": "ACCP005",
+      "finAccountType": "Investment",
+      "status": "Closed",
+      "workflowStatus": "Completed",
+      "createdDateTime": "2026-08-15T21:00:00Z",
+      "tasks": [
+        {
+          "id": "SRT00041-1",
+          "status": "Completed",
+          "createdDateTime": "2026-08-15T21:00:00Z",
+          "ownerName": "Nasrin Tester",
+          "currentStatusOnLead": "Submitted",
+          "comments": "Request submitted from mobile",
+          "assignedTo": "Nasrin Tester",
+          "activityDate": "2026-08-16T21:00:00Z"
+        },
+        {
+          "id": "SRT00041-2",
+          "status": "Completed",
+          "createdDateTime": "2026-08-17T21:00:00Z",
+          "ownerName": "Operations",
+          "currentStatusOnLead": "Completed",
+          "comments": "Under operations review",
+          "assignedTo": "Operations Desk",
+          "activityDate": "2026-08-20T21:00:00Z"
+        }
+      ]
+    },
+    {
+      "id": "SRQ00042",
+      "name": "Maintain-Address Change",
+      "accountNumber": "BRG3C9V5174",
+      "accountId": "ACCP006",
+      "financialAccountId": "ACCP006",
+      "finAccountType": "Brokerage",
+      "status": "Closed",
+      "workflowStatus": "Completed",
+      "createdDateTime": "2026-06-15T21:00:00Z",
+      "tasks": [
+        {
+          "id": "SRT00042-1",
+          "status": "Completed",
+          "createdDateTime": "2026-06-15T21:00:00Z",
+          "ownerName": "Nasrin Tester",
+          "currentStatusOnLead": "Submitted",
+          "comments": "Request submitted from mobile",
+          "assignedTo": "Nasrin Tester",
+          "activityDate": "2026-06-16T21:00:00Z"
+        },
+        {
+          "id": "SRT00042-2",
+          "status": "Completed",
+          "createdDateTime": "2026-06-17T21:00:00Z",
+          "ownerName": "Operations",
+          "currentStatusOnLead": "Completed",
+          "comments": "Under operations review",
+          "assignedTo": "Operations Desk",
+          "activityDate": "2026-06-20T21:00:00Z"
+        }
+      ]
+    },
+    {
+      "id": "SRQ00043",
+      "name": "Online-eDelivery Enrollment",
+      "accountNumber": "INV6J1X2948",
+      "accountId": "ACCP007",
+      "financialAccountId": "ACCP007",
+      "finAccountType": "Joint",
+      "status": "Closed",
+      "workflowStatus": "Completed",
+      "createdDateTime": "2026-07-06T21:00:00Z",
+      "tasks": [
+        {
+          "id": "SRT00043-1",
+          "status": "Completed",
+          "createdDateTime": "2026-07-06T21:00:00Z",
+          "ownerName": "Nasrin Tester",
+          "currentStatusOnLead": "Submitted",
+          "comments": "Request submitted from mobile",
+          "assignedTo": "Nasrin Tester",
+          "activityDate": "2026-07-07T21:00:00Z"
+        },
+        {
+          "id": "SRT00043-2",
+          "status": "Completed",
+          "createdDateTime": "2026-07-08T21:00:00Z",
+          "ownerName": "Operations",
+          "currentStatusOnLead": "Completed",
+          "comments": "Under operations review",
+          "assignedTo": "Operations Desk",
+          "activityDate": "2026-07-11T21:00:00Z"
+        }
+      ]
+    }
+  ],
+  "FAP0002": [
+    {
+      "id": "SRQ00044",
+      "name": "Withdrawal-Cash Distribution",
+      "accountNumber": "INV5667265Z",
+      "accountId": "ACCP015",
+      "financialAccountId": "ACCP015",
+      "finAccountType": "Investment",
+      "status": "Closed",
+      "workflowStatus": "Completed",
+      "createdDateTime": "2026-08-19T21:00:00Z",
+      "tasks": [
+        {
+          "id": "SRT00044-1",
+          "status": "Completed",
+          "createdDateTime": "2026-08-19T21:00:00Z",
+          "ownerName": "Daniel Alvarez",
+          "currentStatusOnLead": "Submitted",
+          "comments": "Request submitted from mobile",
+          "assignedTo": "Daniel Alvarez",
+          "activityDate": "2026-08-20T21:00:00Z"
+        },
+        {
+          "id": "SRT00044-2",
+          "status": "Completed",
+          "createdDateTime": "2026-08-21T21:00:00Z",
+          "ownerName": "Operations",
+          "currentStatusOnLead": "Completed",
+          "comments": "Under operations review",
+          "assignedTo": "Operations Desk",
+          "activityDate": "2026-08-24T21:00:00Z"
+        }
+      ]
+    },
+    {
+      "id": "SRQ00045",
+      "name": "Maintain-Address Change",
+      "accountNumber": "BRO8090293K",
+      "accountId": "ACCP016",
+      "financialAccountId": "ACCP016",
+      "finAccountType": "Brokerage",
+      "status": "Closed",
+      "workflowStatus": "Completed",
+      "createdDateTime": "2026-07-12T21:00:00Z",
+      "tasks": [
+        {
+          "id": "SRT00045-1",
+          "status": "Completed",
+          "createdDateTime": "2026-07-12T21:00:00Z",
+          "ownerName": "Daniel Alvarez",
+          "currentStatusOnLead": "Submitted",
+          "comments": "Request submitted from mobile",
+          "assignedTo": "Daniel Alvarez",
+          "activityDate": "2026-07-13T21:00:00Z"
+        },
+        {
+          "id": "SRT00045-2",
+          "status": "Completed",
+          "createdDateTime": "2026-07-14T21:00:00Z",
+          "ownerName": "Operations",
+          "currentStatusOnLead": "Completed",
+          "comments": "Under operations review",
+          "assignedTo": "Operations Desk",
+          "activityDate": "2026-07-17T21:00:00Z"
+        }
+      ]
+    },
+    {
+      "id": "SRQ00046",
+      "name": "Online-eDelivery Enrollment",
+      "accountNumber": "JOI2714803C",
+      "accountId": "ACCP017",
+      "financialAccountId": "ACCP017",
+      "finAccountType": "Joint",
+      "status": "Closed",
+      "workflowStatus": "Completed",
+      "createdDateTime": "2026-08-17T21:00:00Z",
+      "tasks": [
+        {
+          "id": "SRT00046-1",
+          "status": "Completed",
+          "createdDateTime": "2026-08-17T21:00:00Z",
+          "ownerName": "Daniel Alvarez",
+          "currentStatusOnLead": "Submitted",
+          "comments": "Request submitted from mobile",
+          "assignedTo": "Daniel Alvarez",
+          "activityDate": "2026-08-18T21:00:00Z"
+        },
+        {
+          "id": "SRT00046-2",
+          "status": "Completed",
+          "createdDateTime": "2026-08-19T21:00:00Z",
+          "ownerName": "Operations",
+          "currentStatusOnLead": "Completed",
+          "comments": "Under operations review",
+          "assignedTo": "Operations Desk",
+          "activityDate": "2026-08-22T21:00:00Z"
+        }
+      ]
+    }
+  ],
+  "FAP0003": [
+    {
+      "id": "SRQ00047",
+      "name": "Withdrawal-Cash Distribution",
+      "accountNumber": "INV4684531V",
+      "accountId": "ACCP025",
+      "financialAccountId": "ACCP025",
+      "finAccountType": "Investment",
+      "status": "Closed",
+      "workflowStatus": "Completed",
+      "createdDateTime": "2026-07-13T21:00:00Z",
+      "tasks": [
+        {
+          "id": "SRT00047-1",
+          "status": "Completed",
+          "createdDateTime": "2026-07-13T21:00:00Z",
+          "ownerName": "Priya Raghavan",
+          "currentStatusOnLead": "Submitted",
+          "comments": "Request submitted from mobile",
+          "assignedTo": "Priya Raghavan",
+          "activityDate": "2026-07-14T21:00:00Z"
+        },
+        {
+          "id": "SRT00047-2",
+          "status": "Completed",
+          "createdDateTime": "2026-07-15T21:00:00Z",
+          "ownerName": "Operations",
+          "currentStatusOnLead": "Completed",
+          "comments": "Under operations review",
+          "assignedTo": "Operations Desk",
+          "activityDate": "2026-07-18T21:00:00Z"
+        }
+      ]
+    },
+    {
+      "id": "SRQ00048",
+      "name": "Maintain-Address Change",
+      "accountNumber": "BRO1538552Z",
+      "accountId": "ACCP026",
+      "financialAccountId": "ACCP026",
+      "finAccountType": "Brokerage",
+      "status": "Closed",
+      "workflowStatus": "Completed",
+      "createdDateTime": "2026-08-18T21:00:00Z",
+      "tasks": [
+        {
+          "id": "SRT00048-1",
+          "status": "Completed",
+          "createdDateTime": "2026-08-18T21:00:00Z",
+          "ownerName": "Priya Raghavan",
+          "currentStatusOnLead": "Submitted",
+          "comments": "Request submitted from mobile",
+          "assignedTo": "Priya Raghavan",
+          "activityDate": "2026-08-19T21:00:00Z"
+        },
+        {
+          "id": "SRT00048-2",
+          "status": "Completed",
+          "createdDateTime": "2026-08-20T21:00:00Z",
+          "ownerName": "Operations",
+          "currentStatusOnLead": "Completed",
+          "comments": "Under operations review",
+          "assignedTo": "Operations Desk",
+          "activityDate": "2026-08-23T21:00:00Z"
+        }
+      ]
+    },
+    {
+      "id": "SRQ00049",
+      "name": "Online-eDelivery Enrollment",
+      "accountNumber": "JOI6279418G",
+      "accountId": "ACCP027",
+      "financialAccountId": "ACCP027",
+      "finAccountType": "Joint",
+      "status": "Closed",
+      "workflowStatus": "Completed",
+      "createdDateTime": "2026-08-18T21:00:00Z",
+      "tasks": [
+        {
+          "id": "SRT00049-1",
+          "status": "Completed",
+          "createdDateTime": "2026-08-18T21:00:00Z",
+          "ownerName": "Priya Raghavan",
+          "currentStatusOnLead": "Submitted",
+          "comments": "Request submitted from mobile",
+          "assignedTo": "Priya Raghavan",
+          "activityDate": "2026-08-19T21:00:00Z"
+        },
+        {
+          "id": "SRT00049-2",
+          "status": "Completed",
+          "createdDateTime": "2026-08-20T21:00:00Z",
+          "ownerName": "Operations",
+          "currentStatusOnLead": "Completed",
+          "comments": "Under operations review",
+          "assignedTo": "Operations Desk",
+          "activityDate": "2026-08-23T21:00:00Z"
+        }
+      ]
+    }
+  ],
+  "FAP0004": [
+    {
+      "id": "SRQ00050",
+      "name": "Withdrawal-Cash Distribution",
+      "accountNumber": "INV8612220A",
+      "accountId": "ACCP035",
+      "financialAccountId": "ACCP035",
+      "finAccountType": "Investment",
+      "status": "Closed",
+      "workflowStatus": "Completed",
+      "createdDateTime": "2026-08-01T21:00:00Z",
+      "tasks": [
+        {
+          "id": "SRT00050-1",
+          "status": "Completed",
+          "createdDateTime": "2026-08-01T21:00:00Z",
+          "ownerName": "Marcus Bennett",
+          "currentStatusOnLead": "Submitted",
+          "comments": "Request submitted from mobile",
+          "assignedTo": "Marcus Bennett",
+          "activityDate": "2026-08-02T21:00:00Z"
+        },
+        {
+          "id": "SRT00050-2",
+          "status": "Completed",
+          "createdDateTime": "2026-08-03T21:00:00Z",
+          "ownerName": "Operations",
+          "currentStatusOnLead": "Completed",
+          "comments": "Under operations review",
+          "assignedTo": "Operations Desk",
+          "activityDate": "2026-08-06T21:00:00Z"
+        }
+      ]
+    },
+    {
+      "id": "SRQ00051",
+      "name": "Maintain-Address Change",
+      "accountNumber": "BRO9398441Y",
+      "accountId": "ACCP036",
+      "financialAccountId": "ACCP036",
+      "finAccountType": "Brokerage",
+      "status": "Closed",
+      "workflowStatus": "Completed",
+      "createdDateTime": "2026-07-27T21:00:00Z",
+      "tasks": [
+        {
+          "id": "SRT00051-1",
+          "status": "Completed",
+          "createdDateTime": "2026-07-27T21:00:00Z",
+          "ownerName": "Marcus Bennett",
+          "currentStatusOnLead": "Submitted",
+          "comments": "Request submitted from mobile",
+          "assignedTo": "Marcus Bennett",
+          "activityDate": "2026-07-28T21:00:00Z"
+        },
+        {
+          "id": "SRT00051-2",
+          "status": "Completed",
+          "createdDateTime": "2026-07-29T21:00:00Z",
+          "ownerName": "Operations",
+          "currentStatusOnLead": "Completed",
+          "comments": "Under operations review",
+          "assignedTo": "Operations Desk",
+          "activityDate": "2026-08-01T21:00:00Z"
+        }
+      ]
+    },
+    {
+      "id": "SRQ00052",
+      "name": "Online-eDelivery Enrollment",
+      "accountNumber": "JOI6007072U",
+      "accountId": "ACCP037",
+      "financialAccountId": "ACCP037",
+      "finAccountType": "Joint",
+      "status": "Closed",
+      "workflowStatus": "Completed",
+      "createdDateTime": "2026-06-11T21:00:00Z",
+      "tasks": [
+        {
+          "id": "SRT00052-1",
+          "status": "Completed",
+          "createdDateTime": "2026-06-11T21:00:00Z",
+          "ownerName": "Marcus Bennett",
+          "currentStatusOnLead": "Submitted",
+          "comments": "Request submitted from mobile",
+          "assignedTo": "Marcus Bennett",
+          "activityDate": "2026-06-12T21:00:00Z"
+        },
+        {
+          "id": "SRT00052-2",
+          "status": "Completed",
+          "createdDateTime": "2026-06-13T21:00:00Z",
+          "ownerName": "Operations",
+          "currentStatusOnLead": "Completed",
+          "comments": "Under operations review",
+          "assignedTo": "Operations Desk",
+          "activityDate": "2026-06-16T21:00:00Z"
+        }
+      ]
+    }
+  ],
+  "FAP0005": [
+    {
+      "id": "SRQ00053",
+      "name": "Withdrawal-Cash Distribution",
+      "accountNumber": "INV8350099Q",
+      "accountId": "ACCP045",
+      "financialAccountId": "ACCP045",
+      "finAccountType": "Investment",
+      "status": "Closed",
+      "workflowStatus": "Completed",
+      "createdDateTime": "2026-07-06T21:00:00Z",
+      "tasks": [
+        {
+          "id": "SRT00053-1",
+          "status": "Completed",
+          "createdDateTime": "2026-07-06T21:00:00Z",
+          "ownerName": "Lucia Ferreira",
+          "currentStatusOnLead": "Submitted",
+          "comments": "Request submitted from mobile",
+          "assignedTo": "Lucia Ferreira",
+          "activityDate": "2026-07-07T21:00:00Z"
+        },
+        {
+          "id": "SRT00053-2",
+          "status": "Completed",
+          "createdDateTime": "2026-07-08T21:00:00Z",
+          "ownerName": "Operations",
+          "currentStatusOnLead": "Completed",
+          "comments": "Under operations review",
+          "assignedTo": "Operations Desk",
+          "activityDate": "2026-07-11T21:00:00Z"
+        }
+      ]
+    },
+    {
+      "id": "SRQ00054",
+      "name": "Maintain-Address Change",
+      "accountNumber": "BRO1352896S",
+      "accountId": "ACCP046",
+      "financialAccountId": "ACCP046",
+      "finAccountType": "Brokerage",
+      "status": "Closed",
+      "workflowStatus": "Completed",
+      "createdDateTime": "2026-06-16T21:00:00Z",
+      "tasks": [
+        {
+          "id": "SRT00054-1",
+          "status": "Completed",
+          "createdDateTime": "2026-06-16T21:00:00Z",
+          "ownerName": "Lucia Ferreira",
+          "currentStatusOnLead": "Submitted",
+          "comments": "Request submitted from mobile",
+          "assignedTo": "Lucia Ferreira",
+          "activityDate": "2026-06-17T21:00:00Z"
+        },
+        {
+          "id": "SRT00054-2",
+          "status": "Completed",
+          "createdDateTime": "2026-06-18T21:00:00Z",
+          "ownerName": "Operations",
+          "currentStatusOnLead": "Completed",
+          "comments": "Under operations review",
+          "assignedTo": "Operations Desk",
+          "activityDate": "2026-06-21T21:00:00Z"
+        }
+      ]
+    },
+    {
+      "id": "SRQ00055",
+      "name": "Online-eDelivery Enrollment",
+      "accountNumber": "JOI1987737H",
+      "accountId": "ACCP047",
+      "financialAccountId": "ACCP047",
+      "finAccountType": "Joint",
+      "status": "Closed",
+      "workflowStatus": "Completed",
+      "createdDateTime": "2026-06-24T21:00:00Z",
+      "tasks": [
+        {
+          "id": "SRT00055-1",
+          "status": "Completed",
+          "createdDateTime": "2026-06-24T21:00:00Z",
+          "ownerName": "Lucia Ferreira",
+          "currentStatusOnLead": "Submitted",
+          "comments": "Request submitted from mobile",
+          "assignedTo": "Lucia Ferreira",
+          "activityDate": "2026-06-25T21:00:00Z"
+        },
+        {
+          "id": "SRT00055-2",
+          "status": "Completed",
+          "createdDateTime": "2026-06-26T21:00:00Z",
+          "ownerName": "Operations",
+          "currentStatusOnLead": "Completed",
+          "comments": "Under operations review",
+          "assignedTo": "Operations Desk",
+          "activityDate": "2026-06-29T21:00:00Z"
+        }
+      ]
+    }
+  ],
+  "FAP0006": [
+    {
+      "id": "SRQ00056",
+      "name": "Withdrawal-Cash Distribution",
+      "accountNumber": "INV1247595C",
+      "accountId": "ACCP055",
+      "financialAccountId": "ACCP055",
+      "finAccountType": "Investment",
+      "status": "Closed",
+      "workflowStatus": "Completed",
+      "createdDateTime": "2026-06-23T21:00:00Z",
+      "tasks": [
+        {
+          "id": "SRT00056-1",
+          "status": "Completed",
+          "createdDateTime": "2026-06-23T21:00:00Z",
+          "ownerName": "Omar Haddad",
+          "currentStatusOnLead": "Submitted",
+          "comments": "Request submitted from mobile",
+          "assignedTo": "Omar Haddad",
+          "activityDate": "2026-06-24T21:00:00Z"
+        },
+        {
+          "id": "SRT00056-2",
+          "status": "Completed",
+          "createdDateTime": "2026-06-25T21:00:00Z",
+          "ownerName": "Operations",
+          "currentStatusOnLead": "Completed",
+          "comments": "Under operations review",
+          "assignedTo": "Operations Desk",
+          "activityDate": "2026-06-28T21:00:00Z"
+        }
+      ]
+    },
+    {
+      "id": "SRQ00057",
+      "name": "Maintain-Address Change",
+      "accountNumber": "BRO9147706P",
+      "accountId": "ACCP056",
+      "financialAccountId": "ACCP056",
+      "finAccountType": "Brokerage",
+      "status": "Closed",
+      "workflowStatus": "Completed",
+      "createdDateTime": "2026-08-06T21:00:00Z",
+      "tasks": [
+        {
+          "id": "SRT00057-1",
+          "status": "Completed",
+          "createdDateTime": "2026-08-06T21:00:00Z",
+          "ownerName": "Omar Haddad",
+          "currentStatusOnLead": "Submitted",
+          "comments": "Request submitted from mobile",
+          "assignedTo": "Omar Haddad",
+          "activityDate": "2026-08-07T21:00:00Z"
+        },
+        {
+          "id": "SRT00057-2",
+          "status": "Completed",
+          "createdDateTime": "2026-08-08T21:00:00Z",
+          "ownerName": "Operations",
+          "currentStatusOnLead": "Completed",
+          "comments": "Under operations review",
+          "assignedTo": "Operations Desk",
+          "activityDate": "2026-08-11T21:00:00Z"
+        }
+      ]
+    },
+    {
+      "id": "SRQ00058",
+      "name": "Online-eDelivery Enrollment",
+      "accountNumber": "JOI7358113A",
+      "accountId": "ACCP057",
+      "financialAccountId": "ACCP057",
+      "finAccountType": "Joint",
+      "status": "Closed",
+      "workflowStatus": "Completed",
+      "createdDateTime": "2026-08-15T21:00:00Z",
+      "tasks": [
+        {
+          "id": "SRT00058-1",
+          "status": "Completed",
+          "createdDateTime": "2026-08-15T21:00:00Z",
+          "ownerName": "Omar Haddad",
+          "currentStatusOnLead": "Submitted",
+          "comments": "Request submitted from mobile",
+          "assignedTo": "Omar Haddad",
+          "activityDate": "2026-08-16T21:00:00Z"
+        },
+        {
+          "id": "SRT00058-2",
+          "status": "Completed",
+          "createdDateTime": "2026-08-17T21:00:00Z",
+          "ownerName": "Operations",
+          "currentStatusOnLead": "Completed",
+          "comments": "Under operations review",
+          "assignedTo": "Operations Desk",
+          "activityDate": "2026-08-20T21:00:00Z"
+        }
+      ]
+    }
+  ],
+  "FAP0007": [
+    {
+      "id": "SRQ00059",
+      "name": "Withdrawal-Cash Distribution",
+      "accountNumber": "INV5004485I",
+      "accountId": "ACCP065",
+      "financialAccountId": "ACCP065",
+      "finAccountType": "Investment",
+      "status": "Closed",
+      "workflowStatus": "Completed",
+      "createdDateTime": "2026-08-04T21:00:00Z",
+      "tasks": [
+        {
+          "id": "SRT00059-1",
+          "status": "Completed",
+          "createdDateTime": "2026-08-04T21:00:00Z",
+          "ownerName": "Grace Lin",
+          "currentStatusOnLead": "Submitted",
+          "comments": "Request submitted from mobile",
+          "assignedTo": "Grace Lin",
+          "activityDate": "2026-08-05T21:00:00Z"
+        },
+        {
+          "id": "SRT00059-2",
+          "status": "Completed",
+          "createdDateTime": "2026-08-06T21:00:00Z",
+          "ownerName": "Operations",
+          "currentStatusOnLead": "Completed",
+          "comments": "Under operations review",
+          "assignedTo": "Operations Desk",
+          "activityDate": "2026-08-09T21:00:00Z"
+        }
+      ]
+    },
+    {
+      "id": "SRQ00060",
+      "name": "Maintain-Address Change",
+      "accountNumber": "BRO6304573Y",
+      "accountId": "ACCP066",
+      "financialAccountId": "ACCP066",
+      "finAccountType": "Brokerage",
+      "status": "Closed",
+      "workflowStatus": "Completed",
+      "createdDateTime": "2026-06-30T21:00:00Z",
+      "tasks": [
+        {
+          "id": "SRT00060-1",
+          "status": "Completed",
+          "createdDateTime": "2026-06-30T21:00:00Z",
+          "ownerName": "Grace Lin",
+          "currentStatusOnLead": "Submitted",
+          "comments": "Request submitted from mobile",
+          "assignedTo": "Grace Lin",
+          "activityDate": "2026-07-01T21:00:00Z"
+        },
+        {
+          "id": "SRT00060-2",
+          "status": "Completed",
+          "createdDateTime": "2026-07-02T21:00:00Z",
+          "ownerName": "Operations",
+          "currentStatusOnLead": "Completed",
+          "comments": "Under operations review",
+          "assignedTo": "Operations Desk",
+          "activityDate": "2026-07-05T21:00:00Z"
+        }
+      ]
+    },
+    {
+      "id": "SRQ00061",
+      "name": "Online-eDelivery Enrollment",
+      "accountNumber": "JOI2677407C",
+      "accountId": "ACCP067",
+      "financialAccountId": "ACCP067",
+      "finAccountType": "Joint",
+      "status": "Closed",
+      "workflowStatus": "Completed",
+      "createdDateTime": "2026-06-29T21:00:00Z",
+      "tasks": [
+        {
+          "id": "SRT00061-1",
+          "status": "Completed",
+          "createdDateTime": "2026-06-29T21:00:00Z",
+          "ownerName": "Grace Lin",
+          "currentStatusOnLead": "Submitted",
+          "comments": "Request submitted from mobile",
+          "assignedTo": "Grace Lin",
+          "activityDate": "2026-06-30T21:00:00Z"
+        },
+        {
+          "id": "SRT00061-2",
+          "status": "Completed",
+          "createdDateTime": "2026-07-01T21:00:00Z",
+          "ownerName": "Operations",
+          "currentStatusOnLead": "Completed",
+          "comments": "Under operations review",
+          "assignedTo": "Operations Desk",
+          "activityDate": "2026-07-04T21:00:00Z"
+        }
+      ]
+    }
+  ],
+  "FAP0008": [
+    {
+      "id": "SRQ00062",
+      "name": "Withdrawal-Cash Distribution",
+      "accountNumber": "INV8412769R",
+      "accountId": "ACCP075",
+      "financialAccountId": "ACCP075",
+      "finAccountType": "Investment",
+      "status": "Closed",
+      "workflowStatus": "Completed",
+      "createdDateTime": "2026-08-03T21:00:00Z",
+      "tasks": [
+        {
+          "id": "SRT00062-1",
+          "status": "Completed",
+          "createdDateTime": "2026-08-03T21:00:00Z",
+          "ownerName": "Tomas Novak",
+          "currentStatusOnLead": "Submitted",
+          "comments": "Request submitted from mobile",
+          "assignedTo": "Tomas Novak",
+          "activityDate": "2026-08-04T21:00:00Z"
+        },
+        {
+          "id": "SRT00062-2",
+          "status": "Completed",
+          "createdDateTime": "2026-08-05T21:00:00Z",
+          "ownerName": "Operations",
+          "currentStatusOnLead": "Completed",
+          "comments": "Under operations review",
+          "assignedTo": "Operations Desk",
+          "activityDate": "2026-08-08T21:00:00Z"
+        }
+      ]
+    },
+    {
+      "id": "SRQ00063",
+      "name": "Maintain-Address Change",
+      "accountNumber": "BRO3500715R",
+      "accountId": "ACCP076",
+      "financialAccountId": "ACCP076",
+      "finAccountType": "Brokerage",
+      "status": "Closed",
+      "workflowStatus": "Completed",
+      "createdDateTime": "2026-06-07T21:00:00Z",
+      "tasks": [
+        {
+          "id": "SRT00063-1",
+          "status": "Completed",
+          "createdDateTime": "2026-06-07T21:00:00Z",
+          "ownerName": "Tomas Novak",
+          "currentStatusOnLead": "Submitted",
+          "comments": "Request submitted from mobile",
+          "assignedTo": "Tomas Novak",
+          "activityDate": "2026-06-08T21:00:00Z"
+        },
+        {
+          "id": "SRT00063-2",
+          "status": "Completed",
+          "createdDateTime": "2026-06-09T21:00:00Z",
+          "ownerName": "Operations",
+          "currentStatusOnLead": "Completed",
+          "comments": "Under operations review",
+          "assignedTo": "Operations Desk",
+          "activityDate": "2026-06-12T21:00:00Z"
+        }
+      ]
+    },
+    {
+      "id": "SRQ00064",
+      "name": "Online-eDelivery Enrollment",
+      "accountNumber": "JOI8210624E",
+      "accountId": "ACCP077",
+      "financialAccountId": "ACCP077",
+      "finAccountType": "Joint",
+      "status": "Closed",
+      "workflowStatus": "Completed",
+      "createdDateTime": "2026-08-02T21:00:00Z",
+      "tasks": [
+        {
+          "id": "SRT00064-1",
+          "status": "Completed",
+          "createdDateTime": "2026-08-02T21:00:00Z",
+          "ownerName": "Tomas Novak",
+          "currentStatusOnLead": "Submitted",
+          "comments": "Request submitted from mobile",
+          "assignedTo": "Tomas Novak",
+          "activityDate": "2026-08-03T21:00:00Z"
+        },
+        {
+          "id": "SRT00064-2",
+          "status": "Completed",
+          "createdDateTime": "2026-08-04T21:00:00Z",
+          "ownerName": "Operations",
+          "currentStatusOnLead": "Completed",
+          "comments": "Under operations review",
+          "assignedTo": "Operations Desk",
+          "activityDate": "2026-08-07T21:00:00Z"
+        }
+      ]
+    }
+  ],
+  "FAP0009": [
+    {
+      "id": "SRQ00065",
+      "name": "Withdrawal-Cash Distribution",
+      "accountNumber": "INV7685149K",
+      "accountId": "ACCP085",
+      "financialAccountId": "ACCP085",
+      "finAccountType": "Investment",
+      "status": "Closed",
+      "workflowStatus": "Completed",
+      "createdDateTime": "2026-08-15T21:00:00Z",
+      "tasks": [
+        {
+          "id": "SRT00065-1",
+          "status": "Completed",
+          "createdDateTime": "2026-08-15T21:00:00Z",
+          "ownerName": "Aisha Bello",
+          "currentStatusOnLead": "Submitted",
+          "comments": "Request submitted from mobile",
+          "assignedTo": "Aisha Bello",
+          "activityDate": "2026-08-16T21:00:00Z"
+        },
+        {
+          "id": "SRT00065-2",
+          "status": "Completed",
+          "createdDateTime": "2026-08-17T21:00:00Z",
+          "ownerName": "Operations",
+          "currentStatusOnLead": "Completed",
+          "comments": "Under operations review",
+          "assignedTo": "Operations Desk",
+          "activityDate": "2026-08-20T21:00:00Z"
+        }
+      ]
+    },
+    {
+      "id": "SRQ00066",
+      "name": "Maintain-Address Change",
+      "accountNumber": "BRO6891254U",
+      "accountId": "ACCP086",
+      "financialAccountId": "ACCP086",
+      "finAccountType": "Brokerage",
+      "status": "Closed",
+      "workflowStatus": "Completed",
+      "createdDateTime": "2026-07-06T21:00:00Z",
+      "tasks": [
+        {
+          "id": "SRT00066-1",
+          "status": "Completed",
+          "createdDateTime": "2026-07-06T21:00:00Z",
+          "ownerName": "Aisha Bello",
+          "currentStatusOnLead": "Submitted",
+          "comments": "Request submitted from mobile",
+          "assignedTo": "Aisha Bello",
+          "activityDate": "2026-07-07T21:00:00Z"
+        },
+        {
+          "id": "SRT00066-2",
+          "status": "Completed",
+          "createdDateTime": "2026-07-08T21:00:00Z",
+          "ownerName": "Operations",
+          "currentStatusOnLead": "Completed",
+          "comments": "Under operations review",
+          "assignedTo": "Operations Desk",
+          "activityDate": "2026-07-11T21:00:00Z"
+        }
+      ]
+    },
+    {
+      "id": "SRQ00067",
+      "name": "Online-eDelivery Enrollment",
+      "accountNumber": "JOI6555772A",
+      "accountId": "ACCP087",
+      "financialAccountId": "ACCP087",
+      "finAccountType": "Joint",
+      "status": "Closed",
+      "workflowStatus": "Completed",
+      "createdDateTime": "2026-07-19T21:00:00Z",
+      "tasks": [
+        {
+          "id": "SRT00067-1",
+          "status": "Completed",
+          "createdDateTime": "2026-07-19T21:00:00Z",
+          "ownerName": "Aisha Bello",
+          "currentStatusOnLead": "Submitted",
+          "comments": "Request submitted from mobile",
+          "assignedTo": "Aisha Bello",
+          "activityDate": "2026-07-20T21:00:00Z"
+        },
+        {
+          "id": "SRT00067-2",
+          "status": "Completed",
+          "createdDateTime": "2026-07-21T21:00:00Z",
+          "ownerName": "Operations",
+          "currentStatusOnLead": "Completed",
+          "comments": "Under operations review",
+          "assignedTo": "Operations Desk",
+          "activityDate": "2026-07-24T21:00:00Z"
+        }
+      ]
+    }
+  ],
+  "FAP0010": [
+    {
+      "id": "SRQ00068",
+      "name": "Withdrawal-Cash Distribution",
+      "accountNumber": "INV3919694T",
+      "accountId": "ACCP095",
+      "financialAccountId": "ACCP095",
+      "finAccountType": "Investment",
+      "status": "Closed",
+      "workflowStatus": "Completed",
+      "createdDateTime": "2026-08-14T21:00:00Z",
+      "tasks": [
+        {
+          "id": "SRT00068-1",
+          "status": "Completed",
+          "createdDateTime": "2026-08-14T21:00:00Z",
+          "ownerName": "Ethan Caldwell",
+          "currentStatusOnLead": "Submitted",
+          "comments": "Request submitted from mobile",
+          "assignedTo": "Ethan Caldwell",
+          "activityDate": "2026-08-15T21:00:00Z"
+        },
+        {
+          "id": "SRT00068-2",
+          "status": "Completed",
+          "createdDateTime": "2026-08-16T21:00:00Z",
+          "ownerName": "Operations",
+          "currentStatusOnLead": "Completed",
+          "comments": "Under operations review",
+          "assignedTo": "Operations Desk",
+          "activityDate": "2026-08-19T21:00:00Z"
+        }
+      ]
+    },
+    {
+      "id": "SRQ00069",
+      "name": "Maintain-Address Change",
+      "accountNumber": "BRO6098175J",
+      "accountId": "ACCP096",
+      "financialAccountId": "ACCP096",
+      "finAccountType": "Brokerage",
+      "status": "Closed",
+      "workflowStatus": "Completed",
+      "createdDateTime": "2026-07-03T21:00:00Z",
+      "tasks": [
+        {
+          "id": "SRT00069-1",
+          "status": "Completed",
+          "createdDateTime": "2026-07-03T21:00:00Z",
+          "ownerName": "Ethan Caldwell",
+          "currentStatusOnLead": "Submitted",
+          "comments": "Request submitted from mobile",
+          "assignedTo": "Ethan Caldwell",
+          "activityDate": "2026-07-04T21:00:00Z"
+        },
+        {
+          "id": "SRT00069-2",
+          "status": "Completed",
+          "createdDateTime": "2026-07-05T21:00:00Z",
+          "ownerName": "Operations",
+          "currentStatusOnLead": "Completed",
+          "comments": "Under operations review",
+          "assignedTo": "Operations Desk",
+          "activityDate": "2026-07-08T21:00:00Z"
+        }
+      ]
+    },
+    {
+      "id": "SRQ00070",
+      "name": "Online-eDelivery Enrollment",
+      "accountNumber": "JOI6406444O",
+      "accountId": "ACCP097",
+      "financialAccountId": "ACCP097",
+      "finAccountType": "Joint",
+      "status": "Closed",
+      "workflowStatus": "Completed",
+      "createdDateTime": "2026-07-11T21:00:00Z",
+      "tasks": [
+        {
+          "id": "SRT00070-1",
+          "status": "Completed",
+          "createdDateTime": "2026-07-11T21:00:00Z",
+          "ownerName": "Ethan Caldwell",
+          "currentStatusOnLead": "Submitted",
+          "comments": "Request submitted from mobile",
+          "assignedTo": "Ethan Caldwell",
+          "activityDate": "2026-07-12T21:00:00Z"
+        },
+        {
+          "id": "SRT00070-2",
+          "status": "Completed",
+          "createdDateTime": "2026-07-13T21:00:00Z",
+          "ownerName": "Operations",
+          "currentStatusOnLead": "Completed",
+          "comments": "Under operations review",
+          "assignedTo": "Operations Desk",
+          "activityDate": "2026-07-16T21:00:00Z"
+        }
+      ]
+    }
+  ]
+}

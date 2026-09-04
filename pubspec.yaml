@@ -67,6 +67,8 @@ flutter:
     - assets/mock-data/dashboard/
     - assets/mock-data/households/
     - assets/mock-data/profile/
+    - assets/mock-data/real_time/
+    - assets/mock-data/service_requests/
     - assets/mock-data/transactions/
 
   fonts:

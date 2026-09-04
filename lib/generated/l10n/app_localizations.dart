@@ -1670,6 +1670,360 @@ abstract class AppLocalizations {
   /// In en, this message translates to:
   /// **'TODAY'**
   String get householdDetailToday;
+
+  /// No description provided for @commonButtonContinue.
+  ///
+  /// In en, this message translates to:
+  /// **'Continue'**
+  String get commonButtonContinue;
+
+  /// Heading on the real-time account selector screen.
+  ///
+  /// In en, this message translates to:
+  /// **'Select a Financial Account'**
+  String get realTimeSelectAccountTitle;
+
+  /// Subtitle beneath the heading on the real-time account selector screen.
+  ///
+  /// In en, this message translates to:
+  /// **'Access live positions and transactions for an account. Data is retrieved directly from the source and exists for Pershing only after account selection.'**
+  String get realTimeSelectAccountSubtitle;
+
+  /// Field label above the account dropdown on the real-time screen.
+  ///
+  /// In en, this message translates to:
+  /// **'Select Account Number'**
+  String get realTimeSelectAccountLabel;
+
+  /// Placeholder text in the account selector dropdown.
+  ///
+  /// In en, this message translates to:
+  /// **'Select Account Number'**
+  String get realTimeSelectAccountHint;
+
+  /// Title shown in the app bar of the real-time detailed view screen.
+  ///
+  /// In en, this message translates to:
+  /// **'Real-Time Detailed View'**
+  String get realTimeDetailedViewTitle;
+
+  /// Label for the Positions tab on the real-time detailed view screen.
+  ///
+  /// In en, this message translates to:
+  /// **'Positions'**
+  String get realTimePositionsTab;
+
+  /// Label for the Transactions tab on the real-time detailed view screen.
+  ///
+  /// In en, this message translates to:
+  /// **'Transactions'**
+  String get realTimeTransactionsTab;
+
+  /// Button label to switch the selected account on the real-time detailed view.
+  ///
+  /// In en, this message translates to:
+  /// **'Change'**
+  String get realTimeChangeAccount;
+
+  /// Footnote noting real-time figures lag by 15 minutes.
+  ///
+  /// In en, this message translates to:
+  /// **'Market feed for real-time positions and transactions is delayed by 15 min.'**
+  String get realTimeDelayNote;
+
+  /// CUSIP label shown above each position card.
+  ///
+  /// In en, this message translates to:
+  /// **'CUSIP IDENTIFIER: {cusip}'**
+  String realTimeCusipIdentifier(String cusip);
+
+  /// Label above the intraday market price value on a position card.
+  ///
+  /// In en, this message translates to:
+  /// **'MARKET PRICE'**
+  String get realTimeMarketPriceLabel;
+
+  /// Label above the prior-session closing price value on a position card.
+  ///
+  /// In en, this message translates to:
+  /// **'CLOSE PRICE'**
+  String get realTimeClosePriceLabel;
+
+  /// Empty-state message when no positions match the search query.
+  ///
+  /// In en, this message translates to:
+  /// **'No positions found.'**
+  String get realTimeNoPositions;
+
+  /// Empty-state message when no transactions match the search query.
+  ///
+  /// In en, this message translates to:
+  /// **'No transactions found.'**
+  String get realTimeNoTransactions;
+
+  /// Placeholder in the positions search field on the real-time detailed view.
+  ///
+  /// In en, this message translates to:
+  /// **'Search positions...'**
+  String get realTimeSearchPositions;
+
+  /// Placeholder in the transactions search field on the real-time detailed view.
+  ///
+  /// In en, this message translates to:
+  /// **'Search transactions...'**
+  String get realTimeSearchTransactions;
+
+  /// Section heading for the holdings list on the positions tab. Pluralised only when the count is greater than 1.
+  ///
+  /// In en, this message translates to:
+  /// **'{count, plural, =0{ALL HOLDING ({count})} =1{ALL HOLDING ({count})} other{ALL HOLDINGS ({count})}}'**
+  String realTimeAllHoldings(int count);
+
+  /// Header above the real-time activity list, with the number of transactions shown.
+  ///
+  /// In en, this message translates to:
+  /// **'{count, plural, =0{All Transaction} =1{All Transaction} other{All Transactions}} ({count})'**
+  String realTimeAllTransactionsHeader(int count);
+
+  /// Label above the activity description value on a transaction card.
+  ///
+  /// In en, this message translates to:
+  /// **'ACTIVITY DESCRIPTION'**
+  String get realTimeAccountActivityLabel;
+
+  /// CTA button label to start a new service request; also used as the New Service Request page title.
+  ///
+  /// In en, this message translates to:
+  /// **'New Service Request'**
+  String get serviceRequestNewButton;
+
+  /// Placeholder text in the service request search field.
+  ///
+  /// In en, this message translates to:
+  /// **'Search by name or code...'**
+  String get serviceRequestSearchHint;
+
+  /// Filter chip showing open and closed service requests together.
+  ///
+  /// In en, this message translates to:
+  /// **'All'**
+  String get serviceRequestFilterAll;
+
+  /// Filter chip showing only open service requests.
+  ///
+  /// In en, this message translates to:
+  /// **'Open'**
+  String get serviceRequestFilterActive;
+
+  /// Filter chip showing only closed service requests.
+  ///
+  /// In en, this message translates to:
+  /// **'Closed'**
+  String get serviceRequestFilterClosed;
+
+  /// Heading for the all-service-requests list showing count.
+  ///
+  /// In en, this message translates to:
+  /// **'{count, plural, =0{All Service Request ({count})} =1{All Service Request ({count})} other{All Service Requests ({count})}}'**
+  String serviceRequestHeadingAll(int count);
+
+  /// Heading for the open-service-requests list showing count.
+  ///
+  /// In en, this message translates to:
+  /// **'{count, plural, =0{Open Service Request ({count})} =1{Open Service Request ({count})} other{Open Service Requests ({count})}}'**
+  String serviceRequestHeadingActive(int count);
+
+  /// Heading for the closed-service-requests list showing count.
+  ///
+  /// In en, this message translates to:
+  /// **'{count, plural, =0{Closed Service Request ({count})} =1{Closed Service Request ({count})} other{Closed Service Requests ({count})}}'**
+  String serviceRequestHeadingClosed(int count);
+
+  /// Section header for open service requests.
+  ///
+  /// In en, this message translates to:
+  /// **'Open'**
+  String get serviceRequestSectionActive;
+
+  /// Section header for closed service requests.
+  ///
+  /// In en, this message translates to:
+  /// **'Closed'**
+  String get serviceRequestSectionClosed;
+
+  /// Empty-state message when the service request list is empty.
+  ///
+  /// In en, this message translates to:
+  /// **'No service requests found'**
+  String get serviceRequestEmpty;
+
+  /// Empty-state message when a search query matches no service requests.
+  ///
+  /// In en, this message translates to:
+  /// **'No matching service requests'**
+  String get serviceRequestEmptySearch;
+
+  /// Link label to view a service request's details.
+  ///
+  /// In en, this message translates to:
+  /// **'View'**
+  String get serviceRequestView;
+
+  /// Relative date label on a service request card for a date falling today.
+  ///
+  /// In en, this message translates to:
+  /// **'Today'**
+  String get serviceRequestDateToday;
+
+  /// Relative date label on a service request card for a date falling yesterday.
+  ///
+  /// In en, this message translates to:
+  /// **'Yesterday'**
+  String get serviceRequestDateYesterday;
+
+  /// Relative date label on a service request card for a date falling tomorrow.
+  ///
+  /// In en, this message translates to:
+  /// **'Tomorrow'**
+  String get serviceRequestDateTomorrow;
+
+  /// Label preceding the account number in the service request detail sheet header.
+  ///
+  /// In en, this message translates to:
+  /// **'Account Number :'**
+  String get serviceRequestDetailFinancialAccountLabel;
+
+  /// Label preceding the account type in the service request detail sheet header.
+  ///
+  /// In en, this message translates to:
+  /// **'Account Type :'**
+  String get serviceRequestDetailFinancialAccountTypeLabel;
+
+  /// Label preceding the service request id in the detail sheet header; carries its own separator.
+  ///
+  /// In en, this message translates to:
+  /// **'SR Id :'**
+  String get serviceRequestDetailRecordId;
+
+  /// Label for a service request's overall status.
+  ///
+  /// In en, this message translates to:
+  /// **'Current Status'**
+  String get serviceRequestDetailStatus;
+
+  /// Section title on the service request detail sheet for the stage awaiting action.
+  ///
+  /// In en, this message translates to:
+  /// **'Action Pending'**
+  String get serviceRequestDetailActionPending;
+
+  /// Shown on the detail sheet when a service request has no active workflow stage.
+  ///
+  /// In en, this message translates to:
+  /// **'No pending action'**
+  String get serviceRequestDetailNoPendingAction;
+
+  /// Label preceding the due date under the pending action chip; carries its own separator.
+  ///
+  /// In en, this message translates to:
+  /// **'Due Date :'**
+  String get serviceRequestDetailDueDateLabel;
+
+  /// Section title for the workflow timeline on the service request detail sheet.
+  ///
+  /// In en, this message translates to:
+  /// **'Workflow Status'**
+  String get serviceRequestDetailWorkflowStatus;
+
+  /// Workflow stepper label for the request submission step.
+  ///
+  /// In en, this message translates to:
+  /// **'Submitted'**
+  String get serviceRequestDetailStepSubmitted;
+
+  /// Workflow stepper label for the final, not-yet-reached completion step.
+  ///
+  /// In en, this message translates to:
+  /// **'Completed'**
+  String get serviceRequestDetailStepCompleted;
+
+  /// Label for the queue or user that owns a workflow task.
+  ///
+  /// In en, this message translates to:
+  /// **'Owner'**
+  String get serviceRequestDetailOwner;
+
+  /// Label for the queue or user a workflow task was handed off to.
+  ///
+  /// In en, this message translates to:
+  /// **'Assigned To'**
+  String get serviceRequestDetailAssignedTo;
+
+  /// Label for a workflow task's due date.
+  ///
+  /// In en, this message translates to:
+  /// **'Due Date'**
+  String get serviceRequestDetailDueDate;
+
+  /// Label for a workflow task's reviewer comment.
+  ///
+  /// In en, this message translates to:
+  /// **'Comments'**
+  String get serviceRequestDetailComments;
+
+  /// Link that opens the full text of a truncated workflow task comment.
+  ///
+  /// In en, this message translates to:
+  /// **'View more'**
+  String get serviceRequestDetailViewMore;
+
+  /// Button label that dismisses the service request detail sheet.
+  ///
+  /// In en, this message translates to:
+  /// **'Close'**
+  String get serviceRequestDetailClose;
+
+  /// Title shown on the service request success screen.
+  ///
+  /// In en, this message translates to:
+  /// **'Request Submitted'**
+  String get serviceRequestSuccessTitle;
+
+  /// Label for the service request ID on the success screen.
+  ///
+  /// In en, this message translates to:
+  /// **'Your service request ID'**
+  String get serviceRequestSuccessRecordLabel;
+
+  /// Confirmation message shown below the service request ID.
+  ///
+  /// In en, this message translates to:
+  /// **'created successfully .'**
+  String get serviceRequestSuccessConfirmation;
+
+  /// Confirmation message shown after copying the record ID.
+  ///
+  /// In en, this message translates to:
+  /// **'Record ID copied to clipboard'**
+  String get serviceRequestSuccessCopied;
+
+  /// Prefix text for the redirect countdown message.
+  ///
+  /// In en, this message translates to:
+  /// **'You will be redirected to Service Request Home page in '**
+  String get serviceRequestSuccessRedirectPrefix;
+
+  /// Suffix text for the redirect countdown message.
+  ///
+  /// In en, this message translates to:
+  /// **'s.'**
+  String get serviceRequestSuccessRedirectSuffix;
+
+  /// Button label to navigate to the service request home page immediately.
+  ///
+  /// In en, this message translates to:
+  /// **'Go to Service Request'**
+  String get serviceRequestSuccessGoButton;
 }
 
 class _AppLocalizationsDelegate extends LocalizationsDelegate<AppLocalizations> {
