@@ -2,6 +2,19 @@
 
 Versions follow semver. `feat` commits bump minor (major post-1.0), `fix` commits bump patch. Starts at 0.0.0.
 
+## [0.13.0] - Unreleased (staged)
+feat: add my commissions, commissions detailed view and leadership commissions features
+
+- Added `assets/mock-data/commissions/details.json` (per-account commission transactions, keyed by account id) and `top_accounts.json` (per-advisor top-5 accounts + contributing counts, keyed by advisor id). `history.json` and `summary.json` already existed from the dashboard stage and needed no changes.
+- New `lib/features/my_commissions/` feature: `domain/models` (`commission_data.dart`, `commission_summary.dart`), `domain/my_commissions_repository.dart`, `data/my_commissions_mock_repository.dart` (rewritten against `MockDataSource.readScoped`/`listScoped` and `DataScope.advisorId`, with an `isResolved` guard before the top-accounts read since it hard-parses its response), `presentation/providers/my_commissions_provider.dart` (summary provider that reuses the dashboard's already-fetched `commissionHistoryProvider` instead of a second history call, plus a cursor-paginated details notifier), `presentation/screens/my_commissions_screen.dart`, and 7 presentation widgets (trend card, overview tab, KPI tile, top-account row, details tab, summary card, shimmer). `PageAppBar` from the reference branch does not exist on this branch — the screen uses the established `DetailPageBar` instead, matching every other pushed detail screen.
+- New `lib/features/commissions_detailed_view/` feature: `domain/models/commission_detail_transaction_card.dart`, `domain/commissions_detailed_view_repository.dart`, `data/commissions_detailed_view_mock_repository.dart` (same `isResolved` guard pattern as `account_detail_view`/`households_detailed_view`), `presentation/providers/commissions_detailed_view_provider.dart` and `commissions_detailed_view_filter_provider.dart` (search/sort state), `presentation/screens/commissions_detailed_view_screen.dart`, and 7 presentation widgets (header card, search field, sort header, transaction list + card, shimmer).
+- New `lib/features/leadership_commissions/` screen: `LeadershipCommissionsScreen`, a thin wrapper rendering `MyCommissionsScreen(showAppBar: false)` inside the leadership Commissions shell tab — no own data/domain layer, ported as-is.
+- Updated `core/routing/app_routes.dart`: new `commissionDetailedView` route (`/my-commissions/detailed-view/:accountId`), `myCommissions` restricted to the advisor role, and an explicit no-op policy on `/my-commissions/detailed-view` so the ancestor's advisor-only policy doesn't lock leadership out of a route both roles reach. Updated `app_router.dart`: `AppRoutes.myCommissions` now renders `MyCommissionsScreen` and the `commissions` shell branch now renders `LeadershipCommissionsScreen`, both in place of `ComingSoonScreen`; added the pushed `commissionDetailedView` route carrying the tapped `CommissionSummary` as route `extra`.
+- Updated `pubspec.yaml`: none needed — `assets/mock-data/commissions/` was already registered as a directory from the dashboard stage.
+- Updated generated l10n classes and all 3 ARB files with My Commissions / Commission Detailed View strings, plus a new shared `commonTrnxAmount` key (Spanish and Hindi included).
+- Updated `.claude/docs/folder-structure.md` — the entries for these three features were already present and accurate against the files actually written.
+- Currency parsing: no `/100` bug found — every model in the reference branch (`CommissionData`, `CommissionSummary`, `CommissionDetailTransactionCard`) already parses `*Cents` fields as-is via `parseNum`, with doc comments noting the fields carry dollar amounts despite the name. No changes were needed.
+
 ## [0.12.0] - Unreleased (staged)
 feat: add service requests list, detail sheet and success screen
 

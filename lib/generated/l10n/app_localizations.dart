@@ -1359,6 +1359,12 @@ abstract class AppLocalizations {
   /// **'Amount'**
   String get commonAmount;
 
+  /// Label for a transaction's total amount.
+  ///
+  /// In en, this message translates to:
+  /// **'Transaction Amount'**
+  String get commonTrnxAmount;
+
   /// Short popup label for date sort option.
   ///
   /// In en, this message translates to:
@@ -2024,6 +2030,180 @@ abstract class AppLocalizations {
   /// In en, this message translates to:
   /// **'Go to Service Request'**
   String get serviceRequestSuccessGoButton;
+
+  /// Title for the My Commissions screen.
+  ///
+  /// In en, this message translates to:
+  /// **'Commissions'**
+  String get myCommissionsTitle;
+
+  /// Heading for the commission summary card.
+  ///
+  /// In en, this message translates to:
+  /// **'Total Commission'**
+  String get myCommissionsTotalCommissions;
+
+  /// Period label shown next to the hero value on the My Commissions trend card.
+  ///
+  /// In en, this message translates to:
+  /// **'YTD'**
+  String get myCommissionsHeroYtdLabel;
+
+  /// Overview tab label on the My Commissions screen.
+  ///
+  /// In en, this message translates to:
+  /// **'Overview'**
+  String get myCommissionsTabOverview;
+
+  /// Details tab label on the My Commissions screen.
+  ///
+  /// In en, this message translates to:
+  /// **'Details'**
+  String get myCommissionsTabDetails;
+
+  /// Placeholder text in the account search field.
+  ///
+  /// In en, this message translates to:
+  /// **'Search Account Name or Number...'**
+  String get myCommissionsSearchHint;
+
+  /// Inline error shown when fetching the next commission transactions page fails.
+  ///
+  /// In en, this message translates to:
+  /// **'Failed to load more transactions'**
+  String get myCommissionsPaginationError;
+
+  /// Label for the commission earned amount in a commission card.
+  ///
+  /// In en, this message translates to:
+  /// **'COMMISSION EARNED'**
+  String get myCommissionsCommissionEarned;
+
+  /// Account number label in a commission transaction card.
+  ///
+  /// In en, this message translates to:
+  /// **'Account Number: {number}'**
+  String myCommissionsAccountNumber(String number);
+
+  /// Short account number label on the top accounts card in the overview tab.
+  ///
+  /// In en, this message translates to:
+  /// **'Account Number: {number}'**
+  String myCommissionsAccountLabel(String number);
+
+  /// Link label to view commission transaction details.
+  ///
+  /// In en, this message translates to:
+  /// **'View Details'**
+  String get myCommissionsViewDetails;
+
+  /// Section heading for the top-5 accounts list on the overview tab, shown when there are 5 or more accounts.
+  ///
+  /// In en, this message translates to:
+  /// **'Top 5 Accounts'**
+  String get myCommissionsTopAccounts;
+
+  /// Section heading for the top accounts list when there are 2-4 accounts.
+  ///
+  /// In en, this message translates to:
+  /// **'Top Accounts'**
+  String get myCommissionsTopAccountsPlural;
+
+  /// Section heading for the top accounts list when there is exactly 1 account.
+  ///
+  /// In en, this message translates to:
+  /// **'Top Account'**
+  String get myCommissionsTopAccountSingular;
+
+  /// Label for the households KPI tile on the overview tab.
+  ///
+  /// In en, this message translates to:
+  /// **'Households'**
+  String get myCommissionsHouseholds;
+
+  /// Label for the accounts KPI tile on the overview tab.
+  ///
+  /// In en, this message translates to:
+  /// **'Accounts'**
+  String get myCommissionsAccountsLabel;
+
+  /// Sublabel shown below the count on the KPI metric tiles.
+  ///
+  /// In en, this message translates to:
+  /// **'Contributing'**
+  String get myCommissionsContributing;
+
+  /// Uppercase label below the commission amount on top-account cards.
+  ///
+  /// In en, this message translates to:
+  /// **'TOTAL COMMISSION'**
+  String get myCommissionsTotalCommission;
+
+  /// AppBar title on the commission detailed view screen.
+  ///
+  /// In en, this message translates to:
+  /// **'Commission Details'**
+  String get commissionDetailedViewTitle;
+
+  /// Placeholder in the transaction search field on the detailed view screen.
+  ///
+  /// In en, this message translates to:
+  /// **'Search Transactions...'**
+  String get commissionDetailedViewSearchHint;
+
+  /// Quantity and unit price shown after the transaction type on a commission transaction card.
+  ///
+  /// In en, this message translates to:
+  /// **'{qty} Shares @ {price}'**
+  String commissionDetailedViewSharesAtPrice(String qty, String price);
+
+  /// Footer label showing the trade date on a detail transaction card.
+  ///
+  /// In en, this message translates to:
+  /// **'Trade Date: {date}'**
+  String commissionDetailedViewTradeDateLabel(String date);
+
+  /// Footer label showing the trade ID on a detail transaction card.
+  ///
+  /// In en, this message translates to:
+  /// **'Trade ID: {id}'**
+  String commissionDetailedViewTxnIdLabel(String id);
+
+  /// Label above the commission amount on the detail header card.
+  ///
+  /// In en, this message translates to:
+  /// **'Total Commission'**
+  String get commissionDetailedViewTotalCommission;
+
+  /// Label shown next to the total commission hero value on the detail header card.
+  ///
+  /// In en, this message translates to:
+  /// **'YTD'**
+  String get commissionDetailedViewYtdLabel;
+
+  /// Header label above the transaction list on the commission detailed view, next to the sort control.
+  ///
+  /// In en, this message translates to:
+  /// **'All Commissions'**
+  String get commissionDetailedViewAllCommissions;
+
+  /// Sort option label for sorting the commission detailed view list by commission earned.
+  ///
+  /// In en, this message translates to:
+  /// **'Commission'**
+  String get commissionDetailedViewSortCommission;
+
+  /// Sort option label for sorting the commission detailed view list by transaction amount.
+  ///
+  /// In en, this message translates to:
+  /// **'Trnx. Amt'**
+  String get commissionDetailedViewSortTransactionAmount;
+
+  /// Empty-state message when no transactions match the search on the detailed view.
+  ///
+  /// In en, this message translates to:
+  /// **'No transactions found'**
+  String get commissionDetailedViewNoTransactions;
 }
 
 class _AppLocalizationsDelegate extends LocalizationsDelegate<AppLocalizations> {

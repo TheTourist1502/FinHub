@@ -981,6 +981,10 @@
   "@commonAmount": {
     "description": "Short popup label for amount sort option."
   },
+  "commonTrnxAmount": "Transaction Amount",
+  "@commonTrnxAmount": {
+    "description": "Label for a transaction's total amount."
+  },
   "commonDate": "Date",
   "@commonDate": {
     "description": "Short popup label for date sort option."
@@ -1527,5 +1531,149 @@
   "serviceRequestSuccessGoButton": "Go to Service Request",
   "@serviceRequestSuccessGoButton": {
     "description": "Button label to navigate to the service request home page immediately."
+  },
+  "myCommissionsTitle": "Commissions",
+  "@myCommissionsTitle": {
+    "description": "Title for the My Commissions screen."
+  },
+  "myCommissionsTotalCommissions": "Total Commission",
+  "@myCommissionsTotalCommissions": {
+    "description": "Heading for the commission summary card."
+  },
+  "myCommissionsHeroYtdLabel": "YTD",
+  "@myCommissionsHeroYtdLabel": {
+    "description": "Period label shown next to the hero value on the My Commissions trend card."
+  },
+  "myCommissionsTabOverview": "Overview",
+  "@myCommissionsTabOverview": {
+    "description": "Overview tab label on the My Commissions screen."
+  },
+  "myCommissionsTabDetails": "Details",
+  "@myCommissionsTabDetails": {
+    "description": "Details tab label on the My Commissions screen."
+  },
+  "myCommissionsSearchHint": "Search Account Name or Number...",
+  "@myCommissionsSearchHint": {
+    "description": "Placeholder text in the account search field."
+  },
+  "myCommissionsPaginationError": "Failed to load more transactions",
+  "@myCommissionsPaginationError": {
+    "description": "Inline error shown when fetching the next commission transactions page fails."
+  },
+  "myCommissionsCommissionEarned": "COMMISSION EARNED",
+  "@myCommissionsCommissionEarned": {
+    "description": "Label for the commission earned amount in a commission card."
+  },
+  "myCommissionsAccountNumber": "Account Number: {number}",
+  "@myCommissionsAccountNumber": {
+    "description": "Account number label in a commission transaction card.",
+    "placeholders": {
+      "number": {
+        "type": "String"
+      }
+    }
+  },
+  "myCommissionsAccountLabel": "Account Number: {number}",
+  "@myCommissionsAccountLabel": {
+    "description": "Short account number label on the top accounts card in the overview tab.",
+    "placeholders": {
+      "number": {
+        "type": "String"
+      }
+    }
+  },
+  "myCommissionsViewDetails": "View Details",
+  "@myCommissionsViewDetails": {
+    "description": "Link label to view commission transaction details."
+  },
+  "myCommissionsTopAccounts": "Top 5 Accounts",
+  "@myCommissionsTopAccounts": {
+    "description": "Section heading for the top-5 accounts list on the overview tab, shown when there are 5 or more accounts."
+  },
+  "myCommissionsTopAccountsPlural": "Top Accounts",
+  "@myCommissionsTopAccountsPlural": {
+    "description": "Section heading for the top accounts list when there are 2-4 accounts."
+  },
+  "myCommissionsTopAccountSingular": "Top Account",
+  "@myCommissionsTopAccountSingular": {
+    "description": "Section heading for the top accounts list when there is exactly 1 account."
+  },
+  "myCommissionsHouseholds": "Households",
+  "@myCommissionsHouseholds": {
+    "description": "Label for the households KPI tile on the overview tab."
+  },
+  "myCommissionsAccountsLabel": "Accounts",
+  "@myCommissionsAccountsLabel": {
+    "description": "Label for the accounts KPI tile on the overview tab."
+  },
+  "myCommissionsContributing": "Contributing",
+  "@myCommissionsContributing": {
+    "description": "Sublabel shown below the count on the KPI metric tiles."
+  },
+  "myCommissionsTotalCommission": "TOTAL COMMISSION",
+  "@myCommissionsTotalCommission": {
+    "description": "Uppercase label below the commission amount on top-account cards."
+  },
+  "commissionDetailedViewTitle": "Commission Details",
+  "@commissionDetailedViewTitle": {
+    "description": "AppBar title on the commission detailed view screen."
+  },
+  "commissionDetailedViewSearchHint": "Search Transactions...",
+  "@commissionDetailedViewSearchHint": {
+    "description": "Placeholder in the transaction search field on the detailed view screen."
+  },
+  "commissionDetailedViewSharesAtPrice": "{qty} Shares @ {price}",
+  "@commissionDetailedViewSharesAtPrice": {
+    "description": "Quantity and unit price shown after the transaction type on a commission transaction card.",
+    "placeholders": {
+      "qty": {
+        "type": "String"
+      },
+      "price": {
+        "type": "String"
+      }
+    }
+  },
+  "commissionDetailedViewTradeDateLabel": "Trade Date: {date}",
+  "@commissionDetailedViewTradeDateLabel": {
+    "description": "Footer label showing the trade date on a detail transaction card.",
+    "placeholders": {
+      "date": {
+        "type": "String"
+      }
+    }
+  },
+  "commissionDetailedViewTxnIdLabel": "Trade ID: {id}",
+  "@commissionDetailedViewTxnIdLabel": {
+    "description": "Footer label showing the trade ID on a detail transaction card.",
+    "placeholders": {
+      "id": {
+        "type": "String"
+      }
+    }
+  },
+  "commissionDetailedViewTotalCommission": "Total Commission",
+  "@commissionDetailedViewTotalCommission": {
+    "description": "Label above the commission amount on the detail header card."
+  },
+  "commissionDetailedViewYtdLabel": "YTD",
+  "@commissionDetailedViewYtdLabel": {
+    "description": "Label shown next to the total commission hero value on the detail header card."
+  },
+  "commissionDetailedViewAllCommissions": "All Commissions",
+  "@commissionDetailedViewAllCommissions": {
+    "description": "Header label above the transaction list on the commission detailed view, next to the sort control."
+  },
+  "commissionDetailedViewSortCommission": "Commission",
+  "@commissionDetailedViewSortCommission": {
+    "description": "Sort option label for sorting the commission detailed view list by commission earned."
+  },
+  "commissionDetailedViewSortTransactionAmount": "Trnx. Amt",
+  "@commissionDetailedViewSortTransactionAmount": {
+    "description": "Sort option label for sorting the commission detailed view list by transaction amount."
+  },
+  "commissionDetailedViewNoTransactions": "No transactions found",
+  "@commissionDetailedViewNoTransactions": {
+    "description": "Empty-state message when no transactions match the search on the detailed view."
   }
 }

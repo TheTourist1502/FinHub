@@ -710,6 +710,9 @@ class AppLocalizationsHi extends AppLocalizations {
   String get commonAmount => 'राशि';
 
   @override
+  String get commonTrnxAmount => 'लेनदेन राशि';
+
+  @override
   String get commonDate => 'तारीख';
 
   @override
@@ -1135,4 +1138,101 @@ class AppLocalizationsHi extends AppLocalizations {
 
   @override
   String get serviceRequestSuccessGoButton => 'सेवा अनुरोध पर जाएं';
+
+  @override
+  String get myCommissionsTitle => 'कमीशन';
+
+  @override
+  String get myCommissionsTotalCommissions => 'कुल कमीशन';
+
+  @override
+  String get myCommissionsHeroYtdLabel => 'YTD';
+
+  @override
+  String get myCommissionsTabOverview => 'अवलोकन';
+
+  @override
+  String get myCommissionsTabDetails => 'विवरण';
+
+  @override
+  String get myCommissionsSearchHint => 'खाता नाम या नंबर खोजें...';
+
+  @override
+  String get myCommissionsPaginationError => 'अधिक लेनदेन लोड करने में विफल';
+
+  @override
+  String get myCommissionsCommissionEarned => 'अर्जित कमीशन';
+
+  @override
+  String myCommissionsAccountNumber(String number) {
+    return 'खाता संख्या: $number';
+  }
+
+  @override
+  String myCommissionsAccountLabel(String number) {
+    return 'खाता संख्या: $number';
+  }
+
+  @override
+  String get myCommissionsViewDetails => 'विवरण देखें';
+
+  @override
+  String get myCommissionsTopAccounts => 'शीर्ष 5 खाते';
+
+  @override
+  String get myCommissionsTopAccountsPlural => 'शीर्ष खाते';
+
+  @override
+  String get myCommissionsTopAccountSingular => 'शीर्ष खाता';
+
+  @override
+  String get myCommissionsHouseholds => 'परिवार';
+
+  @override
+  String get myCommissionsAccountsLabel => 'खाते';
+
+  @override
+  String get myCommissionsContributing => 'योगदान दे रहे हैं';
+
+  @override
+  String get myCommissionsTotalCommission => 'कुल कमीशन';
+
+  @override
+  String get commissionDetailedViewTitle => 'कमीशन विवरण';
+
+  @override
+  String get commissionDetailedViewSearchHint => 'लेनदेन खोजें...';
+
+  @override
+  String commissionDetailedViewSharesAtPrice(String qty, String price) {
+    return '$qty शेयर @ $price';
+  }
+
+  @override
+  String commissionDetailedViewTradeDateLabel(String date) {
+    return 'ट्रेड तारीख: $date';
+  }
+
+  @override
+  String commissionDetailedViewTxnIdLabel(String id) {
+    return 'ट्रेड आईडी: $id';
+  }
+
+  @override
+  String get commissionDetailedViewTotalCommission => 'कुल कमीशन';
+
+  @override
+  String get commissionDetailedViewYtdLabel => 'YTD';
+
+  @override
+  String get commissionDetailedViewAllCommissions => 'सभी कमीशन';
+
+  @override
+  String get commissionDetailedViewSortCommission => 'कमीशन';
+
+  @override
+  String get commissionDetailedViewSortTransactionAmount => 'लेनदेन राशि';
+
+  @override
+  String get commissionDetailedViewNoTransactions => 'कोई लेनदेन नहीं मिला';
 }

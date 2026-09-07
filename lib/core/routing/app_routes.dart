@@ -72,6 +72,11 @@ abstract final class AppRoutes {
   /// The advisor's own commission detail, reachable from a dashboard quick action.
   static const String myCommissions = '/my-commissions';
 
+  /// Commission Detailed View — pushed from the My Commissions screen (either
+  /// mount point). `:accountId` maps to the account whose commission
+  /// transactions are fetched.
+  static const String commissionDetailedView = '/my-commissions/detailed-view/:accountId';
+
   /// Every branch of the bottom-navigation shell, in the order the router
   /// registers them.
   ///
@@ -90,6 +95,13 @@ abstract final class AppRoutes {
     // Backed by the advisor's own account list, with no leadership twin —
     // `/real-time/:accountId` inherits this automatically.
     realTime: RoutePolicy(roles: {UserRole.advisor}),
+    myCommissions: RoutePolicy(roles: {UserRole.advisor}),
+    // Commission details is reached by **both** roles — the advisor pushes it
+    // from `/my-commissions`, leadership from the Commissions tab — but its
+    // path nests under `/my-commissions`, so without this entry the ancestor
+    // walk in [policyFor] would inherit `myCommissions`'s advisor-only policy
+    // and lock leadership out.
+    '/my-commissions/detailed-view': RoutePolicy(),
   };
 
   /// The policy governing [location], walking up to the nearest ancestor with

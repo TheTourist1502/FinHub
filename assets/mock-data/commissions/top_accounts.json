@@ -1,0 +1,372 @@
+{
+  "FAP0001": {
+    "topAccounts": [
+      {
+        "accountId": "ACCP009",
+        "accountNumber": "TRD9P4L7302",
+        "accountName": "Carlos Ramirez Investment Account",
+        "totalCommissionEarnedCents": 7605.62
+      },
+      {
+        "accountId": "ACCP008",
+        "accountNumber": "ACC2M7F8651",
+        "accountName": "James Anderson Investment Portfolio",
+        "totalCommissionEarnedCents": 6354.57
+      },
+      {
+        "accountId": "ACCP010",
+        "accountNumber": "WLT5K8Q4169",
+        "accountName": "Isabella Torres Growth Portfolio",
+        "totalCommissionEarnedCents": 5012.53
+      },
+      {
+        "accountId": "ACCP004",
+        "accountNumber": "TRD4N8K1735",
+        "accountName": "David Miller Individual Portfolio",
+        "totalCommissionEarnedCents": 4739.32
+      },
+      {
+        "accountId": "ACCP006",
+        "accountNumber": "BRG3C9V5174",
+        "accountName": "Sophia Martinez Brokerage Account",
+        "totalCommissionEarnedCents": 4311.25
+      }
+    ],
+    "accountsContributingCount": 10,
+    "householdsContributingCount": 2,
+    "totalCommissionCents": 44038.88
+  },
+  "FAP0002": {
+    "topAccounts": [
+      {
+        "accountId": "ACCP011",
+        "accountNumber": "INV2867825A",
+        "accountName": "Olivia Martinez Investment Account",
+        "totalCommissionEarnedCents": 9422.22
+      },
+      {
+        "accountId": "ACCP015",
+        "accountNumber": "INV5667265Z",
+        "accountName": "Maria Torres Investment Account",
+        "totalCommissionEarnedCents": 7789.78
+      },
+      {
+        "accountId": "ACCP012",
+        "accountNumber": "BRO2719583V",
+        "accountName": "Daniel Hernandez Brokerage Account",
+        "totalCommissionEarnedCents": 7469.36
+      },
+      {
+        "accountId": "ACCP017",
+        "accountNumber": "JOI2714803C",
+        "accountName": "Elena Okafor Family Joint Account",
+        "totalCommissionEarnedCents": 5264.86
+      },
+      {
+        "accountId": "ACCP019",
+        "accountNumber": "INV7350753C",
+        "accountName": "Clara Kowalski Investment Account",
+        "totalCommissionEarnedCents": 4516.94
+      }
+    ],
+    "accountsContributingCount": 10,
+    "householdsContributingCount": 2,
+    "totalCommissionCents": 49097.21
+  },
+  "FAP0003": {
+    "topAccounts": [
+      {
+        "accountId": "ACCP027",
+        "accountNumber": "JOI6279418G",
+        "accountName": "Michael Dubois Family Joint Account",
+        "totalCommissionEarnedCents": 8584.27
+      },
+      {
+        "accountId": "ACCP022",
+        "accountNumber": "BRO8606962U",
+        "accountName": "Clara Okafor Brokerage Account",
+        "totalCommissionEarnedCents": 8027.35
+      },
+      {
+        "accountId": "ACCP024",
+        "accountNumber": "IND3871230R",
+        "accountName": "Nina Kowalski Individual Portfolio",
+        "totalCommissionEarnedCents": 7387.17
+      },
+      {
+        "accountId": "ACCP029",
+        "accountNumber": "INV5408072X",
+        "accountName": "David Fischer Investment Account",
+        "totalCommissionEarnedCents": 7219.73
+      },
+      {
+        "accountId": "ACCP030",
+        "accountNumber": "BRO4679591E",
+        "accountName": "Sophia Haddad Brokerage Account",
+        "totalCommissionEarnedCents": 5956.3
+      }
+    ],
+    "accountsContributingCount": 10,
+    "householdsContributingCount": 2,
+    "totalCommissionCents": 61501.03
+  },
+  "FAP0004": {
+    "topAccounts": [
+      {
+        "accountId": "ACCP038",
+        "accountNumber": "IND3710343R",
+        "accountName": "Daniel Rodriguez Individual Portfolio",
+        "totalCommissionEarnedCents": 10764.37
+      },
+      {
+        "accountId": "ACCP033",
+        "accountNumber": "JOI1192619V",
+        "accountName": "Sophia Rossi Family Joint Account",
+        "totalCommissionEarnedCents": 9343.15
+      },
+      {
+        "accountId": "ACCP035",
+        "accountNumber": "INV8612220A",
+        "accountName": "Isabella Haddad Investment Account",
+        "totalCommissionEarnedCents": 9201.28
+      },
+      {
+        "accountId": "ACCP031",
+        "accountNumber": "INV2839607E",
+        "accountName": "Emily Costa Investment Account",
+        "totalCommissionEarnedCents": 8555.89
+      },
+      {
+        "accountId": "ACCP034",
+        "accountNumber": "IND5476583Y",
+        "accountName": "James Fischer Individual Portfolio",
+        "totalCommissionEarnedCents": 4630.49
+      }
+    ],
+    "accountsContributingCount": 10,
+    "householdsContributingCount": 2,
+    "totalCommissionCents": 57179.59
+  },
+  "FAP0005": {
+    "topAccounts": [
+      {
+        "accountId": "ACCP041",
+        "accountNumber": "INV2437026X",
+        "accountName": "Daniel Johnson Investment Account",
+        "totalCommissionEarnedCents": 6672.09
+      },
+      {
+        "accountId": "ACCP046",
+        "accountNumber": "BRO1352896S",
+        "accountName": "Elena Martinez Brokerage Account",
+        "totalCommissionEarnedCents": 6243.52
+      },
+      {
+        "accountId": "ACCP049",
+        "accountNumber": "INV8930103H",
+        "accountName": "Marco Ramirez Investment Account",
+        "totalCommissionEarnedCents": 6099.15
+      },
+      {
+        "accountId": "ACCP043",
+        "accountNumber": "JOI9852897T",
+        "accountName": "Lucas Rodriguez Family Joint Account",
+        "totalCommissionEarnedCents": 5891.51
+      },
+      {
+        "accountId": "ACCP050",
+        "accountNumber": "BRO2626229V",
+        "accountName": "Nina Torres Brokerage Account",
+        "totalCommissionEarnedCents": 5572.68
+      }
+    ],
+    "accountsContributingCount": 10,
+    "householdsContributingCount": 2,
+    "totalCommissionCents": 51984.32
+  },
+  "FAP0006": {
+    "topAccounts": [
+      {
+        "accountId": "ACCP051",
+        "accountNumber": "INV1908841V",
+        "accountName": "Clara Martinez Investment Account",
+        "totalCommissionEarnedCents": 8457.23
+      },
+      {
+        "accountId": "ACCP057",
+        "accountNumber": "JOI7358113A",
+        "accountName": "Emily Okafor Family Joint Account",
+        "totalCommissionEarnedCents": 6837.7
+      },
+      {
+        "accountId": "ACCP055",
+        "accountNumber": "INV1247595C",
+        "accountName": "Leila Torres Investment Account",
+        "totalCommissionEarnedCents": 6471.96
+      },
+      {
+        "accountId": "ACCP052",
+        "accountNumber": "BRO6692553Z",
+        "accountName": "Marco Hernandez Brokerage Account",
+        "totalCommissionEarnedCents": 5777.3
+      },
+      {
+        "accountId": "ACCP058",
+        "accountNumber": "IND8633773J",
+        "accountName": "David Silva Individual Portfolio",
+        "totalCommissionEarnedCents": 5066.37
+      }
+    ],
+    "accountsContributingCount": 10,
+    "householdsContributingCount": 2,
+    "totalCommissionCents": 48747.4
+  },
+  "FAP0007": {
+    "topAccounts": [
+      {
+        "accountId": "ACCP064",
+        "accountNumber": "IND9770838K",
+        "accountName": "Isabella Kowalski Individual Portfolio",
+        "totalCommissionEarnedCents": 11041.23
+      },
+      {
+        "accountId": "ACCP069",
+        "accountNumber": "INV6075395T",
+        "accountName": "Lucas Fischer Investment Account",
+        "totalCommissionEarnedCents": 9398.81
+      },
+      {
+        "accountId": "ACCP068",
+        "accountNumber": "IND6855396C",
+        "accountName": "Ana Rossi Individual Portfolio",
+        "totalCommissionEarnedCents": 9159.2
+      },
+      {
+        "accountId": "ACCP067",
+        "accountNumber": "JOI2677407C",
+        "accountName": "Daniel Dubois Family Joint Account",
+        "totalCommissionEarnedCents": 7080.09
+      },
+      {
+        "accountId": "ACCP065",
+        "accountNumber": "INV5004485I",
+        "accountName": "Carlos Ivanov Investment Account",
+        "totalCommissionEarnedCents": 6272.17
+      }
+    ],
+    "accountsContributingCount": 10,
+    "householdsContributingCount": 2,
+    "totalCommissionCents": 58976.54
+  },
+  "FAP0008": {
+    "topAccounts": [
+      {
+        "accountId": "ACCP074",
+        "accountNumber": "IND1059486K",
+        "accountName": "Peter Fischer Individual Portfolio",
+        "totalCommissionEarnedCents": 8436.11
+      },
+      {
+        "accountId": "ACCP079",
+        "accountNumber": "INV7817881T",
+        "accountName": "Nina Miller Investment Account",
+        "totalCommissionEarnedCents": 8283.61
+      },
+      {
+        "accountId": "ACCP072",
+        "accountNumber": "BRO6752576G",
+        "accountName": "Lucas Dubois Brokerage Account",
+        "totalCommissionEarnedCents": 7762.52
+      },
+      {
+        "accountId": "ACCP080",
+        "accountNumber": "BRO3726327Z",
+        "accountName": "Victor Garcia Brokerage Account",
+        "totalCommissionEarnedCents": 7366.35
+      },
+      {
+        "accountId": "ACCP075",
+        "accountNumber": "INV8412769R",
+        "accountName": "Elena Haddad Investment Account",
+        "totalCommissionEarnedCents": 4465.2
+      }
+    ],
+    "accountsContributingCount": 10,
+    "householdsContributingCount": 2,
+    "totalCommissionCents": 49045.27
+  },
+  "FAP0009": {
+    "topAccounts": [
+      {
+        "accountId": "ACCP084",
+        "accountNumber": "IND6120253Z",
+        "accountName": "Leila Miller Individual Portfolio",
+        "totalCommissionEarnedCents": 6553.54
+      },
+      {
+        "accountId": "ACCP081",
+        "accountNumber": "INV6573147Z",
+        "accountName": "Marco Johnson Investment Account",
+        "totalCommissionEarnedCents": 5977.74
+      },
+      {
+        "accountId": "ACCP089",
+        "accountNumber": "INV6262632N",
+        "accountName": "James Ramirez Investment Account",
+        "totalCommissionEarnedCents": 4352.39
+      },
+      {
+        "accountId": "ACCP083",
+        "accountNumber": "JOI1649691P",
+        "accountName": "Victor Rodriguez Family Joint Account",
+        "totalCommissionEarnedCents": 3617.03
+      },
+      {
+        "accountId": "ACCP082",
+        "accountNumber": "BRO5163555I",
+        "accountName": "Nina Carter Brokerage Account",
+        "totalCommissionEarnedCents": 3504.24
+      }
+    ],
+    "accountsContributingCount": 10,
+    "householdsContributingCount": 2,
+    "totalCommissionCents": 34713.58
+  },
+  "FAP0010": {
+    "topAccounts": [
+      {
+        "accountId": "ACCP092",
+        "accountNumber": "BRO6266630V",
+        "accountName": "James Hernandez Brokerage Account",
+        "totalCommissionEarnedCents": 7136.82
+      },
+      {
+        "accountId": "ACCP095",
+        "accountNumber": "INV3919694T",
+        "accountName": "Olivia Torres Investment Account",
+        "totalCommissionEarnedCents": 6503.6
+      },
+      {
+        "accountId": "ACCP094",
+        "accountNumber": "IND3135534G",
+        "accountName": "Carlos Ramirez Individual Portfolio",
+        "totalCommissionEarnedCents": 5911.45
+      },
+      {
+        "accountId": "ACCP099",
+        "accountNumber": "INV6623525C",
+        "accountName": "Maria Kowalski Investment Account",
+        "totalCommissionEarnedCents": 5815.3
+      },
+      {
+        "accountId": "ACCP093",
+        "accountNumber": "JOI6188935V",
+        "accountName": "Isabella Anderson Family Joint Account",
+        "totalCommissionEarnedCents": 5496.93
+      }
+    ],
+    "accountsContributingCount": 10,
+    "householdsContributingCount": 2,
+    "totalCommissionCents": 46285.11
+  }
+}

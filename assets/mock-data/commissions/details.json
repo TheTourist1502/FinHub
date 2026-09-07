@@ -1,0 +1,5315 @@
+{
+  "ACCP001": {
+    "data": [
+      {
+        "id": "TXN00001-CD",
+        "accountId": "ACCP001",
+        "tradeId": "SRC00001",
+        "securityName": "Apple Inc.",
+        "tickerSymbol": "AAPL",
+        "transactionType": "SELL",
+        "quantity": 326.52,
+        "unitPriceCents": 229.05,
+        "commissionEarnedCents": 934.87,
+        "investmentAmountCents": 74789.41,
+        "tradeDate": "2026-06-15T21:00:00Z"
+      },
+      {
+        "id": "TXN00002-CD",
+        "accountId": "ACCP001",
+        "tradeId": "SRC00002",
+        "securityName": "JPMorgan Chase & Co.",
+        "tickerSymbol": "JPM",
+        "transactionType": "BUY",
+        "quantity": 99.63,
+        "unitPriceCents": 232.22,
+        "commissionEarnedCents": 289.2,
+        "investmentAmountCents": 23136.08,
+        "tradeDate": "2026-06-11T21:00:00Z"
+      },
+      {
+        "id": "TXN00011-CD",
+        "accountId": "ACCP001",
+        "tradeId": "SRC00011",
+        "securityName": "Vanguard S&P 500 ETF",
+        "tickerSymbol": "VOO",
+        "transactionType": "SELL",
+        "quantity": 384.37,
+        "unitPriceCents": 526.8,
+        "commissionEarnedCents": 2531.08,
+        "investmentAmountCents": 202486.12,
+        "tradeDate": "2026-05-19T21:00:00Z"
+      },
+      {
+        "id": "TXN00010-CD",
+        "accountId": "ACCP001",
+        "tradeId": "SRC00010",
+        "securityName": "iShares 20+ Year Treasury Bond ETF",
+        "tickerSymbol": "TLT",
+        "transactionType": "SELL",
+        "quantity": 10.35,
+        "unitPriceCents": 92.94,
+        "commissionEarnedCents": 12.02,
+        "investmentAmountCents": 961.93,
+        "tradeDate": "2026-03-26T21:00:00Z"
+      },
+      {
+        "id": "TXN00005-CD",
+        "accountId": "ACCP001",
+        "tradeId": "SRC00005",
+        "securityName": "Vanguard S&P 500 ETF",
+        "tickerSymbol": "VOO",
+        "transactionType": "BUY",
+        "quantity": 125.25,
+        "unitPriceCents": 529.28,
+        "commissionEarnedCents": 828.65,
+        "investmentAmountCents": 66292.32,
+        "tradeDate": "2026-03-20T21:00:00Z"
+      }
+    ]
+  },
+  "ACCP002": {
+    "data": [
+      {
+        "id": "TXN00019-CD",
+        "accountId": "ACCP002",
+        "tradeId": "SRC00019",
+        "securityName": "Microsoft Corporation",
+        "tickerSymbol": "MSFT",
+        "transactionType": "BUY",
+        "quantity": 91.01,
+        "unitPriceCents": 420.2,
+        "commissionEarnedCents": 478.03,
+        "investmentAmountCents": 38242.4,
+        "tradeDate": "2026-05-29T21:00:00Z"
+      },
+      {
+        "id": "TXN00024-CD",
+        "accountId": "ACCP002",
+        "tradeId": "SRC00024",
+        "securityName": "Apple Inc.",
+        "tickerSymbol": "AAPL",
+        "transactionType": "BUY",
+        "quantity": 160.54,
+        "unitPriceCents": 219.22,
+        "commissionEarnedCents": 439.92,
+        "investmentAmountCents": 35193.58,
+        "tradeDate": "2026-05-22T21:00:00Z"
+      },
+      {
+        "id": "TXN00014-CD",
+        "accountId": "ACCP002",
+        "tradeId": "SRC00014",
+        "securityName": "Microsoft Corporation",
+        "tickerSymbol": "MSFT",
+        "transactionType": "SELL",
+        "quantity": 77.02,
+        "unitPriceCents": 449.97,
+        "commissionEarnedCents": 433.21,
+        "investmentAmountCents": 34656.69,
+        "tradeDate": "2026-04-09T21:00:00Z"
+      }
+    ]
+  },
+  "ACCP003": {
+    "data": [
+      {
+        "id": "TXN00036-CD",
+        "accountId": "ACCP003",
+        "tradeId": "SRC00036",
+        "securityName": "iShares 20+ Year Treasury Bond ETF",
+        "tickerSymbol": "TLT",
+        "transactionType": "SELL",
+        "quantity": 155.05,
+        "unitPriceCents": 84.35,
+        "commissionEarnedCents": 163.48,
+        "investmentAmountCents": 13078.47,
+        "tradeDate": "2026-07-12T21:00:00Z"
+      },
+      {
+        "id": "TXN00032-CD",
+        "accountId": "ACCP003",
+        "tradeId": "SRC00032",
+        "securityName": "Vanguard Total Bond Market ETF",
+        "tickerSymbol": "BND",
+        "transactionType": "SELL",
+        "quantity": 359.27,
+        "unitPriceCents": 67.73,
+        "commissionEarnedCents": 304.17,
+        "investmentAmountCents": 24333.36,
+        "tradeDate": "2026-04-28T21:00:00Z"
+      },
+      {
+        "id": "TXN00030-CD",
+        "accountId": "ACCP003",
+        "tradeId": "SRC00030",
+        "securityName": "SPDR Gold Shares",
+        "tickerSymbol": "GLD",
+        "transactionType": "SELL",
+        "quantity": 206.77,
+        "unitPriceCents": 242.55,
+        "commissionEarnedCents": 626.9,
+        "investmentAmountCents": 50152.06,
+        "tradeDate": "2026-04-27T21:00:00Z"
+      },
+      {
+        "id": "TXN00028-CD",
+        "accountId": "ACCP003",
+        "tradeId": "SRC00028",
+        "securityName": "Vanguard S&P 500 ETF",
+        "tickerSymbol": "VOO",
+        "transactionType": "SELL",
+        "quantity": 58.36,
+        "unitPriceCents": 540.83,
+        "commissionEarnedCents": 394.54,
+        "investmentAmountCents": 31562.84,
+        "tradeDate": "2026-04-12T21:00:00Z"
+      }
+    ]
+  },
+  "ACCP004": {
+    "data": [
+      {
+        "id": "TXN00047-CD",
+        "accountId": "ACCP004",
+        "tradeId": "SRC00047",
+        "securityName": "SPDR Gold Shares",
+        "tickerSymbol": "GLD",
+        "transactionType": "SELL",
+        "quantity": 81.48,
+        "unitPriceCents": 257.0,
+        "commissionEarnedCents": 261.75,
+        "investmentAmountCents": 20940.36,
+        "tradeDate": "2026-08-13T21:00:00Z"
+      },
+      {
+        "id": "TXN00038-CD",
+        "accountId": "ACCP004",
+        "tradeId": "SRC00038",
+        "securityName": "Schwab U.S. Dividend Equity ETF",
+        "tickerSymbol": "SCHD",
+        "transactionType": "BUY",
+        "quantity": 280.26,
+        "unitPriceCents": 29.38,
+        "commissionEarnedCents": 102.93,
+        "investmentAmountCents": 8234.04,
+        "tradeDate": "2026-05-13T21:00:00Z"
+      },
+      {
+        "id": "TXN00042-CD",
+        "accountId": "ACCP004",
+        "tradeId": "SRC00042",
+        "securityName": "Vanguard Total Bond Market ETF",
+        "tickerSymbol": "BND",
+        "transactionType": "BUY",
+        "quantity": 332.9,
+        "unitPriceCents": 69.75,
+        "commissionEarnedCents": 290.25,
+        "investmentAmountCents": 23219.77,
+        "tradeDate": "2026-04-27T21:00:00Z"
+      },
+      {
+        "id": "TXN00041-CD",
+        "accountId": "ACCP004",
+        "tradeId": "SRC00041",
+        "securityName": "Apple Inc.",
+        "tickerSymbol": "AAPL",
+        "transactionType": "BUY",
+        "quantity": 59.95,
+        "unitPriceCents": 220.73,
+        "commissionEarnedCents": 165.41,
+        "investmentAmountCents": 13232.76,
+        "tradeDate": "2026-04-10T21:00:00Z"
+      },
+      {
+        "id": "TXN00039-CD",
+        "accountId": "ACCP004",
+        "tradeId": "SRC00039",
+        "securityName": "Vanguard Total Bond Market ETF",
+        "tickerSymbol": "BND",
+        "transactionType": "SELL",
+        "quantity": 198.93,
+        "unitPriceCents": 72.54,
+        "commissionEarnedCents": 180.38,
+        "investmentAmountCents": 14430.38,
+        "tradeDate": "2026-03-12T21:00:00Z"
+      }
+    ]
+  },
+  "ACCP005": {
+    "data": [
+      {
+        "id": "TXN00059-CD",
+        "accountId": "ACCP005",
+        "tradeId": "SRC00059",
+        "securityName": "Vanguard S&P 500 ETF",
+        "tickerSymbol": "VOO",
+        "transactionType": "SELL",
+        "quantity": 75.87,
+        "unitPriceCents": 473.34,
+        "commissionEarnedCents": 448.9,
+        "investmentAmountCents": 35912.31,
+        "tradeDate": "2026-06-15T21:00:00Z"
+      },
+      {
+        "id": "TXN00058-CD",
+        "accountId": "ACCP005",
+        "tradeId": "SRC00058",
+        "securityName": "Microsoft Corporation",
+        "tickerSymbol": "MSFT",
+        "transactionType": "BUY",
+        "quantity": 33.11,
+        "unitPriceCents": 397.04,
+        "commissionEarnedCents": 164.32,
+        "investmentAmountCents": 13145.99,
+        "tradeDate": "2026-06-13T21:00:00Z"
+      },
+      {
+        "id": "TXN00057-CD",
+        "accountId": "ACCP005",
+        "tradeId": "SRC00057",
+        "securityName": "Vanguard Real Estate ETF",
+        "tickerSymbol": "VNQ",
+        "transactionType": "BUY",
+        "quantity": 239.99,
+        "unitPriceCents": 93.09,
+        "commissionEarnedCents": 279.26,
+        "investmentAmountCents": 22340.67,
+        "tradeDate": "2026-05-15T21:00:00Z"
+      },
+      {
+        "id": "TXN00053-CD",
+        "accountId": "ACCP005",
+        "tradeId": "SRC00053",
+        "securityName": "Apple Inc.",
+        "tickerSymbol": "AAPL",
+        "transactionType": "BUY",
+        "quantity": 76.71,
+        "unitPriceCents": 230.21,
+        "commissionEarnedCents": 220.74,
+        "investmentAmountCents": 17659.41,
+        "tradeDate": "2026-04-25T21:00:00Z"
+      }
+    ]
+  },
+  "ACCP006": {
+    "data": [
+      {
+        "id": "TXN00065-CD",
+        "accountId": "ACCP006",
+        "tradeId": "SRC00065",
+        "securityName": "Vanguard Real Estate ETF",
+        "tickerSymbol": "VNQ",
+        "transactionType": "SELL",
+        "quantity": 163.16,
+        "unitPriceCents": 94.72,
+        "commissionEarnedCents": 193.18,
+        "investmentAmountCents": 15454.52,
+        "tradeDate": "2026-06-04T21:00:00Z"
+      },
+      {
+        "id": "TXN00070-CD",
+        "accountId": "ACCP006",
+        "tradeId": "SRC00070",
+        "securityName": "Schwab U.S. Dividend Equity ETF",
+        "tickerSymbol": "SCHD",
+        "transactionType": "BUY",
+        "quantity": 354.5,
+        "unitPriceCents": 28.71,
+        "commissionEarnedCents": 127.22,
+        "investmentAmountCents": 10177.69,
+        "tradeDate": "2026-05-11T21:00:00Z"
+      },
+      {
+        "id": "TXN00066-CD",
+        "accountId": "ACCP006",
+        "tradeId": "SRC00066",
+        "securityName": "iShares Core U.S. Aggregate Bond ETF",
+        "tickerSymbol": "AGG",
+        "transactionType": "SELL",
+        "quantity": 40.47,
+        "unitPriceCents": 96.97,
+        "commissionEarnedCents": 49.05,
+        "investmentAmountCents": 3924.38,
+        "tradeDate": "2026-04-13T21:00:00Z"
+      }
+    ]
+  },
+  "ACCP007": {
+    "data": [
+      {
+        "id": "TXN00074-CD",
+        "accountId": "ACCP007",
+        "tradeId": "SRC00074",
+        "securityName": "Microsoft Corporation",
+        "tickerSymbol": "MSFT",
+        "transactionType": "BUY",
+        "quantity": 92.09,
+        "unitPriceCents": 430.87,
+        "commissionEarnedCents": 495.99,
+        "investmentAmountCents": 39678.82,
+        "tradeDate": "2026-08-20T21:00:00Z"
+      },
+      {
+        "id": "TXN00077-CD",
+        "accountId": "ACCP007",
+        "tradeId": "SRC00077",
+        "securityName": "Vanguard Total Bond Market ETF",
+        "tickerSymbol": "BND",
+        "transactionType": "BUY",
+        "quantity": 269.83,
+        "unitPriceCents": 73.85,
+        "commissionEarnedCents": 249.09,
+        "investmentAmountCents": 19926.95,
+        "tradeDate": "2026-05-09T21:00:00Z"
+      }
+    ]
+  },
+  "ACCP008": {
+    "data": [
+      {
+        "id": "TXN00091-CD",
+        "accountId": "ACCP008",
+        "tradeId": "SRC00091",
+        "securityName": "Vanguard Real Estate ETF",
+        "tickerSymbol": "VNQ",
+        "transactionType": "BUY",
+        "quantity": 159.72,
+        "unitPriceCents": 93.67,
+        "commissionEarnedCents": 187.01,
+        "investmentAmountCents": 14960.97,
+        "tradeDate": "2026-08-14T21:00:00Z"
+      },
+      {
+        "id": "TXN00090-CD",
+        "accountId": "ACCP008",
+        "tradeId": "SRC00090",
+        "securityName": "Vanguard Real Estate ETF",
+        "tickerSymbol": "VNQ",
+        "transactionType": "BUY",
+        "quantity": 370.71,
+        "unitPriceCents": 93.44,
+        "commissionEarnedCents": 432.99,
+        "investmentAmountCents": 34639.14,
+        "tradeDate": "2026-07-23T21:00:00Z"
+      },
+      {
+        "id": "TXN00093-CD",
+        "accountId": "ACCP008",
+        "tradeId": "SRC00093",
+        "securityName": "iShares Core U.S. Aggregate Bond ETF",
+        "tickerSymbol": "AGG",
+        "transactionType": "BUY",
+        "quantity": 136.47,
+        "unitPriceCents": 105.95,
+        "commissionEarnedCents": 180.74,
+        "investmentAmountCents": 14459.0,
+        "tradeDate": "2026-07-11T21:00:00Z"
+      },
+      {
+        "id": "TXN00089-CD",
+        "accountId": "ACCP008",
+        "tradeId": "SRC00089",
+        "securityName": "Schwab U.S. Dividend Equity ETF",
+        "tickerSymbol": "SCHD",
+        "transactionType": "BUY",
+        "quantity": 85.61,
+        "unitPriceCents": 28.89,
+        "commissionEarnedCents": 30.92,
+        "investmentAmountCents": 2473.27,
+        "tradeDate": "2026-04-18T21:00:00Z"
+      }
+    ]
+  },
+  "ACCP009": {
+    "data": [
+      {
+        "id": "TXN00100-CD",
+        "accountId": "ACCP009",
+        "tradeId": "SRC00100",
+        "securityName": "Microsoft Corporation",
+        "tickerSymbol": "MSFT",
+        "transactionType": "SELL",
+        "quantity": 124.27,
+        "unitPriceCents": 412.91,
+        "commissionEarnedCents": 641.4,
+        "investmentAmountCents": 51312.33,
+        "tradeDate": "2026-08-20T21:00:00Z"
+      },
+      {
+        "id": "TXN00105-CD",
+        "accountId": "ACCP009",
+        "tradeId": "SRC00105",
+        "securityName": "Vanguard Total Bond Market ETF",
+        "tickerSymbol": "BND",
+        "transactionType": "BUY",
+        "quantity": 106.72,
+        "unitPriceCents": 74.47,
+        "commissionEarnedCents": 99.34,
+        "investmentAmountCents": 7947.44,
+        "tradeDate": "2026-08-10T21:00:00Z"
+      },
+      {
+        "id": "TXN00108-CD",
+        "accountId": "ACCP009",
+        "tradeId": "SRC00108",
+        "securityName": "Vanguard Total Bond Market ETF",
+        "tickerSymbol": "BND",
+        "transactionType": "BUY",
+        "quantity": 147.69,
+        "unitPriceCents": 74.45,
+        "commissionEarnedCents": 137.44,
+        "investmentAmountCents": 10995.52,
+        "tradeDate": "2026-07-17T21:00:00Z"
+      },
+      {
+        "id": "TXN00104-CD",
+        "accountId": "ACCP009",
+        "tradeId": "SRC00104",
+        "securityName": "JPMorgan Chase & Co.",
+        "tickerSymbol": "JPM",
+        "transactionType": "SELL",
+        "quantity": 268.72,
+        "unitPriceCents": 218.88,
+        "commissionEarnedCents": 735.22,
+        "investmentAmountCents": 58817.43,
+        "tradeDate": "2026-07-10T21:00:00Z"
+      },
+      {
+        "id": "TXN00102-CD",
+        "accountId": "ACCP009",
+        "tradeId": "SRC00102",
+        "securityName": "JPMorgan Chase & Co.",
+        "tickerSymbol": "JPM",
+        "transactionType": "BUY",
+        "quantity": 22.44,
+        "unitPriceCents": 230.17,
+        "commissionEarnedCents": 64.56,
+        "investmentAmountCents": 5165.01,
+        "tradeDate": "2026-07-04T21:00:00Z"
+      },
+      {
+        "id": "TXN00103-CD",
+        "accountId": "ACCP009",
+        "tradeId": "SRC00103",
+        "securityName": "JPMorgan Chase & Co.",
+        "tickerSymbol": "JPM",
+        "transactionType": "SELL",
+        "quantity": 274.32,
+        "unitPriceCents": 217.5,
+        "commissionEarnedCents": 745.81,
+        "investmentAmountCents": 59664.6,
+        "tradeDate": "2026-05-25T21:00:00Z"
+      },
+      {
+        "id": "TXN00099-CD",
+        "accountId": "ACCP009",
+        "tradeId": "SRC00099",
+        "securityName": "SPDR Gold Shares",
+        "tickerSymbol": "GLD",
+        "transactionType": "BUY",
+        "quantity": 210.47,
+        "unitPriceCents": 242.51,
+        "commissionEarnedCents": 638.01,
+        "investmentAmountCents": 51041.08,
+        "tradeDate": "2026-04-16T21:00:00Z"
+      }
+    ]
+  },
+  "ACCP010": {
+    "data": [
+      {
+        "id": "TXN00109-CD",
+        "accountId": "ACCP010",
+        "tradeId": "SRC00109",
+        "securityName": "Microsoft Corporation",
+        "tickerSymbol": "MSFT",
+        "transactionType": "SELL",
+        "quantity": 63.8,
+        "unitPriceCents": 459.64,
+        "commissionEarnedCents": 366.56,
+        "investmentAmountCents": 29325.03,
+        "tradeDate": "2026-07-13T21:00:00Z"
+      },
+      {
+        "id": "TXN00120-CD",
+        "accountId": "ACCP010",
+        "tradeId": "SRC00120",
+        "securityName": "iShares Core U.S. Aggregate Bond ETF",
+        "tickerSymbol": "AGG",
+        "transactionType": "SELL",
+        "quantity": 21.12,
+        "unitPriceCents": 98.25,
+        "commissionEarnedCents": 25.94,
+        "investmentAmountCents": 2075.04,
+        "tradeDate": "2026-07-06T21:00:00Z"
+      },
+      {
+        "id": "TXN00112-CD",
+        "accountId": "ACCP010",
+        "tradeId": "SRC00112",
+        "securityName": "SPDR Gold Shares",
+        "tickerSymbol": "GLD",
+        "transactionType": "SELL",
+        "quantity": 125.87,
+        "unitPriceCents": 256.76,
+        "commissionEarnedCents": 403.98,
+        "investmentAmountCents": 32318.38,
+        "tradeDate": "2026-07-01T21:00:00Z"
+      },
+      {
+        "id": "TXN00117-CD",
+        "accountId": "ACCP010",
+        "tradeId": "SRC00117",
+        "securityName": "iShares 20+ Year Treasury Bond ETF",
+        "tickerSymbol": "TLT",
+        "transactionType": "BUY",
+        "quantity": 282.11,
+        "unitPriceCents": 94.35,
+        "commissionEarnedCents": 332.71,
+        "investmentAmountCents": 26617.08,
+        "tradeDate": "2026-06-28T21:00:00Z"
+      },
+      {
+        "id": "TXN00116-CD",
+        "accountId": "ACCP010",
+        "tradeId": "SRC00116",
+        "securityName": "iShares Core U.S. Aggregate Bond ETF",
+        "tickerSymbol": "AGG",
+        "transactionType": "BUY",
+        "quantity": 98.28,
+        "unitPriceCents": 92.54,
+        "commissionEarnedCents": 113.69,
+        "investmentAmountCents": 9094.83,
+        "tradeDate": "2026-06-07T21:00:00Z"
+      },
+      {
+        "id": "TXN00114-CD",
+        "accountId": "ACCP010",
+        "tradeId": "SRC00114",
+        "securityName": "Schwab U.S. Dividend Equity ETF",
+        "tickerSymbol": "SCHD",
+        "transactionType": "BUY",
+        "quantity": 285.54,
+        "unitPriceCents": 29.53,
+        "commissionEarnedCents": 105.4,
+        "investmentAmountCents": 8432.0,
+        "tradeDate": "2026-04-18T21:00:00Z"
+      },
+      {
+        "id": "TXN00118-CD",
+        "accountId": "ACCP010",
+        "tradeId": "SRC00118",
+        "securityName": "Vanguard Real Estate ETF",
+        "tickerSymbol": "VNQ",
+        "transactionType": "SELL",
+        "quantity": 394.59,
+        "unitPriceCents": 86.88,
+        "commissionEarnedCents": 428.52,
+        "investmentAmountCents": 34281.98,
+        "tradeDate": "2026-04-03T21:00:00Z"
+      },
+      {
+        "id": "TXN00115-CD",
+        "accountId": "ACCP010",
+        "tradeId": "SRC00115",
+        "securityName": "SPDR Gold Shares",
+        "tickerSymbol": "GLD",
+        "transactionType": "SELL",
+        "quantity": 256.75,
+        "unitPriceCents": 257.64,
+        "commissionEarnedCents": 826.86,
+        "investmentAmountCents": 66149.07,
+        "tradeDate": "2026-03-16T21:00:00Z"
+      }
+    ]
+  },
+  "ACCP011": {
+    "data": [
+      {
+        "id": "TXN00128-CD",
+        "accountId": "ACCP011",
+        "tradeId": "SRC00128",
+        "securityName": "iShares Core U.S. Aggregate Bond ETF",
+        "tickerSymbol": "AGG",
+        "transactionType": "BUY",
+        "quantity": 208.86,
+        "unitPriceCents": 94.7,
+        "commissionEarnedCents": 247.24,
+        "investmentAmountCents": 19779.04,
+        "tradeDate": "2026-07-08T21:00:00Z"
+      },
+      {
+        "id": "TXN00129-CD",
+        "accountId": "ACCP011",
+        "tradeId": "SRC00129",
+        "securityName": "JPMorgan Chase & Co.",
+        "tickerSymbol": "JPM",
+        "transactionType": "SELL",
+        "quantity": 162.47,
+        "unitPriceCents": 201.54,
+        "commissionEarnedCents": 409.3,
+        "investmentAmountCents": 32744.2,
+        "tradeDate": "2026-07-01T21:00:00Z"
+      },
+      {
+        "id": "TXN00125-CD",
+        "accountId": "ACCP011",
+        "tradeId": "SRC00125",
+        "securityName": "Schwab U.S. Dividend Equity ETF",
+        "tickerSymbol": "SCHD",
+        "transactionType": "BUY",
+        "quantity": 74.69,
+        "unitPriceCents": 26.48,
+        "commissionEarnedCents": 24.72,
+        "investmentAmountCents": 1977.79,
+        "tradeDate": "2026-06-12T21:00:00Z"
+      },
+      {
+        "id": "TXN00127-CD",
+        "accountId": "ACCP011",
+        "tradeId": "SRC00127",
+        "securityName": "iShares Core U.S. Aggregate Bond ETF",
+        "tickerSymbol": "AGG",
+        "transactionType": "BUY",
+        "quantity": 302.2,
+        "unitPriceCents": 96.46,
+        "commissionEarnedCents": 364.38,
+        "investmentAmountCents": 29150.21,
+        "tradeDate": "2026-06-09T21:00:00Z"
+      },
+      {
+        "id": "TXN00130-CD",
+        "accountId": "ACCP011",
+        "tradeId": "SRC00130",
+        "securityName": "iShares 20+ Year Treasury Bond ETF",
+        "tickerSymbol": "TLT",
+        "transactionType": "BUY",
+        "quantity": 333.8,
+        "unitPriceCents": 96.19,
+        "commissionEarnedCents": 401.35,
+        "investmentAmountCents": 32108.22,
+        "tradeDate": "2026-04-24T21:00:00Z"
+      },
+      {
+        "id": "TXN00122-CD",
+        "accountId": "ACCP011",
+        "tradeId": "SRC00122",
+        "securityName": "Vanguard Real Estate ETF",
+        "tickerSymbol": "VNQ",
+        "transactionType": "BUY",
+        "quantity": 42.61,
+        "unitPriceCents": 99.25,
+        "commissionEarnedCents": 52.86,
+        "investmentAmountCents": 4229.04,
+        "tradeDate": "2026-04-01T21:00:00Z"
+      },
+      {
+        "id": "TXN00126-CD",
+        "accountId": "ACCP011",
+        "tradeId": "SRC00126",
+        "securityName": "iShares 20+ Year Treasury Bond ETF",
+        "tickerSymbol": "TLT",
+        "transactionType": "SELL",
+        "quantity": 322.86,
+        "unitPriceCents": 88.15,
+        "commissionEarnedCents": 355.75,
+        "investmentAmountCents": 28460.11,
+        "tradeDate": "2026-04-01T21:00:00Z"
+      }
+    ]
+  },
+  "ACCP012": {
+    "data": [
+      {
+        "id": "TXN00140-CD",
+        "accountId": "ACCP012",
+        "tradeId": "SRC00140",
+        "securityName": "iShares 20+ Year Treasury Bond ETF",
+        "tickerSymbol": "TLT",
+        "transactionType": "BUY",
+        "quantity": 47.61,
+        "unitPriceCents": 95.18,
+        "commissionEarnedCents": 56.64,
+        "investmentAmountCents": 4531.52,
+        "tradeDate": "2026-03-03T21:00:00Z"
+      }
+    ]
+  },
+  "ACCP013": {
+    "data": [
+      {
+        "id": "TXN00152-CD",
+        "accountId": "ACCP013",
+        "tradeId": "SRC00152",
+        "securityName": "iShares 20+ Year Treasury Bond ETF",
+        "tickerSymbol": "TLT",
+        "transactionType": "SELL",
+        "quantity": 6.85,
+        "unitPriceCents": 85.99,
+        "commissionEarnedCents": 7.36,
+        "investmentAmountCents": 589.03,
+        "tradeDate": "2026-08-19T21:00:00Z"
+      },
+      {
+        "id": "TXN00153-CD",
+        "accountId": "ACCP013",
+        "tradeId": "SRC00153",
+        "securityName": "Microsoft Corporation",
+        "tickerSymbol": "MSFT",
+        "transactionType": "BUY",
+        "quantity": 65.82,
+        "unitPriceCents": 406.81,
+        "commissionEarnedCents": 334.7,
+        "investmentAmountCents": 26776.23,
+        "tradeDate": "2026-08-15T21:00:00Z"
+      },
+      {
+        "id": "TXN00145-CD",
+        "accountId": "ACCP013",
+        "tradeId": "SRC00145",
+        "securityName": "Apple Inc.",
+        "tickerSymbol": "AAPL",
+        "transactionType": "BUY",
+        "quantity": 73.13,
+        "unitPriceCents": 226.39,
+        "commissionEarnedCents": 206.95,
+        "investmentAmountCents": 16555.9,
+        "tradeDate": "2026-08-07T21:00:00Z"
+      },
+      {
+        "id": "TXN00148-CD",
+        "accountId": "ACCP013",
+        "tradeId": "SRC00148",
+        "securityName": "Vanguard Real Estate ETF",
+        "tickerSymbol": "VNQ",
+        "transactionType": "SELL",
+        "quantity": 69.94,
+        "unitPriceCents": 92.93,
+        "commissionEarnedCents": 81.24,
+        "investmentAmountCents": 6499.52,
+        "tradeDate": "2026-03-19T21:00:00Z"
+      },
+      {
+        "id": "TXN00150-CD",
+        "accountId": "ACCP013",
+        "tradeId": "SRC00150",
+        "securityName": "Vanguard Total Bond Market ETF",
+        "tickerSymbol": "BND",
+        "transactionType": "SELL",
+        "quantity": 328.79,
+        "unitPriceCents": 74.05,
+        "commissionEarnedCents": 304.34,
+        "investmentAmountCents": 24346.9,
+        "tradeDate": "2026-03-16T21:00:00Z"
+      }
+    ]
+  },
+  "ACCP014": {
+    "data": [
+      {
+        "id": "TXN00166-CD",
+        "accountId": "ACCP014",
+        "tradeId": "SRC00166",
+        "securityName": "Apple Inc.",
+        "tickerSymbol": "AAPL",
+        "transactionType": "BUY",
+        "quantity": 40.53,
+        "unitPriceCents": 209.34,
+        "commissionEarnedCents": 106.06,
+        "investmentAmountCents": 8484.55,
+        "tradeDate": "2026-07-28T21:00:00Z"
+      },
+      {
+        "id": "TXN00163-CD",
+        "accountId": "ACCP014",
+        "tradeId": "SRC00163",
+        "securityName": "Schwab U.S. Dividend Equity ETF",
+        "tickerSymbol": "SCHD",
+        "transactionType": "BUY",
+        "quantity": 334.71,
+        "unitPriceCents": 28.51,
+        "commissionEarnedCents": 119.28,
+        "investmentAmountCents": 9542.58,
+        "tradeDate": "2026-07-13T21:00:00Z"
+      },
+      {
+        "id": "TXN00164-CD",
+        "accountId": "ACCP014",
+        "tradeId": "SRC00164",
+        "securityName": "iShares 20+ Year Treasury Bond ETF",
+        "tickerSymbol": "TLT",
+        "transactionType": "BUY",
+        "quantity": 87.54,
+        "unitPriceCents": 95.93,
+        "commissionEarnedCents": 104.97,
+        "investmentAmountCents": 8397.71,
+        "tradeDate": "2026-07-11T21:00:00Z"
+      },
+      {
+        "id": "TXN00165-CD",
+        "accountId": "ACCP014",
+        "tradeId": "SRC00165",
+        "securityName": "iShares 20+ Year Treasury Bond ETF",
+        "tickerSymbol": "TLT",
+        "transactionType": "BUY",
+        "quantity": 368.62,
+        "unitPriceCents": 95.3,
+        "commissionEarnedCents": 439.12,
+        "investmentAmountCents": 35129.49,
+        "tradeDate": "2026-06-04T21:00:00Z"
+      },
+      {
+        "id": "TXN00161-CD",
+        "accountId": "ACCP014",
+        "tradeId": "SRC00161",
+        "securityName": "Vanguard S&P 500 ETF",
+        "tickerSymbol": "VOO",
+        "transactionType": "SELL",
+        "quantity": 287.92,
+        "unitPriceCents": 477.6,
+        "commissionEarnedCents": 1718.88,
+        "investmentAmountCents": 137510.59,
+        "tradeDate": "2026-02-27T21:00:00Z"
+      }
+    ]
+  },
+  "ACCP015": {
+    "data": [
+      {
+        "id": "TXN00177-CD",
+        "accountId": "ACCP015",
+        "tradeId": "SRC00177",
+        "securityName": "iShares 20+ Year Treasury Bond ETF",
+        "tickerSymbol": "TLT",
+        "transactionType": "SELL",
+        "quantity": 152.49,
+        "unitPriceCents": 84.53,
+        "commissionEarnedCents": 161.12,
+        "investmentAmountCents": 12889.98,
+        "tradeDate": "2026-06-29T21:00:00Z"
+      },
+      {
+        "id": "TXN00170-CD",
+        "accountId": "ACCP015",
+        "tradeId": "SRC00170",
+        "securityName": "Vanguard S&P 500 ETF",
+        "tickerSymbol": "VOO",
+        "transactionType": "SELL",
+        "quantity": 40.2,
+        "unitPriceCents": 494.75,
+        "commissionEarnedCents": 248.61,
+        "investmentAmountCents": 19888.95,
+        "tradeDate": "2026-05-07T21:00:00Z"
+      },
+      {
+        "id": "TXN00173-CD",
+        "accountId": "ACCP015",
+        "tradeId": "SRC00173",
+        "securityName": "Apple Inc.",
+        "tickerSymbol": "AAPL",
+        "transactionType": "BUY",
+        "quantity": 243.4,
+        "unitPriceCents": 220.87,
+        "commissionEarnedCents": 672.0,
+        "investmentAmountCents": 53759.76,
+        "tradeDate": "2026-05-04T21:00:00Z"
+      },
+      {
+        "id": "TXN00174-CD",
+        "accountId": "ACCP015",
+        "tradeId": "SRC00174",
+        "securityName": "Vanguard S&P 500 ETF",
+        "tickerSymbol": "VOO",
+        "transactionType": "BUY",
+        "quantity": 371.47,
+        "unitPriceCents": 500.91,
+        "commissionEarnedCents": 2325.91,
+        "investmentAmountCents": 186073.04,
+        "tradeDate": "2026-04-17T21:00:00Z"
+      },
+      {
+        "id": "TXN00169-CD",
+        "accountId": "ACCP015",
+        "tradeId": "SRC00169",
+        "securityName": "iShares 20+ Year Treasury Bond ETF",
+        "tickerSymbol": "TLT",
+        "transactionType": "SELL",
+        "quantity": 58.43,
+        "unitPriceCents": 89.52,
+        "commissionEarnedCents": 65.38,
+        "investmentAmountCents": 5230.65,
+        "tradeDate": "2026-04-15T21:00:00Z"
+      }
+    ]
+  },
+  "ACCP016": {
+    "data": [
+      {
+        "id": "TXN00183-CD",
+        "accountId": "ACCP016",
+        "tradeId": "SRC00183",
+        "securityName": "iShares 20+ Year Treasury Bond ETF",
+        "tickerSymbol": "TLT",
+        "transactionType": "BUY",
+        "quantity": 19.65,
+        "unitPriceCents": 89.63,
+        "commissionEarnedCents": 22.02,
+        "investmentAmountCents": 1761.23,
+        "tradeDate": "2026-07-25T21:00:00Z"
+      },
+      {
+        "id": "TXN00186-CD",
+        "accountId": "ACCP016",
+        "tradeId": "SRC00186",
+        "securityName": "iShares 20+ Year Treasury Bond ETF",
+        "tickerSymbol": "TLT",
+        "transactionType": "SELL",
+        "quantity": 396.87,
+        "unitPriceCents": 90.89,
+        "commissionEarnedCents": 450.89,
+        "investmentAmountCents": 36071.51,
+        "tradeDate": "2026-05-15T21:00:00Z"
+      },
+      {
+        "id": "TXN00185-CD",
+        "accountId": "ACCP016",
+        "tradeId": "SRC00185",
+        "securityName": "Apple Inc.",
+        "tickerSymbol": "AAPL",
+        "transactionType": "SELL",
+        "quantity": 270.13,
+        "unitPriceCents": 207.26,
+        "commissionEarnedCents": 699.84,
+        "investmentAmountCents": 55987.14,
+        "tradeDate": "2026-04-29T21:00:00Z"
+      },
+      {
+        "id": "TXN00190-CD",
+        "accountId": "ACCP016",
+        "tradeId": "SRC00190",
+        "securityName": "Vanguard Real Estate ETF",
+        "tickerSymbol": "VNQ",
+        "transactionType": "BUY",
+        "quantity": 242.02,
+        "unitPriceCents": 85.97,
+        "commissionEarnedCents": 260.08,
+        "investmentAmountCents": 20806.46,
+        "tradeDate": "2026-03-13T21:00:00Z"
+      }
+    ]
+  },
+  "ACCP017": {
+    "data": [
+      {
+        "id": "TXN00199-CD",
+        "accountId": "ACCP017",
+        "tradeId": "SRC00199",
+        "securityName": "Schwab U.S. Dividend Equity ETF",
+        "tickerSymbol": "SCHD",
+        "transactionType": "SELL",
+        "quantity": 261.24,
+        "unitPriceCents": 25.81,
+        "commissionEarnedCents": 84.28,
+        "investmentAmountCents": 6742.6,
+        "tradeDate": "2026-07-29T21:00:00Z"
+      },
+      {
+        "id": "TXN00195-CD",
+        "accountId": "ACCP017",
+        "tradeId": "SRC00195",
+        "securityName": "JPMorgan Chase & Co.",
+        "tickerSymbol": "JPM",
+        "transactionType": "BUY",
+        "quantity": 78.99,
+        "unitPriceCents": 222.25,
+        "commissionEarnedCents": 219.44,
+        "investmentAmountCents": 17555.53,
+        "tradeDate": "2026-07-04T21:00:00Z"
+      }
+    ]
+  },
+  "ACCP018": {
+    "data": [
+      {
+        "id": "TXN00210-CD",
+        "accountId": "ACCP018",
+        "tradeId": "SRC00210",
+        "securityName": "JPMorgan Chase & Co.",
+        "tickerSymbol": "JPM",
+        "transactionType": "BUY",
+        "quantity": 276.67,
+        "unitPriceCents": 202.88,
+        "commissionEarnedCents": 701.64,
+        "investmentAmountCents": 56130.81,
+        "tradeDate": "2026-07-26T21:00:00Z"
+      },
+      {
+        "id": "TXN00213-CD",
+        "accountId": "ACCP018",
+        "tradeId": "SRC00213",
+        "securityName": "iShares 20+ Year Treasury Bond ETF",
+        "tickerSymbol": "TLT",
+        "transactionType": "SELL",
+        "quantity": 365.5,
+        "unitPriceCents": 83.72,
+        "commissionEarnedCents": 382.5,
+        "investmentAmountCents": 30599.66,
+        "tradeDate": "2026-05-16T21:00:00Z"
+      },
+      {
+        "id": "TXN00211-CD",
+        "accountId": "ACCP018",
+        "tradeId": "SRC00211",
+        "securityName": "SPDR Gold Shares",
+        "tickerSymbol": "GLD",
+        "transactionType": "BUY",
+        "quantity": 33.38,
+        "unitPriceCents": 253.86,
+        "commissionEarnedCents": 105.92,
+        "investmentAmountCents": 8473.85,
+        "tradeDate": "2026-04-18T21:00:00Z"
+      },
+      {
+        "id": "TXN00214-CD",
+        "accountId": "ACCP018",
+        "tradeId": "SRC00214",
+        "securityName": "Schwab U.S. Dividend Equity ETF",
+        "tickerSymbol": "SCHD",
+        "transactionType": "BUY",
+        "quantity": 61.1,
+        "unitPriceCents": 26.15,
+        "commissionEarnedCents": 19.97,
+        "investmentAmountCents": 1597.76,
+        "tradeDate": "2026-03-27T21:00:00Z"
+      },
+      {
+        "id": "TXN00205-CD",
+        "accountId": "ACCP018",
+        "tradeId": "SRC00205",
+        "securityName": "iShares Core U.S. Aggregate Bond ETF",
+        "tickerSymbol": "AGG",
+        "transactionType": "SELL",
+        "quantity": 35.2,
+        "unitPriceCents": 105.13,
+        "commissionEarnedCents": 46.26,
+        "investmentAmountCents": 3700.58,
+        "tradeDate": "2026-03-08T21:00:00Z"
+      }
+    ]
+  },
+  "ACCP019": {
+    "data": [
+      {
+        "id": "TXN00220-CD",
+        "accountId": "ACCP019",
+        "tradeId": "SRC00220",
+        "securityName": "SPDR Gold Shares",
+        "tickerSymbol": "GLD",
+        "transactionType": "SELL",
+        "quantity": 35.81,
+        "unitPriceCents": 245.7,
+        "commissionEarnedCents": 109.98,
+        "investmentAmountCents": 8798.52,
+        "tradeDate": "2026-06-22T21:00:00Z"
+      },
+      {
+        "id": "TXN00222-CD",
+        "accountId": "ACCP019",
+        "tradeId": "SRC00222",
+        "securityName": "JPMorgan Chase & Co.",
+        "tickerSymbol": "JPM",
+        "transactionType": "BUY",
+        "quantity": 396.83,
+        "unitPriceCents": 234.52,
+        "commissionEarnedCents": 1163.31,
+        "investmentAmountCents": 93064.57,
+        "tradeDate": "2026-06-08T21:00:00Z"
+      },
+      {
+        "id": "TXN00228-CD",
+        "accountId": "ACCP019",
+        "tradeId": "SRC00228",
+        "securityName": "Vanguard Total Bond Market ETF",
+        "tickerSymbol": "BND",
+        "transactionType": "BUY",
+        "quantity": 154.71,
+        "unitPriceCents": 71.91,
+        "commissionEarnedCents": 139.07,
+        "investmentAmountCents": 11125.2,
+        "tradeDate": "2026-05-07T21:00:00Z"
+      },
+      {
+        "id": "TXN00221-CD",
+        "accountId": "ACCP019",
+        "tradeId": "SRC00221",
+        "securityName": "iShares 20+ Year Treasury Bond ETF",
+        "tickerSymbol": "TLT",
+        "transactionType": "SELL",
+        "quantity": 124.64,
+        "unitPriceCents": 92.81,
+        "commissionEarnedCents": 144.6,
+        "investmentAmountCents": 11567.84,
+        "tradeDate": "2026-05-02T21:00:00Z"
+      },
+      {
+        "id": "TXN00223-CD",
+        "accountId": "ACCP019",
+        "tradeId": "SRC00223",
+        "securityName": "Vanguard S&P 500 ETF",
+        "tickerSymbol": "VOO",
+        "transactionType": "SELL",
+        "quantity": 253.28,
+        "unitPriceCents": 521.73,
+        "commissionEarnedCents": 1651.8,
+        "investmentAmountCents": 132143.77,
+        "tradeDate": "2026-04-30T21:00:00Z"
+      }
+    ]
+  },
+  "ACCP020": {
+    "data": [
+      {
+        "id": "TXN00237-CD",
+        "accountId": "ACCP020",
+        "tradeId": "SRC00237",
+        "securityName": "JPMorgan Chase & Co.",
+        "tickerSymbol": "JPM",
+        "transactionType": "BUY",
+        "quantity": 83.34,
+        "unitPriceCents": 209.81,
+        "commissionEarnedCents": 218.57,
+        "investmentAmountCents": 17485.57,
+        "tradeDate": "2026-07-26T21:00:00Z"
+      },
+      {
+        "id": "TXN00230-CD",
+        "accountId": "ACCP020",
+        "tradeId": "SRC00230",
+        "securityName": "Vanguard S&P 500 ETF",
+        "tickerSymbol": "VOO",
+        "transactionType": "BUY",
+        "quantity": 323.68,
+        "unitPriceCents": 538.22,
+        "commissionEarnedCents": 2177.64,
+        "investmentAmountCents": 174211.05,
+        "tradeDate": "2026-06-15T21:00:00Z"
+      },
+      {
+        "id": "TXN00235-CD",
+        "accountId": "ACCP020",
+        "tradeId": "SRC00235",
+        "securityName": "iShares Core U.S. Aggregate Bond ETF",
+        "tickerSymbol": "AGG",
+        "transactionType": "SELL",
+        "quantity": 349.41,
+        "unitPriceCents": 100.59,
+        "commissionEarnedCents": 439.34,
+        "investmentAmountCents": 35147.15,
+        "tradeDate": "2026-06-08T21:00:00Z"
+      },
+      {
+        "id": "TXN00229-CD",
+        "accountId": "ACCP020",
+        "tradeId": "SRC00229",
+        "securityName": "JPMorgan Chase & Co.",
+        "tickerSymbol": "JPM",
+        "transactionType": "BUY",
+        "quantity": 250.75,
+        "unitPriceCents": 208.99,
+        "commissionEarnedCents": 655.05,
+        "investmentAmountCents": 52404.24,
+        "tradeDate": "2026-06-02T21:00:00Z"
+      },
+      {
+        "id": "TXN00231-CD",
+        "accountId": "ACCP020",
+        "tradeId": "SRC00231",
+        "securityName": "Vanguard Total Bond Market ETF",
+        "tickerSymbol": "BND",
+        "transactionType": "SELL",
+        "quantity": 93.76,
+        "unitPriceCents": 69.92,
+        "commissionEarnedCents": 81.95,
+        "investmentAmountCents": 6555.7,
+        "tradeDate": "2026-05-11T21:00:00Z"
+      }
+    ]
+  },
+  "ACCP021": {
+    "data": [
+      {
+        "id": "TXN00242-CD",
+        "accountId": "ACCP021",
+        "tradeId": "SRC00242",
+        "securityName": "Microsoft Corporation",
+        "tickerSymbol": "MSFT",
+        "transactionType": "SELL",
+        "quantity": 373.95,
+        "unitPriceCents": 420.57,
+        "commissionEarnedCents": 1965.9,
+        "investmentAmountCents": 157272.15,
+        "tradeDate": "2026-06-07T21:00:00Z"
+      },
+      {
+        "id": "TXN00248-CD",
+        "accountId": "ACCP021",
+        "tradeId": "SRC00248",
+        "securityName": "Vanguard Total Bond Market ETF",
+        "tickerSymbol": "BND",
+        "transactionType": "BUY",
+        "quantity": 367.55,
+        "unitPriceCents": 78.81,
+        "commissionEarnedCents": 362.08,
+        "investmentAmountCents": 28966.62,
+        "tradeDate": "2026-04-11T21:00:00Z"
+      }
+    ]
+  },
+  "ACCP022": {
+    "data": [
+      {
+        "id": "TXN00263-CD",
+        "accountId": "ACCP022",
+        "tradeId": "SRC00263",
+        "securityName": "Apple Inc.",
+        "tickerSymbol": "AAPL",
+        "transactionType": "BUY",
+        "quantity": 72.33,
+        "unitPriceCents": 210.39,
+        "commissionEarnedCents": 190.22,
+        "investmentAmountCents": 15217.51,
+        "tradeDate": "2026-08-09T21:00:00Z"
+      },
+      {
+        "id": "TXN00254-CD",
+        "accountId": "ACCP022",
+        "tradeId": "SRC00254",
+        "securityName": "Vanguard Real Estate ETF",
+        "tickerSymbol": "VNQ",
+        "transactionType": "BUY",
+        "quantity": 110.13,
+        "unitPriceCents": 89.1,
+        "commissionEarnedCents": 122.66,
+        "investmentAmountCents": 9812.58,
+        "tradeDate": "2026-06-28T21:00:00Z"
+      },
+      {
+        "id": "TXN00259-CD",
+        "accountId": "ACCP022",
+        "tradeId": "SRC00259",
+        "securityName": "Vanguard Real Estate ETF",
+        "tickerSymbol": "VNQ",
+        "transactionType": "BUY",
+        "quantity": 117.1,
+        "unitPriceCents": 94.66,
+        "commissionEarnedCents": 138.56,
+        "investmentAmountCents": 11084.69,
+        "tradeDate": "2026-04-15T21:00:00Z"
+      },
+      {
+        "id": "TXN00257-CD",
+        "accountId": "ACCP022",
+        "tradeId": "SRC00257",
+        "securityName": "Vanguard S&P 500 ETF",
+        "tickerSymbol": "VOO",
+        "transactionType": "SELL",
+        "quantity": 153.82,
+        "unitPriceCents": 480.78,
+        "commissionEarnedCents": 924.42,
+        "investmentAmountCents": 73953.58,
+        "tradeDate": "2026-02-25T21:00:00Z"
+      }
+    ]
+  },
+  "ACCP023": {
+    "data": [
+      {
+        "id": "TXN00271-CD",
+        "accountId": "ACCP023",
+        "tradeId": "SRC00271",
+        "securityName": "JPMorgan Chase & Co.",
+        "tickerSymbol": "JPM",
+        "transactionType": "BUY",
+        "quantity": 168.73,
+        "unitPriceCents": 221.7,
+        "commissionEarnedCents": 467.59,
+        "investmentAmountCents": 37407.44,
+        "tradeDate": "2026-08-05T21:00:00Z"
+      },
+      {
+        "id": "TXN00276-CD",
+        "accountId": "ACCP023",
+        "tradeId": "SRC00276",
+        "securityName": "Vanguard Total Bond Market ETF",
+        "tickerSymbol": "BND",
+        "transactionType": "BUY",
+        "quantity": 50.87,
+        "unitPriceCents": 74.36,
+        "commissionEarnedCents": 47.28,
+        "investmentAmountCents": 3782.69,
+        "tradeDate": "2026-08-02T21:00:00Z"
+      }
+    ]
+  },
+  "ACCP024": {
+    "data": [
+      {
+        "id": "TXN00286-CD",
+        "accountId": "ACCP024",
+        "tradeId": "SRC00286",
+        "securityName": "iShares 20+ Year Treasury Bond ETF",
+        "tickerSymbol": "TLT",
+        "transactionType": "SELL",
+        "quantity": 49.73,
+        "unitPriceCents": 87.67,
+        "commissionEarnedCents": 54.5,
+        "investmentAmountCents": 4359.83,
+        "tradeDate": "2026-08-16T21:00:00Z"
+      },
+      {
+        "id": "TXN00282-CD",
+        "accountId": "ACCP024",
+        "tradeId": "SRC00282",
+        "securityName": "Vanguard Total Bond Market ETF",
+        "tickerSymbol": "BND",
+        "transactionType": "BUY",
+        "quantity": 381.95,
+        "unitPriceCents": 68.74,
+        "commissionEarnedCents": 328.19,
+        "investmentAmountCents": 26255.24,
+        "tradeDate": "2026-06-17T21:00:00Z"
+      },
+      {
+        "id": "TXN00288-CD",
+        "accountId": "ACCP024",
+        "tradeId": "SRC00288",
+        "securityName": "Apple Inc.",
+        "tickerSymbol": "AAPL",
+        "transactionType": "BUY",
+        "quantity": 110.5,
+        "unitPriceCents": 216.47,
+        "commissionEarnedCents": 299.0,
+        "investmentAmountCents": 23919.94,
+        "tradeDate": "2026-03-04T21:00:00Z"
+      }
+    ]
+  },
+  "ACCP025": {
+    "data": [
+      {
+        "id": "TXN00298-CD",
+        "accountId": "ACCP025",
+        "tradeId": "SRC00298",
+        "securityName": "SPDR Gold Shares",
+        "tickerSymbol": "GLD",
+        "transactionType": "SELL",
+        "quantity": 250.08,
+        "unitPriceCents": 231.09,
+        "commissionEarnedCents": 722.39,
+        "investmentAmountCents": 57790.99,
+        "tradeDate": "2026-08-17T21:00:00Z"
+      },
+      {
+        "id": "TXN00295-CD",
+        "accountId": "ACCP025",
+        "tradeId": "SRC00295",
+        "securityName": "iShares Core U.S. Aggregate Bond ETF",
+        "tickerSymbol": "AGG",
+        "transactionType": "BUY",
+        "quantity": 111.66,
+        "unitPriceCents": 92.71,
+        "commissionEarnedCents": 129.4,
+        "investmentAmountCents": 10352.0,
+        "tradeDate": "2026-08-14T21:00:00Z"
+      }
+    ]
+  },
+  "ACCP026": {
+    "data": [
+      {
+        "id": "TXN00310-CD",
+        "accountId": "ACCP026",
+        "tradeId": "SRC00310",
+        "securityName": "Schwab U.S. Dividend Equity ETF",
+        "tickerSymbol": "SCHD",
+        "transactionType": "BUY",
+        "quantity": 220.3,
+        "unitPriceCents": 27.95,
+        "commissionEarnedCents": 76.97,
+        "investmentAmountCents": 6157.39,
+        "tradeDate": "2026-08-13T21:00:00Z"
+      },
+      {
+        "id": "TXN00307-CD",
+        "accountId": "ACCP026",
+        "tradeId": "SRC00307",
+        "securityName": "Apple Inc.",
+        "tickerSymbol": "AAPL",
+        "transactionType": "SELL",
+        "quantity": 64.33,
+        "unitPriceCents": 211.12,
+        "commissionEarnedCents": 169.77,
+        "investmentAmountCents": 13581.35,
+        "tradeDate": "2026-08-06T21:00:00Z"
+      },
+      {
+        "id": "TXN00304-CD",
+        "accountId": "ACCP026",
+        "tradeId": "SRC00304",
+        "securityName": "Vanguard Total Bond Market ETF",
+        "tickerSymbol": "BND",
+        "transactionType": "BUY",
+        "quantity": 338.33,
+        "unitPriceCents": 69.99,
+        "commissionEarnedCents": 296.0,
+        "investmentAmountCents": 23679.72,
+        "tradeDate": "2026-07-24T21:00:00Z"
+      },
+      {
+        "id": "TXN00311-CD",
+        "accountId": "ACCP026",
+        "tradeId": "SRC00311",
+        "securityName": "Vanguard Total Bond Market ETF",
+        "tickerSymbol": "BND",
+        "transactionType": "BUY",
+        "quantity": 172.21,
+        "unitPriceCents": 71.39,
+        "commissionEarnedCents": 153.68,
+        "investmentAmountCents": 12294.07,
+        "tradeDate": "2026-07-21T21:00:00Z"
+      },
+      {
+        "id": "TXN00309-CD",
+        "accountId": "ACCP026",
+        "tradeId": "SRC00309",
+        "securityName": "SPDR Gold Shares",
+        "tickerSymbol": "GLD",
+        "transactionType": "BUY",
+        "quantity": 168.34,
+        "unitPriceCents": 233.12,
+        "commissionEarnedCents": 490.54,
+        "investmentAmountCents": 39243.42,
+        "tradeDate": "2026-06-20T21:00:00Z"
+      }
+    ]
+  },
+  "ACCP027": {
+    "data": [
+      {
+        "id": "TXN00322-CD",
+        "accountId": "ACCP027",
+        "tradeId": "SRC00322",
+        "securityName": "iShares 20+ Year Treasury Bond ETF",
+        "tickerSymbol": "TLT",
+        "transactionType": "BUY",
+        "quantity": 314.13,
+        "unitPriceCents": 82.68,
+        "commissionEarnedCents": 324.65,
+        "investmentAmountCents": 25972.27,
+        "tradeDate": "2026-08-11T21:00:00Z"
+      },
+      {
+        "id": "TXN00315-CD",
+        "accountId": "ACCP027",
+        "tradeId": "SRC00315",
+        "securityName": "Vanguard Real Estate ETF",
+        "tickerSymbol": "VNQ",
+        "transactionType": "SELL",
+        "quantity": 206.8,
+        "unitPriceCents": 94.74,
+        "commissionEarnedCents": 244.9,
+        "investmentAmountCents": 19592.23,
+        "tradeDate": "2026-07-17T21:00:00Z"
+      },
+      {
+        "id": "TXN00324-CD",
+        "accountId": "ACCP027",
+        "tradeId": "SRC00324",
+        "securityName": "JPMorgan Chase & Co.",
+        "tickerSymbol": "JPM",
+        "transactionType": "BUY",
+        "quantity": 216.09,
+        "unitPriceCents": 235.12,
+        "commissionEarnedCents": 635.09,
+        "investmentAmountCents": 50807.08,
+        "tradeDate": "2026-05-17T21:00:00Z"
+      },
+      {
+        "id": "TXN00320-CD",
+        "accountId": "ACCP027",
+        "tradeId": "SRC00320",
+        "securityName": "Apple Inc.",
+        "tickerSymbol": "AAPL",
+        "transactionType": "BUY",
+        "quantity": 191.71,
+        "unitPriceCents": 213.42,
+        "commissionEarnedCents": 511.43,
+        "investmentAmountCents": 40914.75,
+        "tradeDate": "2026-05-14T21:00:00Z"
+      },
+      {
+        "id": "TXN00314-CD",
+        "accountId": "ACCP027",
+        "tradeId": "SRC00314",
+        "securityName": "Apple Inc.",
+        "tickerSymbol": "AAPL",
+        "transactionType": "SELL",
+        "quantity": 167.94,
+        "unitPriceCents": 214.46,
+        "commissionEarnedCents": 450.21,
+        "investmentAmountCents": 36016.41,
+        "tradeDate": "2026-04-05T21:00:00Z"
+      }
+    ]
+  },
+  "ACCP028": {
+    "data": [
+      {
+        "id": "TXN00333-CD",
+        "accountId": "ACCP028",
+        "tradeId": "SRC00333",
+        "securityName": "Vanguard Real Estate ETF",
+        "tickerSymbol": "VNQ",
+        "transactionType": "BUY",
+        "quantity": 68.99,
+        "unitPriceCents": 97.87,
+        "commissionEarnedCents": 84.4,
+        "investmentAmountCents": 6752.05,
+        "tradeDate": "2026-08-03T21:00:00Z"
+      },
+      {
+        "id": "TXN00331-CD",
+        "accountId": "ACCP028",
+        "tradeId": "SRC00331",
+        "securityName": "JPMorgan Chase & Co.",
+        "tickerSymbol": "JPM",
+        "transactionType": "BUY",
+        "quantity": 278.3,
+        "unitPriceCents": 221.03,
+        "commissionEarnedCents": 768.91,
+        "investmentAmountCents": 61512.65,
+        "tradeDate": "2026-07-19T21:00:00Z"
+      }
+    ]
+  },
+  "ACCP029": {
+    "data": [
+      {
+        "id": "TXN00339-CD",
+        "accountId": "ACCP029",
+        "tradeId": "SRC00339",
+        "securityName": "Vanguard Total Bond Market ETF",
+        "tickerSymbol": "BND",
+        "transactionType": "SELL",
+        "quantity": 80.92,
+        "unitPriceCents": 74.79,
+        "commissionEarnedCents": 75.65,
+        "investmentAmountCents": 6052.01,
+        "tradeDate": "2026-06-19T21:00:00Z"
+      }
+    ]
+  },
+  "ACCP030": {
+    "data": [
+      {
+        "id": "TXN00356-CD",
+        "accountId": "ACCP030",
+        "tradeId": "SRC00356",
+        "securityName": "Schwab U.S. Dividend Equity ETF",
+        "tickerSymbol": "SCHD",
+        "transactionType": "SELL",
+        "quantity": 106.07,
+        "unitPriceCents": 27.99,
+        "commissionEarnedCents": 37.11,
+        "investmentAmountCents": 2968.9,
+        "tradeDate": "2026-07-06T21:00:00Z"
+      },
+      {
+        "id": "TXN00354-CD",
+        "accountId": "ACCP030",
+        "tradeId": "SRC00354",
+        "securityName": "Microsoft Corporation",
+        "tickerSymbol": "MSFT",
+        "transactionType": "SELL",
+        "quantity": 214.63,
+        "unitPriceCents": 461.33,
+        "commissionEarnedCents": 1237.69,
+        "investmentAmountCents": 99015.26,
+        "tradeDate": "2026-06-28T21:00:00Z"
+      },
+      {
+        "id": "TXN00352-CD",
+        "accountId": "ACCP030",
+        "tradeId": "SRC00352",
+        "securityName": "Schwab U.S. Dividend Equity ETF",
+        "tickerSymbol": "SCHD",
+        "transactionType": "SELL",
+        "quantity": 399.39,
+        "unitPriceCents": 26.22,
+        "commissionEarnedCents": 130.9,
+        "investmentAmountCents": 10472.01,
+        "tradeDate": "2026-03-15T21:00:00Z"
+      }
+    ]
+  },
+  "ACCP031": {
+    "data": []
+  },
+  "ACCP032": {
+    "data": [
+      {
+        "id": "TXN00375-CD",
+        "accountId": "ACCP032",
+        "tradeId": "SRC00375",
+        "securityName": "Schwab U.S. Dividend Equity ETF",
+        "tickerSymbol": "SCHD",
+        "transactionType": "SELL",
+        "quantity": 263.3,
+        "unitPriceCents": 27.18,
+        "commissionEarnedCents": 89.46,
+        "investmentAmountCents": 7156.49,
+        "tradeDate": "2026-07-08T21:00:00Z"
+      },
+      {
+        "id": "TXN00373-CD",
+        "accountId": "ACCP032",
+        "tradeId": "SRC00373",
+        "securityName": "Vanguard Total Bond Market ETF",
+        "tickerSymbol": "BND",
+        "transactionType": "BUY",
+        "quantity": 367.46,
+        "unitPriceCents": 71.0,
+        "commissionEarnedCents": 326.12,
+        "investmentAmountCents": 26089.66,
+        "tradeDate": "2026-07-03T21:00:00Z"
+      },
+      {
+        "id": "TXN00380-CD",
+        "accountId": "ACCP032",
+        "tradeId": "SRC00380",
+        "securityName": "Apple Inc.",
+        "tickerSymbol": "AAPL",
+        "transactionType": "BUY",
+        "quantity": 261.75,
+        "unitPriceCents": 219.43,
+        "commissionEarnedCents": 717.95,
+        "investmentAmountCents": 57435.8,
+        "tradeDate": "2026-05-24T21:00:00Z"
+      },
+      {
+        "id": "TXN00374-CD",
+        "accountId": "ACCP032",
+        "tradeId": "SRC00374",
+        "securityName": "SPDR Gold Shares",
+        "tickerSymbol": "GLD",
+        "transactionType": "BUY",
+        "quantity": 339.75,
+        "unitPriceCents": 256.36,
+        "commissionEarnedCents": 1088.73,
+        "investmentAmountCents": 87098.31,
+        "tradeDate": "2026-02-27T21:00:00Z"
+      }
+    ]
+  },
+  "ACCP033": {
+    "data": [
+      {
+        "id": "TXN00392-CD",
+        "accountId": "ACCP033",
+        "tradeId": "SRC00392",
+        "securityName": "Microsoft Corporation",
+        "tickerSymbol": "MSFT",
+        "transactionType": "SELL",
+        "quantity": 332.77,
+        "unitPriceCents": 406.9,
+        "commissionEarnedCents": 1692.55,
+        "investmentAmountCents": 135404.11,
+        "tradeDate": "2026-08-20T21:00:00Z"
+      },
+      {
+        "id": "TXN00395-CD",
+        "accountId": "ACCP033",
+        "tradeId": "SRC00395",
+        "securityName": "JPMorgan Chase & Co.",
+        "tickerSymbol": "JPM",
+        "transactionType": "BUY",
+        "quantity": 41.94,
+        "unitPriceCents": 227.23,
+        "commissionEarnedCents": 119.13,
+        "investmentAmountCents": 9530.03,
+        "tradeDate": "2026-06-06T21:00:00Z"
+      },
+      {
+        "id": "TXN00389-CD",
+        "accountId": "ACCP033",
+        "tradeId": "SRC00389",
+        "securityName": "iShares Core U.S. Aggregate Bond ETF",
+        "tickerSymbol": "AGG",
+        "transactionType": "BUY",
+        "quantity": 133.19,
+        "unitPriceCents": 96.1,
+        "commissionEarnedCents": 159.99,
+        "investmentAmountCents": 12799.56,
+        "tradeDate": "2026-05-31T21:00:00Z"
+      }
+    ]
+  },
+  "ACCP034": {
+    "data": [
+      {
+        "id": "TXN00402-CD",
+        "accountId": "ACCP034",
+        "tradeId": "SRC00402",
+        "securityName": "Microsoft Corporation",
+        "tickerSymbol": "MSFT",
+        "transactionType": "SELL",
+        "quantity": 257.58,
+        "unitPriceCents": 419.87,
+        "commissionEarnedCents": 1351.88,
+        "investmentAmountCents": 108150.11,
+        "tradeDate": "2026-07-15T21:00:00Z"
+      },
+      {
+        "id": "TXN00404-CD",
+        "accountId": "ACCP034",
+        "tradeId": "SRC00404",
+        "securityName": "Vanguard Real Estate ETF",
+        "tickerSymbol": "VNQ",
+        "transactionType": "SELL",
+        "quantity": 236.5,
+        "unitPriceCents": 87.48,
+        "commissionEarnedCents": 258.61,
+        "investmentAmountCents": 20689.02,
+        "tradeDate": "2026-05-05T21:00:00Z"
+      },
+      {
+        "id": "TXN00405-CD",
+        "accountId": "ACCP034",
+        "tradeId": "SRC00405",
+        "securityName": "iShares Core U.S. Aggregate Bond ETF",
+        "tickerSymbol": "AGG",
+        "transactionType": "SELL",
+        "quantity": 299.13,
+        "unitPriceCents": 99.27,
+        "commissionEarnedCents": 371.18,
+        "investmentAmountCents": 29694.64,
+        "tradeDate": "2026-03-17T21:00:00Z"
+      }
+    ]
+  },
+  "ACCP035": {
+    "data": [
+      {
+        "id": "TXN00409-CD",
+        "accountId": "ACCP035",
+        "tradeId": "SRC00409",
+        "securityName": "iShares 20+ Year Treasury Bond ETF",
+        "tickerSymbol": "TLT",
+        "transactionType": "SELL",
+        "quantity": 52.41,
+        "unitPriceCents": 82.53,
+        "commissionEarnedCents": 54.07,
+        "investmentAmountCents": 4325.4,
+        "tradeDate": "2026-06-11T21:00:00Z"
+      },
+      {
+        "id": "TXN00414-CD",
+        "accountId": "ACCP035",
+        "tradeId": "SRC00414",
+        "securityName": "SPDR Gold Shares",
+        "tickerSymbol": "GLD",
+        "transactionType": "SELL",
+        "quantity": 233.77,
+        "unitPriceCents": 243.21,
+        "commissionEarnedCents": 710.69,
+        "investmentAmountCents": 56855.2,
+        "tradeDate": "2026-04-21T21:00:00Z"
+      },
+      {
+        "id": "TXN00419-CD",
+        "accountId": "ACCP035",
+        "tradeId": "SRC00419",
+        "securityName": "Microsoft Corporation",
+        "tickerSymbol": "MSFT",
+        "transactionType": "BUY",
+        "quantity": 81.79,
+        "unitPriceCents": 412.74,
+        "commissionEarnedCents": 421.98,
+        "investmentAmountCents": 33758.0,
+        "tradeDate": "2026-03-28T21:00:00Z"
+      },
+      {
+        "id": "TXN00416-CD",
+        "accountId": "ACCP035",
+        "tradeId": "SRC00416",
+        "securityName": "Vanguard Total Bond Market ETF",
+        "tickerSymbol": "BND",
+        "transactionType": "BUY",
+        "quantity": 119.25,
+        "unitPriceCents": 70.98,
+        "commissionEarnedCents": 105.8,
+        "investmentAmountCents": 8464.36,
+        "tradeDate": "2026-03-01T21:00:00Z"
+      }
+    ]
+  },
+  "ACCP036": {
+    "data": [
+      {
+        "id": "TXN00427-CD",
+        "accountId": "ACCP036",
+        "tradeId": "SRC00427",
+        "securityName": "iShares Core U.S. Aggregate Bond ETF",
+        "tickerSymbol": "AGG",
+        "transactionType": "BUY",
+        "quantity": 355.56,
+        "unitPriceCents": 105.87,
+        "commissionEarnedCents": 470.54,
+        "investmentAmountCents": 37643.14,
+        "tradeDate": "2026-08-01T21:00:00Z"
+      },
+      {
+        "id": "TXN00429-CD",
+        "accountId": "ACCP036",
+        "tradeId": "SRC00429",
+        "securityName": "Vanguard Real Estate ETF",
+        "tickerSymbol": "VNQ",
+        "transactionType": "SELL",
+        "quantity": 141.48,
+        "unitPriceCents": 89.49,
+        "commissionEarnedCents": 158.26,
+        "investmentAmountCents": 12661.05,
+        "tradeDate": "2026-04-13T21:00:00Z"
+      }
+    ]
+  },
+  "ACCP037": {
+    "data": [
+      {
+        "id": "TXN00433-CD",
+        "accountId": "ACCP037",
+        "tradeId": "SRC00433",
+        "securityName": "Vanguard Total Bond Market ETF",
+        "tickerSymbol": "BND",
+        "transactionType": "BUY",
+        "quantity": 13.3,
+        "unitPriceCents": 71.17,
+        "commissionEarnedCents": 11.83,
+        "investmentAmountCents": 946.56,
+        "tradeDate": "2026-06-21T21:00:00Z"
+      },
+      {
+        "id": "TXN00435-CD",
+        "accountId": "ACCP037",
+        "tradeId": "SRC00435",
+        "securityName": "SPDR Gold Shares",
+        "tickerSymbol": "GLD",
+        "transactionType": "SELL",
+        "quantity": 48.25,
+        "unitPriceCents": 250.03,
+        "commissionEarnedCents": 150.8,
+        "investmentAmountCents": 12063.95,
+        "tradeDate": "2026-06-16T21:00:00Z"
+      },
+      {
+        "id": "TXN00441-CD",
+        "accountId": "ACCP037",
+        "tradeId": "SRC00441",
+        "securityName": "JPMorgan Chase & Co.",
+        "tickerSymbol": "JPM",
+        "transactionType": "SELL",
+        "quantity": 351.92,
+        "unitPriceCents": 216.44,
+        "commissionEarnedCents": 952.12,
+        "investmentAmountCents": 76169.56,
+        "tradeDate": "2026-05-07T21:00:00Z"
+      },
+      {
+        "id": "TXN00439-CD",
+        "accountId": "ACCP037",
+        "tradeId": "SRC00439",
+        "securityName": "Vanguard Real Estate ETF",
+        "tickerSymbol": "VNQ",
+        "transactionType": "SELL",
+        "quantity": 86.56,
+        "unitPriceCents": 89.18,
+        "commissionEarnedCents": 96.49,
+        "investmentAmountCents": 7719.42,
+        "tradeDate": "2026-02-27T21:00:00Z"
+      }
+    ]
+  },
+  "ACCP038": {
+    "data": [
+      {
+        "id": "TXN00447-CD",
+        "accountId": "ACCP038",
+        "tradeId": "SRC00447",
+        "securityName": "SPDR Gold Shares",
+        "tickerSymbol": "GLD",
+        "transactionType": "SELL",
+        "quantity": 275.95,
+        "unitPriceCents": 253.55,
+        "commissionEarnedCents": 874.59,
+        "investmentAmountCents": 69967.12,
+        "tradeDate": "2026-05-18T21:00:00Z"
+      },
+      {
+        "id": "TXN00448-CD",
+        "accountId": "ACCP038",
+        "tradeId": "SRC00448",
+        "securityName": "Schwab U.S. Dividend Equity ETF",
+        "tickerSymbol": "SCHD",
+        "transactionType": "BUY",
+        "quantity": 118.81,
+        "unitPriceCents": 26.76,
+        "commissionEarnedCents": 39.74,
+        "investmentAmountCents": 3179.36,
+        "tradeDate": "2026-05-10T21:00:00Z"
+      },
+      {
+        "id": "TXN00450-CD",
+        "accountId": "ACCP038",
+        "tradeId": "SRC00450",
+        "securityName": "SPDR Gold Shares",
+        "tickerSymbol": "GLD",
+        "transactionType": "BUY",
+        "quantity": 181.18,
+        "unitPriceCents": 258.95,
+        "commissionEarnedCents": 586.46,
+        "investmentAmountCents": 46916.56,
+        "tradeDate": "2026-04-16T21:00:00Z"
+      }
+    ]
+  },
+  "ACCP039": {
+    "data": [
+      {
+        "id": "TXN00461-CD",
+        "accountId": "ACCP039",
+        "tradeId": "SRC00461",
+        "securityName": "Vanguard Real Estate ETF",
+        "tickerSymbol": "VNQ",
+        "transactionType": "SELL",
+        "quantity": 308.53,
+        "unitPriceCents": 92.63,
+        "commissionEarnedCents": 357.24,
+        "investmentAmountCents": 28579.13,
+        "tradeDate": "2026-07-09T21:00:00Z"
+      },
+      {
+        "id": "TXN00464-CD",
+        "accountId": "ACCP039",
+        "tradeId": "SRC00464",
+        "securityName": "Vanguard Real Estate ETF",
+        "tickerSymbol": "VNQ",
+        "transactionType": "SELL",
+        "quantity": 98.43,
+        "unitPriceCents": 93.73,
+        "commissionEarnedCents": 115.32,
+        "investmentAmountCents": 9225.84,
+        "tradeDate": "2026-05-15T21:00:00Z"
+      },
+      {
+        "id": "TXN00460-CD",
+        "accountId": "ACCP039",
+        "tradeId": "SRC00460",
+        "securityName": "Vanguard Real Estate ETF",
+        "tickerSymbol": "VNQ",
+        "transactionType": "BUY",
+        "quantity": 193.7,
+        "unitPriceCents": 97.1,
+        "commissionEarnedCents": 235.1,
+        "investmentAmountCents": 18808.27,
+        "tradeDate": "2026-04-12T21:00:00Z"
+      },
+      {
+        "id": "TXN00462-CD",
+        "accountId": "ACCP039",
+        "tradeId": "SRC00462",
+        "securityName": "iShares Core U.S. Aggregate Bond ETF",
+        "tickerSymbol": "AGG",
+        "transactionType": "SELL",
+        "quantity": 33.33,
+        "unitPriceCents": 104.14,
+        "commissionEarnedCents": 43.39,
+        "investmentAmountCents": 3470.99,
+        "tradeDate": "2026-03-17T21:00:00Z"
+      }
+    ]
+  },
+  "ACCP040": {
+    "data": [
+      {
+        "id": "TXN00473-CD",
+        "accountId": "ACCP040",
+        "tradeId": "SRC00473",
+        "securityName": "iShares Core U.S. Aggregate Bond ETF",
+        "tickerSymbol": "AGG",
+        "transactionType": "BUY",
+        "quantity": 360.18,
+        "unitPriceCents": 99.78,
+        "commissionEarnedCents": 449.23,
+        "investmentAmountCents": 35938.76,
+        "tradeDate": "2026-06-18T21:00:00Z"
+      },
+      {
+        "id": "TXN00472-CD",
+        "accountId": "ACCP040",
+        "tradeId": "SRC00472",
+        "securityName": "Apple Inc.",
+        "tickerSymbol": "AAPL",
+        "transactionType": "SELL",
+        "quantity": 222.59,
+        "unitPriceCents": 210.54,
+        "commissionEarnedCents": 585.8,
+        "investmentAmountCents": 46864.1,
+        "tradeDate": "2026-05-23T21:00:00Z"
+      },
+      {
+        "id": "TXN00477-CD",
+        "accountId": "ACCP040",
+        "tradeId": "SRC00477",
+        "securityName": "Vanguard Real Estate ETF",
+        "tickerSymbol": "VNQ",
+        "transactionType": "BUY",
+        "quantity": 269.29,
+        "unitPriceCents": 98.38,
+        "commissionEarnedCents": 331.16,
+        "investmentAmountCents": 26492.75,
+        "tradeDate": "2026-03-25T21:00:00Z"
+      }
+    ]
+  },
+  "ACCP041": {
+    "data": [
+      {
+        "id": "TXN00492-CD",
+        "accountId": "ACCP041",
+        "tradeId": "SRC00492",
+        "securityName": "iShares 20+ Year Treasury Bond ETF",
+        "tickerSymbol": "TLT",
+        "transactionType": "BUY",
+        "quantity": 238.38,
+        "unitPriceCents": 85.41,
+        "commissionEarnedCents": 254.5,
+        "investmentAmountCents": 20360.04,
+        "tradeDate": "2026-06-28T21:00:00Z"
+      },
+      {
+        "id": "TXN00489-CD",
+        "accountId": "ACCP041",
+        "tradeId": "SRC00489",
+        "securityName": "SPDR Gold Shares",
+        "tickerSymbol": "GLD",
+        "transactionType": "SELL",
+        "quantity": 66.88,
+        "unitPriceCents": 235.04,
+        "commissionEarnedCents": 196.49,
+        "investmentAmountCents": 15719.48,
+        "tradeDate": "2026-05-29T21:00:00Z"
+      },
+      {
+        "id": "TXN00483-CD",
+        "accountId": "ACCP041",
+        "tradeId": "SRC00483",
+        "securityName": "Schwab U.S. Dividend Equity ETF",
+        "tickerSymbol": "SCHD",
+        "transactionType": "SELL",
+        "quantity": 226.22,
+        "unitPriceCents": 28.43,
+        "commissionEarnedCents": 80.39,
+        "investmentAmountCents": 6431.43,
+        "tradeDate": "2026-04-21T21:00:00Z"
+      }
+    ]
+  },
+  "ACCP042": {
+    "data": [
+      {
+        "id": "TXN00502-CD",
+        "accountId": "ACCP042",
+        "tradeId": "SRC00502",
+        "securityName": "iShares 20+ Year Treasury Bond ETF",
+        "tickerSymbol": "TLT",
+        "transactionType": "BUY",
+        "quantity": 279.89,
+        "unitPriceCents": 96.78,
+        "commissionEarnedCents": 338.6,
+        "investmentAmountCents": 27087.75,
+        "tradeDate": "2026-08-13T21:00:00Z"
+      }
+    ]
+  },
+  "ACCP043": {
+    "data": [
+      {
+        "id": "TXN00507-CD",
+        "accountId": "ACCP043",
+        "tradeId": "SRC00507",
+        "securityName": "JPMorgan Chase & Co.",
+        "tickerSymbol": "JPM",
+        "transactionType": "BUY",
+        "quantity": 86.32,
+        "unitPriceCents": 226.56,
+        "commissionEarnedCents": 244.46,
+        "investmentAmountCents": 19556.66,
+        "tradeDate": "2026-08-08T21:00:00Z"
+      },
+      {
+        "id": "TXN00513-CD",
+        "accountId": "ACCP043",
+        "tradeId": "SRC00513",
+        "securityName": "Vanguard S&P 500 ETF",
+        "tickerSymbol": "VOO",
+        "transactionType": "BUY",
+        "quantity": 147.9,
+        "unitPriceCents": 475.11,
+        "commissionEarnedCents": 878.36,
+        "investmentAmountCents": 70268.77,
+        "tradeDate": "2026-04-30T21:00:00Z"
+      }
+    ]
+  },
+  "ACCP044": {
+    "data": [
+      {
+        "id": "TXN00527-CD",
+        "accountId": "ACCP044",
+        "tradeId": "SRC00527",
+        "securityName": "SPDR Gold Shares",
+        "tickerSymbol": "GLD",
+        "transactionType": "SELL",
+        "quantity": 237.81,
+        "unitPriceCents": 249.68,
+        "commissionEarnedCents": 742.21,
+        "investmentAmountCents": 59376.4,
+        "tradeDate": "2026-08-17T21:00:00Z"
+      },
+      {
+        "id": "TXN00522-CD",
+        "accountId": "ACCP044",
+        "tradeId": "SRC00522",
+        "securityName": "Apple Inc.",
+        "tickerSymbol": "AAPL",
+        "transactionType": "BUY",
+        "quantity": 324.09,
+        "unitPriceCents": 204.76,
+        "commissionEarnedCents": 829.51,
+        "investmentAmountCents": 66360.67,
+        "tradeDate": "2026-07-19T21:00:00Z"
+      },
+      {
+        "id": "TXN00525-CD",
+        "accountId": "ACCP044",
+        "tradeId": "SRC00525",
+        "securityName": "Microsoft Corporation",
+        "tickerSymbol": "MSFT",
+        "transactionType": "BUY",
+        "quantity": 291.7,
+        "unitPriceCents": 398.91,
+        "commissionEarnedCents": 1454.53,
+        "investmentAmountCents": 116362.05,
+        "tradeDate": "2026-07-10T21:00:00Z"
+      },
+      {
+        "id": "TXN00524-CD",
+        "accountId": "ACCP044",
+        "tradeId": "SRC00524",
+        "securityName": "JPMorgan Chase & Co.",
+        "tickerSymbol": "JPM",
+        "transactionType": "SELL",
+        "quantity": 87.74,
+        "unitPriceCents": 203.63,
+        "commissionEarnedCents": 223.33,
+        "investmentAmountCents": 17866.5,
+        "tradeDate": "2026-06-16T21:00:00Z"
+      },
+      {
+        "id": "TXN00521-CD",
+        "accountId": "ACCP044",
+        "tradeId": "SRC00521",
+        "securityName": "Apple Inc.",
+        "tickerSymbol": "AAPL",
+        "transactionType": "BUY",
+        "quantity": 326.93,
+        "unitPriceCents": 210.53,
+        "commissionEarnedCents": 860.36,
+        "investmentAmountCents": 68828.57,
+        "tradeDate": "2026-05-05T21:00:00Z"
+      },
+      {
+        "id": "TXN00517-CD",
+        "accountId": "ACCP044",
+        "tradeId": "SRC00517",
+        "securityName": "Vanguard Total Bond Market ETF",
+        "tickerSymbol": "BND",
+        "transactionType": "BUY",
+        "quantity": 49.73,
+        "unitPriceCents": 68.06,
+        "commissionEarnedCents": 42.31,
+        "investmentAmountCents": 3384.62,
+        "tradeDate": "2026-04-25T21:00:00Z"
+      },
+      {
+        "id": "TXN00519-CD",
+        "accountId": "ACCP044",
+        "tradeId": "SRC00519",
+        "securityName": "Schwab U.S. Dividend Equity ETF",
+        "tickerSymbol": "SCHD",
+        "transactionType": "SELL",
+        "quantity": 38.03,
+        "unitPriceCents": 27.65,
+        "commissionEarnedCents": 13.14,
+        "investmentAmountCents": 1051.53,
+        "tradeDate": "2026-03-17T21:00:00Z"
+      }
+    ]
+  },
+  "ACCP045": {
+    "data": [
+      {
+        "id": "TXN00535-CD",
+        "accountId": "ACCP045",
+        "tradeId": "SRC00535",
+        "securityName": "Microsoft Corporation",
+        "tickerSymbol": "MSFT",
+        "transactionType": "BUY",
+        "quantity": 323.3,
+        "unitPriceCents": 414.21,
+        "commissionEarnedCents": 1673.93,
+        "investmentAmountCents": 133914.09,
+        "tradeDate": "2026-07-17T21:00:00Z"
+      },
+      {
+        "id": "TXN00538-CD",
+        "accountId": "ACCP045",
+        "tradeId": "SRC00538",
+        "securityName": "JPMorgan Chase & Co.",
+        "tickerSymbol": "JPM",
+        "transactionType": "SELL",
+        "quantity": 343.51,
+        "unitPriceCents": 218.04,
+        "commissionEarnedCents": 936.24,
+        "investmentAmountCents": 74898.92,
+        "tradeDate": "2026-04-05T21:00:00Z"
+      }
+    ]
+  },
+  "ACCP046": {
+    "data": [
+      {
+        "id": "TXN00552-CD",
+        "accountId": "ACCP046",
+        "tradeId": "SRC00552",
+        "securityName": "Vanguard Total Bond Market ETF",
+        "tickerSymbol": "BND",
+        "transactionType": "SELL",
+        "quantity": 297.65,
+        "unitPriceCents": 70.31,
+        "commissionEarnedCents": 261.6,
+        "investmentAmountCents": 20927.77,
+        "tradeDate": "2026-08-06T21:00:00Z"
+      },
+      {
+        "id": "TXN00541-CD",
+        "accountId": "ACCP046",
+        "tradeId": "SRC00541",
+        "securityName": "Microsoft Corporation",
+        "tickerSymbol": "MSFT",
+        "transactionType": "SELL",
+        "quantity": 374.69,
+        "unitPriceCents": 408.87,
+        "commissionEarnedCents": 1914.99,
+        "investmentAmountCents": 153199.5,
+        "tradeDate": "2026-07-21T21:00:00Z"
+      },
+      {
+        "id": "TXN00550-CD",
+        "accountId": "ACCP046",
+        "tradeId": "SRC00550",
+        "securityName": "Vanguard Total Bond Market ETF",
+        "tickerSymbol": "BND",
+        "transactionType": "SELL",
+        "quantity": 343.46,
+        "unitPriceCents": 73.04,
+        "commissionEarnedCents": 313.58,
+        "investmentAmountCents": 25086.32,
+        "tradeDate": "2026-07-05T21:00:00Z"
+      },
+      {
+        "id": "TXN00547-CD",
+        "accountId": "ACCP046",
+        "tradeId": "SRC00547",
+        "securityName": "Vanguard S&P 500 ETF",
+        "tickerSymbol": "VOO",
+        "transactionType": "SELL",
+        "quantity": 9.85,
+        "unitPriceCents": 473.71,
+        "commissionEarnedCents": 58.33,
+        "investmentAmountCents": 4666.04,
+        "tradeDate": "2026-06-18T21:00:00Z"
+      },
+      {
+        "id": "TXN00543-CD",
+        "accountId": "ACCP046",
+        "tradeId": "SRC00543",
+        "securityName": "Vanguard Real Estate ETF",
+        "tickerSymbol": "VNQ",
+        "transactionType": "SELL",
+        "quantity": 25.52,
+        "unitPriceCents": 89.97,
+        "commissionEarnedCents": 28.7,
+        "investmentAmountCents": 2296.03,
+        "tradeDate": "2026-05-23T21:00:00Z"
+      },
+      {
+        "id": "TXN00545-CD",
+        "accountId": "ACCP046",
+        "tradeId": "SRC00545",
+        "securityName": "JPMorgan Chase & Co.",
+        "tickerSymbol": "JPM",
+        "transactionType": "BUY",
+        "quantity": 30.98,
+        "unitPriceCents": 211.3,
+        "commissionEarnedCents": 81.83,
+        "investmentAmountCents": 6546.07,
+        "tradeDate": "2026-04-06T21:00:00Z"
+      }
+    ]
+  },
+  "ACCP047": {
+    "data": [
+      {
+        "id": "TXN00557-CD",
+        "accountId": "ACCP047",
+        "tradeId": "SRC00557",
+        "securityName": "JPMorgan Chase & Co.",
+        "tickerSymbol": "JPM",
+        "transactionType": "SELL",
+        "quantity": 109.82,
+        "unitPriceCents": 231.9,
+        "commissionEarnedCents": 318.34,
+        "investmentAmountCents": 25467.26,
+        "tradeDate": "2026-06-24T21:00:00Z"
+      },
+      {
+        "id": "TXN00555-CD",
+        "accountId": "ACCP047",
+        "tradeId": "SRC00555",
+        "securityName": "Vanguard Real Estate ETF",
+        "tickerSymbol": "VNQ",
+        "transactionType": "SELL",
+        "quantity": 361.12,
+        "unitPriceCents": 90.17,
+        "commissionEarnedCents": 407.03,
+        "investmentAmountCents": 32562.19,
+        "tradeDate": "2026-05-18T21:00:00Z"
+      },
+      {
+        "id": "TXN00553-CD",
+        "accountId": "ACCP047",
+        "tradeId": "SRC00553",
+        "securityName": "SPDR Gold Shares",
+        "tickerSymbol": "GLD",
+        "transactionType": "SELL",
+        "quantity": 366.19,
+        "unitPriceCents": 242.77,
+        "commissionEarnedCents": 1111.25,
+        "investmentAmountCents": 88899.95,
+        "tradeDate": "2026-03-04T21:00:00Z"
+      }
+    ]
+  },
+  "ACCP048": {
+    "data": [
+      {
+        "id": "TXN00574-CD",
+        "accountId": "ACCP048",
+        "tradeId": "SRC00574",
+        "securityName": "Vanguard Total Bond Market ETF",
+        "tickerSymbol": "BND",
+        "transactionType": "BUY",
+        "quantity": 13.34,
+        "unitPriceCents": 70.86,
+        "commissionEarnedCents": 11.82,
+        "investmentAmountCents": 945.27,
+        "tradeDate": "2026-07-30T21:00:00Z"
+      },
+      {
+        "id": "TXN00576-CD",
+        "accountId": "ACCP048",
+        "tradeId": "SRC00576",
+        "securityName": "Vanguard Real Estate ETF",
+        "tickerSymbol": "VNQ",
+        "transactionType": "SELL",
+        "quantity": 266.76,
+        "unitPriceCents": 93.86,
+        "commissionEarnedCents": 312.98,
+        "investmentAmountCents": 25038.09,
+        "tradeDate": "2026-06-24T21:00:00Z"
+      },
+      {
+        "id": "TXN00571-CD",
+        "accountId": "ACCP048",
+        "tradeId": "SRC00571",
+        "securityName": "iShares 20+ Year Treasury Bond ETF",
+        "tickerSymbol": "TLT",
+        "transactionType": "SELL",
+        "quantity": 113.12,
+        "unitPriceCents": 84.75,
+        "commissionEarnedCents": 119.84,
+        "investmentAmountCents": 9586.92,
+        "tradeDate": "2026-05-18T21:00:00Z"
+      },
+      {
+        "id": "TXN00566-CD",
+        "accountId": "ACCP048",
+        "tradeId": "SRC00566",
+        "securityName": "Vanguard Real Estate ETF",
+        "tickerSymbol": "VNQ",
+        "transactionType": "BUY",
+        "quantity": 342.43,
+        "unitPriceCents": 86.39,
+        "commissionEarnedCents": 369.78,
+        "investmentAmountCents": 29582.53,
+        "tradeDate": "2026-05-09T21:00:00Z"
+      },
+      {
+        "id": "TXN00565-CD",
+        "accountId": "ACCP048",
+        "tradeId": "SRC00565",
+        "securityName": "JPMorgan Chase & Co.",
+        "tickerSymbol": "JPM",
+        "transactionType": "SELL",
+        "quantity": 396.06,
+        "unitPriceCents": 234.56,
+        "commissionEarnedCents": 1161.25,
+        "investmentAmountCents": 92899.83,
+        "tradeDate": "2026-04-14T21:00:00Z"
+      },
+      {
+        "id": "TXN00572-CD",
+        "accountId": "ACCP048",
+        "tradeId": "SRC00572",
+        "securityName": "Apple Inc.",
+        "tickerSymbol": "AAPL",
+        "transactionType": "SELL",
+        "quantity": 269.78,
+        "unitPriceCents": 201.52,
+        "commissionEarnedCents": 679.58,
+        "investmentAmountCents": 54366.07,
+        "tradeDate": "2026-03-23T21:00:00Z"
+      }
+    ]
+  },
+  "ACCP049": {
+    "data": [
+      {
+        "id": "TXN00577-CD",
+        "accountId": "ACCP049",
+        "tradeId": "SRC00577",
+        "securityName": "JPMorgan Chase & Co.",
+        "tickerSymbol": "JPM",
+        "transactionType": "SELL",
+        "quantity": 351.09,
+        "unitPriceCents": 208.88,
+        "commissionEarnedCents": 916.7,
+        "investmentAmountCents": 73335.68,
+        "tradeDate": "2026-08-13T21:00:00Z"
+      },
+      {
+        "id": "TXN00585-CD",
+        "accountId": "ACCP049",
+        "tradeId": "SRC00585",
+        "securityName": "JPMorgan Chase & Co.",
+        "tickerSymbol": "JPM",
+        "transactionType": "SELL",
+        "quantity": 395.63,
+        "unitPriceCents": 224.48,
+        "commissionEarnedCents": 1110.14,
+        "investmentAmountCents": 88811.02,
+        "tradeDate": "2026-07-16T21:00:00Z"
+      },
+      {
+        "id": "TXN00578-CD",
+        "accountId": "ACCP049",
+        "tradeId": "SRC00578",
+        "securityName": "Vanguard Real Estate ETF",
+        "tickerSymbol": "VNQ",
+        "transactionType": "SELL",
+        "quantity": 51.0,
+        "unitPriceCents": 88.1,
+        "commissionEarnedCents": 56.16,
+        "investmentAmountCents": 4493.1,
+        "tradeDate": "2026-07-02T21:00:00Z"
+      },
+      {
+        "id": "TXN00586-CD",
+        "accountId": "ACCP049",
+        "tradeId": "SRC00586",
+        "securityName": "iShares Core U.S. Aggregate Bond ETF",
+        "tickerSymbol": "AGG",
+        "transactionType": "SELL",
+        "quantity": 384.76,
+        "unitPriceCents": 104.08,
+        "commissionEarnedCents": 500.57,
+        "investmentAmountCents": 40045.82,
+        "tradeDate": "2026-03-12T21:00:00Z"
+      },
+      {
+        "id": "TXN00582-CD",
+        "accountId": "ACCP049",
+        "tradeId": "SRC00582",
+        "securityName": "Vanguard Real Estate ETF",
+        "tickerSymbol": "VNQ",
+        "transactionType": "SELL",
+        "quantity": 284.58,
+        "unitPriceCents": 90.47,
+        "commissionEarnedCents": 321.82,
+        "investmentAmountCents": 25745.95,
+        "tradeDate": "2026-03-03T21:00:00Z"
+      }
+    ]
+  },
+  "ACCP050": {
+    "data": [
+      {
+        "id": "TXN00594-CD",
+        "accountId": "ACCP050",
+        "tradeId": "SRC00594",
+        "securityName": "Vanguard Real Estate ETF",
+        "tickerSymbol": "VNQ",
+        "transactionType": "BUY",
+        "quantity": 376.26,
+        "unitPriceCents": 97.89,
+        "commissionEarnedCents": 460.4,
+        "investmentAmountCents": 36832.09,
+        "tradeDate": "2026-05-29T21:00:00Z"
+      },
+      {
+        "id": "TXN00591-CD",
+        "accountId": "ACCP050",
+        "tradeId": "SRC00591",
+        "securityName": "SPDR Gold Shares",
+        "tickerSymbol": "GLD",
+        "transactionType": "SELL",
+        "quantity": 273.21,
+        "unitPriceCents": 254.21,
+        "commissionEarnedCents": 868.16,
+        "investmentAmountCents": 69452.71,
+        "tradeDate": "2026-03-14T21:00:00Z"
+      },
+      {
+        "id": "TXN00597-CD",
+        "accountId": "ACCP050",
+        "tradeId": "SRC00597",
+        "securityName": "Vanguard S&P 500 ETF",
+        "tickerSymbol": "VOO",
+        "transactionType": "BUY",
+        "quantity": 108.95,
+        "unitPriceCents": 511.36,
+        "commissionEarnedCents": 696.41,
+        "investmentAmountCents": 55712.67,
+        "tradeDate": "2026-02-27T21:00:00Z"
+      }
+    ]
+  },
+  "ACCP051": {
+    "data": [
+      {
+        "id": "TXN00604-CD",
+        "accountId": "ACCP051",
+        "tradeId": "SRC00604",
+        "securityName": "JPMorgan Chase & Co.",
+        "tickerSymbol": "JPM",
+        "transactionType": "BUY",
+        "quantity": 107.8,
+        "unitPriceCents": 209.06,
+        "commissionEarnedCents": 281.71,
+        "investmentAmountCents": 22536.67,
+        "tradeDate": "2026-06-18T21:00:00Z"
+      },
+      {
+        "id": "TXN00605-CD",
+        "accountId": "ACCP051",
+        "tradeId": "SRC00605",
+        "securityName": "SPDR Gold Shares",
+        "tickerSymbol": "GLD",
+        "transactionType": "SELL",
+        "quantity": 295.86,
+        "unitPriceCents": 227.24,
+        "commissionEarnedCents": 840.39,
+        "investmentAmountCents": 67231.23,
+        "tradeDate": "2026-06-05T21:00:00Z"
+      }
+    ]
+  },
+  "ACCP052": {
+    "data": [
+      {
+        "id": "TXN00622-CD",
+        "accountId": "ACCP052",
+        "tradeId": "SRC00622",
+        "securityName": "Apple Inc.",
+        "tickerSymbol": "AAPL",
+        "transactionType": "SELL",
+        "quantity": 240.13,
+        "unitPriceCents": 222.53,
+        "commissionEarnedCents": 667.95,
+        "investmentAmountCents": 53436.13,
+        "tradeDate": "2026-08-12T21:00:00Z"
+      },
+      {
+        "id": "TXN00618-CD",
+        "accountId": "ACCP052",
+        "tradeId": "SRC00618",
+        "securityName": "iShares 20+ Year Treasury Bond ETF",
+        "tickerSymbol": "TLT",
+        "transactionType": "BUY",
+        "quantity": 198.95,
+        "unitPriceCents": 94.56,
+        "commissionEarnedCents": 235.16,
+        "investmentAmountCents": 18812.71,
+        "tradeDate": "2026-06-27T21:00:00Z"
+      },
+      {
+        "id": "TXN00615-CD",
+        "accountId": "ACCP052",
+        "tradeId": "SRC00615",
+        "securityName": "Schwab U.S. Dividend Equity ETF",
+        "tickerSymbol": "SCHD",
+        "transactionType": "BUY",
+        "quantity": 398.42,
+        "unitPriceCents": 25.76,
+        "commissionEarnedCents": 128.29,
+        "investmentAmountCents": 10263.3,
+        "tradeDate": "2026-06-21T21:00:00Z"
+      },
+      {
+        "id": "TXN00621-CD",
+        "accountId": "ACCP052",
+        "tradeId": "SRC00621",
+        "securityName": "Vanguard Real Estate ETF",
+        "tickerSymbol": "VNQ",
+        "transactionType": "BUY",
+        "quantity": 313.85,
+        "unitPriceCents": 88.82,
+        "commissionEarnedCents": 348.45,
+        "investmentAmountCents": 27876.16,
+        "tradeDate": "2026-06-01T21:00:00Z"
+      },
+      {
+        "id": "TXN00624-CD",
+        "accountId": "ACCP052",
+        "tradeId": "SRC00624",
+        "securityName": "Microsoft Corporation",
+        "tickerSymbol": "MSFT",
+        "transactionType": "SELL",
+        "quantity": 294.46,
+        "unitPriceCents": 413.79,
+        "commissionEarnedCents": 1523.06,
+        "investmentAmountCents": 121844.6,
+        "tradeDate": "2026-05-04T21:00:00Z"
+      },
+      {
+        "id": "TXN00623-CD",
+        "accountId": "ACCP052",
+        "tradeId": "SRC00623",
+        "securityName": "Apple Inc.",
+        "tickerSymbol": "AAPL",
+        "transactionType": "BUY",
+        "quantity": 33.5,
+        "unitPriceCents": 217.48,
+        "commissionEarnedCents": 91.07,
+        "investmentAmountCents": 7285.58,
+        "tradeDate": "2026-04-18T21:00:00Z"
+      }
+    ]
+  },
+  "ACCP053": {
+    "data": [
+      {
+        "id": "TXN00626-CD",
+        "accountId": "ACCP053",
+        "tradeId": "SRC00626",
+        "securityName": "Schwab U.S. Dividend Equity ETF",
+        "tickerSymbol": "SCHD",
+        "transactionType": "SELL",
+        "quantity": 92.06,
+        "unitPriceCents": 25.95,
+        "commissionEarnedCents": 29.86,
+        "investmentAmountCents": 2388.96,
+        "tradeDate": "2026-08-21T21:00:00Z"
+      },
+      {
+        "id": "TXN00630-CD",
+        "accountId": "ACCP053",
+        "tradeId": "SRC00630",
+        "securityName": "JPMorgan Chase & Co.",
+        "tickerSymbol": "JPM",
+        "transactionType": "SELL",
+        "quantity": 293.35,
+        "unitPriceCents": 222.34,
+        "commissionEarnedCents": 815.29,
+        "investmentAmountCents": 65223.44,
+        "tradeDate": "2026-07-16T21:00:00Z"
+      },
+      {
+        "id": "TXN00625-CD",
+        "accountId": "ACCP053",
+        "tradeId": "SRC00625",
+        "securityName": "Apple Inc.",
+        "tickerSymbol": "AAPL",
+        "transactionType": "BUY",
+        "quantity": 135.75,
+        "unitPriceCents": 216.33,
+        "commissionEarnedCents": 367.09,
+        "investmentAmountCents": 29366.8,
+        "tradeDate": "2026-05-20T21:00:00Z"
+      },
+      {
+        "id": "TXN00632-CD",
+        "accountId": "ACCP053",
+        "tradeId": "SRC00632",
+        "securityName": "Microsoft Corporation",
+        "tickerSymbol": "MSFT",
+        "transactionType": "BUY",
+        "quantity": 8.4,
+        "unitPriceCents": 458.22,
+        "commissionEarnedCents": 48.11,
+        "investmentAmountCents": 3849.05,
+        "tradeDate": "2026-04-21T21:00:00Z"
+      },
+      {
+        "id": "TXN00635-CD",
+        "accountId": "ACCP053",
+        "tradeId": "SRC00635",
+        "securityName": "Schwab U.S. Dividend Equity ETF",
+        "tickerSymbol": "SCHD",
+        "transactionType": "SELL",
+        "quantity": 296.43,
+        "unitPriceCents": 30.04,
+        "commissionEarnedCents": 111.31,
+        "investmentAmountCents": 8904.76,
+        "tradeDate": "2026-03-27T21:00:00Z"
+      }
+    ]
+  },
+  "ACCP054": {
+    "data": [
+      {
+        "id": "TXN00637-CD",
+        "accountId": "ACCP054",
+        "tradeId": "SRC00637",
+        "securityName": "Vanguard Real Estate ETF",
+        "tickerSymbol": "VNQ",
+        "transactionType": "BUY",
+        "quantity": 241.59,
+        "unitPriceCents": 88.41,
+        "commissionEarnedCents": 266.99,
+        "investmentAmountCents": 21358.97,
+        "tradeDate": "2026-05-12T21:00:00Z"
+      },
+      {
+        "id": "TXN00638-CD",
+        "accountId": "ACCP054",
+        "tradeId": "SRC00638",
+        "securityName": "Microsoft Corporation",
+        "tickerSymbol": "MSFT",
+        "transactionType": "SELL",
+        "quantity": 178.52,
+        "unitPriceCents": 414.51,
+        "commissionEarnedCents": 924.98,
+        "investmentAmountCents": 73998.33,
+        "tradeDate": "2026-04-24T21:00:00Z"
+      },
+      {
+        "id": "TXN00645-CD",
+        "accountId": "ACCP054",
+        "tradeId": "SRC00645",
+        "securityName": "Apple Inc.",
+        "tickerSymbol": "AAPL",
+        "transactionType": "SELL",
+        "quantity": 318.72,
+        "unitPriceCents": 224.92,
+        "commissionEarnedCents": 896.08,
+        "investmentAmountCents": 71686.5,
+        "tradeDate": "2026-03-12T21:00:00Z"
+      }
+    ]
+  },
+  "ACCP055": {
+    "data": [
+      {
+        "id": "TXN00655-CD",
+        "accountId": "ACCP055",
+        "tradeId": "SRC00655",
+        "securityName": "Apple Inc.",
+        "tickerSymbol": "AAPL",
+        "transactionType": "SELL",
+        "quantity": 391.0,
+        "unitPriceCents": 204.42,
+        "commissionEarnedCents": 999.1,
+        "investmentAmountCents": 79928.22,
+        "tradeDate": "2026-07-07T21:00:00Z"
+      },
+      {
+        "id": "TXN00660-CD",
+        "accountId": "ACCP055",
+        "tradeId": "SRC00660",
+        "securityName": "iShares 20+ Year Treasury Bond ETF",
+        "tickerSymbol": "TLT",
+        "transactionType": "BUY",
+        "quantity": 44.75,
+        "unitPriceCents": 92.26,
+        "commissionEarnedCents": 51.61,
+        "investmentAmountCents": 4128.64,
+        "tradeDate": "2026-06-24T21:00:00Z"
+      },
+      {
+        "id": "TXN00659-CD",
+        "accountId": "ACCP055",
+        "tradeId": "SRC00659",
+        "securityName": "Microsoft Corporation",
+        "tickerSymbol": "MSFT",
+        "transactionType": "SELL",
+        "quantity": 80.42,
+        "unitPriceCents": 406.08,
+        "commissionEarnedCents": 408.21,
+        "investmentAmountCents": 32656.95,
+        "tradeDate": "2026-06-02T21:00:00Z"
+      },
+      {
+        "id": "TXN00650-CD",
+        "accountId": "ACCP055",
+        "tradeId": "SRC00650",
+        "securityName": "Microsoft Corporation",
+        "tickerSymbol": "MSFT",
+        "transactionType": "BUY",
+        "quantity": 306.21,
+        "unitPriceCents": 406.6,
+        "commissionEarnedCents": 1556.31,
+        "investmentAmountCents": 124504.99,
+        "tradeDate": "2026-03-25T21:00:00Z"
+      },
+      {
+        "id": "TXN00654-CD",
+        "accountId": "ACCP055",
+        "tradeId": "SRC00654",
+        "securityName": "Microsoft Corporation",
+        "tickerSymbol": "MSFT",
+        "transactionType": "BUY",
+        "quantity": 83.57,
+        "unitPriceCents": 453.71,
+        "commissionEarnedCents": 473.96,
+        "investmentAmountCents": 37916.54,
+        "tradeDate": "2026-03-12T21:00:00Z"
+      }
+    ]
+  },
+  "ACCP056": {
+    "data": [
+      {
+        "id": "TXN00672-CD",
+        "accountId": "ACCP056",
+        "tradeId": "SRC00672",
+        "securityName": "Microsoft Corporation",
+        "tickerSymbol": "MSFT",
+        "transactionType": "BUY",
+        "quantity": 303.18,
+        "unitPriceCents": 441.32,
+        "commissionEarnedCents": 1672.49,
+        "investmentAmountCents": 133799.4,
+        "tradeDate": "2026-06-08T21:00:00Z"
+      },
+      {
+        "id": "TXN00668-CD",
+        "accountId": "ACCP056",
+        "tradeId": "SRC00668",
+        "securityName": "SPDR Gold Shares",
+        "tickerSymbol": "GLD",
+        "transactionType": "BUY",
+        "quantity": 359.92,
+        "unitPriceCents": 253.56,
+        "commissionEarnedCents": 1140.77,
+        "investmentAmountCents": 91261.32,
+        "tradeDate": "2026-05-30T21:00:00Z"
+      },
+      {
+        "id": "TXN00664-CD",
+        "accountId": "ACCP056",
+        "tradeId": "SRC00664",
+        "securityName": "iShares 20+ Year Treasury Bond ETF",
+        "tickerSymbol": "TLT",
+        "transactionType": "BUY",
+        "quantity": 380.07,
+        "unitPriceCents": 86.91,
+        "commissionEarnedCents": 412.9,
+        "investmentAmountCents": 33031.88,
+        "tradeDate": "2026-05-07T21:00:00Z"
+      }
+    ]
+  },
+  "ACCP057": {
+    "data": [
+      {
+        "id": "TXN00681-CD",
+        "accountId": "ACCP057",
+        "tradeId": "SRC00681",
+        "securityName": "iShares 20+ Year Treasury Bond ETF",
+        "tickerSymbol": "TLT",
+        "transactionType": "BUY",
+        "quantity": 386.92,
+        "unitPriceCents": 84.63,
+        "commissionEarnedCents": 409.31,
+        "investmentAmountCents": 32745.04,
+        "tradeDate": "2026-07-26T21:00:00Z"
+      },
+      {
+        "id": "TXN00674-CD",
+        "accountId": "ACCP057",
+        "tradeId": "SRC00674",
+        "securityName": "Vanguard S&P 500 ETF",
+        "tickerSymbol": "VOO",
+        "transactionType": "BUY",
+        "quantity": 13.68,
+        "unitPriceCents": 481.03,
+        "commissionEarnedCents": 82.26,
+        "investmentAmountCents": 6580.49,
+        "tradeDate": "2026-07-14T21:00:00Z"
+      },
+      {
+        "id": "TXN00680-CD",
+        "accountId": "ACCP057",
+        "tradeId": "SRC00680",
+        "securityName": "JPMorgan Chase & Co.",
+        "tickerSymbol": "JPM",
+        "transactionType": "SELL",
+        "quantity": 303.64,
+        "unitPriceCents": 205.52,
+        "commissionEarnedCents": 780.05,
+        "investmentAmountCents": 62404.09,
+        "tradeDate": "2026-06-18T21:00:00Z"
+      },
+      {
+        "id": "TXN00677-CD",
+        "accountId": "ACCP057",
+        "tradeId": "SRC00677",
+        "securityName": "Microsoft Corporation",
+        "tickerSymbol": "MSFT",
+        "transactionType": "SELL",
+        "quantity": 154.05,
+        "unitPriceCents": 428.21,
+        "commissionEarnedCents": 824.57,
+        "investmentAmountCents": 65965.75,
+        "tradeDate": "2026-03-28T21:00:00Z"
+      },
+      {
+        "id": "TXN00673-CD",
+        "accountId": "ACCP057",
+        "tradeId": "SRC00673",
+        "securityName": "Vanguard Total Bond Market ETF",
+        "tickerSymbol": "BND",
+        "transactionType": "BUY",
+        "quantity": 51.74,
+        "unitPriceCents": 74.01,
+        "commissionEarnedCents": 47.87,
+        "investmentAmountCents": 3829.28,
+        "tradeDate": "2026-03-03T21:00:00Z"
+      }
+    ]
+  },
+  "ACCP058": {
+    "data": [
+      {
+        "id": "TXN00696-CD",
+        "accountId": "ACCP058",
+        "tradeId": "SRC00696",
+        "securityName": "Schwab U.S. Dividend Equity ETF",
+        "tickerSymbol": "SCHD",
+        "transactionType": "SELL",
+        "quantity": 396.6,
+        "unitPriceCents": 28.4,
+        "commissionEarnedCents": 140.79,
+        "investmentAmountCents": 11263.44,
+        "tradeDate": "2026-07-27T21:00:00Z"
+      },
+      {
+        "id": "TXN00690-CD",
+        "accountId": "ACCP058",
+        "tradeId": "SRC00690",
+        "securityName": "Schwab U.S. Dividend Equity ETF",
+        "tickerSymbol": "SCHD",
+        "transactionType": "BUY",
+        "quantity": 258.17,
+        "unitPriceCents": 25.88,
+        "commissionEarnedCents": 83.52,
+        "investmentAmountCents": 6681.44,
+        "tradeDate": "2026-07-08T21:00:00Z"
+      },
+      {
+        "id": "TXN00689-CD",
+        "accountId": "ACCP058",
+        "tradeId": "SRC00689",
+        "securityName": "SPDR Gold Shares",
+        "tickerSymbol": "GLD",
+        "transactionType": "SELL",
+        "quantity": 380.11,
+        "unitPriceCents": 232.18,
+        "commissionEarnedCents": 1103.17,
+        "investmentAmountCents": 88253.94,
+        "tradeDate": "2026-05-23T21:00:00Z"
+      },
+      {
+        "id": "TXN00686-CD",
+        "accountId": "ACCP058",
+        "tradeId": "SRC00686",
+        "securityName": "iShares Core U.S. Aggregate Bond ETF",
+        "tickerSymbol": "AGG",
+        "transactionType": "BUY",
+        "quantity": 273.97,
+        "unitPriceCents": 97.34,
+        "commissionEarnedCents": 333.35,
+        "investmentAmountCents": 26668.24,
+        "tradeDate": "2026-04-13T21:00:00Z"
+      }
+    ]
+  },
+  "ACCP059": {
+    "data": [
+      {
+        "id": "TXN00701-CD",
+        "accountId": "ACCP059",
+        "tradeId": "SRC00701",
+        "securityName": "Microsoft Corporation",
+        "tickerSymbol": "MSFT",
+        "transactionType": "SELL",
+        "quantity": 320.56,
+        "unitPriceCents": 403.06,
+        "commissionEarnedCents": 1615.06,
+        "investmentAmountCents": 129204.91,
+        "tradeDate": "2026-06-19T21:00:00Z"
+      },
+      {
+        "id": "TXN00698-CD",
+        "accountId": "ACCP059",
+        "tradeId": "SRC00698",
+        "securityName": "SPDR Gold Shares",
+        "tickerSymbol": "GLD",
+        "transactionType": "BUY",
+        "quantity": 48.8,
+        "unitPriceCents": 230.35,
+        "commissionEarnedCents": 140.51,
+        "investmentAmountCents": 11241.08,
+        "tradeDate": "2026-06-13T21:00:00Z"
+      }
+    ]
+  },
+  "ACCP060": {
+    "data": [
+      {
+        "id": "TXN00713-CD",
+        "accountId": "ACCP060",
+        "tradeId": "SRC00713",
+        "securityName": "iShares 20+ Year Treasury Bond ETF",
+        "tickerSymbol": "TLT",
+        "transactionType": "BUY",
+        "quantity": 367.99,
+        "unitPriceCents": 86.84,
+        "commissionEarnedCents": 399.45,
+        "investmentAmountCents": 31956.25,
+        "tradeDate": "2026-07-05T21:00:00Z"
+      },
+      {
+        "id": "TXN00716-CD",
+        "accountId": "ACCP060",
+        "tradeId": "SRC00716",
+        "securityName": "Microsoft Corporation",
+        "tickerSymbol": "MSFT",
+        "transactionType": "SELL",
+        "quantity": 313.41,
+        "unitPriceCents": 421.85,
+        "commissionEarnedCents": 1652.65,
+        "investmentAmountCents": 132212.01,
+        "tradeDate": "2026-04-12T21:00:00Z"
+      }
+    ]
+  },
+  "ACCP061": {
+    "data": [
+      {
+        "id": "TXN00725-CD",
+        "accountId": "ACCP061",
+        "tradeId": "SRC00725",
+        "securityName": "SPDR Gold Shares",
+        "tickerSymbol": "GLD",
+        "transactionType": "BUY",
+        "quantity": 335.68,
+        "unitPriceCents": 235.64,
+        "commissionEarnedCents": 988.75,
+        "investmentAmountCents": 79099.64,
+        "tradeDate": "2026-08-19T21:00:00Z"
+      },
+      {
+        "id": "TXN00727-CD",
+        "accountId": "ACCP061",
+        "tradeId": "SRC00727",
+        "securityName": "Microsoft Corporation",
+        "tickerSymbol": "MSFT",
+        "transactionType": "BUY",
+        "quantity": 176.62,
+        "unitPriceCents": 440.2,
+        "commissionEarnedCents": 971.85,
+        "investmentAmountCents": 77748.12,
+        "tradeDate": "2026-07-14T21:00:00Z"
+      },
+      {
+        "id": "TXN00722-CD",
+        "accountId": "ACCP061",
+        "tradeId": "SRC00722",
+        "securityName": "iShares Core U.S. Aggregate Bond ETF",
+        "tickerSymbol": "AGG",
+        "transactionType": "SELL",
+        "quantity": 391.02,
+        "unitPriceCents": 97.2,
+        "commissionEarnedCents": 475.09,
+        "investmentAmountCents": 38007.14,
+        "tradeDate": "2026-06-28T21:00:00Z"
+      },
+      {
+        "id": "TXN00721-CD",
+        "accountId": "ACCP061",
+        "tradeId": "SRC00721",
+        "securityName": "Schwab U.S. Dividend Equity ETF",
+        "tickerSymbol": "SCHD",
+        "transactionType": "BUY",
+        "quantity": 143.04,
+        "unitPriceCents": 30.09,
+        "commissionEarnedCents": 53.8,
+        "investmentAmountCents": 4304.07,
+        "tradeDate": "2026-05-28T21:00:00Z"
+      },
+      {
+        "id": "TXN00728-CD",
+        "accountId": "ACCP061",
+        "tradeId": "SRC00728",
+        "securityName": "Vanguard Total Bond Market ETF",
+        "tickerSymbol": "BND",
+        "transactionType": "SELL",
+        "quantity": 183.72,
+        "unitPriceCents": 67.42,
+        "commissionEarnedCents": 154.83,
+        "investmentAmountCents": 12386.4,
+        "tradeDate": "2026-04-29T21:00:00Z"
+      },
+      {
+        "id": "TXN00724-CD",
+        "accountId": "ACCP061",
+        "tradeId": "SRC00724",
+        "securityName": "Microsoft Corporation",
+        "tickerSymbol": "MSFT",
+        "transactionType": "BUY",
+        "quantity": 342.03,
+        "unitPriceCents": 434.84,
+        "commissionEarnedCents": 1859.1,
+        "investmentAmountCents": 148728.33,
+        "tradeDate": "2026-04-14T21:00:00Z"
+      },
+      {
+        "id": "TXN00726-CD",
+        "accountId": "ACCP061",
+        "tradeId": "SRC00726",
+        "securityName": "iShares 20+ Year Treasury Bond ETF",
+        "tickerSymbol": "TLT",
+        "transactionType": "SELL",
+        "quantity": 327.65,
+        "unitPriceCents": 96.24,
+        "commissionEarnedCents": 394.16,
+        "investmentAmountCents": 31533.04,
+        "tradeDate": "2026-04-10T21:00:00Z"
+      }
+    ]
+  },
+  "ACCP062": {
+    "data": [
+      {
+        "id": "TXN00740-CD",
+        "accountId": "ACCP062",
+        "tradeId": "SRC00740",
+        "securityName": "Apple Inc.",
+        "tickerSymbol": "AAPL",
+        "transactionType": "SELL",
+        "quantity": 219.16,
+        "unitPriceCents": 201.75,
+        "commissionEarnedCents": 552.69,
+        "investmentAmountCents": 44215.53,
+        "tradeDate": "2026-06-27T21:00:00Z"
+      },
+      {
+        "id": "TXN00739-CD",
+        "accountId": "ACCP062",
+        "tradeId": "SRC00739",
+        "securityName": "Apple Inc.",
+        "tickerSymbol": "AAPL",
+        "transactionType": "BUY",
+        "quantity": 362.81,
+        "unitPriceCents": 213.05,
+        "commissionEarnedCents": 966.21,
+        "investmentAmountCents": 77296.67,
+        "tradeDate": "2026-06-15T21:00:00Z"
+      },
+      {
+        "id": "TXN00738-CD",
+        "accountId": "ACCP062",
+        "tradeId": "SRC00738",
+        "securityName": "iShares 20+ Year Treasury Bond ETF",
+        "tickerSymbol": "TLT",
+        "transactionType": "SELL",
+        "quantity": 216.16,
+        "unitPriceCents": 91.8,
+        "commissionEarnedCents": 248.04,
+        "investmentAmountCents": 19843.49,
+        "tradeDate": "2026-06-06T21:00:00Z"
+      }
+    ]
+  },
+  "ACCP063": {
+    "data": [
+      {
+        "id": "TXN00745-CD",
+        "accountId": "ACCP063",
+        "tradeId": "SRC00745",
+        "securityName": "iShares Core U.S. Aggregate Bond ETF",
+        "tickerSymbol": "AGG",
+        "transactionType": "BUY",
+        "quantity": 60.7,
+        "unitPriceCents": 101.0,
+        "commissionEarnedCents": 76.63,
+        "investmentAmountCents": 6130.7,
+        "tradeDate": "2026-07-28T21:00:00Z"
+      },
+      {
+        "id": "TXN00754-CD",
+        "accountId": "ACCP063",
+        "tradeId": "SRC00754",
+        "securityName": "Vanguard Total Bond Market ETF",
+        "tickerSymbol": "BND",
+        "transactionType": "BUY",
+        "quantity": 269.99,
+        "unitPriceCents": 74.36,
+        "commissionEarnedCents": 250.96,
+        "investmentAmountCents": 20076.46,
+        "tradeDate": "2026-07-23T21:00:00Z"
+      },
+      {
+        "id": "TXN00747-CD",
+        "accountId": "ACCP063",
+        "tradeId": "SRC00747",
+        "securityName": "Microsoft Corporation",
+        "tickerSymbol": "MSFT",
+        "transactionType": "SELL",
+        "quantity": 32.04,
+        "unitPriceCents": 401.25,
+        "commissionEarnedCents": 160.7,
+        "investmentAmountCents": 12856.05,
+        "tradeDate": "2026-06-10T21:00:00Z"
+      },
+      {
+        "id": "TXN00752-CD",
+        "accountId": "ACCP063",
+        "tradeId": "SRC00752",
+        "securityName": "Schwab U.S. Dividend Equity ETF",
+        "tickerSymbol": "SCHD",
+        "transactionType": "SELL",
+        "quantity": 291.94,
+        "unitPriceCents": 29.21,
+        "commissionEarnedCents": 106.59,
+        "investmentAmountCents": 8527.57,
+        "tradeDate": "2026-04-03T21:00:00Z"
+      }
+    ]
+  },
+  "ACCP064": {
+    "data": [
+      {
+        "id": "TXN00762-CD",
+        "accountId": "ACCP064",
+        "tradeId": "SRC00762",
+        "securityName": "SPDR Gold Shares",
+        "tickerSymbol": "GLD",
+        "transactionType": "BUY",
+        "quantity": 72.79,
+        "unitPriceCents": 236.6,
+        "commissionEarnedCents": 215.28,
+        "investmentAmountCents": 17222.11,
+        "tradeDate": "2026-06-10T21:00:00Z"
+      },
+      {
+        "id": "TXN00760-CD",
+        "accountId": "ACCP064",
+        "tradeId": "SRC00760",
+        "securityName": "Vanguard S&P 500 ETF",
+        "tickerSymbol": "VOO",
+        "transactionType": "SELL",
+        "quantity": 80.5,
+        "unitPriceCents": 514.3,
+        "commissionEarnedCents": 517.51,
+        "investmentAmountCents": 41401.15,
+        "tradeDate": "2026-03-13T21:00:00Z"
+      }
+    ]
+  },
+  "ACCP065": {
+    "data": [
+      {
+        "id": "TXN00779-CD",
+        "accountId": "ACCP065",
+        "tradeId": "SRC00779",
+        "securityName": "Vanguard Total Bond Market ETF",
+        "tickerSymbol": "BND",
+        "transactionType": "BUY",
+        "quantity": 72.91,
+        "unitPriceCents": 70.43,
+        "commissionEarnedCents": 64.19,
+        "investmentAmountCents": 5135.05,
+        "tradeDate": "2026-08-14T21:00:00Z"
+      },
+      {
+        "id": "TXN00769-CD",
+        "accountId": "ACCP065",
+        "tradeId": "SRC00769",
+        "securityName": "Apple Inc.",
+        "tickerSymbol": "AAPL",
+        "transactionType": "SELL",
+        "quantity": 127.18,
+        "unitPriceCents": 203.29,
+        "commissionEarnedCents": 323.18,
+        "investmentAmountCents": 25854.42,
+        "tradeDate": "2026-07-28T21:00:00Z"
+      },
+      {
+        "id": "TXN00773-CD",
+        "accountId": "ACCP065",
+        "tradeId": "SRC00773",
+        "securityName": "SPDR Gold Shares",
+        "tickerSymbol": "GLD",
+        "transactionType": "BUY",
+        "quantity": 357.6,
+        "unitPriceCents": 253.09,
+        "commissionEarnedCents": 1131.31,
+        "investmentAmountCents": 90504.98,
+        "tradeDate": "2026-06-18T21:00:00Z"
+      },
+      {
+        "id": "TXN00777-CD",
+        "accountId": "ACCP065",
+        "tradeId": "SRC00777",
+        "securityName": "Vanguard Total Bond Market ETF",
+        "tickerSymbol": "BND",
+        "transactionType": "SELL",
+        "quantity": 108.23,
+        "unitPriceCents": 74.38,
+        "commissionEarnedCents": 100.63,
+        "investmentAmountCents": 8050.15,
+        "tradeDate": "2026-06-08T21:00:00Z"
+      },
+      {
+        "id": "TXN00775-CD",
+        "accountId": "ACCP065",
+        "tradeId": "SRC00775",
+        "securityName": "iShares Core U.S. Aggregate Bond ETF",
+        "tickerSymbol": "AGG",
+        "transactionType": "SELL",
+        "quantity": 227.39,
+        "unitPriceCents": 94.45,
+        "commissionEarnedCents": 268.46,
+        "investmentAmountCents": 21476.99,
+        "tradeDate": "2026-06-03T21:00:00Z"
+      },
+      {
+        "id": "TXN00770-CD",
+        "accountId": "ACCP065",
+        "tradeId": "SRC00770",
+        "securityName": "JPMorgan Chase & Co.",
+        "tickerSymbol": "JPM",
+        "transactionType": "BUY",
+        "quantity": 28.72,
+        "unitPriceCents": 213.75,
+        "commissionEarnedCents": 76.74,
+        "investmentAmountCents": 6138.9,
+        "tradeDate": "2026-03-09T21:00:00Z"
+      }
+    ]
+  },
+  "ACCP066": {
+    "data": [
+      {
+        "id": "TXN00781-CD",
+        "accountId": "ACCP066",
+        "tradeId": "SRC00781",
+        "securityName": "Apple Inc.",
+        "tickerSymbol": "AAPL",
+        "transactionType": "BUY",
+        "quantity": 117.13,
+        "unitPriceCents": 218.66,
+        "commissionEarnedCents": 320.15,
+        "investmentAmountCents": 25611.65,
+        "tradeDate": "2026-08-01T21:00:00Z"
+      },
+      {
+        "id": "TXN00785-CD",
+        "accountId": "ACCP066",
+        "tradeId": "SRC00785",
+        "securityName": "JPMorgan Chase & Co.",
+        "tickerSymbol": "JPM",
+        "transactionType": "BUY",
+        "quantity": 287.14,
+        "unitPriceCents": 207.18,
+        "commissionEarnedCents": 743.62,
+        "investmentAmountCents": 59489.67,
+        "tradeDate": "2026-07-16T21:00:00Z"
+      },
+      {
+        "id": "TXN00782-CD",
+        "accountId": "ACCP066",
+        "tradeId": "SRC00782",
+        "securityName": "Microsoft Corporation",
+        "tickerSymbol": "MSFT",
+        "transactionType": "SELL",
+        "quantity": 377.49,
+        "unitPriceCents": 418.64,
+        "commissionEarnedCents": 1975.41,
+        "investmentAmountCents": 158032.41,
+        "tradeDate": "2026-07-12T21:00:00Z"
+      },
+      {
+        "id": "TXN00792-CD",
+        "accountId": "ACCP066",
+        "tradeId": "SRC00792",
+        "securityName": "iShares Core U.S. Aggregate Bond ETF",
+        "tickerSymbol": "AGG",
+        "transactionType": "BUY",
+        "quantity": 164.49,
+        "unitPriceCents": 96.18,
+        "commissionEarnedCents": 197.76,
+        "investmentAmountCents": 15820.65,
+        "tradeDate": "2026-06-13T21:00:00Z"
+      },
+      {
+        "id": "TXN00788-CD",
+        "accountId": "ACCP066",
+        "tradeId": "SRC00788",
+        "securityName": "Vanguard Real Estate ETF",
+        "tickerSymbol": "VNQ",
+        "transactionType": "BUY",
+        "quantity": 88.61,
+        "unitPriceCents": 95.35,
+        "commissionEarnedCents": 105.61,
+        "investmentAmountCents": 8448.96,
+        "tradeDate": "2026-06-10T21:00:00Z"
+      },
+      {
+        "id": "TXN00786-CD",
+        "accountId": "ACCP066",
+        "tradeId": "SRC00786",
+        "securityName": "Vanguard Total Bond Market ETF",
+        "tickerSymbol": "BND",
+        "transactionType": "SELL",
+        "quantity": 251.25,
+        "unitPriceCents": 77.1,
+        "commissionEarnedCents": 242.14,
+        "investmentAmountCents": 19371.38,
+        "tradeDate": "2026-03-26T21:00:00Z"
+      }
+    ]
+  },
+  "ACCP067": {
+    "data": [
+      {
+        "id": "TXN00793-CD",
+        "accountId": "ACCP067",
+        "tradeId": "SRC00793",
+        "securityName": "Vanguard Total Bond Market ETF",
+        "tickerSymbol": "BND",
+        "transactionType": "BUY",
+        "quantity": 92.75,
+        "unitPriceCents": 70.27,
+        "commissionEarnedCents": 81.47,
+        "investmentAmountCents": 6517.54,
+        "tradeDate": "2026-08-04T21:00:00Z"
+      },
+      {
+        "id": "TXN00801-CD",
+        "accountId": "ACCP067",
+        "tradeId": "SRC00801",
+        "securityName": "Vanguard Real Estate ETF",
+        "tickerSymbol": "VNQ",
+        "transactionType": "SELL",
+        "quantity": 373.12,
+        "unitPriceCents": 96.73,
+        "commissionEarnedCents": 451.15,
+        "investmentAmountCents": 36091.9,
+        "tradeDate": "2026-06-26T21:00:00Z"
+      }
+    ]
+  },
+  "ACCP068": {
+    "data": [
+      {
+        "id": "TXN00809-CD",
+        "accountId": "ACCP068",
+        "tradeId": "SRC00809",
+        "securityName": "Vanguard S&P 500 ETF",
+        "tickerSymbol": "VOO",
+        "transactionType": "BUY",
+        "quantity": 137.42,
+        "unitPriceCents": 505.57,
+        "commissionEarnedCents": 868.44,
+        "investmentAmountCents": 69475.43,
+        "tradeDate": "2026-07-29T21:00:00Z"
+      },
+      {
+        "id": "TXN00806-CD",
+        "accountId": "ACCP068",
+        "tradeId": "SRC00806",
+        "securityName": "JPMorgan Chase & Co.",
+        "tickerSymbol": "JPM",
+        "transactionType": "BUY",
+        "quantity": 254.91,
+        "unitPriceCents": 222.78,
+        "commissionEarnedCents": 709.86,
+        "investmentAmountCents": 56788.85,
+        "tradeDate": "2026-04-30T21:00:00Z"
+      },
+      {
+        "id": "TXN00810-CD",
+        "accountId": "ACCP068",
+        "tradeId": "SRC00810",
+        "securityName": "Apple Inc.",
+        "tickerSymbol": "AAPL",
+        "transactionType": "SELL",
+        "quantity": 242.46,
+        "unitPriceCents": 198.65,
+        "commissionEarnedCents": 602.06,
+        "investmentAmountCents": 48164.68,
+        "tradeDate": "2026-04-29T21:00:00Z"
+      },
+      {
+        "id": "TXN00805-CD",
+        "accountId": "ACCP068",
+        "tradeId": "SRC00805",
+        "securityName": "Microsoft Corporation",
+        "tickerSymbol": "MSFT",
+        "transactionType": "SELL",
+        "quantity": 247.88,
+        "unitPriceCents": 454.77,
+        "commissionEarnedCents": 1409.1,
+        "investmentAmountCents": 112728.39,
+        "tradeDate": "2026-04-16T21:00:00Z"
+      },
+      {
+        "id": "TXN00811-CD",
+        "accountId": "ACCP068",
+        "tradeId": "SRC00811",
+        "securityName": "JPMorgan Chase & Co.",
+        "tickerSymbol": "JPM",
+        "transactionType": "SELL",
+        "quantity": 55.88,
+        "unitPriceCents": 234.01,
+        "commissionEarnedCents": 163.46,
+        "investmentAmountCents": 13076.48,
+        "tradeDate": "2026-04-16T21:00:00Z"
+      }
+    ]
+  },
+  "ACCP069": {
+    "data": [
+      {
+        "id": "TXN00818-CD",
+        "accountId": "ACCP069",
+        "tradeId": "SRC00818",
+        "securityName": "Apple Inc.",
+        "tickerSymbol": "AAPL",
+        "transactionType": "BUY",
+        "quantity": 386.99,
+        "unitPriceCents": 197.66,
+        "commissionEarnedCents": 956.16,
+        "investmentAmountCents": 76492.44,
+        "tradeDate": "2026-07-10T21:00:00Z"
+      },
+      {
+        "id": "TXN00826-CD",
+        "accountId": "ACCP069",
+        "tradeId": "SRC00826",
+        "securityName": "Microsoft Corporation",
+        "tickerSymbol": "MSFT",
+        "transactionType": "SELL",
+        "quantity": 132.93,
+        "unitPriceCents": 394.68,
+        "commissionEarnedCents": 655.81,
+        "investmentAmountCents": 52464.81,
+        "tradeDate": "2026-06-03T21:00:00Z"
+      },
+      {
+        "id": "TXN00824-CD",
+        "accountId": "ACCP069",
+        "tradeId": "SRC00824",
+        "securityName": "iShares Core U.S. Aggregate Bond ETF",
+        "tickerSymbol": "AGG",
+        "transactionType": "SELL",
+        "quantity": 66.94,
+        "unitPriceCents": 101.86,
+        "commissionEarnedCents": 85.23,
+        "investmentAmountCents": 6818.51,
+        "tradeDate": "2026-05-25T21:00:00Z"
+      },
+      {
+        "id": "TXN00820-CD",
+        "accountId": "ACCP069",
+        "tradeId": "SRC00820",
+        "securityName": "Schwab U.S. Dividend Equity ETF",
+        "tickerSymbol": "SCHD",
+        "transactionType": "BUY",
+        "quantity": 48.67,
+        "unitPriceCents": 26.39,
+        "commissionEarnedCents": 16.06,
+        "investmentAmountCents": 1284.4,
+        "tradeDate": "2026-03-06T21:00:00Z"
+      }
+    ]
+  },
+  "ACCP070": {
+    "data": [
+      {
+        "id": "TXN00834-CD",
+        "accountId": "ACCP070",
+        "tradeId": "SRC00834",
+        "securityName": "Vanguard Total Bond Market ETF",
+        "tickerSymbol": "BND",
+        "transactionType": "SELL",
+        "quantity": 288.24,
+        "unitPriceCents": 70.43,
+        "commissionEarnedCents": 253.76,
+        "investmentAmountCents": 20300.74,
+        "tradeDate": "2026-08-10T21:00:00Z"
+      },
+      {
+        "id": "TXN00832-CD",
+        "accountId": "ACCP070",
+        "tradeId": "SRC00832",
+        "securityName": "Schwab U.S. Dividend Equity ETF",
+        "tickerSymbol": "SCHD",
+        "transactionType": "SELL",
+        "quantity": 154.25,
+        "unitPriceCents": 29.24,
+        "commissionEarnedCents": 56.38,
+        "investmentAmountCents": 4510.27,
+        "tradeDate": "2026-04-27T21:00:00Z"
+      },
+      {
+        "id": "TXN00833-CD",
+        "accountId": "ACCP070",
+        "tradeId": "SRC00833",
+        "securityName": "SPDR Gold Shares",
+        "tickerSymbol": "GLD",
+        "transactionType": "BUY",
+        "quantity": 375.49,
+        "unitPriceCents": 247.2,
+        "commissionEarnedCents": 1160.26,
+        "investmentAmountCents": 92821.13,
+        "tradeDate": "2026-04-15T21:00:00Z"
+      }
+    ]
+  },
+  "ACCP071": {
+    "data": [
+      {
+        "id": "TXN00850-CD",
+        "accountId": "ACCP071",
+        "tradeId": "SRC00850",
+        "securityName": "JPMorgan Chase & Co.",
+        "tickerSymbol": "JPM",
+        "transactionType": "BUY",
+        "quantity": 173.65,
+        "unitPriceCents": 220.83,
+        "commissionEarnedCents": 479.34,
+        "investmentAmountCents": 38347.13,
+        "tradeDate": "2026-07-18T21:00:00Z"
+      },
+      {
+        "id": "TXN00842-CD",
+        "accountId": "ACCP071",
+        "tradeId": "SRC00842",
+        "securityName": "Vanguard Real Estate ETF",
+        "tickerSymbol": "VNQ",
+        "transactionType": "SELL",
+        "quantity": 183.8,
+        "unitPriceCents": 98.92,
+        "commissionEarnedCents": 227.27,
+        "investmentAmountCents": 18181.5,
+        "tradeDate": "2026-06-16T21:00:00Z"
+      },
+      {
+        "id": "TXN00843-CD",
+        "accountId": "ACCP071",
+        "tradeId": "SRC00843",
+        "securityName": "Microsoft Corporation",
+        "tickerSymbol": "MSFT",
+        "transactionType": "SELL",
+        "quantity": 292.21,
+        "unitPriceCents": 440.52,
+        "commissionEarnedCents": 1609.05,
+        "investmentAmountCents": 128724.35,
+        "tradeDate": "2026-06-07T21:00:00Z"
+      },
+      {
+        "id": "TXN00845-CD",
+        "accountId": "ACCP071",
+        "tradeId": "SRC00845",
+        "securityName": "iShares Core U.S. Aggregate Bond ETF",
+        "tickerSymbol": "AGG",
+        "transactionType": "SELL",
+        "quantity": 357.81,
+        "unitPriceCents": 105.35,
+        "commissionEarnedCents": 471.19,
+        "investmentAmountCents": 37695.28,
+        "tradeDate": "2026-05-03T21:00:00Z"
+      },
+      {
+        "id": "TXN00851-CD",
+        "accountId": "ACCP071",
+        "tradeId": "SRC00851",
+        "securityName": "Vanguard Total Bond Market ETF",
+        "tickerSymbol": "BND",
+        "transactionType": "SELL",
+        "quantity": 218.43,
+        "unitPriceCents": 75.73,
+        "commissionEarnedCents": 206.77,
+        "investmentAmountCents": 16541.7,
+        "tradeDate": "2026-04-25T21:00:00Z"
+      },
+      {
+        "id": "TXN00852-CD",
+        "accountId": "ACCP071",
+        "tradeId": "SRC00852",
+        "securityName": "iShares Core U.S. Aggregate Bond ETF",
+        "tickerSymbol": "AGG",
+        "transactionType": "SELL",
+        "quantity": 204.43,
+        "unitPriceCents": 94.39,
+        "commissionEarnedCents": 241.2,
+        "investmentAmountCents": 19296.15,
+        "tradeDate": "2026-03-02T21:00:00Z"
+      }
+    ]
+  },
+  "ACCP072": {
+    "data": [
+      {
+        "id": "TXN00864-CD",
+        "accountId": "ACCP072",
+        "tradeId": "SRC00864",
+        "securityName": "Microsoft Corporation",
+        "tickerSymbol": "MSFT",
+        "transactionType": "BUY",
+        "quantity": 317.57,
+        "unitPriceCents": 459.96,
+        "commissionEarnedCents": 1825.87,
+        "investmentAmountCents": 146069.5,
+        "tradeDate": "2026-06-20T21:00:00Z"
+      },
+      {
+        "id": "TXN00860-CD",
+        "accountId": "ACCP072",
+        "tradeId": "SRC00860",
+        "securityName": "SPDR Gold Shares",
+        "tickerSymbol": "GLD",
+        "transactionType": "SELL",
+        "quantity": 27.68,
+        "unitPriceCents": 231.2,
+        "commissionEarnedCents": 80.0,
+        "investmentAmountCents": 6399.62,
+        "tradeDate": "2026-03-05T21:00:00Z"
+      }
+    ]
+  },
+  "ACCP073": {
+    "data": [
+      {
+        "id": "TXN00866-CD",
+        "accountId": "ACCP073",
+        "tradeId": "SRC00866",
+        "securityName": "SPDR Gold Shares",
+        "tickerSymbol": "GLD",
+        "transactionType": "BUY",
+        "quantity": 246.1,
+        "unitPriceCents": 229.95,
+        "commissionEarnedCents": 707.38,
+        "investmentAmountCents": 56590.69,
+        "tradeDate": "2026-07-03T21:00:00Z"
+      }
+    ]
+  },
+  "ACCP074": {
+    "data": [
+      {
+        "id": "TXN00879-CD",
+        "accountId": "ACCP074",
+        "tradeId": "SRC00879",
+        "securityName": "Microsoft Corporation",
+        "tickerSymbol": "MSFT",
+        "transactionType": "BUY",
+        "quantity": 22.6,
+        "unitPriceCents": 435.84,
+        "commissionEarnedCents": 123.12,
+        "investmentAmountCents": 9849.98,
+        "tradeDate": "2026-07-23T21:00:00Z"
+      },
+      {
+        "id": "TXN00883-CD",
+        "accountId": "ACCP074",
+        "tradeId": "SRC00883",
+        "securityName": "SPDR Gold Shares",
+        "tickerSymbol": "GLD",
+        "transactionType": "SELL",
+        "quantity": 390.67,
+        "unitPriceCents": 235.87,
+        "commissionEarnedCents": 1151.84,
+        "investmentAmountCents": 92147.33,
+        "tradeDate": "2026-06-18T21:00:00Z"
+      },
+      {
+        "id": "TXN00885-CD",
+        "accountId": "ACCP074",
+        "tradeId": "SRC00885",
+        "securityName": "SPDR Gold Shares",
+        "tickerSymbol": "GLD",
+        "transactionType": "BUY",
+        "quantity": 145.72,
+        "unitPriceCents": 250.63,
+        "commissionEarnedCents": 456.52,
+        "investmentAmountCents": 36521.8,
+        "tradeDate": "2026-04-28T21:00:00Z"
+      },
+      {
+        "id": "TXN00878-CD",
+        "accountId": "ACCP074",
+        "tradeId": "SRC00878",
+        "securityName": "Apple Inc.",
+        "tickerSymbol": "AAPL",
+        "transactionType": "SELL",
+        "quantity": 383.09,
+        "unitPriceCents": 206.59,
+        "commissionEarnedCents": 989.28,
+        "investmentAmountCents": 79142.56,
+        "tradeDate": "2026-03-24T21:00:00Z"
+      }
+    ]
+  },
+  "ACCP075": {
+    "data": [
+      {
+        "id": "TXN00893-CD",
+        "accountId": "ACCP075",
+        "tradeId": "SRC00893",
+        "securityName": "Vanguard S&P 500 ETF",
+        "tickerSymbol": "VOO",
+        "transactionType": "SELL",
+        "quantity": 11.15,
+        "unitPriceCents": 504.71,
+        "commissionEarnedCents": 70.34,
+        "investmentAmountCents": 5627.52,
+        "tradeDate": "2026-08-19T21:00:00Z"
+      },
+      {
+        "id": "TXN00897-CD",
+        "accountId": "ACCP075",
+        "tradeId": "SRC00897",
+        "securityName": "Schwab U.S. Dividend Equity ETF",
+        "tickerSymbol": "SCHD",
+        "transactionType": "BUY",
+        "quantity": 200.86,
+        "unitPriceCents": 25.83,
+        "commissionEarnedCents": 64.85,
+        "investmentAmountCents": 5188.21,
+        "tradeDate": "2026-04-30T21:00:00Z"
+      }
+    ]
+  },
+  "ACCP076": {
+    "data": [
+      {
+        "id": "TXN00903-CD",
+        "accountId": "ACCP076",
+        "tradeId": "SRC00903",
+        "securityName": "iShares 20+ Year Treasury Bond ETF",
+        "tickerSymbol": "TLT",
+        "transactionType": "BUY",
+        "quantity": 33.18,
+        "unitPriceCents": 86.3,
+        "commissionEarnedCents": 35.79,
+        "investmentAmountCents": 2863.43,
+        "tradeDate": "2026-08-13T21:00:00Z"
+      },
+      {
+        "id": "TXN00906-CD",
+        "accountId": "ACCP076",
+        "tradeId": "SRC00906",
+        "securityName": "Schwab U.S. Dividend Equity ETF",
+        "tickerSymbol": "SCHD",
+        "transactionType": "SELL",
+        "quantity": 159.63,
+        "unitPriceCents": 26.5,
+        "commissionEarnedCents": 52.88,
+        "investmentAmountCents": 4230.19,
+        "tradeDate": "2026-08-08T21:00:00Z"
+      },
+      {
+        "id": "TXN00911-CD",
+        "accountId": "ACCP076",
+        "tradeId": "SRC00911",
+        "securityName": "Vanguard S&P 500 ETF",
+        "tickerSymbol": "VOO",
+        "transactionType": "SELL",
+        "quantity": 341.68,
+        "unitPriceCents": 489.88,
+        "commissionEarnedCents": 2092.28,
+        "investmentAmountCents": 167382.2,
+        "tradeDate": "2026-07-31T21:00:00Z"
+      },
+      {
+        "id": "TXN00901-CD",
+        "accountId": "ACCP076",
+        "tradeId": "SRC00901",
+        "securityName": "Vanguard S&P 500 ETF",
+        "tickerSymbol": "VOO",
+        "transactionType": "SELL",
+        "quantity": 46.45,
+        "unitPriceCents": 546.38,
+        "commissionEarnedCents": 317.24,
+        "investmentAmountCents": 25379.35,
+        "tradeDate": "2026-06-17T21:00:00Z"
+      },
+      {
+        "id": "TXN00907-CD",
+        "accountId": "ACCP076",
+        "tradeId": "SRC00907",
+        "securityName": "iShares 20+ Year Treasury Bond ETF",
+        "tickerSymbol": "TLT",
+        "transactionType": "SELL",
+        "quantity": 335.86,
+        "unitPriceCents": 86.12,
+        "commissionEarnedCents": 361.55,
+        "investmentAmountCents": 28924.26,
+        "tradeDate": "2026-06-10T21:00:00Z"
+      },
+      {
+        "id": "TXN00909-CD",
+        "accountId": "ACCP076",
+        "tradeId": "SRC00909",
+        "securityName": "SPDR Gold Shares",
+        "tickerSymbol": "GLD",
+        "transactionType": "SELL",
+        "quantity": 208.1,
+        "unitPriceCents": 246.19,
+        "commissionEarnedCents": 640.4,
+        "investmentAmountCents": 51232.14,
+        "tradeDate": "2026-05-02T21:00:00Z"
+      },
+      {
+        "id": "TXN00902-CD",
+        "accountId": "ACCP076",
+        "tradeId": "SRC00902",
+        "securityName": "Apple Inc.",
+        "tickerSymbol": "AAPL",
+        "transactionType": "SELL",
+        "quantity": 179.08,
+        "unitPriceCents": 202.55,
+        "commissionEarnedCents": 453.41,
+        "investmentAmountCents": 36272.65,
+        "tradeDate": "2026-04-21T21:00:00Z"
+      }
+    ]
+  },
+  "ACCP077": {
+    "data": [
+      {
+        "id": "TXN00923-CD",
+        "accountId": "ACCP077",
+        "tradeId": "SRC00923",
+        "securityName": "iShares Core U.S. Aggregate Bond ETF",
+        "tickerSymbol": "AGG",
+        "transactionType": "BUY",
+        "quantity": 220.17,
+        "unitPriceCents": 93.31,
+        "commissionEarnedCents": 256.8,
+        "investmentAmountCents": 20544.06,
+        "tradeDate": "2026-06-01T21:00:00Z"
+      },
+      {
+        "id": "TXN00918-CD",
+        "accountId": "ACCP077",
+        "tradeId": "SRC00918",
+        "securityName": "Apple Inc.",
+        "tickerSymbol": "AAPL",
+        "transactionType": "SELL",
+        "quantity": 389.7,
+        "unitPriceCents": 211.45,
+        "commissionEarnedCents": 1030.03,
+        "investmentAmountCents": 82402.06,
+        "tradeDate": "2026-03-24T21:00:00Z"
+      }
+    ]
+  },
+  "ACCP078": {
+    "data": [
+      {
+        "id": "TXN00934-CD",
+        "accountId": "ACCP078",
+        "tradeId": "SRC00934",
+        "securityName": "SPDR Gold Shares",
+        "tickerSymbol": "GLD",
+        "transactionType": "SELL",
+        "quantity": 310.09,
+        "unitPriceCents": 240.01,
+        "commissionEarnedCents": 930.31,
+        "investmentAmountCents": 74424.7,
+        "tradeDate": "2026-07-31T21:00:00Z"
+      },
+      {
+        "id": "TXN00933-CD",
+        "accountId": "ACCP078",
+        "tradeId": "SRC00933",
+        "securityName": "Vanguard S&P 500 ETF",
+        "tickerSymbol": "VOO",
+        "transactionType": "SELL",
+        "quantity": 324.11,
+        "unitPriceCents": 537.03,
+        "commissionEarnedCents": 2175.71,
+        "investmentAmountCents": 174056.79,
+        "tradeDate": "2026-07-04T21:00:00Z"
+      }
+    ]
+  },
+  "ACCP079": {
+    "data": [
+      {
+        "id": "TXN00945-CD",
+        "accountId": "ACCP079",
+        "tradeId": "SRC00945",
+        "securityName": "Apple Inc.",
+        "tickerSymbol": "AAPL",
+        "transactionType": "BUY",
+        "quantity": 389.03,
+        "unitPriceCents": 199.98,
+        "commissionEarnedCents": 972.48,
+        "investmentAmountCents": 77798.22,
+        "tradeDate": "2026-07-03T21:00:00Z"
+      },
+      {
+        "id": "TXN00937-CD",
+        "accountId": "ACCP079",
+        "tradeId": "SRC00937",
+        "securityName": "iShares 20+ Year Treasury Bond ETF",
+        "tickerSymbol": "TLT",
+        "transactionType": "SELL",
+        "quantity": 328.86,
+        "unitPriceCents": 94.0,
+        "commissionEarnedCents": 386.41,
+        "investmentAmountCents": 30912.84,
+        "tradeDate": "2026-05-05T21:00:00Z"
+      },
+      {
+        "id": "TXN00940-CD",
+        "accountId": "ACCP079",
+        "tradeId": "SRC00940",
+        "securityName": "Vanguard S&P 500 ETF",
+        "tickerSymbol": "VOO",
+        "transactionType": "SELL",
+        "quantity": 114.08,
+        "unitPriceCents": 545.31,
+        "commissionEarnedCents": 777.61,
+        "investmentAmountCents": 62208.96,
+        "tradeDate": "2026-04-16T21:00:00Z"
+      }
+    ]
+  },
+  "ACCP080": {
+    "data": [
+      {
+        "id": "TXN00951-CD",
+        "accountId": "ACCP080",
+        "tradeId": "SRC00951",
+        "securityName": "Schwab U.S. Dividend Equity ETF",
+        "tickerSymbol": "SCHD",
+        "transactionType": "SELL",
+        "quantity": 164.05,
+        "unitPriceCents": 26.48,
+        "commissionEarnedCents": 54.3,
+        "investmentAmountCents": 4344.04,
+        "tradeDate": "2026-05-21T21:00:00Z"
+      },
+      {
+        "id": "TXN00959-CD",
+        "accountId": "ACCP080",
+        "tradeId": "SRC00959",
+        "securityName": "SPDR Gold Shares",
+        "tickerSymbol": "GLD",
+        "transactionType": "SELL",
+        "quantity": 369.07,
+        "unitPriceCents": 235.83,
+        "commissionEarnedCents": 1087.97,
+        "investmentAmountCents": 87037.78,
+        "tradeDate": "2026-05-08T21:00:00Z"
+      }
+    ]
+  },
+  "ACCP081": {
+    "data": [
+      {
+        "id": "TXN00972-CD",
+        "accountId": "ACCP081",
+        "tradeId": "SRC00972",
+        "securityName": "Vanguard Total Bond Market ETF",
+        "tickerSymbol": "BND",
+        "transactionType": "BUY",
+        "quantity": 373.91,
+        "unitPriceCents": 76.39,
+        "commissionEarnedCents": 357.04,
+        "investmentAmountCents": 28562.98,
+        "tradeDate": "2026-07-15T21:00:00Z"
+      },
+      {
+        "id": "TXN00966-CD",
+        "accountId": "ACCP081",
+        "tradeId": "SRC00966",
+        "securityName": "Vanguard Total Bond Market ETF",
+        "tickerSymbol": "BND",
+        "transactionType": "SELL",
+        "quantity": 373.0,
+        "unitPriceCents": 71.67,
+        "commissionEarnedCents": 334.16,
+        "investmentAmountCents": 26732.91,
+        "tradeDate": "2026-04-03T21:00:00Z"
+      }
+    ]
+  },
+  "ACCP082": {
+    "data": [
+      {
+        "id": "TXN00975-CD",
+        "accountId": "ACCP082",
+        "tradeId": "SRC00975",
+        "securityName": "Apple Inc.",
+        "tickerSymbol": "AAPL",
+        "transactionType": "SELL",
+        "quantity": 224.09,
+        "unitPriceCents": 215.22,
+        "commissionEarnedCents": 602.86,
+        "investmentAmountCents": 48228.65,
+        "tradeDate": "2026-08-12T21:00:00Z"
+      },
+      {
+        "id": "TXN00978-CD",
+        "accountId": "ACCP082",
+        "tradeId": "SRC00978",
+        "securityName": "Vanguard Total Bond Market ETF",
+        "tickerSymbol": "BND",
+        "transactionType": "BUY",
+        "quantity": 311.26,
+        "unitPriceCents": 72.2,
+        "commissionEarnedCents": 280.91,
+        "investmentAmountCents": 22472.97,
+        "tradeDate": "2026-08-09T21:00:00Z"
+      },
+      {
+        "id": "TXN00976-CD",
+        "accountId": "ACCP082",
+        "tradeId": "SRC00976",
+        "securityName": "iShares Core U.S. Aggregate Bond ETF",
+        "tickerSymbol": "AGG",
+        "transactionType": "BUY",
+        "quantity": 357.31,
+        "unitPriceCents": 91.37,
+        "commissionEarnedCents": 408.09,
+        "investmentAmountCents": 32647.41,
+        "tradeDate": "2026-08-04T21:00:00Z"
+      },
+      {
+        "id": "TXN00983-CD",
+        "accountId": "ACCP082",
+        "tradeId": "SRC00983",
+        "securityName": "Vanguard S&P 500 ETF",
+        "tickerSymbol": "VOO",
+        "transactionType": "SELL",
+        "quantity": 271.59,
+        "unitPriceCents": 481.2,
+        "commissionEarnedCents": 1633.61,
+        "investmentAmountCents": 130689.11,
+        "tradeDate": "2026-04-09T21:00:00Z"
+      }
+    ]
+  },
+  "ACCP083": {
+    "data": [
+      {
+        "id": "TXN00993-CD",
+        "accountId": "ACCP083",
+        "tradeId": "SRC00993",
+        "securityName": "Schwab U.S. Dividend Equity ETF",
+        "tickerSymbol": "SCHD",
+        "transactionType": "SELL",
+        "quantity": 87.95,
+        "unitPriceCents": 26.69,
+        "commissionEarnedCents": 29.34,
+        "investmentAmountCents": 2347.39,
+        "tradeDate": "2026-06-03T21:00:00Z"
+      },
+      {
+        "id": "TXN00987-CD",
+        "accountId": "ACCP083",
+        "tradeId": "SRC00987",
+        "securityName": "iShares 20+ Year Treasury Bond ETF",
+        "tickerSymbol": "TLT",
+        "transactionType": "SELL",
+        "quantity": 172.34,
+        "unitPriceCents": 84.03,
+        "commissionEarnedCents": 181.02,
+        "investmentAmountCents": 14481.73,
+        "tradeDate": "2026-05-23T21:00:00Z"
+      },
+      {
+        "id": "TXN00994-CD",
+        "accountId": "ACCP083",
+        "tradeId": "SRC00994",
+        "securityName": "JPMorgan Chase & Co.",
+        "tickerSymbol": "JPM",
+        "transactionType": "BUY",
+        "quantity": 72.77,
+        "unitPriceCents": 217.0,
+        "commissionEarnedCents": 197.39,
+        "investmentAmountCents": 15791.09,
+        "tradeDate": "2026-04-08T21:00:00Z"
+      },
+      {
+        "id": "TXN00988-CD",
+        "accountId": "ACCP083",
+        "tradeId": "SRC00988",
+        "securityName": "Vanguard Total Bond Market ETF",
+        "tickerSymbol": "BND",
+        "transactionType": "BUY",
+        "quantity": 369.34,
+        "unitPriceCents": 75.52,
+        "commissionEarnedCents": 348.66,
+        "investmentAmountCents": 27892.56,
+        "tradeDate": "2026-03-18T21:00:00Z"
+      },
+      {
+        "id": "TXN00990-CD",
+        "accountId": "ACCP083",
+        "tradeId": "SRC00990",
+        "securityName": "SPDR Gold Shares",
+        "tickerSymbol": "GLD",
+        "transactionType": "SELL",
+        "quantity": 13.96,
+        "unitPriceCents": 234.4,
+        "commissionEarnedCents": 40.9,
+        "investmentAmountCents": 3272.22,
+        "tradeDate": "2026-03-18T21:00:00Z"
+      },
+      {
+        "id": "TXN00995-CD",
+        "accountId": "ACCP083",
+        "tradeId": "SRC00995",
+        "securityName": "Microsoft Corporation",
+        "tickerSymbol": "MSFT",
+        "transactionType": "SELL",
+        "quantity": 184.37,
+        "unitPriceCents": 431.66,
+        "commissionEarnedCents": 994.81,
+        "investmentAmountCents": 79585.15,
+        "tradeDate": "2026-02-26T21:00:00Z"
+      }
+    ]
+  },
+  "ACCP084": {
+    "data": [
+      {
+        "id": "TXN01003-CD",
+        "accountId": "ACCP084",
+        "tradeId": "SRC01003",
+        "securityName": "SPDR Gold Shares",
+        "tickerSymbol": "GLD",
+        "transactionType": "BUY",
+        "quantity": 392.84,
+        "unitPriceCents": 231.04,
+        "commissionEarnedCents": 1134.52,
+        "investmentAmountCents": 90761.75,
+        "tradeDate": "2026-07-14T21:00:00Z"
+      },
+      {
+        "id": "TXN00997-CD",
+        "accountId": "ACCP084",
+        "tradeId": "SRC00997",
+        "securityName": "Microsoft Corporation",
+        "tickerSymbol": "MSFT",
+        "transactionType": "BUY",
+        "quantity": 95.75,
+        "unitPriceCents": 434.97,
+        "commissionEarnedCents": 520.6,
+        "investmentAmountCents": 41648.38,
+        "tradeDate": "2026-06-12T21:00:00Z"
+      },
+      {
+        "id": "TXN01006-CD",
+        "accountId": "ACCP084",
+        "tradeId": "SRC01006",
+        "securityName": "Vanguard Total Bond Market ETF",
+        "tickerSymbol": "BND",
+        "transactionType": "SELL",
+        "quantity": 88.37,
+        "unitPriceCents": 71.32,
+        "commissionEarnedCents": 78.78,
+        "investmentAmountCents": 6302.55,
+        "tradeDate": "2026-05-26T21:00:00Z"
+      },
+      {
+        "id": "TXN00998-CD",
+        "accountId": "ACCP084",
+        "tradeId": "SRC00998",
+        "securityName": "Vanguard Total Bond Market ETF",
+        "tickerSymbol": "BND",
+        "transactionType": "SELL",
+        "quantity": 120.64,
+        "unitPriceCents": 76.72,
+        "commissionEarnedCents": 115.69,
+        "investmentAmountCents": 9255.5,
+        "tradeDate": "2026-05-09T21:00:00Z"
+      },
+      {
+        "id": "TXN01001-CD",
+        "accountId": "ACCP084",
+        "tradeId": "SRC01001",
+        "securityName": "Vanguard Real Estate ETF",
+        "tickerSymbol": "VNQ",
+        "transactionType": "BUY",
+        "quantity": 306.14,
+        "unitPriceCents": 98.19,
+        "commissionEarnedCents": 375.75,
+        "investmentAmountCents": 30059.89,
+        "tradeDate": "2026-04-20T21:00:00Z"
+      }
+    ]
+  },
+  "ACCP085": {
+    "data": [
+      {
+        "id": "TXN01014-CD",
+        "accountId": "ACCP085",
+        "tradeId": "SRC01014",
+        "securityName": "SPDR Gold Shares",
+        "tickerSymbol": "GLD",
+        "transactionType": "SELL",
+        "quantity": 284.41,
+        "unitPriceCents": 228.94,
+        "commissionEarnedCents": 813.91,
+        "investmentAmountCents": 65112.83,
+        "tradeDate": "2026-03-09T21:00:00Z"
+      }
+    ]
+  },
+  "ACCP086": {
+    "data": [
+      {
+        "id": "TXN01026-CD",
+        "accountId": "ACCP086",
+        "tradeId": "SRC01026",
+        "securityName": "iShares 20+ Year Treasury Bond ETF",
+        "tickerSymbol": "TLT",
+        "transactionType": "SELL",
+        "quantity": 116.75,
+        "unitPriceCents": 92.88,
+        "commissionEarnedCents": 135.55,
+        "investmentAmountCents": 10843.74,
+        "tradeDate": "2026-07-29T21:00:00Z"
+      },
+      {
+        "id": "TXN01024-CD",
+        "accountId": "ACCP086",
+        "tradeId": "SRC01024",
+        "securityName": "Vanguard Real Estate ETF",
+        "tickerSymbol": "VNQ",
+        "transactionType": "BUY",
+        "quantity": 374.6,
+        "unitPriceCents": 93.71,
+        "commissionEarnedCents": 438.8,
+        "investmentAmountCents": 35103.77,
+        "tradeDate": "2026-06-04T21:00:00Z"
+      },
+      {
+        "id": "TXN01027-CD",
+        "accountId": "ACCP086",
+        "tradeId": "SRC01027",
+        "securityName": "Schwab U.S. Dividend Equity ETF",
+        "tickerSymbol": "SCHD",
+        "transactionType": "BUY",
+        "quantity": 378.68,
+        "unitPriceCents": 26.31,
+        "commissionEarnedCents": 124.54,
+        "investmentAmountCents": 9963.07,
+        "tradeDate": "2026-05-09T21:00:00Z"
+      },
+      {
+        "id": "TXN01030-CD",
+        "accountId": "ACCP086",
+        "tradeId": "SRC01030",
+        "securityName": "Vanguard Total Bond Market ETF",
+        "tickerSymbol": "BND",
+        "transactionType": "SELL",
+        "quantity": 54.47,
+        "unitPriceCents": 70.06,
+        "commissionEarnedCents": 47.7,
+        "investmentAmountCents": 3816.17,
+        "tradeDate": "2026-04-03T21:00:00Z"
+      },
+      {
+        "id": "TXN01032-CD",
+        "accountId": "ACCP086",
+        "tradeId": "SRC01032",
+        "securityName": "JPMorgan Chase & Co.",
+        "tickerSymbol": "JPM",
+        "transactionType": "SELL",
+        "quantity": 382.84,
+        "unitPriceCents": 217.54,
+        "commissionEarnedCents": 1041.04,
+        "investmentAmountCents": 83283.01,
+        "tradeDate": "2026-03-29T21:00:00Z"
+      }
+    ]
+  },
+  "ACCP087": {
+    "data": [
+      {
+        "id": "TXN01036-CD",
+        "accountId": "ACCP087",
+        "tradeId": "SRC01036",
+        "securityName": "iShares Core U.S. Aggregate Bond ETF",
+        "tickerSymbol": "AGG",
+        "transactionType": "BUY",
+        "quantity": 168.03,
+        "unitPriceCents": 99.27,
+        "commissionEarnedCents": 208.5,
+        "investmentAmountCents": 16680.34,
+        "tradeDate": "2026-07-24T21:00:00Z"
+      },
+      {
+        "id": "TXN01033-CD",
+        "accountId": "ACCP087",
+        "tradeId": "SRC01033",
+        "securityName": "Schwab U.S. Dividend Equity ETF",
+        "tickerSymbol": "SCHD",
+        "transactionType": "SELL",
+        "quantity": 54.34,
+        "unitPriceCents": 26.64,
+        "commissionEarnedCents": 18.1,
+        "investmentAmountCents": 1447.62,
+        "tradeDate": "2026-07-14T21:00:00Z"
+      },
+      {
+        "id": "TXN01041-CD",
+        "accountId": "ACCP087",
+        "tradeId": "SRC01041",
+        "securityName": "SPDR Gold Shares",
+        "tickerSymbol": "GLD",
+        "transactionType": "SELL",
+        "quantity": 324.75,
+        "unitPriceCents": 254.3,
+        "commissionEarnedCents": 1032.3,
+        "investmentAmountCents": 82583.93,
+        "tradeDate": "2026-05-14T21:00:00Z"
+      },
+      {
+        "id": "TXN01038-CD",
+        "accountId": "ACCP087",
+        "tradeId": "SRC01038",
+        "securityName": "iShares 20+ Year Treasury Bond ETF",
+        "tickerSymbol": "TLT",
+        "transactionType": "SELL",
+        "quantity": 330.19,
+        "unitPriceCents": 93.08,
+        "commissionEarnedCents": 384.18,
+        "investmentAmountCents": 30734.09,
+        "tradeDate": "2026-03-22T21:00:00Z"
+      },
+      {
+        "id": "TXN01044-CD",
+        "accountId": "ACCP087",
+        "tradeId": "SRC01044",
+        "securityName": "Vanguard Total Bond Market ETF",
+        "tickerSymbol": "BND",
+        "transactionType": "SELL",
+        "quantity": 211.04,
+        "unitPriceCents": 71.87,
+        "commissionEarnedCents": 189.59,
+        "investmentAmountCents": 15167.44,
+        "tradeDate": "2026-03-17T21:00:00Z"
+      }
+    ]
+  },
+  "ACCP088": {
+    "data": [
+      {
+        "id": "TXN01047-CD",
+        "accountId": "ACCP088",
+        "tradeId": "SRC01047",
+        "securityName": "Vanguard Real Estate ETF",
+        "tickerSymbol": "VNQ",
+        "transactionType": "BUY",
+        "quantity": 327.46,
+        "unitPriceCents": 91.57,
+        "commissionEarnedCents": 374.82,
+        "investmentAmountCents": 29985.51,
+        "tradeDate": "2026-08-13T21:00:00Z"
+      },
+      {
+        "id": "TXN01052-CD",
+        "accountId": "ACCP088",
+        "tradeId": "SRC01052",
+        "securityName": "Schwab U.S. Dividend Equity ETF",
+        "tickerSymbol": "SCHD",
+        "transactionType": "SELL",
+        "quantity": 197.68,
+        "unitPriceCents": 28.14,
+        "commissionEarnedCents": 69.53,
+        "investmentAmountCents": 5562.72,
+        "tradeDate": "2026-06-30T21:00:00Z"
+      },
+      {
+        "id": "TXN01055-CD",
+        "accountId": "ACCP088",
+        "tradeId": "SRC01055",
+        "securityName": "Apple Inc.",
+        "tickerSymbol": "AAPL",
+        "transactionType": "SELL",
+        "quantity": 220.03,
+        "unitPriceCents": 209.0,
+        "commissionEarnedCents": 574.83,
+        "investmentAmountCents": 45986.27,
+        "tradeDate": "2026-05-27T21:00:00Z"
+      },
+      {
+        "id": "TXN01046-CD",
+        "accountId": "ACCP088",
+        "tradeId": "SRC01046",
+        "securityName": "Microsoft Corporation",
+        "tickerSymbol": "MSFT",
+        "transactionType": "BUY",
+        "quantity": 376.83,
+        "unitPriceCents": 447.83,
+        "commissionEarnedCents": 2109.45,
+        "investmentAmountCents": 168755.78,
+        "tradeDate": "2026-05-19T21:00:00Z"
+      },
+      {
+        "id": "TXN01053-CD",
+        "accountId": "ACCP088",
+        "tradeId": "SRC01053",
+        "securityName": "Microsoft Corporation",
+        "tickerSymbol": "MSFT",
+        "transactionType": "SELL",
+        "quantity": 52.49,
+        "unitPriceCents": 436.03,
+        "commissionEarnedCents": 286.09,
+        "investmentAmountCents": 22887.21,
+        "tradeDate": "2026-04-01T21:00:00Z"
+      },
+      {
+        "id": "TXN01054-CD",
+        "accountId": "ACCP088",
+        "tradeId": "SRC01054",
+        "securityName": "Vanguard S&P 500 ETF",
+        "tickerSymbol": "VOO",
+        "transactionType": "SELL",
+        "quantity": 391.47,
+        "unitPriceCents": 480.25,
+        "commissionEarnedCents": 2350.04,
+        "investmentAmountCents": 188003.47,
+        "tradeDate": "2026-03-30T21:00:00Z"
+      }
+    ]
+  },
+  "ACCP089": {
+    "data": [
+      {
+        "id": "TXN01063-CD",
+        "accountId": "ACCP089",
+        "tradeId": "SRC01063",
+        "securityName": "SPDR Gold Shares",
+        "tickerSymbol": "GLD",
+        "transactionType": "BUY",
+        "quantity": 167.99,
+        "unitPriceCents": 238.2,
+        "commissionEarnedCents": 500.19,
+        "investmentAmountCents": 40015.22,
+        "tradeDate": "2026-06-06T21:00:00Z"
+      },
+      {
+        "id": "TXN01061-CD",
+        "accountId": "ACCP089",
+        "tradeId": "SRC01061",
+        "securityName": "Vanguard Real Estate ETF",
+        "tickerSymbol": "VNQ",
+        "transactionType": "SELL",
+        "quantity": 27.7,
+        "unitPriceCents": 88.5,
+        "commissionEarnedCents": 30.64,
+        "investmentAmountCents": 2451.45,
+        "tradeDate": "2026-05-14T21:00:00Z"
+      },
+      {
+        "id": "TXN01060-CD",
+        "accountId": "ACCP089",
+        "tradeId": "SRC01060",
+        "securityName": "Vanguard Total Bond Market ETF",
+        "tickerSymbol": "BND",
+        "transactionType": "SELL",
+        "quantity": 40.02,
+        "unitPriceCents": 78.58,
+        "commissionEarnedCents": 39.31,
+        "investmentAmountCents": 3144.77,
+        "tradeDate": "2026-05-11T21:00:00Z"
+      },
+      {
+        "id": "TXN01057-CD",
+        "accountId": "ACCP089",
+        "tradeId": "SRC01057",
+        "securityName": "iShares 20+ Year Treasury Bond ETF",
+        "tickerSymbol": "TLT",
+        "transactionType": "BUY",
+        "quantity": 279.66,
+        "unitPriceCents": 93.46,
+        "commissionEarnedCents": 326.71,
+        "investmentAmountCents": 26137.02,
+        "tradeDate": "2026-02-28T21:00:00Z"
+      }
+    ]
+  },
+  "ACCP090": {
+    "data": [
+      {
+        "id": "TXN01079-CD",
+        "accountId": "ACCP090",
+        "tradeId": "SRC01079",
+        "securityName": "Vanguard S&P 500 ETF",
+        "tickerSymbol": "VOO",
+        "transactionType": "BUY",
+        "quantity": 272.41,
+        "unitPriceCents": 527.97,
+        "commissionEarnedCents": 1797.8,
+        "investmentAmountCents": 143824.31,
+        "tradeDate": "2026-07-09T21:00:00Z"
+      },
+      {
+        "id": "TXN01073-CD",
+        "accountId": "ACCP090",
+        "tradeId": "SRC01073",
+        "securityName": "SPDR Gold Shares",
+        "tickerSymbol": "GLD",
+        "transactionType": "BUY",
+        "quantity": 260.18,
+        "unitPriceCents": 236.22,
+        "commissionEarnedCents": 768.25,
+        "investmentAmountCents": 61459.72,
+        "tradeDate": "2026-06-28T21:00:00Z"
+      },
+      {
+        "id": "TXN01069-CD",
+        "accountId": "ACCP090",
+        "tradeId": "SRC01069",
+        "securityName": "Apple Inc.",
+        "tickerSymbol": "AAPL",
+        "transactionType": "SELL",
+        "quantity": 220.18,
+        "unitPriceCents": 229.54,
+        "commissionEarnedCents": 631.75,
+        "investmentAmountCents": 50540.12,
+        "tradeDate": "2026-06-11T21:00:00Z"
+      },
+      {
+        "id": "TXN01074-CD",
+        "accountId": "ACCP090",
+        "tradeId": "SRC01074",
+        "securityName": "Apple Inc.",
+        "tickerSymbol": "AAPL",
+        "transactionType": "BUY",
+        "quantity": 72.24,
+        "unitPriceCents": 227.71,
+        "commissionEarnedCents": 205.62,
+        "investmentAmountCents": 16449.77,
+        "tradeDate": "2026-06-08T21:00:00Z"
+      },
+      {
+        "id": "TXN01072-CD",
+        "accountId": "ACCP090",
+        "tradeId": "SRC01072",
+        "securityName": "Vanguard Total Bond Market ETF",
+        "tickerSymbol": "BND",
+        "transactionType": "BUY",
+        "quantity": 190.73,
+        "unitPriceCents": 73.66,
+        "commissionEarnedCents": 175.61,
+        "investmentAmountCents": 14049.17,
+        "tradeDate": "2026-05-30T21:00:00Z"
+      },
+      {
+        "id": "TXN01080-CD",
+        "accountId": "ACCP090",
+        "tradeId": "SRC01080",
+        "securityName": "SPDR Gold Shares",
+        "tickerSymbol": "GLD",
+        "transactionType": "SELL",
+        "quantity": 19.74,
+        "unitPriceCents": 222.53,
+        "commissionEarnedCents": 54.91,
+        "investmentAmountCents": 4392.74,
+        "tradeDate": "2026-04-11T21:00:00Z"
+      },
+      {
+        "id": "TXN01077-CD",
+        "accountId": "ACCP090",
+        "tradeId": "SRC01077",
+        "securityName": "Apple Inc.",
+        "tickerSymbol": "AAPL",
+        "transactionType": "SELL",
+        "quantity": 209.45,
+        "unitPriceCents": 216.73,
+        "commissionEarnedCents": 567.43,
+        "investmentAmountCents": 45394.1,
+        "tradeDate": "2026-03-15T21:00:00Z"
+      }
+    ]
+  },
+  "ACCP091": {
+    "data": [
+      {
+        "id": "TXN01089-CD",
+        "accountId": "ACCP091",
+        "tradeId": "SRC01089",
+        "securityName": "Vanguard S&P 500 ETF",
+        "tickerSymbol": "VOO",
+        "transactionType": "BUY",
+        "quantity": 175.83,
+        "unitPriceCents": 550.29,
+        "commissionEarnedCents": 1209.47,
+        "investmentAmountCents": 96757.49,
+        "tradeDate": "2026-07-18T21:00:00Z"
+      },
+      {
+        "id": "TXN01085-CD",
+        "accountId": "ACCP091",
+        "tradeId": "SRC01085",
+        "securityName": "Apple Inc.",
+        "tickerSymbol": "AAPL",
+        "transactionType": "SELL",
+        "quantity": 51.04,
+        "unitPriceCents": 199.74,
+        "commissionEarnedCents": 127.43,
+        "investmentAmountCents": 10194.73,
+        "tradeDate": "2026-06-29T21:00:00Z"
+      }
+    ]
+  },
+  "ACCP092": {
+    "data": [
+      {
+        "id": "TXN01096-CD",
+        "accountId": "ACCP092",
+        "tradeId": "SRC01096",
+        "securityName": "Vanguard Total Bond Market ETF",
+        "tickerSymbol": "BND",
+        "transactionType": "BUY",
+        "quantity": 48.72,
+        "unitPriceCents": 75.09,
+        "commissionEarnedCents": 45.73,
+        "investmentAmountCents": 3658.38,
+        "tradeDate": "2026-07-20T21:00:00Z"
+      },
+      {
+        "id": "TXN01100-CD",
+        "accountId": "ACCP092",
+        "tradeId": "SRC01100",
+        "securityName": "Apple Inc.",
+        "tickerSymbol": "AAPL",
+        "transactionType": "BUY",
+        "quantity": 315.29,
+        "unitPriceCents": 212.72,
+        "commissionEarnedCents": 838.36,
+        "investmentAmountCents": 67068.49,
+        "tradeDate": "2026-06-29T21:00:00Z"
+      },
+      {
+        "id": "TXN01104-CD",
+        "accountId": "ACCP092",
+        "tradeId": "SRC01104",
+        "securityName": "Vanguard Total Bond Market ETF",
+        "tickerSymbol": "BND",
+        "transactionType": "SELL",
+        "quantity": 75.33,
+        "unitPriceCents": 70.22,
+        "commissionEarnedCents": 66.12,
+        "investmentAmountCents": 5289.67,
+        "tradeDate": "2026-05-14T21:00:00Z"
+      },
+      {
+        "id": "TXN01098-CD",
+        "accountId": "ACCP092",
+        "tradeId": "SRC01098",
+        "securityName": "iShares 20+ Year Treasury Bond ETF",
+        "tickerSymbol": "TLT",
+        "transactionType": "BUY",
+        "quantity": 191.03,
+        "unitPriceCents": 85.33,
+        "commissionEarnedCents": 203.76,
+        "investmentAmountCents": 16300.59,
+        "tradeDate": "2026-03-26T21:00:00Z"
+      },
+      {
+        "id": "TXN01095-CD",
+        "accountId": "ACCP092",
+        "tradeId": "SRC01095",
+        "securityName": "JPMorgan Chase & Co.",
+        "tickerSymbol": "JPM",
+        "transactionType": "SELL",
+        "quantity": 209.47,
+        "unitPriceCents": 227.81,
+        "commissionEarnedCents": 596.49,
+        "investmentAmountCents": 47719.36,
+        "tradeDate": "2026-03-18T21:00:00Z"
+      },
+      {
+        "id": "TXN01094-CD",
+        "accountId": "ACCP092",
+        "tradeId": "SRC01094",
+        "securityName": "JPMorgan Chase & Co.",
+        "tickerSymbol": "JPM",
+        "transactionType": "BUY",
+        "quantity": 363.62,
+        "unitPriceCents": 222.08,
+        "commissionEarnedCents": 1009.41,
+        "investmentAmountCents": 80752.73,
+        "tradeDate": "2026-03-11T21:00:00Z"
+      }
+    ]
+  },
+  "ACCP093": {
+    "data": [
+      {
+        "id": "TXN01110-CD",
+        "accountId": "ACCP093",
+        "tradeId": "SRC01110",
+        "securityName": "SPDR Gold Shares",
+        "tickerSymbol": "GLD",
+        "transactionType": "SELL",
+        "quantity": 73.73,
+        "unitPriceCents": 235.34,
+        "commissionEarnedCents": 216.9,
+        "investmentAmountCents": 17351.62,
+        "tradeDate": "2026-07-17T21:00:00Z"
+      },
+      {
+        "id": "TXN01114-CD",
+        "accountId": "ACCP093",
+        "tradeId": "SRC01114",
+        "securityName": "JPMorgan Chase & Co.",
+        "tickerSymbol": "JPM",
+        "transactionType": "BUY",
+        "quantity": 219.33,
+        "unitPriceCents": 230.97,
+        "commissionEarnedCents": 633.23,
+        "investmentAmountCents": 50658.65,
+        "tradeDate": "2026-06-25T21:00:00Z"
+      },
+      {
+        "id": "TXN01105-CD",
+        "accountId": "ACCP093",
+        "tradeId": "SRC01105",
+        "securityName": "Vanguard Real Estate ETF",
+        "tickerSymbol": "VNQ",
+        "transactionType": "SELL",
+        "quantity": 118.7,
+        "unitPriceCents": 94.18,
+        "commissionEarnedCents": 139.74,
+        "investmentAmountCents": 11179.17,
+        "tradeDate": "2026-06-08T21:00:00Z"
+      },
+      {
+        "id": "TXN01111-CD",
+        "accountId": "ACCP093",
+        "tradeId": "SRC01111",
+        "securityName": "Apple Inc.",
+        "tickerSymbol": "AAPL",
+        "transactionType": "SELL",
+        "quantity": 386.98,
+        "unitPriceCents": 229.76,
+        "commissionEarnedCents": 1111.41,
+        "investmentAmountCents": 88912.52,
+        "tradeDate": "2026-05-15T21:00:00Z"
+      },
+      {
+        "id": "TXN01107-CD",
+        "accountId": "ACCP093",
+        "tradeId": "SRC01107",
+        "securityName": "Vanguard Total Bond Market ETF",
+        "tickerSymbol": "BND",
+        "transactionType": "BUY",
+        "quantity": 288.45,
+        "unitPriceCents": 76.65,
+        "commissionEarnedCents": 276.37,
+        "investmentAmountCents": 22109.69,
+        "tradeDate": "2026-03-13T21:00:00Z"
+      },
+      {
+        "id": "TXN01112-CD",
+        "accountId": "ACCP093",
+        "tradeId": "SRC01112",
+        "securityName": "JPMorgan Chase & Co.",
+        "tickerSymbol": "JPM",
+        "transactionType": "BUY",
+        "quantity": 389.36,
+        "unitPriceCents": 207.79,
+        "commissionEarnedCents": 1011.31,
+        "investmentAmountCents": 80905.11,
+        "tradeDate": "2026-02-28T21:00:00Z"
+      }
+    ]
+  },
+  "ACCP094": {
+    "data": [
+      {
+        "id": "TXN01123-CD",
+        "accountId": "ACCP094",
+        "tradeId": "SRC01123",
+        "securityName": "Vanguard S&P 500 ETF",
+        "tickerSymbol": "VOO",
+        "transactionType": "BUY",
+        "quantity": 379.75,
+        "unitPriceCents": 487.58,
+        "commissionEarnedCents": 2314.48,
+        "investmentAmountCents": 185158.51,
+        "tradeDate": "2026-08-10T21:00:00Z"
+      },
+      {
+        "id": "TXN01125-CD",
+        "accountId": "ACCP094",
+        "tradeId": "SRC01125",
+        "securityName": "Vanguard S&P 500 ETF",
+        "tickerSymbol": "VOO",
+        "transactionType": "BUY",
+        "quantity": 291.75,
+        "unitPriceCents": 490.69,
+        "commissionEarnedCents": 1789.49,
+        "investmentAmountCents": 143158.81,
+        "tradeDate": "2026-07-11T21:00:00Z"
+      },
+      {
+        "id": "TXN01121-CD",
+        "accountId": "ACCP094",
+        "tradeId": "SRC01121",
+        "securityName": "Microsoft Corporation",
+        "tickerSymbol": "MSFT",
+        "transactionType": "BUY",
+        "quantity": 355.82,
+        "unitPriceCents": 454.08,
+        "commissionEarnedCents": 2019.63,
+        "investmentAmountCents": 161570.75,
+        "tradeDate": "2026-05-30T21:00:00Z"
+      },
+      {
+        "id": "TXN01127-CD",
+        "accountId": "ACCP094",
+        "tradeId": "SRC01127",
+        "securityName": "JPMorgan Chase & Co.",
+        "tickerSymbol": "JPM",
+        "transactionType": "SELL",
+        "quantity": 154.46,
+        "unitPriceCents": 201.23,
+        "commissionEarnedCents": 388.52,
+        "investmentAmountCents": 31081.99,
+        "tradeDate": "2026-04-21T21:00:00Z"
+      }
+    ]
+  },
+  "ACCP095": {
+    "data": [
+      {
+        "id": "TXN01139-CD",
+        "accountId": "ACCP095",
+        "tradeId": "SRC01139",
+        "securityName": "Vanguard S&P 500 ETF",
+        "tickerSymbol": "VOO",
+        "transactionType": "SELL",
+        "quantity": 12.2,
+        "unitPriceCents": 538.54,
+        "commissionEarnedCents": 82.13,
+        "investmentAmountCents": 6570.19,
+        "tradeDate": "2026-05-04T21:00:00Z"
+      },
+      {
+        "id": "TXN01132-CD",
+        "accountId": "ACCP095",
+        "tradeId": "SRC01132",
+        "securityName": "Apple Inc.",
+        "tickerSymbol": "AAPL",
+        "transactionType": "SELL",
+        "quantity": 226.9,
+        "unitPriceCents": 215.6,
+        "commissionEarnedCents": 611.5,
+        "investmentAmountCents": 48919.64,
+        "tradeDate": "2026-04-04T21:00:00Z"
+      },
+      {
+        "id": "TXN01135-CD",
+        "accountId": "ACCP095",
+        "tradeId": "SRC01135",
+        "securityName": "Vanguard Total Bond Market ETF",
+        "tickerSymbol": "BND",
+        "transactionType": "SELL",
+        "quantity": 256.82,
+        "unitPriceCents": 78.41,
+        "commissionEarnedCents": 251.72,
+        "investmentAmountCents": 20137.26,
+        "tradeDate": "2026-03-14T21:00:00Z"
+      }
+    ]
+  },
+  "ACCP096": {
+    "data": [
+      {
+        "id": "TXN01146-CD",
+        "accountId": "ACCP096",
+        "tradeId": "SRC01146",
+        "securityName": "Vanguard Real Estate ETF",
+        "tickerSymbol": "VNQ",
+        "transactionType": "SELL",
+        "quantity": 270.88,
+        "unitPriceCents": 91.66,
+        "commissionEarnedCents": 310.36,
+        "investmentAmountCents": 24828.86,
+        "tradeDate": "2026-07-04T21:00:00Z"
+      },
+      {
+        "id": "TXN01149-CD",
+        "accountId": "ACCP096",
+        "tradeId": "SRC01149",
+        "securityName": "Vanguard Total Bond Market ETF",
+        "tickerSymbol": "BND",
+        "transactionType": "SELL",
+        "quantity": 290.35,
+        "unitPriceCents": 72.74,
+        "commissionEarnedCents": 264.0,
+        "investmentAmountCents": 21120.06,
+        "tradeDate": "2026-05-14T21:00:00Z"
+      },
+      {
+        "id": "TXN01152-CD",
+        "accountId": "ACCP096",
+        "tradeId": "SRC01152",
+        "securityName": "SPDR Gold Shares",
+        "tickerSymbol": "GLD",
+        "transactionType": "SELL",
+        "quantity": 212.75,
+        "unitPriceCents": 225.37,
+        "commissionEarnedCents": 599.34,
+        "investmentAmountCents": 47947.47,
+        "tradeDate": "2026-03-07T21:00:00Z"
+      }
+    ]
+  },
+  "ACCP097": {
+    "data": [
+      {
+        "id": "TXN01156-CD",
+        "accountId": "ACCP097",
+        "tradeId": "SRC01156",
+        "securityName": "Microsoft Corporation",
+        "tickerSymbol": "MSFT",
+        "transactionType": "SELL",
+        "quantity": 191.23,
+        "unitPriceCents": 422.05,
+        "commissionEarnedCents": 1008.86,
+        "investmentAmountCents": 80708.62,
+        "tradeDate": "2026-08-09T21:00:00Z"
+      },
+      {
+        "id": "TXN01162-CD",
+        "accountId": "ACCP097",
+        "tradeId": "SRC01162",
+        "securityName": "Schwab U.S. Dividend Equity ETF",
+        "tickerSymbol": "SCHD",
+        "transactionType": "BUY",
+        "quantity": 294.08,
+        "unitPriceCents": 26.66,
+        "commissionEarnedCents": 98.0,
+        "investmentAmountCents": 7840.17,
+        "tradeDate": "2026-02-26T21:00:00Z"
+      }
+    ]
+  },
+  "ACCP098": {
+    "data": [
+      {
+        "id": "TXN01167-CD",
+        "accountId": "ACCP098",
+        "tradeId": "SRC01167",
+        "securityName": "Microsoft Corporation",
+        "tickerSymbol": "MSFT",
+        "transactionType": "BUY",
+        "quantity": 179.7,
+        "unitPriceCents": 443.23,
+        "commissionEarnedCents": 995.61,
+        "investmentAmountCents": 79648.43,
+        "tradeDate": "2026-03-19T21:00:00Z"
+      }
+    ]
+  },
+  "ACCP099": {
+    "data": [
+      {
+        "id": "TXN01179-CD",
+        "accountId": "ACCP099",
+        "tradeId": "SRC01179",
+        "securityName": "iShares Core U.S. Aggregate Bond ETF",
+        "tickerSymbol": "AGG",
+        "transactionType": "BUY",
+        "quantity": 33.81,
+        "unitPriceCents": 93.68,
+        "commissionEarnedCents": 39.59,
+        "investmentAmountCents": 3167.32,
+        "tradeDate": "2026-08-10T21:00:00Z"
+      },
+      {
+        "id": "TXN01180-CD",
+        "accountId": "ACCP099",
+        "tradeId": "SRC01180",
+        "securityName": "JPMorgan Chase & Co.",
+        "tickerSymbol": "JPM",
+        "transactionType": "BUY",
+        "quantity": 28.39,
+        "unitPriceCents": 202.72,
+        "commissionEarnedCents": 71.94,
+        "investmentAmountCents": 5755.22,
+        "tradeDate": "2026-07-01T21:00:00Z"
+      },
+      {
+        "id": "TXN01177-CD",
+        "accountId": "ACCP099",
+        "tradeId": "SRC01177",
+        "securityName": "SPDR Gold Shares",
+        "tickerSymbol": "GLD",
+        "transactionType": "BUY",
+        "quantity": 303.81,
+        "unitPriceCents": 225.32,
+        "commissionEarnedCents": 855.68,
+        "investmentAmountCents": 68454.47,
+        "tradeDate": "2026-06-29T21:00:00Z"
+      },
+      {
+        "id": "TXN01184-CD",
+        "accountId": "ACCP099",
+        "tradeId": "SRC01184",
+        "securityName": "Schwab U.S. Dividend Equity ETF",
+        "tickerSymbol": "SCHD",
+        "transactionType": "BUY",
+        "quantity": 223.53,
+        "unitPriceCents": 30.09,
+        "commissionEarnedCents": 84.08,
+        "investmentAmountCents": 6726.02,
+        "tradeDate": "2026-06-25T21:00:00Z"
+      },
+      {
+        "id": "TXN01186-CD",
+        "accountId": "ACCP099",
+        "tradeId": "SRC01186",
+        "securityName": "Vanguard Real Estate ETF",
+        "tickerSymbol": "VNQ",
+        "transactionType": "BUY",
+        "quantity": 232.76,
+        "unitPriceCents": 94.41,
+        "commissionEarnedCents": 274.69,
+        "investmentAmountCents": 21974.87,
+        "tradeDate": "2026-06-04T21:00:00Z"
+      },
+      {
+        "id": "TXN01188-CD",
+        "accountId": "ACCP099",
+        "tradeId": "SRC01188",
+        "securityName": "Apple Inc.",
+        "tickerSymbol": "AAPL",
+        "transactionType": "SELL",
+        "quantity": 212.04,
+        "unitPriceCents": 225.69,
+        "commissionEarnedCents": 598.19,
+        "investmentAmountCents": 47855.31,
+        "tradeDate": "2026-05-21T21:00:00Z"
+      },
+      {
+        "id": "TXN01178-CD",
+        "accountId": "ACCP099",
+        "tradeId": "SRC01178",
+        "securityName": "Vanguard Total Bond Market ETF",
+        "tickerSymbol": "BND",
+        "transactionType": "SELL",
+        "quantity": 66.99,
+        "unitPriceCents": 76.52,
+        "commissionEarnedCents": 64.08,
+        "investmentAmountCents": 5126.07,
+        "tradeDate": "2026-03-17T21:00:00Z"
+      }
+    ]
+  },
+  "ACCP100": {
+    "data": [
+      {
+        "id": "TXN01193-CD",
+        "accountId": "ACCP100",
+        "tradeId": "SRC01193",
+        "securityName": "Schwab U.S. Dividend Equity ETF",
+        "tickerSymbol": "SCHD",
+        "transactionType": "BUY",
+        "quantity": 84.5,
+        "unitPriceCents": 26.26,
+        "commissionEarnedCents": 27.74,
+        "investmentAmountCents": 2218.97,
+        "tradeDate": "2026-08-06T21:00:00Z"
+      },
+      {
+        "id": "TXN01192-CD",
+        "accountId": "ACCP100",
+        "tradeId": "SRC01192",
+        "securityName": "Vanguard Total Bond Market ETF",
+        "tickerSymbol": "BND",
+        "transactionType": "SELL",
+        "quantity": 265.43,
+        "unitPriceCents": 78.19,
+        "commissionEarnedCents": 259.42,
+        "investmentAmountCents": 20753.97,
+        "tradeDate": "2026-07-29T21:00:00Z"
+      },
+      {
+        "id": "TXN01190-CD",
+        "accountId": "ACCP100",
+        "tradeId": "SRC01190",
+        "securityName": "SPDR Gold Shares",
+        "tickerSymbol": "GLD",
+        "transactionType": "BUY",
+        "quantity": 53.39,
+        "unitPriceCents": 250.51,
+        "commissionEarnedCents": 167.18,
+        "investmentAmountCents": 13374.73,
+        "tradeDate": "2026-05-30T21:00:00Z"
+      }
+    ]
+  }
+}

@@ -713,6 +713,9 @@ class AppLocalizationsEs extends AppLocalizations {
   String get commonAmount => 'Monto';
 
   @override
+  String get commonTrnxAmount => 'Monto de transacción';
+
+  @override
   String get commonDate => 'Fecha';
 
   @override
@@ -1140,4 +1143,101 @@ class AppLocalizationsEs extends AppLocalizations {
 
   @override
   String get serviceRequestSuccessGoButton => 'Ir a Solicitud de Servicio';
+
+  @override
+  String get myCommissionsTitle => 'Comisiones';
+
+  @override
+  String get myCommissionsTotalCommissions => 'Comisión Total';
+
+  @override
+  String get myCommissionsHeroYtdLabel => 'YTD';
+
+  @override
+  String get myCommissionsTabOverview => 'Resumen';
+
+  @override
+  String get myCommissionsTabDetails => 'Detalles';
+
+  @override
+  String get myCommissionsSearchHint => 'Buscar nombre o número de cuenta...';
+
+  @override
+  String get myCommissionsPaginationError => 'No se pudieron cargar más transacciones';
+
+  @override
+  String get myCommissionsCommissionEarned => 'COMISIÓN GANADA';
+
+  @override
+  String myCommissionsAccountNumber(String number) {
+    return 'N.° de cuenta: $number';
+  }
+
+  @override
+  String myCommissionsAccountLabel(String number) {
+    return 'Número de cuenta: $number';
+  }
+
+  @override
+  String get myCommissionsViewDetails => 'Ver Detalles';
+
+  @override
+  String get myCommissionsTopAccounts => 'Top 5 Cuentas';
+
+  @override
+  String get myCommissionsTopAccountsPlural => 'Top Cuentas';
+
+  @override
+  String get myCommissionsTopAccountSingular => 'Top Cuenta';
+
+  @override
+  String get myCommissionsHouseholds => 'Hogares';
+
+  @override
+  String get myCommissionsAccountsLabel => 'Cuentas';
+
+  @override
+  String get myCommissionsContributing => 'Contribuyendo';
+
+  @override
+  String get myCommissionsTotalCommission => 'COMISIÓN TOTAL';
+
+  @override
+  String get commissionDetailedViewTitle => 'Detalles de Comisión';
+
+  @override
+  String get commissionDetailedViewSearchHint => 'Buscar Transacciones...';
+
+  @override
+  String commissionDetailedViewSharesAtPrice(String qty, String price) {
+    return '$qty Acciones @ $price';
+  }
+
+  @override
+  String commissionDetailedViewTradeDateLabel(String date) {
+    return 'Fecha de Operación: $date';
+  }
+
+  @override
+  String commissionDetailedViewTxnIdLabel(String id) {
+    return 'ID de Operación: $id';
+  }
+
+  @override
+  String get commissionDetailedViewTotalCommission => 'Comisión Total';
+
+  @override
+  String get commissionDetailedViewYtdLabel => 'YTD';
+
+  @override
+  String get commissionDetailedViewAllCommissions => 'Todas las Comisiones';
+
+  @override
+  String get commissionDetailedViewSortCommission => 'Comisión';
+
+  @override
+  String get commissionDetailedViewSortTransactionAmount => 'Monto trans.';
+
+  @override
+  String get commissionDetailedViewNoTransactions => 'No se encontraron transacciones';
 }

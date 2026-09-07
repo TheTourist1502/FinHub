@@ -4,14 +4,18 @@ import 'package:finhub/core/routing/route_guard.dart';
 import 'package:finhub/features/access_denied/presentation/screens/access_denied_screen.dart';
 import 'package:finhub/features/account_detail_view/presentation/screens/account_detail_screen.dart';
 import 'package:finhub/features/accounts/presentation/screens/accounts_screen.dart';
+import 'package:finhub/features/commissions_detailed_view/presentation/screens/commissions_detailed_view_screen.dart';
 import 'package:finhub/features/dashboard/presentation/screens/dashboard_screen.dart';
 import 'package:finhub/features/home/presentation/screens/coming_soon_screen.dart';
 import 'package:finhub/features/home/presentation/screens/home_shell_screen.dart';
 import 'package:finhub/features/households/presentation/screens/households_list_screen.dart';
 import 'package:finhub/features/households/presentation/screens/households_shell_screen.dart';
 import 'package:finhub/features/households_detailed_view/presentation/screens/household_detail_screen.dart';
+import 'package:finhub/features/leadership_commissions/presentation/screens/leadership_commissions_screen.dart';
 import 'package:finhub/features/login/presentation/providers/login_provider.dart';
 import 'package:finhub/features/login/presentation/screens/login_screen.dart';
+import 'package:finhub/features/my_commissions/domain/models/commission_summary.dart';
+import 'package:finhub/features/my_commissions/presentation/screens/my_commissions_screen.dart';
 import 'package:finhub/features/real_time/presentation/screens/real_time_screen.dart';
 import 'package:finhub/features/real_time_detailed_view/presentation/screens/real_time_detailed_view_screen.dart';
 import 'package:finhub/features/service_request/presentation/screens/service_request_list_screen.dart';
@@ -84,9 +88,22 @@ final appRouterProvider = Provider<GoRouter>((ref) {
         path: AppRoutes.taskDashboard,
         builder: (context, routerState) => ComingSoonScreen(tabLabel: context.l10n.dashboardQuickActionTasksDashboard),
       ),
+      // My Commissions — pushed from the dashboard quick-actions bar.
+      // Renders outside the shell so the bottom nav is hidden.
       GoRoute(
         path: AppRoutes.myCommissions,
-        builder: (context, routerState) => ComingSoonScreen(tabLabel: context.l10n.dashboardQuickActionMyCommissions),
+        builder: (context, routerState) => const MyCommissionsScreen(),
+      ),
+      // Commission Detailed View — pushed from the My Commissions details tab
+      // (either mount point). `:accountId` maps to the account ID used to
+      // fetch detail data. The `CommissionSummary` tapped on the details tab
+      // is passed as `extra` so the header card can render without a second
+      // fixture read.
+      GoRoute(
+        path: AppRoutes.commissionDetailedView,
+        builder: (context, routerState) => CommissionsDetailedViewScreen(
+          summary: routerState.extra! as CommissionSummary,
+        ),
       ),
       // One branch per entry in AppRoutes.shellBranches, in that order — the
       // shell maps a role's tabs back to these indexes.
@@ -97,7 +114,7 @@ final appRouterProvider = Provider<GoRouter>((ref) {
           _householdsBranch(),
           _branch(AppRoutes.realTime, (context) => const RealTimeScreen()),
           _branch(AppRoutes.serviceRequests, (context) => const ServiceRequestListScreen()),
-          _branch(AppRoutes.commissions, (context) => ComingSoonScreen(tabLabel: context.l10n.navCommissions)),
+          _branch(AppRoutes.commissions, (context) => const LeadershipCommissionsScreen()),
           _branch(AppRoutes.insights, (context) => ComingSoonScreen(tabLabel: context.l10n.navInsights)),
         ],
       ),
