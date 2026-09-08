@@ -8,11 +8,11 @@ import 'package:flutter_riverpod/flutter_riverpod.dart';
 /// Extend this list when a new language ships. Both `MaterialApp.supportedLocales`
 /// and [LocaleNotifier] validate against this constant so there is a single
 /// source of truth.
-const List<Locale> appSupportedLocales = [
-  Locale('en'),
-  Locale('es'),
-  Locale('hi'),
-];
+///
+/// Spanish and Hindi are paused (see `lib/l10n/app_es.arb.paused` /
+/// `app_hi.arb.paused`) — re-add once their ARB files catch up and are
+/// renamed back.
+const List<Locale> appSupportedLocales = [Locale('en')];
 
 /// Provides the active [Locale] and persists the user's choice across sessions.
 final localeProvider = AsyncNotifierProvider<LocaleNotifier, Locale>(LocaleNotifier.new);

@@ -2,6 +2,32 @@
 
 Versions follow semver. `feat` commits bump minor (major post-1.0), `fix` commits bump patch. Starts at 0.0.0.
 
+## [0.14.1] - Unreleased (staged)
+chore: pause Spanish and Hindi translation
+
+- Renamed `lib/l10n/app_es.arb` → `app_es.arb.paused` and `app_hi.arb` → `app_hi.arb.paused` so `flutter gen-l10n` no longer picks them up. Content kept as-is (stale against `app_en.arb`) for when translation resumes — just rename back and catch up the keys.
+- Deleted the now-orphaned `lib/generated/l10n/app_localizations_es.dart` / `_hi.dart`.
+- Trimmed `appSupportedLocales` (`lib/core/l10n/locale_provider.dart`) to `[Locale('en')]` — `MaterialApp.supportedLocales` already derives from `AppLocalizations.supportedLocales`, which now only lists `en`.
+- Future stages only need `app_en.arb` updated for new strings until translation resumes.
+
+## [0.14.0] - Unreleased (staged)
+feat: add task dashboard
+
+- Added `assets/mock-data/tasks/` fixtures: `summary.json` (overdue/today/upcoming/open rows plus the closed-task count, keyed by advisor id) and `closed.json` (the paged closed-task list, keyed by advisor id). Registered `assets/mock-data/tasks/` in `pubspec.yaml`.
+- New `lib/features/task_dashboard/` feature: `domain/models` (`task_item.dart`, `task_dashboard_summary.dart`, `task_dashboard_state.dart`), `domain/task_dashboard_repository.dart`, `data/task_dashboard_mock_repository.dart` (rewritten against `MockDataSource.readScoped` and `DataScope.advisorId`), `presentation/providers/task_dashboard_provider.dart` (summary + closed-task pagination, filter chips, live search, date sort, a live "last updated" ticker), `presentation/screens/task_dashboard_screen.dart`, and 22 presentation widgets covering the grouped/standalone task cards, the pagination footer, and the detail bottom sheet with its header/summary/additional-details sub-widgets.
+- Fixed an l10n bug carried over from the reference branch: `TaskItem.dueLabel` used to be a plain-English string ("Due today", "Due 2 days ago") baked into the repository — a `data/` layer concern building UI copy outside `AppLocalizations`. Dropped the field; the relative due label is now computed at display time by `taskDueLabel()` (`task_item_due_row.dart`) from `AppLocalizations`, called from both the list row and the detail header.
+- Updated `core/routing/app_routes.dart`: `taskDashboard` now carries an advisor-only `RoutePolicy`, matching the reference branch. Updated `app_router.dart`: `AppRoutes.taskDashboard` now renders `TaskDashboardScreen(initialTaskId: ...)` reading the `taskId` query parameter, in place of `ComingSoonScreen`. The detail view is a `showModalBottomSheet` (`TaskDetailBottomSheet`), not a route — confirmed against the reference branch's own router, which never nests a child route under `/task-dashboard`.
+- Added ~40 new ARB keys (title, search hint, filter chips, heading/section labels, empty states, pagination error, "View"/"Close", detail-sheet headings and field labels, "last updated" ticker text, and the relocalised due-date labels) to all 3 ARB files — real Spanish and freshly-translated Hindi, not placeholders — and regenerated l10n.
+- Updated `.claude/docs/folder-structure.md` — the `task_dashboard/` entry was already scaffolded and accurate against the files actually written; tightened the `task_search_row.dart` description to drop a mention of a sort toggle that the reference branch already ships as dead, commented-out code.
+- Currency parsing: not applicable — `TaskItem` carries no monetary fields.
+
+## [0.13.1] - Unreleased (staged)
+chore: remove the Insights tab
+
+- Dropped the never-built Insights bottom-nav tab: `AppRoutes.insights` constant, its `shellBranches` entry, its `ComingSoonScreen` branch in `app_router.dart`, and its `RoleExperience.tabsFor` entry.
+- Removed the now-orphaned `navInsights` key from all 3 ARB files and regenerated l10n.
+- Removed the aspirational (never-implemented) `insights/` feature and mock-data sections from `.claude/docs/folder-structure.md`.
+
 ## [0.13.0] - Unreleased (staged)
 feat: add my commissions, commissions detailed view and leadership commissions features
 

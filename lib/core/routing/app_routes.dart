@@ -41,9 +41,6 @@ abstract final class AppRoutes {
   /// Commissions tab — leadership only.
   static const String commissions = '/commissions';
 
-  /// Market insights tab.
-  static const String insights = '/insights';
-
   /// Shown when a role check fails.
   static const String accessDenied = '/access-denied';
 
@@ -83,7 +80,7 @@ abstract final class AppRoutes {
   /// A tab's position here is its `StatefulNavigationShell` branch index — the
   /// list is shared by every role, and [RoleExperience] decides which of them
   /// a given role actually sees.
-  static const List<String> shellBranches = [home, households, realTime, serviceRequests, commissions, insights];
+  static const List<String> shellBranches = [home, households, realTime, serviceRequests, commissions];
 
   /// Non-default access rules, keyed by path. A child route inherits the
   /// nearest ancestor's policy, so only the ancestor needs an entry.
@@ -95,6 +92,7 @@ abstract final class AppRoutes {
     // Backed by the advisor's own account list, with no leadership twin —
     // `/real-time/:accountId` inherits this automatically.
     realTime: RoutePolicy(roles: {UserRole.advisor}),
+    taskDashboard: RoutePolicy(roles: {UserRole.advisor}),
     myCommissions: RoutePolicy(roles: {UserRole.advisor}),
     // Commission details is reached by **both** roles — the advisor pushes it
     // from `/my-commissions`, leadership from the Commissions tab — but its

@@ -20,6 +20,7 @@ import 'package:finhub/features/real_time/presentation/screens/real_time_screen.
 import 'package:finhub/features/real_time_detailed_view/presentation/screens/real_time_detailed_view_screen.dart';
 import 'package:finhub/features/service_request/presentation/screens/service_request_list_screen.dart';
 import 'package:finhub/features/service_request/presentation/screens/service_request_success_screen.dart';
+import 'package:finhub/features/task_dashboard/presentation/screens/task_dashboard_screen.dart';
 import 'package:finhub/features/view_transactions/presentation/screens/view_transaction_screen.dart';
 import 'package:flutter/widgets.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
@@ -86,7 +87,8 @@ final appRouterProvider = Provider<GoRouter>((ref) {
       ),
       GoRoute(
         path: AppRoutes.taskDashboard,
-        builder: (context, routerState) => ComingSoonScreen(tabLabel: context.l10n.dashboardQuickActionTasksDashboard),
+        builder: (context, routerState) =>
+            TaskDashboardScreen(initialTaskId: routerState.uri.queryParameters['taskId']),
       ),
       // My Commissions — pushed from the dashboard quick-actions bar.
       // Renders outside the shell so the bottom nav is hidden.
@@ -115,7 +117,6 @@ final appRouterProvider = Provider<GoRouter>((ref) {
           _branch(AppRoutes.realTime, (context) => const RealTimeScreen()),
           _branch(AppRoutes.serviceRequests, (context) => const ServiceRequestListScreen()),
           _branch(AppRoutes.commissions, (context) => const LeadershipCommissionsScreen()),
-          _branch(AppRoutes.insights, (context) => ComingSoonScreen(tabLabel: context.l10n.navInsights)),
         ],
       ),
     ],

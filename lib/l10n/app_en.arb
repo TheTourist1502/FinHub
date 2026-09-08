@@ -157,10 +157,6 @@
   "@navCommissions": {
     "description": "Bottom navigation label for the leadership commissions tab."
   },
-  "navInsights": "Insights",
-  "@navInsights": {
-    "description": "Bottom navigation label for the market-insights tab."
-  },
   "roleAdvisor": "Advisor",
   "@roleAdvisor": {
     "description": "Display name of the advisor role."
@@ -1675,5 +1671,229 @@
   "commissionDetailedViewNoTransactions": "No transactions found",
   "@commissionDetailedViewNoTransactions": {
     "description": "Empty-state message when no transactions match the search on the detailed view."
+  },
+  "taskDashboardTitle": "Task Dashboard",
+  "@taskDashboardTitle": {
+    "description": "App bar title for the Task Dashboard screen."
+  },
+  "taskDashboardSearchHint": "Search tasks",
+  "@taskDashboardSearchHint": {
+    "description": "Placeholder text for the Task Dashboard search field."
+  },
+  "taskDashboardFilterAll": "All",
+  "@taskDashboardFilterAll": {
+    "description": "Filter chip label showing every task category."
+  },
+  "taskDashboardFilterOverdue": "Overdue",
+  "@taskDashboardFilterOverdue": {
+    "description": "Filter chip label showing only overdue tasks."
+  },
+  "taskDashboardFilterToday": "Today",
+  "@taskDashboardFilterToday": {
+    "description": "Filter chip label showing only tasks due today."
+  },
+  "taskDashboardFilterUpcoming": "Upcoming",
+  "@taskDashboardFilterUpcoming": {
+    "description": "Filter chip label showing only tasks due in the future."
+  },
+  "taskDashboardFilterClosed": "Closed",
+  "@taskDashboardFilterClosed": {
+    "description": "Filter chip label showing only closed tasks."
+  },
+  "taskDashboardHeadingAll": "{count, plural, =0{All Task ({count})} =1{All Task ({count})} other{All Tasks ({count})}}",
+  "@taskDashboardHeadingAll": {
+    "description": "Heading above the task list on the All filter, with the visible task count.",
+    "placeholders": {
+      "count": {
+        "type": "int",
+        "example": "12"
+      }
+    }
+  },
+  "taskDashboardHeadingOverdue": "{count, plural, =0{Overdue Task ({count})} =1{Overdue Task ({count})} other{Overdue Tasks ({count})}}",
+  "@taskDashboardHeadingOverdue": {
+    "description": "Heading above the task list on the Overdue filter, with the visible task count.",
+    "placeholders": {
+      "count": {
+        "type": "int",
+        "example": "3"
+      }
+    }
+  },
+  "taskDashboardHeadingToday": "{count, plural, =0{Today's Task ({count})} =1{Today's Task ({count})} other{Today's Tasks ({count})}}",
+  "@taskDashboardHeadingToday": {
+    "description": "Heading above the task list on the Today filter, with the visible task count.",
+    "placeholders": {
+      "count": {
+        "type": "int",
+        "example": "1"
+      }
+    }
+  },
+  "taskDashboardHeadingUpcoming": "{count, plural, =0{Upcoming Task ({count})} =1{Upcoming Task ({count})} other{Upcoming Tasks ({count})}}",
+  "@taskDashboardHeadingUpcoming": {
+    "description": "Heading above the task list on the Upcoming filter, with the visible task count.",
+    "placeholders": {
+      "count": {
+        "type": "int",
+        "example": "3"
+      }
+    }
+  },
+  "taskDashboardHeadingClosed": "{count, plural, =0{Closed Task ({count})} =1{Closed Task ({count})} other{Closed Tasks ({count})}}",
+  "@taskDashboardHeadingClosed": {
+    "description": "Heading above the task list on the Closed filter, with the server's total closed-task count.",
+    "placeholders": {
+      "count": {
+        "type": "int",
+        "example": "50"
+      }
+    }
+  },
+  "taskDashboardSectionOverdue": "Overdue",
+  "@taskDashboardSectionOverdue": {
+    "description": "Uppercase section label grouping overdue tasks in the All filter."
+  },
+  "taskDashboardSectionToday": "Today",
+  "@taskDashboardSectionToday": {
+    "description": "Uppercase section label grouping today's tasks in the All filter."
+  },
+  "taskDashboardSectionUpcoming": "Upcoming",
+  "@taskDashboardSectionUpcoming": {
+    "description": "Uppercase section label grouping upcoming tasks in the All filter."
+  },
+  "taskDashboardSectionOpen": "Open",
+  "@taskDashboardSectionOpen": {
+    "description": "Uppercase section label grouping open tasks with no due date."
+  },
+  "taskDashboardSectionClosed": "Closed",
+  "@taskDashboardSectionClosed": {
+    "description": "Uppercase section label grouping closed tasks in the All filter."
+  },
+  "taskDashboardEmptySearch": "No tasks match your search.",
+  "@taskDashboardEmptySearch": {
+    "description": "Empty-state message when a search query matches no tasks."
+  },
+  "taskDashboardNoTasks": "No tasks to show right now.",
+  "@taskDashboardNoTasks": {
+    "description": "Empty-state message when the active filter has no tasks at all."
+  },
+  "taskDashboardPaginationError": "Couldn't load more tasks.",
+  "@taskDashboardPaginationError": {
+    "description": "Inline error shown when fetching the next closed-task page fails."
+  },
+  "taskDashboardView": "View",
+  "@taskDashboardView": {
+    "description": "Trailing link on a task row that opens the task detail sheet."
+  },
+  "taskDashboardUpdatedJustNow": "Updated just now",
+  "@taskDashboardUpdatedJustNow": {
+    "description": "Live 'last updated' label shown under a minute after the dashboard's most recent fetch."
+  },
+  "taskDashboardUpdatedMinutesAgoSingular": "Updated 1 min ago",
+  "@taskDashboardUpdatedMinutesAgoSingular": {
+    "description": "Live 'last updated' label exactly one minute after the dashboard's most recent fetch."
+  },
+  "taskDashboardUpdatedMinutesAgo": "Updated {count} mins ago",
+  "@taskDashboardUpdatedMinutesAgo": {
+    "description": "Live 'last updated' label for two or more minutes since the dashboard's most recent fetch.",
+    "placeholders": {
+      "count": {
+        "type": "int",
+        "example": "5"
+      }
+    }
+  },
+  "taskDashboardUpdatedHoursAgoSingular": "Updated 1 hr ago",
+  "@taskDashboardUpdatedHoursAgoSingular": {
+    "description": "Live 'last updated' label exactly one hour after the dashboard's most recent fetch."
+  },
+  "taskDashboardUpdatedHoursAgo": "Updated {count} hrs ago",
+  "@taskDashboardUpdatedHoursAgo": {
+    "description": "Live 'last updated' label for two or more hours since the dashboard's most recent fetch.",
+    "placeholders": {
+      "count": {
+        "type": "int",
+        "example": "3"
+      }
+    }
+  },
+  "taskDashboardUpdatedDaysAgoSingular": "Updated 1 day ago",
+  "@taskDashboardUpdatedDaysAgoSingular": {
+    "description": "Live 'last updated' label exactly one day after the dashboard's most recent fetch."
+  },
+  "taskDashboardUpdatedDaysAgo": "Updated {count} days ago",
+  "@taskDashboardUpdatedDaysAgo": {
+    "description": "Live 'last updated' label for two or more days since the dashboard's most recent fetch.",
+    "placeholders": {
+      "count": {
+        "type": "int",
+        "example": "2"
+      }
+    }
+  },
+  "taskDashboardDetailClose": "Close",
+  "@taskDashboardDetailClose": {
+    "description": "Full-width button that dismisses the task detail sheet."
+  },
+  "taskDashboardDetailDescription": "Description",
+  "@taskDashboardDetailDescription": {
+    "description": "Heading over the task's description paragraph in the detail sheet."
+  },
+  "taskDashboardDetailActionPending": "Action Pending",
+  "@taskDashboardDetailActionPending": {
+    "description": "Heading over the task's pending-action paragraph in the detail sheet."
+  },
+  "taskDashboardDetailWorkflowProgress": "Workflow Progress",
+  "@taskDashboardDetailWorkflowProgress": {
+    "description": "Heading over the task's workflow-status paragraph in the detail sheet."
+  },
+  "taskDashboardDetailAdditionalDetails": "Additional Details",
+  "@taskDashboardDetailAdditionalDetails": {
+    "description": "Section label opening the reference id / account number / created date grid in the detail sheet."
+  },
+  "taskDashboardDetailReferenceId": "Reference ID",
+  "@taskDashboardDetailReferenceId": {
+    "description": "Label above the task id in the detail sheet's additional-details grid."
+  },
+  "taskDashboardDetailAccountNumber": "Account Number",
+  "@taskDashboardDetailAccountNumber": {
+    "description": "Label above the account number in the detail sheet's additional-details grid."
+  },
+  "taskDashboardDetailCreatedOn": "Created On",
+  "@taskDashboardDetailCreatedOn": {
+    "description": "Label above the creation date in the detail sheet's additional-details grid."
+  },
+  "taskDueToday": "Due today",
+  "@taskDueToday": {
+    "description": "Relative due-date label for a task due today."
+  },
+  "taskDueDaysAgoSingular": "Due 1 day ago",
+  "@taskDueDaysAgoSingular": {
+    "description": "Relative due-date label for a task that was due exactly one day ago."
+  },
+  "taskDueDaysAgo": "Due {count} days ago",
+  "@taskDueDaysAgo": {
+    "description": "Relative due-date label for a task overdue by two or more days.",
+    "placeholders": {
+      "count": {
+        "type": "int",
+        "example": "3"
+      }
+    }
+  },
+  "taskDueInDaySingular": "Due in 1 day",
+  "@taskDueInDaySingular": {
+    "description": "Relative due-date label for a task due exactly one day from now."
+  },
+  "taskDueInDays": "Due in {count} days",
+  "@taskDueInDays": {
+    "description": "Relative due-date label for a task due two or more days from now.",
+    "placeholders": {
+      "count": {
+        "type": "int",
+        "example": "4"
+      }
+    }
   }
 }

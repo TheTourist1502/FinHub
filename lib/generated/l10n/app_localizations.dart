@@ -6,8 +6,6 @@ import 'package:flutter_localizations/flutter_localizations.dart';
 import 'package:intl/intl.dart' as intl;
 
 import 'app_localizations_en.dart';
-import 'app_localizations_es.dart';
-import 'app_localizations_hi.dart';
 
 // ignore_for_file: type=lint
 
@@ -91,7 +89,7 @@ abstract class AppLocalizations {
   ];
 
   /// A list of this localizations delegate's supported locales.
-  static const List<Locale> supportedLocales = <Locale>[Locale('en'), Locale('es'), Locale('hi')];
+  static const List<Locale> supportedLocales = <Locale>[Locale('en')];
 
   /// App name displayed in OS dialogs and the app shell.
   ///
@@ -290,12 +288,6 @@ abstract class AppLocalizations {
   /// In en, this message translates to:
   /// **'Commissions'**
   String get navCommissions;
-
-  /// Bottom navigation label for the market-insights tab.
-  ///
-  /// In en, this message translates to:
-  /// **'Insights'**
-  String get navInsights;
 
   /// Display name of the advisor role.
   ///
@@ -2204,6 +2196,252 @@ abstract class AppLocalizations {
   /// In en, this message translates to:
   /// **'No transactions found'**
   String get commissionDetailedViewNoTransactions;
+
+  /// App bar title for the Task Dashboard screen.
+  ///
+  /// In en, this message translates to:
+  /// **'Task Dashboard'**
+  String get taskDashboardTitle;
+
+  /// Placeholder text for the Task Dashboard search field.
+  ///
+  /// In en, this message translates to:
+  /// **'Search tasks'**
+  String get taskDashboardSearchHint;
+
+  /// Filter chip label showing every task category.
+  ///
+  /// In en, this message translates to:
+  /// **'All'**
+  String get taskDashboardFilterAll;
+
+  /// Filter chip label showing only overdue tasks.
+  ///
+  /// In en, this message translates to:
+  /// **'Overdue'**
+  String get taskDashboardFilterOverdue;
+
+  /// Filter chip label showing only tasks due today.
+  ///
+  /// In en, this message translates to:
+  /// **'Today'**
+  String get taskDashboardFilterToday;
+
+  /// Filter chip label showing only tasks due in the future.
+  ///
+  /// In en, this message translates to:
+  /// **'Upcoming'**
+  String get taskDashboardFilterUpcoming;
+
+  /// Filter chip label showing only closed tasks.
+  ///
+  /// In en, this message translates to:
+  /// **'Closed'**
+  String get taskDashboardFilterClosed;
+
+  /// Heading above the task list on the All filter, with the visible task count.
+  ///
+  /// In en, this message translates to:
+  /// **'{count, plural, =0{All Task ({count})} =1{All Task ({count})} other{All Tasks ({count})}}'**
+  String taskDashboardHeadingAll(int count);
+
+  /// Heading above the task list on the Overdue filter, with the visible task count.
+  ///
+  /// In en, this message translates to:
+  /// **'{count, plural, =0{Overdue Task ({count})} =1{Overdue Task ({count})} other{Overdue Tasks ({count})}}'**
+  String taskDashboardHeadingOverdue(int count);
+
+  /// Heading above the task list on the Today filter, with the visible task count.
+  ///
+  /// In en, this message translates to:
+  /// **'{count, plural, =0{Today\'s Task ({count})} =1{Today\'s Task ({count})} other{Today\'s Tasks ({count})}}'**
+  String taskDashboardHeadingToday(int count);
+
+  /// Heading above the task list on the Upcoming filter, with the visible task count.
+  ///
+  /// In en, this message translates to:
+  /// **'{count, plural, =0{Upcoming Task ({count})} =1{Upcoming Task ({count})} other{Upcoming Tasks ({count})}}'**
+  String taskDashboardHeadingUpcoming(int count);
+
+  /// Heading above the task list on the Closed filter, with the server's total closed-task count.
+  ///
+  /// In en, this message translates to:
+  /// **'{count, plural, =0{Closed Task ({count})} =1{Closed Task ({count})} other{Closed Tasks ({count})}}'**
+  String taskDashboardHeadingClosed(int count);
+
+  /// Uppercase section label grouping overdue tasks in the All filter.
+  ///
+  /// In en, this message translates to:
+  /// **'Overdue'**
+  String get taskDashboardSectionOverdue;
+
+  /// Uppercase section label grouping today's tasks in the All filter.
+  ///
+  /// In en, this message translates to:
+  /// **'Today'**
+  String get taskDashboardSectionToday;
+
+  /// Uppercase section label grouping upcoming tasks in the All filter.
+  ///
+  /// In en, this message translates to:
+  /// **'Upcoming'**
+  String get taskDashboardSectionUpcoming;
+
+  /// Uppercase section label grouping open tasks with no due date.
+  ///
+  /// In en, this message translates to:
+  /// **'Open'**
+  String get taskDashboardSectionOpen;
+
+  /// Uppercase section label grouping closed tasks in the All filter.
+  ///
+  /// In en, this message translates to:
+  /// **'Closed'**
+  String get taskDashboardSectionClosed;
+
+  /// Empty-state message when a search query matches no tasks.
+  ///
+  /// In en, this message translates to:
+  /// **'No tasks match your search.'**
+  String get taskDashboardEmptySearch;
+
+  /// Empty-state message when the active filter has no tasks at all.
+  ///
+  /// In en, this message translates to:
+  /// **'No tasks to show right now.'**
+  String get taskDashboardNoTasks;
+
+  /// Inline error shown when fetching the next closed-task page fails.
+  ///
+  /// In en, this message translates to:
+  /// **'Couldn\'t load more tasks.'**
+  String get taskDashboardPaginationError;
+
+  /// Trailing link on a task row that opens the task detail sheet.
+  ///
+  /// In en, this message translates to:
+  /// **'View'**
+  String get taskDashboardView;
+
+  /// Live 'last updated' label shown under a minute after the dashboard's most recent fetch.
+  ///
+  /// In en, this message translates to:
+  /// **'Updated just now'**
+  String get taskDashboardUpdatedJustNow;
+
+  /// Live 'last updated' label exactly one minute after the dashboard's most recent fetch.
+  ///
+  /// In en, this message translates to:
+  /// **'Updated 1 min ago'**
+  String get taskDashboardUpdatedMinutesAgoSingular;
+
+  /// Live 'last updated' label for two or more minutes since the dashboard's most recent fetch.
+  ///
+  /// In en, this message translates to:
+  /// **'Updated {count} mins ago'**
+  String taskDashboardUpdatedMinutesAgo(int count);
+
+  /// Live 'last updated' label exactly one hour after the dashboard's most recent fetch.
+  ///
+  /// In en, this message translates to:
+  /// **'Updated 1 hr ago'**
+  String get taskDashboardUpdatedHoursAgoSingular;
+
+  /// Live 'last updated' label for two or more hours since the dashboard's most recent fetch.
+  ///
+  /// In en, this message translates to:
+  /// **'Updated {count} hrs ago'**
+  String taskDashboardUpdatedHoursAgo(int count);
+
+  /// Live 'last updated' label exactly one day after the dashboard's most recent fetch.
+  ///
+  /// In en, this message translates to:
+  /// **'Updated 1 day ago'**
+  String get taskDashboardUpdatedDaysAgoSingular;
+
+  /// Live 'last updated' label for two or more days since the dashboard's most recent fetch.
+  ///
+  /// In en, this message translates to:
+  /// **'Updated {count} days ago'**
+  String taskDashboardUpdatedDaysAgo(int count);
+
+  /// Full-width button that dismisses the task detail sheet.
+  ///
+  /// In en, this message translates to:
+  /// **'Close'**
+  String get taskDashboardDetailClose;
+
+  /// Heading over the task's description paragraph in the detail sheet.
+  ///
+  /// In en, this message translates to:
+  /// **'Description'**
+  String get taskDashboardDetailDescription;
+
+  /// Heading over the task's pending-action paragraph in the detail sheet.
+  ///
+  /// In en, this message translates to:
+  /// **'Action Pending'**
+  String get taskDashboardDetailActionPending;
+
+  /// Heading over the task's workflow-status paragraph in the detail sheet.
+  ///
+  /// In en, this message translates to:
+  /// **'Workflow Progress'**
+  String get taskDashboardDetailWorkflowProgress;
+
+  /// Section label opening the reference id / account number / created date grid in the detail sheet.
+  ///
+  /// In en, this message translates to:
+  /// **'Additional Details'**
+  String get taskDashboardDetailAdditionalDetails;
+
+  /// Label above the task id in the detail sheet's additional-details grid.
+  ///
+  /// In en, this message translates to:
+  /// **'Reference ID'**
+  String get taskDashboardDetailReferenceId;
+
+  /// Label above the account number in the detail sheet's additional-details grid.
+  ///
+  /// In en, this message translates to:
+  /// **'Account Number'**
+  String get taskDashboardDetailAccountNumber;
+
+  /// Label above the creation date in the detail sheet's additional-details grid.
+  ///
+  /// In en, this message translates to:
+  /// **'Created On'**
+  String get taskDashboardDetailCreatedOn;
+
+  /// Relative due-date label for a task due today.
+  ///
+  /// In en, this message translates to:
+  /// **'Due today'**
+  String get taskDueToday;
+
+  /// Relative due-date label for a task that was due exactly one day ago.
+  ///
+  /// In en, this message translates to:
+  /// **'Due 1 day ago'**
+  String get taskDueDaysAgoSingular;
+
+  /// Relative due-date label for a task overdue by two or more days.
+  ///
+  /// In en, this message translates to:
+  /// **'Due {count} days ago'**
+  String taskDueDaysAgo(int count);
+
+  /// Relative due-date label for a task due exactly one day from now.
+  ///
+  /// In en, this message translates to:
+  /// **'Due in 1 day'**
+  String get taskDueInDaySingular;
+
+  /// Relative due-date label for a task due two or more days from now.
+  ///
+  /// In en, this message translates to:
+  /// **'Due in {count} days'**
+  String taskDueInDays(int count);
 }
 
 class _AppLocalizationsDelegate extends LocalizationsDelegate<AppLocalizations> {
@@ -2215,7 +2453,7 @@ class _AppLocalizationsDelegate extends LocalizationsDelegate<AppLocalizations> 
   }
 
   @override
-  bool isSupported(Locale locale) => <String>['en', 'es', 'hi'].contains(locale.languageCode);
+  bool isSupported(Locale locale) => <String>['en'].contains(locale.languageCode);
 
   @override
   bool shouldReload(_AppLocalizationsDelegate old) => false;
@@ -2226,10 +2464,6 @@ AppLocalizations lookupAppLocalizations(Locale locale) {
   switch (locale.languageCode) {
     case 'en':
       return AppLocalizationsEn();
-    case 'es':
-      return AppLocalizationsEs();
-    case 'hi':
-      return AppLocalizationsHi();
   }
 
   throw FlutterError(

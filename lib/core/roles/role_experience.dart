@@ -37,7 +37,6 @@ abstract final class RoleExperience {
       AppTab(route: AppRoutes.serviceRequests, icon: Mdi.clipboard_text_outline, label: (l10n) => l10n.navServiceRequests)
     else
       AppTab(route: AppRoutes.commissions, icon: Mdi.cash_multiple, label: (l10n) => l10n.navCommissions),
-    AppTab(route: AppRoutes.insights, icon: Mdi.newspaper_variant_outline, label: (l10n) => l10n.navInsights),
   ];
 
   /// Where [role] lands after signing in — always their first tab.

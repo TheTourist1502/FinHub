@@ -116,9 +116,6 @@ class AppLocalizationsEn extends AppLocalizations {
   String get navCommissions => 'Commissions';
 
   @override
-  String get navInsights => 'Insights';
-
-  @override
   String get roleAdvisor => 'Advisor';
 
   @override
@@ -1236,4 +1233,182 @@ class AppLocalizationsEn extends AppLocalizations {
 
   @override
   String get commissionDetailedViewNoTransactions => 'No transactions found';
+
+  @override
+  String get taskDashboardTitle => 'Task Dashboard';
+
+  @override
+  String get taskDashboardSearchHint => 'Search tasks';
+
+  @override
+  String get taskDashboardFilterAll => 'All';
+
+  @override
+  String get taskDashboardFilterOverdue => 'Overdue';
+
+  @override
+  String get taskDashboardFilterToday => 'Today';
+
+  @override
+  String get taskDashboardFilterUpcoming => 'Upcoming';
+
+  @override
+  String get taskDashboardFilterClosed => 'Closed';
+
+  @override
+  String taskDashboardHeadingAll(int count) {
+    String _temp0 = intl.Intl.pluralLogic(
+      count,
+      locale: localeName,
+      other: 'All Tasks ($count)',
+      one: 'All Task ($count)',
+      zero: 'All Task ($count)',
+    );
+    return '$_temp0';
+  }
+
+  @override
+  String taskDashboardHeadingOverdue(int count) {
+    String _temp0 = intl.Intl.pluralLogic(
+      count,
+      locale: localeName,
+      other: 'Overdue Tasks ($count)',
+      one: 'Overdue Task ($count)',
+      zero: 'Overdue Task ($count)',
+    );
+    return '$_temp0';
+  }
+
+  @override
+  String taskDashboardHeadingToday(int count) {
+    String _temp0 = intl.Intl.pluralLogic(
+      count,
+      locale: localeName,
+      other: 'Today\'s Tasks ($count)',
+      one: 'Today\'s Task ($count)',
+      zero: 'Today\'s Task ($count)',
+    );
+    return '$_temp0';
+  }
+
+  @override
+  String taskDashboardHeadingUpcoming(int count) {
+    String _temp0 = intl.Intl.pluralLogic(
+      count,
+      locale: localeName,
+      other: 'Upcoming Tasks ($count)',
+      one: 'Upcoming Task ($count)',
+      zero: 'Upcoming Task ($count)',
+    );
+    return '$_temp0';
+  }
+
+  @override
+  String taskDashboardHeadingClosed(int count) {
+    String _temp0 = intl.Intl.pluralLogic(
+      count,
+      locale: localeName,
+      other: 'Closed Tasks ($count)',
+      one: 'Closed Task ($count)',
+      zero: 'Closed Task ($count)',
+    );
+    return '$_temp0';
+  }
+
+  @override
+  String get taskDashboardSectionOverdue => 'Overdue';
+
+  @override
+  String get taskDashboardSectionToday => 'Today';
+
+  @override
+  String get taskDashboardSectionUpcoming => 'Upcoming';
+
+  @override
+  String get taskDashboardSectionOpen => 'Open';
+
+  @override
+  String get taskDashboardSectionClosed => 'Closed';
+
+  @override
+  String get taskDashboardEmptySearch => 'No tasks match your search.';
+
+  @override
+  String get taskDashboardNoTasks => 'No tasks to show right now.';
+
+  @override
+  String get taskDashboardPaginationError => 'Couldn\'t load more tasks.';
+
+  @override
+  String get taskDashboardView => 'View';
+
+  @override
+  String get taskDashboardUpdatedJustNow => 'Updated just now';
+
+  @override
+  String get taskDashboardUpdatedMinutesAgoSingular => 'Updated 1 min ago';
+
+  @override
+  String taskDashboardUpdatedMinutesAgo(int count) {
+    return 'Updated $count mins ago';
+  }
+
+  @override
+  String get taskDashboardUpdatedHoursAgoSingular => 'Updated 1 hr ago';
+
+  @override
+  String taskDashboardUpdatedHoursAgo(int count) {
+    return 'Updated $count hrs ago';
+  }
+
+  @override
+  String get taskDashboardUpdatedDaysAgoSingular => 'Updated 1 day ago';
+
+  @override
+  String taskDashboardUpdatedDaysAgo(int count) {
+    return 'Updated $count days ago';
+  }
+
+  @override
+  String get taskDashboardDetailClose => 'Close';
+
+  @override
+  String get taskDashboardDetailDescription => 'Description';
+
+  @override
+  String get taskDashboardDetailActionPending => 'Action Pending';
+
+  @override
+  String get taskDashboardDetailWorkflowProgress => 'Workflow Progress';
+
+  @override
+  String get taskDashboardDetailAdditionalDetails => 'Additional Details';
+
+  @override
+  String get taskDashboardDetailReferenceId => 'Reference ID';
+
+  @override
+  String get taskDashboardDetailAccountNumber => 'Account Number';
+
+  @override
+  String get taskDashboardDetailCreatedOn => 'Created On';
+
+  @override
+  String get taskDueToday => 'Due today';
+
+  @override
+  String get taskDueDaysAgoSingular => 'Due 1 day ago';
+
+  @override
+  String taskDueDaysAgo(int count) {
+    return 'Due $count days ago';
+  }
+
+  @override
+  String get taskDueInDaySingular => 'Due in 1 day';
+
+  @override
+  String taskDueInDays(int count) {
+    return 'Due in $count days';
+  }
 }
