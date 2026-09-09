@@ -74,6 +74,10 @@ abstract final class AppRoutes {
   /// transactions are fetched.
   static const String commissionDetailedView = '/my-commissions/detailed-view/:accountId';
 
+  /// The advisor's notification list, pushed from the header bell icon.
+  /// Renders outside the shell so the bottom nav is hidden.
+  static const String notifications = '/notifications';
+
   /// Every branch of the bottom-navigation shell, in the order the router
   /// registers them.
   ///
@@ -94,6 +98,9 @@ abstract final class AppRoutes {
     realTime: RoutePolicy(roles: {UserRole.advisor}),
     taskDashboard: RoutePolicy(roles: {UserRole.advisor}),
     myCommissions: RoutePolicy(roles: {UserRole.advisor}),
+    // Notification counts are only ever computed for the advisor's own book —
+    // leadership has no advisor-scoped unread count to show.
+    notifications: RoutePolicy(roles: {UserRole.advisor}),
     // Commission details is reached by **both** roles — the advisor pushes it
     // from `/my-commissions`, leadership from the Commissions tab — but its
     // path nests under `/my-commissions`, so without this entry the ancestor

@@ -1,0 +1,9 @@
+{
+  "default": {
+    "data": {
+      "total": 5,
+      "unread": 3,
+      "read": 2
+    }
+  }
+}

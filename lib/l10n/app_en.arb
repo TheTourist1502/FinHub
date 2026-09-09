@@ -1895,5 +1895,53 @@
         "example": "4"
       }
     }
+  },
+  "notificationsTitle": "Notifications",
+  "@notificationsTitle": {
+    "description": "Title of the Notifications screen."
+  },
+  "notificationsSearchHint": "Search notifications",
+  "@notificationsSearchHint": {
+    "description": "Placeholder text for the Notifications screen's search field."
+  },
+  "notificationsFilterAll": "All Notifications",
+  "@notificationsFilterAll": {
+    "description": "Filter chip label showing every notification."
+  },
+  "notificationsFilterUnread": "Unread",
+  "@notificationsFilterUnread": {
+    "description": "Filter chip label showing only unread notifications."
+  },
+  "notificationsEmpty": "No notifications yet",
+  "@notificationsEmpty": {
+    "description": "Empty-state message when the notification list has no rows."
+  },
+  "notificationsMenuMarkAllRead": "Mark All as Read",
+  "@notificationsMenuMarkAllRead": {
+    "description": "Overflow menu action marking every notification as read."
+  },
+  "notificationsMenuClearAll": "Clear All",
+  "@notificationsMenuClearAll": {
+    "description": "Overflow menu action deleting every notification."
+  },
+  "notificationsClearAllConfirmTitle": "Clear all notifications?",
+  "@notificationsClearAllConfirmTitle": {
+    "description": "Title of the confirmation dialog shown before clearing all notifications."
+  },
+  "notificationsClearAllConfirmMessage": "This will permanently remove every notification. This action cannot be undone.",
+  "@notificationsClearAllConfirmMessage": {
+    "description": "Body text of the confirmation dialog shown before clearing all notifications."
+  },
+  "notificationsMarkAllReadError": "Couldn't mark all notifications as read. Please try again.",
+  "@notificationsMarkAllReadError": {
+    "description": "Error snackbar shown when marking all notifications as read fails."
+  },
+  "notificationsClearAllError": "Couldn't clear notifications. Please try again.",
+  "@notificationsClearAllError": {
+    "description": "Error snackbar shown when clearing all notifications fails."
+  },
+  "notificationsRefreshError": "Couldn't refresh notifications. Please try again.",
+  "@notificationsRefreshError": {
+    "description": "Error snackbar shown when pull-to-refresh fails on the Notifications screen."
   }
 }

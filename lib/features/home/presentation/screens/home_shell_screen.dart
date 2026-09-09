@@ -1,7 +1,10 @@
 import 'package:finhub/core/roles/role_experience.dart';
 import 'package:finhub/core/routing/app_routes.dart';
+import 'package:finhub/core/theme/app_color_tokens.dart';
+import 'package:finhub/features/login/domain/models/user.dart';
 import 'package:finhub/features/login/presentation/providers/login_provider.dart';
 import 'package:finhub/shared/widgets/layout/app_bottom_nav.dart';
+import 'package:finhub/shared/widgets/layout/notification_bell_icon.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 import 'package:go_router/go_router.dart';
@@ -35,6 +38,12 @@ class HomeShellScreen extends ConsumerWidget {
     final selected = branchIndexes.indexOf(navigationShell.currentIndex);
 
     return Scaffold(
+      // The bell is advisor-only: `/notifications`'s unread count is computed
+      // for the advisor's own book, which leadership has no equivalent of
+      // (see AppRoutes.policies). A fuller shared header (logo, avatar,
+      // overflow menu) is future work — see the `core/notifications/` and
+      // `shared/widgets/layout/` entries in folder-structure.md.
+      appBar: user.role == UserRole.advisor ? const _HomeShellHeaderBar() : null,
       body: navigationShell,
       bottomNavigationBar: AppBottomNav(
         tabs: tabs,
@@ -43,6 +52,53 @@ class HomeShellScreen extends ConsumerWidget {
         // which is what a second tap on the current tab should do.
         onTap: (index) =>
             navigationShell.goBranch(branchIndexes[index], initialLocation: branchIndexes[index] == navigationShell.currentIndex),
+      ),
+    );
+  }
+}
+
+/// Minimal advisor-only header bar hosting the notification bell entry point.
+///
+/// Stands in for the fuller shared header (logo, avatar, overflow menu) that
+/// ships once the profile feature lands — see `app_page_bar.dart` and
+/// `leadership_header_bar.dart` in folder-structure.md, neither of which
+/// exists yet.
+class _HomeShellHeaderBar extends StatelessWidget implements PreferredSizeWidget {
+  const _HomeShellHeaderBar();
+
+  @override
+  Size get preferredSize => const Size.fromHeight(56);
+
+  @override
+  Widget build(BuildContext context) {
+    final cs = Theme.of(context).colorScheme;
+    final colors = context.appColors;
+    final topPad = MediaQuery.of(context).padding.top;
+
+    return Container(
+      height: preferredSize.height + topPad,
+      padding: EdgeInsets.only(top: topPad, left: 16, right: 16),
+      decoration: BoxDecoration(
+        color: colors.surfaceDefault,
+        border: Border(bottom: BorderSide(color: cs.outlineVariant)),
+      ),
+      // Transparent Material so the InkWell splash paints above the
+      // container's opaque background instead of behind it.
+      child: Material(
+        color: Colors.transparent,
+        child: Row(
+          children: [
+            const Spacer(),
+            InkWell(
+              onTap: () => context.push(AppRoutes.notifications),
+              borderRadius: BorderRadius.circular(20),
+              child: const Padding(
+                padding: EdgeInsets.all(4),
+                child: NotificationBellIcon(),
+              ),
+            ),
+          ],
+        ),
       ),
     );
   }

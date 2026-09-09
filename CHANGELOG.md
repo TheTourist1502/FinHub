@@ -2,6 +2,18 @@
 
 Versions follow semver. `feat` commits bump minor (major post-1.0), `fix` commits bump patch. Starts at 0.0.0.
 
+## [0.15.0] - Unreleased (staged)
+feat: add notifications screen and header bell entry point
+
+- Added `assets/mock-data/notifications/{list,count}.json` fixtures (ported as-is; `count.json` mirrors the `GET /v1/notifications/count` contract but is unused by the repository — counts are always derived live from the list, matching the reference branch). Registered `assets/mock-data/notifications/` in `pubspec.yaml`.
+- New `lib/features/notifications/` feature: `domain/models` (`notification_count.dart`, `notification_item.dart` — `NotificationCategory` stays in `core/notifications/models/`, already ported in an earlier stage), `domain/notifications_repository.dart`, `data/notifications_mock_repository.dart` (rewritten against `MockDataSource.readEditable`/`saveEditable` rather than the reference branch's bespoke `_source.notifications()`/`markNotificationRead()`/etc. — the fixture is not advisor-scoped (a single `default` list), so no `DataScope` is threaded through, unlike most other mock repositories), `presentation/providers/notifications_provider.dart` (list + unread-count providers, filter/search notifiers), `presentation/screens/notifications_screen.dart`, and 3 presentation widgets (filter chips row, item card, list shimmer).
+- Added `lib/shared/widgets/layout/notification_bell_icon.dart` — the header bell with its unread red dot, watching `notificationCountProvider`.
+- Wired the entry point: `HomeShellScreen` (`lib/features/home/presentation/screens/home_shell_screen.dart`) now renders a minimal advisor-only header bar hosting the bell, pushing `AppRoutes.notifications` on tap. This stands in for the reference branch's fuller shared header (logo, avatar, overflow menu) — that requires the profile feature, which hasn't landed on this branch yet — and is gated to the advisor role since the unread count has no leadership-scoped equivalent. Added `AppRoutes.notifications` (`/notifications`) with an advisor-only `RoutePolicy` and a pushed `GoRoute` rendering `NotificationsScreen` outside the shell.
+- Deferred from this stage, matching the reference branch's own `core/notifications/notification_router.dart` scope split: tapping a row marks it read but does not yet navigate to a target screen (no `NotificationRouter`/`NotificationRouterProvider`/`PushNotificationPayload` exist on this branch), and the notification language is fixed to `'en'` (`notificationsLang` constant) rather than read from an `insights`-feature locale provider that doesn't exist here either.
+- Added 11 new ARB keys (title, search hint, filter chips, empty state, overflow menu actions, clear-all confirmation, and 3 error snackbars) to `lib/l10n/app_en.arb` **only** — Spanish and Hindi translation is paused this stage (see `0.14.1`); the `.arb.paused` files were not touched. Regenerated l10n; only `app_localizations.dart` and `app_localizations_en.dart` changed.
+- Updated `.claude/docs/folder-structure.md`: the `features/notifications/` entry was already scaffolded and accurate against the files actually written; updated `home_shell_screen.dart`'s description to mention the new header, and corrected the pre-existing `notification_bell_icon.dart` description (no pulse animation, just the unread dot) now that the file exists.
+- Currency: not applicable — `NotificationItem` carries no monetary fields.
+
 ## [0.14.1] - Unreleased (staged)
 chore: pause Spanish and Hindi translation
 

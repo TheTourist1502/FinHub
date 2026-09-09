@@ -16,6 +16,7 @@ import 'package:finhub/features/login/presentation/providers/login_provider.dart
 import 'package:finhub/features/login/presentation/screens/login_screen.dart';
 import 'package:finhub/features/my_commissions/domain/models/commission_summary.dart';
 import 'package:finhub/features/my_commissions/presentation/screens/my_commissions_screen.dart';
+import 'package:finhub/features/notifications/presentation/screens/notifications_screen.dart';
 import 'package:finhub/features/real_time/presentation/screens/real_time_screen.dart';
 import 'package:finhub/features/real_time_detailed_view/presentation/screens/real_time_detailed_view_screen.dart';
 import 'package:finhub/features/service_request/presentation/screens/service_request_list_screen.dart';
@@ -106,6 +107,12 @@ final appRouterProvider = Provider<GoRouter>((ref) {
         builder: (context, routerState) => CommissionsDetailedViewScreen(
           summary: routerState.extra! as CommissionSummary,
         ),
+      ),
+      // Pushed from the header bell icon. Renders outside the shell so the
+      // bottom nav is hidden.
+      GoRoute(
+        path: AppRoutes.notifications,
+        builder: (context, routerState) => const NotificationsScreen(),
       ),
       // One branch per entry in AppRoutes.shellBranches, in that order — the
       // shell maps a role's tabs back to these indexes.

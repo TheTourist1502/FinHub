@@ -1,0 +1,131 @@
+{
+  "default": {
+    "data": [
+      {
+        "id": "NTF001",
+        "category": "SERVICE_REQUEST",
+        "title": {
+          "en": "Service request updated",
+          "es": "Service request updated"
+        },
+        "isRead": false,
+        "createdAt": "2026-08-21T21:00:00Z",
+        "body": {
+          "deeplink": "finhub://service-requests",
+          "title": {
+            "en": "Service request updated",
+            "es": "Service request updated"
+          },
+          "content": {
+            "en": "Your address change request has moved to Operations review.",
+            "es": "Your address change request has moved to Operations review."
+          },
+          "imageUrl": "",
+          "androidUrl": null,
+          "iosUrl": null,
+          "correlationId": "COR001"
+        }
+      },
+      {
+        "id": "NTF002",
+        "category": "TASK",
+        "title": {
+          "en": "Task due today",
+          "es": "Task due today"
+        },
+        "isRead": false,
+        "createdAt": "2026-08-20T21:00:00Z",
+        "body": {
+          "deeplink": "finhub://tasks",
+          "title": {
+            "en": "Task due today",
+            "es": "Task due today"
+          },
+          "content": {
+            "en": "KYC Refresh is due today.",
+            "es": "KYC Refresh is due today."
+          },
+          "imageUrl": "",
+          "androidUrl": null,
+          "iosUrl": null,
+          "correlationId": "COR002"
+        }
+      },
+      {
+        "id": "NTF003",
+        "category": "MARKET_INSIGHT",
+        "title": {
+          "en": "New market insight",
+          "es": "New market insight"
+        },
+        "isRead": false,
+        "createdAt": "2026-08-19T21:00:00Z",
+        "body": {
+          "deeplink": "finhub://insights",
+          "title": {
+            "en": "New market insight",
+            "es": "New market insight"
+          },
+          "content": {
+            "en": "Fixed income outlook for the second half of the year is available.",
+            "es": "Fixed income outlook for the second half of the year is available."
+          },
+          "imageUrl": "",
+          "androidUrl": null,
+          "iosUrl": null,
+          "correlationId": "COR003"
+        }
+      },
+      {
+        "id": "NTF004",
+        "category": "SYSTEM",
+        "title": {
+          "en": "Maintenance window",
+          "es": "Maintenance window"
+        },
+        "isRead": true,
+        "createdAt": "2026-08-18T21:00:00Z",
+        "body": {
+          "deeplink": "",
+          "title": {
+            "en": "Maintenance window",
+            "es": "Maintenance window"
+          },
+          "content": {
+            "en": "Scheduled maintenance this Saturday 02:00-04:00 ET.",
+            "es": "Scheduled maintenance this Saturday 02:00-04:00 ET."
+          },
+          "imageUrl": "",
+          "androidUrl": null,
+          "iosUrl": null,
+          "correlationId": "COR004"
+        }
+      },
+      {
+        "id": "NTF005",
+        "category": "TASK",
+        "title": {
+          "en": "Task assigned",
+          "es": "Task assigned"
+        },
+        "isRead": true,
+        "createdAt": "2026-08-17T21:00:00Z",
+        "body": {
+          "deeplink": "finhub://tasks",
+          "title": {
+            "en": "Task assigned",
+            "es": "Task assigned"
+          },
+          "content": {
+            "en": "Suitability Review has been assigned to you.",
+            "es": "Suitability Review has been assigned to you."
+          },
+          "imageUrl": "",
+          "androidUrl": null,
+          "iosUrl": null,
+          "correlationId": "COR005"
+        }
+      }
+    ]
+  }
+}

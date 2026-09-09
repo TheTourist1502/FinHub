@@ -1411,4 +1411,41 @@ class AppLocalizationsEn extends AppLocalizations {
   String taskDueInDays(int count) {
     return 'Due in $count days';
   }
+
+  @override
+  String get notificationsTitle => 'Notifications';
+
+  @override
+  String get notificationsSearchHint => 'Search notifications';
+
+  @override
+  String get notificationsFilterAll => 'All Notifications';
+
+  @override
+  String get notificationsFilterUnread => 'Unread';
+
+  @override
+  String get notificationsEmpty => 'No notifications yet';
+
+  @override
+  String get notificationsMenuMarkAllRead => 'Mark All as Read';
+
+  @override
+  String get notificationsMenuClearAll => 'Clear All';
+
+  @override
+  String get notificationsClearAllConfirmTitle => 'Clear all notifications?';
+
+  @override
+  String get notificationsClearAllConfirmMessage =>
+      'This will permanently remove every notification. This action cannot be undone.';
+
+  @override
+  String get notificationsMarkAllReadError => 'Couldn\'t mark all notifications as read. Please try again.';
+
+  @override
+  String get notificationsClearAllError => 'Couldn\'t clear notifications. Please try again.';
+
+  @override
+  String get notificationsRefreshError => 'Couldn\'t refresh notifications. Please try again.';
 }

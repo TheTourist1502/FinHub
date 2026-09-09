@@ -2442,6 +2442,78 @@ abstract class AppLocalizations {
   /// In en, this message translates to:
   /// **'Due in {count} days'**
   String taskDueInDays(int count);
+
+  /// Title of the Notifications screen.
+  ///
+  /// In en, this message translates to:
+  /// **'Notifications'**
+  String get notificationsTitle;
+
+  /// Placeholder text for the Notifications screen's search field.
+  ///
+  /// In en, this message translates to:
+  /// **'Search notifications'**
+  String get notificationsSearchHint;
+
+  /// Filter chip label showing every notification.
+  ///
+  /// In en, this message translates to:
+  /// **'All Notifications'**
+  String get notificationsFilterAll;
+
+  /// Filter chip label showing only unread notifications.
+  ///
+  /// In en, this message translates to:
+  /// **'Unread'**
+  String get notificationsFilterUnread;
+
+  /// Empty-state message when the notification list has no rows.
+  ///
+  /// In en, this message translates to:
+  /// **'No notifications yet'**
+  String get notificationsEmpty;
+
+  /// Overflow menu action marking every notification as read.
+  ///
+  /// In en, this message translates to:
+  /// **'Mark All as Read'**
+  String get notificationsMenuMarkAllRead;
+
+  /// Overflow menu action deleting every notification.
+  ///
+  /// In en, this message translates to:
+  /// **'Clear All'**
+  String get notificationsMenuClearAll;
+
+  /// Title of the confirmation dialog shown before clearing all notifications.
+  ///
+  /// In en, this message translates to:
+  /// **'Clear all notifications?'**
+  String get notificationsClearAllConfirmTitle;
+
+  /// Body text of the confirmation dialog shown before clearing all notifications.
+  ///
+  /// In en, this message translates to:
+  /// **'This will permanently remove every notification. This action cannot be undone.'**
+  String get notificationsClearAllConfirmMessage;
+
+  /// Error snackbar shown when marking all notifications as read fails.
+  ///
+  /// In en, this message translates to:
+  /// **'Couldn\'t mark all notifications as read. Please try again.'**
+  String get notificationsMarkAllReadError;
+
+  /// Error snackbar shown when clearing all notifications fails.
+  ///
+  /// In en, this message translates to:
+  /// **'Couldn\'t clear notifications. Please try again.'**
+  String get notificationsClearAllError;
+
+  /// Error snackbar shown when pull-to-refresh fails on the Notifications screen.
+  ///
+  /// In en, this message translates to:
+  /// **'Couldn\'t refresh notifications. Please try again.'**
+  String get notificationsRefreshError;
 }
 
 class _AppLocalizationsDelegate extends LocalizationsDelegate<AppLocalizations> {
