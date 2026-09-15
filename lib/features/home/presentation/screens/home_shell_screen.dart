@@ -3,8 +3,10 @@ import 'package:finhub/core/routing/app_routes.dart';
 import 'package:finhub/core/theme/app_color_tokens.dart';
 import 'package:finhub/features/login/domain/models/user.dart';
 import 'package:finhub/features/login/presentation/providers/login_provider.dart';
+import 'package:finhub/features/profile/presentation/providers/profile_provider.dart';
 import 'package:finhub/shared/widgets/layout/app_bottom_nav.dart';
 import 'package:finhub/shared/widgets/layout/notification_bell_icon.dart';
+import 'package:finhub/shared/widgets/layout/user_avatar_badge.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 import 'package:go_router/go_router.dart';
@@ -38,12 +40,11 @@ class HomeShellScreen extends ConsumerWidget {
     final selected = branchIndexes.indexOf(navigationShell.currentIndex);
 
     return Scaffold(
-      // The bell is advisor-only: `/notifications`'s unread count is computed
-      // for the advisor's own book, which leadership has no equivalent of
-      // (see AppRoutes.policies). A fuller shared header (logo, avatar,
-      // overflow menu) is future work — see the `core/notifications/` and
-      // `shared/widgets/layout/` entries in folder-structure.md.
-      appBar: user.role == UserRole.advisor ? const _HomeShellHeaderBar() : null,
+      // Shown for both roles now that the profile screen gives the avatar
+      // somewhere to go; the bell inside it stays advisor-only, since
+      // `/notifications`'s unread count is computed for the advisor's own
+      // book, which leadership has no equivalent of (see AppRoutes.policies).
+      appBar: const _HomeShellHeaderBar(),
       body: navigationShell,
       bottomNavigationBar: AppBottomNav(
         tabs: tabs,
@@ -57,23 +58,28 @@ class HomeShellScreen extends ConsumerWidget {
   }
 }
 
-/// Minimal advisor-only header bar hosting the notification bell entry point.
+/// Shared header bar hosting the profile-avatar entry point (both roles) and
+/// the notification bell (advisor only).
 ///
-/// Stands in for the fuller shared header (logo, avatar, overflow menu) that
-/// ships once the profile feature lands — see `app_page_bar.dart` and
-/// `leadership_header_bar.dart` in folder-structure.md, neither of which
-/// exists yet.
-class _HomeShellHeaderBar extends StatelessWidget implements PreferredSizeWidget {
+/// Stands in for a fuller shared header (logo, overflow menu) that is still
+/// future work — see the `shared/widgets/layout/` entry in
+/// folder-structure.md.
+class _HomeShellHeaderBar extends ConsumerWidget implements PreferredSizeWidget {
   const _HomeShellHeaderBar();
 
   @override
   Size get preferredSize => const Size.fromHeight(56);
 
   @override
-  Widget build(BuildContext context) {
+  Widget build(BuildContext context, WidgetRef ref) {
     final cs = Theme.of(context).colorScheme;
     final colors = context.appColors;
     final topPad = MediaQuery.of(context).padding.top;
+    final user = ref.watch(currentUserProvider);
+    // Watching currentProfileProvider here also warms it up before the user
+    // ever taps through to /profile.
+    final profile = ref.watch(currentProfileProvider).value;
+    final displayName = (profile?.fullName.isNotEmpty ?? false) ? profile!.fullName : (user?.name ?? '');
 
     return Container(
       height: preferredSize.height + topPad,
@@ -88,18 +94,38 @@ class _HomeShellHeaderBar extends StatelessWidget implements PreferredSizeWidget
         color: Colors.transparent,
         child: Row(
           children: [
-            const Spacer(),
             InkWell(
-              onTap: () => context.push(AppRoutes.notifications),
-              borderRadius: BorderRadius.circular(20),
-              child: const Padding(
-                padding: EdgeInsets.all(4),
-                child: NotificationBellIcon(),
+              onTap: () => context.push(AppRoutes.profile),
+              borderRadius: BorderRadius.circular(16),
+              child: Padding(
+                padding: const EdgeInsets.all(4),
+                child: UserAvatarBadge(initials: _initials(displayName), avatarUrl: profile?.avatarUrl),
               ),
             ),
+            const Spacer(),
+            // The bell is advisor-only: `/notifications`'s unread count is
+            // computed for the advisor's own book, which leadership has no
+            // equivalent of (see AppRoutes.policies).
+            if (user?.role == UserRole.advisor)
+              InkWell(
+                onTap: () => context.push(AppRoutes.notifications),
+                borderRadius: BorderRadius.circular(20),
+                child: const Padding(
+                  padding: EdgeInsets.all(4),
+                  child: NotificationBellIcon(),
+                ),
+              ),
           ],
         ),
       ),
     );
+  }
+
+  /// Derives up to two initials from [name] for the avatar's fallback.
+  String _initials(String name) {
+    final parts = name.trim().split(RegExp(r'[\s.]+'));
+    if (parts.isEmpty || parts.first.isEmpty) return '?';
+    if (parts.length == 1) return parts.first[0].toUpperCase();
+    return '${parts.first[0]}${parts.last[0]}'.toUpperCase();
   }
 }

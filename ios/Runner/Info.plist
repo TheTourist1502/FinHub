@@ -27,11 +27,11 @@
 		<key>LSRequiresIPhoneOS</key>
 		<true/>
 		<key>NSCameraUsageDescription</key>
-		<string>Allows you to photograph an address document to fill in a service request, and to take a profile photo.</string>
+		<string>Allows you to take a new profile photo.</string>
 		<key>NSFaceIDUsageDescription</key>
 		<string>Please authenticate to continue</string>
 		<key>NSPhotoLibraryUsageDescription</key>
-		<string>Allows you to choose an existing photo of an address document, or a profile photo.</string>
+		<string>Allows you to choose an existing photo for your profile.</string>
 		<key>UIApplicationSceneManifest</key>
 		<dict>
 			<key>UIApplicationSupportsMultipleScenes</key>

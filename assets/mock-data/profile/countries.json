@@ -1,0 +1,44 @@
+{
+  "default": [
+    {
+      "id": 1,
+      "name": "United States",
+      "isoCode": "US"
+    },
+    {
+      "id": 2,
+      "name": "Mexico",
+      "isoCode": "MX"
+    },
+    {
+      "id": 3,
+      "name": "Brazil",
+      "isoCode": "BR"
+    },
+    {
+      "id": 4,
+      "name": "Argentina",
+      "isoCode": "AR"
+    },
+    {
+      "id": 5,
+      "name": "Colombia",
+      "isoCode": "CO"
+    },
+    {
+      "id": 6,
+      "name": "Chile",
+      "isoCode": "CL"
+    },
+    {
+      "id": 7,
+      "name": "Spain",
+      "isoCode": "ES"
+    },
+    {
+      "id": 8,
+      "name": "Panama",
+      "isoCode": "PA"
+    }
+  ]
+}

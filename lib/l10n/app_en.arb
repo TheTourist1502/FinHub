@@ -1943,5 +1943,149 @@
   "notificationsRefreshError": "Couldn't refresh notifications. Please try again.",
   "@notificationsRefreshError": {
     "description": "Error snackbar shown when pull-to-refresh fails on the Notifications screen."
+  },
+  "commonButtonSave": "Save",
+  "@commonButtonSave": {
+    "description": "Confirms a staged multi-select choice, e.g. the region/market-served picker."
+  },
+  "profileTitle": "Profile",
+  "@profileTitle": {
+    "description": "App bar title of the Profile screen."
+  },
+  "profileRoleBadge": "{role}",
+  "@profileRoleBadge": {
+    "description": "Role badge text under the user's name on the Profile header.",
+    "placeholders": {
+      "role": {
+        "type": "String",
+        "example": "Advisor"
+      }
+    }
+  },
+  "profileSecurityAccessTitle": "SECURITY & ACCESS",
+  "@profileSecurityAccessTitle": {
+    "description": "Section header above the login-history row on the Profile screen."
+  },
+  "profileLoginHistoryTitle": "Login History",
+  "@profileLoginHistoryTitle": {
+    "description": "Title of the Security & Access section's login-history row."
+  },
+  "profileLoginHistorySubtitle": "No recent login recorded",
+  "@profileLoginHistorySubtitle": {
+    "description": "Fallback subtitle of the login-history row when no dated login exists."
+  },
+  "profileLastLoginOn": "Last login on {date}",
+  "@profileLastLoginOn": {
+    "description": "Subtitle of the login-history row once a dated login is available.",
+    "placeholders": {
+      "date": {
+        "type": "String",
+        "example": "Sep 14, 6:30 PM"
+      }
+    }
+  },
+  "profileLoginHistoryAllTitle": "Login History",
+  "@profileLoginHistoryAllTitle": {
+    "description": "Header of the bottom sheet listing every recent login."
+  },
+  "profilePreferencesTitle": "PREFERENCES",
+  "@profilePreferencesTitle": {
+    "description": "Section header above the preference rows on the Profile screen."
+  },
+  "profileCountryLabel": "Advisor Residence Country",
+  "@profileCountryLabel": {
+    "description": "Label of the Profile screen's registered-country preference row."
+  },
+  "profileCountrySubtitle": "The country you are based in",
+  "@profileCountrySubtitle": {
+    "description": "Subtitle of the Profile screen's registered-country preference row."
+  },
+  "profileTopClientCountryLabel": "Top Client Country",
+  "@profileTopClientCountryLabel": {
+    "description": "Label of the Profile screen's top-client-country preference row."
+  },
+  "profileTopClientCountrySubtitle": "Where most of your clients are based",
+  "@profileTopClientCountrySubtitle": {
+    "description": "Subtitle of the Profile screen's top-client-country preference row."
+  },
+  "profileRegionLabel": "Region / Market Served",
+  "@profileRegionLabel": {
+    "description": "Label of the Profile screen's region/market-served preference row."
+  },
+  "profileRegionSubtitle": "Markets you actively serve",
+  "@profileRegionSubtitle": {
+    "description": "Subtitle of the Profile screen's region/market-served preference row."
+  },
+  "profileLanguageLabel": "Language",
+  "@profileLanguageLabel": {
+    "description": "Label of the Profile screen's language preference row."
+  },
+  "profileLanguageSubtitle": "App display language",
+  "@profileLanguageSubtitle": {
+    "description": "Subtitle of the Profile screen's language preference row."
+  },
+  "profileSelectCountryTitle": "Select Country",
+  "@profileSelectCountryTitle": {
+    "description": "Title of the country-selection bottom sheet opened from the residence-country row."
+  },
+  "profileSelectTopClientCountryTitle": "Select Top Client Country",
+  "@profileSelectTopClientCountryTitle": {
+    "description": "Title of the country-selection bottom sheet opened from the top-client-country row."
+  },
+  "profileSelectRegionTitle": "Select Region / Market Served",
+  "@profileSelectRegionTitle": {
+    "description": "Title of the region-selection bottom sheet."
+  },
+  "profileSelectLangTitle": "Select Language",
+  "@profileSelectLangTitle": {
+    "description": "Title of the language-selection bottom sheet."
+  },
+  "profileRegionSelectionRequired": "Select at least one region",
+  "@profileRegionSelectionRequired": {
+    "description": "Validation note shown in the region-selection sheet when every region has been cleared."
+  },
+  "profileMandatoryFieldsNote": "* Required field",
+  "@profileMandatoryFieldsNote": {
+    "description": "Legend explaining the asterisk drawn beside a required preference row."
+  },
+  "profileSignOutButton": "Log Out",
+  "@profileSignOutButton": {
+    "description": "Label of the Profile screen's sign-out button."
+  },
+  "profileAvatarPickerTitle": "Update Photo",
+  "@profileAvatarPickerTitle": {
+    "description": "Title of the bottom sheet offering a camera/gallery choice for the profile photo."
+  },
+  "profileAvatarTakePhoto": "Take Photo",
+  "@profileAvatarTakePhoto": {
+    "description": "Option to capture a new profile photo with the camera."
+  },
+  "profileAvatarChooseFromGallery": "Choose from Gallery",
+  "@profileAvatarChooseFromGallery": {
+    "description": "Option to pick an existing photo for the profile avatar."
+  },
+  "profileAvatarCropTitle": "Crop Photo",
+  "@profileAvatarCropTitle": {
+    "description": "Title bar of the native image-cropping screen for the profile photo."
+  },
+  "profileAvatarTooLarge": "That photo is too large. Please choose a smaller one.",
+  "@profileAvatarTooLarge": {
+    "description": "Error snackbar shown when a cropped avatar exceeds the upload size limit."
+  },
+  "profileAvatarUploadError": "Couldn't update your photo. Please try again.",
+  "@profileAvatarUploadError": {
+    "description": "Error snackbar shown when the avatar upload fails."
+  },
+  "profileAvatarUploadSuccess": "Profile photo updated",
+  "@profileAvatarUploadSuccess": {
+    "description": "Success snackbar shown after the avatar upload completes."
+  },
+  "profileTaxJurisdictionTitle": "TAX JURISDICTION",
+  "@profileTaxJurisdictionTitle": {
+    "description": "Section header above the licensed-geographies card."
+  },
+  "profileLicensedGeosTitle": "Licensed Geographies",
+  "@profileLicensedGeosTitle": {
+    "description": "Title of the licensed-geographies card listing an advisor's state chips."
   }
 }

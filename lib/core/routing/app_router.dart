@@ -12,11 +12,14 @@ import 'package:finhub/features/households/presentation/screens/households_list_
 import 'package:finhub/features/households/presentation/screens/households_shell_screen.dart';
 import 'package:finhub/features/households_detailed_view/presentation/screens/household_detail_screen.dart';
 import 'package:finhub/features/leadership_commissions/presentation/screens/leadership_commissions_screen.dart';
+import 'package:finhub/features/login/domain/models/user.dart';
 import 'package:finhub/features/login/presentation/providers/login_provider.dart';
 import 'package:finhub/features/login/presentation/screens/login_screen.dart';
 import 'package:finhub/features/my_commissions/domain/models/commission_summary.dart';
 import 'package:finhub/features/my_commissions/presentation/screens/my_commissions_screen.dart';
 import 'package:finhub/features/notifications/presentation/screens/notifications_screen.dart';
+import 'package:finhub/features/profile/presentation/screens/leadership_profile_screen.dart';
+import 'package:finhub/features/profile/presentation/screens/profile_screen.dart';
 import 'package:finhub/features/real_time/presentation/screens/real_time_screen.dart';
 import 'package:finhub/features/real_time_detailed_view/presentation/screens/real_time_detailed_view_screen.dart';
 import 'package:finhub/features/service_request/presentation/screens/service_request_list_screen.dart';
@@ -113,6 +116,18 @@ final appRouterProvider = Provider<GoRouter>((ref) {
       GoRoute(
         path: AppRoutes.notifications,
         builder: (context, routerState) => const NotificationsScreen(),
+      ),
+      // Profile — pushed from the header avatar. One path, one of two
+      // screens: keeping `/profile` single means the header avatar and any
+      // deep link stay role-agnostic, and only the content widget differs.
+      GoRoute(
+        path: AppRoutes.profile,
+        builder: (context, routerState) => Consumer(
+          builder: (context, ref, child) =>
+              ref.watch(currentUserProvider)?.role == UserRole.leadership
+              ? const LeadershipProfileScreen()
+              : const ProfileScreen(),
+        ),
       ),
       // One branch per entry in AppRoutes.shellBranches, in that order — the
       // shell maps a role's tabs back to these indexes.

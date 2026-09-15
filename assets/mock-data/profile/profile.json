@@ -1,0 +1,728 @@
+{
+  "USR0001": {
+    "id": "USR0001",
+    "fullName": "Alex Morgan",
+    "financialAdvisorId": "FAP0001",
+    "companyEmail": "alex.morgan@corp.finhub.com",
+    "ipCode": "IP001",
+    "role": "advisor",
+    "isActive": true,
+    "isDeleted": false,
+    "phone": "+1 305 555 0100",
+    "avatarUrl": null,
+    "countryId": 1,
+    "country": {
+      "id": 1,
+      "name": "United States",
+      "isoCode": "US"
+    },
+    "topClientCountry": {
+      "id": 3,
+      "name": "Brazil",
+      "isoCode": "BR"
+    },
+    "regionIds": [
+      {
+        "id": 1,
+        "name": "North America",
+        "marketsServed": "United States, Canada"
+      },
+      {
+        "id": 2,
+        "name": "LATAM North",
+        "marketsServed": "Mexico, Panama, Colombia"
+      }
+    ],
+    "preferences": {
+      "countryId": 1,
+      "topClientCountryId": 3,
+      "regionIds": [
+        1,
+        2
+      ],
+      "language": "en",
+      "theme": "light",
+      "firstTimeLogin": false
+    },
+    "recentLogins": [
+      {
+        "device": "iPhone 15 Pro \u00b7 iOS 18.2",
+        "loginAt": "2026-09-14T18:30:00Z"
+      },
+      {
+        "device": "Pixel 8 \u00b7 Android 15",
+        "loginAt": "2026-09-10T09:15:00Z"
+      },
+      {
+        "device": "Samsung Galaxy S24 \u00b7 Android 14",
+        "loginAt": "2026-09-02T21:45:00Z"
+      }
+    ]
+  },
+  "USR0002": {
+    "id": "USR0002",
+    "fullName": "Daniel Alvarez",
+    "financialAdvisorId": "FAP0002",
+    "companyEmail": "daniel.alvarez@corp.finhub.com",
+    "ipCode": "IP002",
+    "role": "advisor",
+    "isActive": true,
+    "isDeleted": false,
+    "phone": "+1 305 555 0101",
+    "avatarUrl": null,
+    "countryId": 2,
+    "country": {
+      "id": 2,
+      "name": "Mexico",
+      "isoCode": "MX"
+    },
+    "topClientCountry": {
+      "id": 4,
+      "name": "Argentina",
+      "isoCode": "AR"
+    },
+    "regionIds": [
+      {
+        "id": 2,
+        "name": "LATAM North",
+        "marketsServed": "Mexico, Panama, Colombia"
+      },
+      {
+        "id": 3,
+        "name": "LATAM South",
+        "marketsServed": "Brazil, Argentina, Chile"
+      }
+    ],
+    "preferences": {
+      "countryId": 2,
+      "topClientCountryId": 4,
+      "regionIds": [
+        2,
+        3
+      ],
+      "language": "en",
+      "theme": "light",
+      "firstTimeLogin": false
+    },
+    "recentLogins": [
+      {
+        "device": "Pixel 8 \u00b7 Android 15",
+        "loginAt": "2026-09-14T18:30:00Z"
+      },
+      {
+        "device": "Samsung Galaxy S24 \u00b7 Android 14",
+        "loginAt": "2026-09-10T09:15:00Z"
+      },
+      {
+        "device": "iPad Air \u00b7 iPadOS 17.6",
+        "loginAt": "2026-09-02T21:45:00Z"
+      }
+    ]
+  },
+  "USR0003": {
+    "id": "USR0003",
+    "fullName": "Marcus Chen",
+    "financialAdvisorId": "FAP0003",
+    "companyEmail": "marcus.chen@corp.finhub.com",
+    "ipCode": "IP003",
+    "role": "advisor",
+    "isActive": true,
+    "isDeleted": false,
+    "phone": "+1 305 555 0102",
+    "avatarUrl": null,
+    "countryId": 3,
+    "country": {
+      "id": 3,
+      "name": "Brazil",
+      "isoCode": "BR"
+    },
+    "topClientCountry": {
+      "id": 5,
+      "name": "Colombia",
+      "isoCode": "CO"
+    },
+    "regionIds": [
+      {
+        "id": 3,
+        "name": "LATAM South",
+        "marketsServed": "Brazil, Argentina, Chile"
+      },
+      {
+        "id": 4,
+        "name": "Europe",
+        "marketsServed": "Spain, Portugal, Switzerland"
+      }
+    ],
+    "preferences": {
+      "countryId": 3,
+      "topClientCountryId": 5,
+      "regionIds": [
+        3,
+        4
+      ],
+      "language": "en",
+      "theme": "light",
+      "firstTimeLogin": false
+    },
+    "recentLogins": [
+      {
+        "device": "Samsung Galaxy S24 \u00b7 Android 14",
+        "loginAt": "2026-09-14T18:30:00Z"
+      },
+      {
+        "device": "iPad Air \u00b7 iPadOS 17.6",
+        "loginAt": "2026-09-10T09:15:00Z"
+      },
+      {
+        "device": "iPhone 15 Pro \u00b7 iOS 18.2",
+        "loginAt": "2026-09-02T21:45:00Z"
+      }
+    ]
+  },
+  "USR0004": {
+    "id": "USR0004",
+    "fullName": "Priya Nair",
+    "financialAdvisorId": "FAP0004",
+    "companyEmail": "priya.nair@corp.finhub.com",
+    "ipCode": "IP004",
+    "role": "advisor",
+    "isActive": true,
+    "isDeleted": false,
+    "phone": "+1 305 555 0103",
+    "avatarUrl": null,
+    "countryId": 4,
+    "country": {
+      "id": 4,
+      "name": "Argentina",
+      "isoCode": "AR"
+    },
+    "topClientCountry": {
+      "id": 6,
+      "name": "Chile",
+      "isoCode": "CL"
+    },
+    "regionIds": [
+      {
+        "id": 4,
+        "name": "Europe",
+        "marketsServed": "Spain, Portugal, Switzerland"
+      },
+      {
+        "id": 1,
+        "name": "North America",
+        "marketsServed": "United States, Canada"
+      }
+    ],
+    "preferences": {
+      "countryId": 4,
+      "topClientCountryId": 6,
+      "regionIds": [
+        4,
+        1
+      ],
+      "language": "en",
+      "theme": "light",
+      "firstTimeLogin": false
+    },
+    "recentLogins": [
+      {
+        "device": "iPad Air \u00b7 iPadOS 17.6",
+        "loginAt": "2026-09-14T18:30:00Z"
+      },
+      {
+        "device": "iPhone 15 Pro \u00b7 iOS 18.2",
+        "loginAt": "2026-09-10T09:15:00Z"
+      },
+      {
+        "device": "Pixel 8 \u00b7 Android 15",
+        "loginAt": "2026-09-02T21:45:00Z"
+      }
+    ]
+  },
+  "USR0005": {
+    "id": "USR0005",
+    "fullName": "Sofia Bianchi",
+    "financialAdvisorId": "FAP0005",
+    "companyEmail": "sofia.bianchi@corp.finhub.com",
+    "ipCode": "IP005",
+    "role": "advisor",
+    "isActive": true,
+    "isDeleted": false,
+    "phone": "+1 305 555 0104",
+    "avatarUrl": null,
+    "countryId": 5,
+    "country": {
+      "id": 5,
+      "name": "Colombia",
+      "isoCode": "CO"
+    },
+    "topClientCountry": {
+      "id": 7,
+      "name": "Spain",
+      "isoCode": "ES"
+    },
+    "regionIds": [
+      {
+        "id": 1,
+        "name": "North America",
+        "marketsServed": "United States, Canada"
+      },
+      {
+        "id": 2,
+        "name": "LATAM North",
+        "marketsServed": "Mexico, Panama, Colombia"
+      }
+    ],
+    "preferences": {
+      "countryId": 5,
+      "topClientCountryId": 7,
+      "regionIds": [
+        1,
+        2
+      ],
+      "language": "en",
+      "theme": "light",
+      "firstTimeLogin": false
+    },
+    "recentLogins": [
+      {
+        "device": "iPhone 15 Pro \u00b7 iOS 18.2",
+        "loginAt": "2026-09-14T18:30:00Z"
+      },
+      {
+        "device": "Pixel 8 \u00b7 Android 15",
+        "loginAt": "2026-09-10T09:15:00Z"
+      },
+      {
+        "device": "Samsung Galaxy S24 \u00b7 Android 14",
+        "loginAt": "2026-09-02T21:45:00Z"
+      }
+    ]
+  },
+  "USR0006": {
+    "id": "USR0006",
+    "fullName": "Liam O'Sullivan",
+    "financialAdvisorId": "FAP0006",
+    "companyEmail": "liam.osullivan@corp.finhub.com",
+    "ipCode": "IP006",
+    "role": "advisor",
+    "isActive": true,
+    "isDeleted": false,
+    "phone": "+1 305 555 0105",
+    "avatarUrl": null,
+    "countryId": 6,
+    "country": {
+      "id": 6,
+      "name": "Chile",
+      "isoCode": "CL"
+    },
+    "topClientCountry": {
+      "id": 8,
+      "name": "Panama",
+      "isoCode": "PA"
+    },
+    "regionIds": [
+      {
+        "id": 2,
+        "name": "LATAM North",
+        "marketsServed": "Mexico, Panama, Colombia"
+      },
+      {
+        "id": 3,
+        "name": "LATAM South",
+        "marketsServed": "Brazil, Argentina, Chile"
+      }
+    ],
+    "preferences": {
+      "countryId": 6,
+      "topClientCountryId": 8,
+      "regionIds": [
+        2,
+        3
+      ],
+      "language": "en",
+      "theme": "light",
+      "firstTimeLogin": false
+    },
+    "recentLogins": [
+      {
+        "device": "Pixel 8 \u00b7 Android 15",
+        "loginAt": "2026-09-14T18:30:00Z"
+      },
+      {
+        "device": "Samsung Galaxy S24 \u00b7 Android 14",
+        "loginAt": "2026-09-10T09:15:00Z"
+      },
+      {
+        "device": "iPad Air \u00b7 iPadOS 17.6",
+        "loginAt": "2026-09-02T21:45:00Z"
+      }
+    ]
+  },
+  "USR0007": {
+    "id": "USR0007",
+    "fullName": "Nadia Haddad",
+    "financialAdvisorId": "FAP0007",
+    "companyEmail": "nadia.haddad@corp.finhub.com",
+    "ipCode": "IP007",
+    "role": "advisor",
+    "isActive": true,
+    "isDeleted": false,
+    "phone": "+1 305 555 0106",
+    "avatarUrl": null,
+    "countryId": 7,
+    "country": {
+      "id": 7,
+      "name": "Spain",
+      "isoCode": "ES"
+    },
+    "topClientCountry": {
+      "id": 1,
+      "name": "United States",
+      "isoCode": "US"
+    },
+    "regionIds": [
+      {
+        "id": 3,
+        "name": "LATAM South",
+        "marketsServed": "Brazil, Argentina, Chile"
+      },
+      {
+        "id": 4,
+        "name": "Europe",
+        "marketsServed": "Spain, Portugal, Switzerland"
+      }
+    ],
+    "preferences": {
+      "countryId": 7,
+      "topClientCountryId": 1,
+      "regionIds": [
+        3,
+        4
+      ],
+      "language": "en",
+      "theme": "light",
+      "firstTimeLogin": false
+    },
+    "recentLogins": [
+      {
+        "device": "Samsung Galaxy S24 \u00b7 Android 14",
+        "loginAt": "2026-09-14T18:30:00Z"
+      },
+      {
+        "device": "iPad Air \u00b7 iPadOS 17.6",
+        "loginAt": "2026-09-10T09:15:00Z"
+      },
+      {
+        "device": "iPhone 15 Pro \u00b7 iOS 18.2",
+        "loginAt": "2026-09-02T21:45:00Z"
+      }
+    ]
+  },
+  "USR0008": {
+    "id": "USR0008",
+    "fullName": "Tomas Ferreira",
+    "financialAdvisorId": "FAP0008",
+    "companyEmail": "tomas.ferreira@corp.finhub.com",
+    "ipCode": "IP008",
+    "role": "advisor",
+    "isActive": true,
+    "isDeleted": false,
+    "phone": "+1 305 555 0107",
+    "avatarUrl": null,
+    "countryId": 8,
+    "country": {
+      "id": 8,
+      "name": "Panama",
+      "isoCode": "PA"
+    },
+    "topClientCountry": {
+      "id": 2,
+      "name": "Mexico",
+      "isoCode": "MX"
+    },
+    "regionIds": [
+      {
+        "id": 4,
+        "name": "Europe",
+        "marketsServed": "Spain, Portugal, Switzerland"
+      },
+      {
+        "id": 1,
+        "name": "North America",
+        "marketsServed": "United States, Canada"
+      }
+    ],
+    "preferences": {
+      "countryId": 8,
+      "topClientCountryId": 2,
+      "regionIds": [
+        4,
+        1
+      ],
+      "language": "en",
+      "theme": "light",
+      "firstTimeLogin": false
+    },
+    "recentLogins": [
+      {
+        "device": "iPad Air \u00b7 iPadOS 17.6",
+        "loginAt": "2026-09-14T18:30:00Z"
+      },
+      {
+        "device": "iPhone 15 Pro \u00b7 iOS 18.2",
+        "loginAt": "2026-09-10T09:15:00Z"
+      },
+      {
+        "device": "Pixel 8 \u00b7 Android 15",
+        "loginAt": "2026-09-02T21:45:00Z"
+      }
+    ]
+  },
+  "USR0009": {
+    "id": "USR0009",
+    "fullName": "Grace Lindqvist",
+    "financialAdvisorId": "FAP0009",
+    "companyEmail": "grace.lindqvist@corp.finhub.com",
+    "ipCode": "IP009",
+    "role": "advisor",
+    "isActive": true,
+    "isDeleted": false,
+    "phone": "+1 305 555 0108",
+    "avatarUrl": null,
+    "countryId": 1,
+    "country": {
+      "id": 1,
+      "name": "United States",
+      "isoCode": "US"
+    },
+    "topClientCountry": {
+      "id": 3,
+      "name": "Brazil",
+      "isoCode": "BR"
+    },
+    "regionIds": [
+      {
+        "id": 1,
+        "name": "North America",
+        "marketsServed": "United States, Canada"
+      },
+      {
+        "id": 2,
+        "name": "LATAM North",
+        "marketsServed": "Mexico, Panama, Colombia"
+      }
+    ],
+    "preferences": {
+      "countryId": 1,
+      "topClientCountryId": 3,
+      "regionIds": [
+        1,
+        2
+      ],
+      "language": "en",
+      "theme": "light",
+      "firstTimeLogin": false
+    },
+    "recentLogins": [
+      {
+        "device": "iPhone 15 Pro \u00b7 iOS 18.2",
+        "loginAt": "2026-09-14T18:30:00Z"
+      },
+      {
+        "device": "Pixel 8 \u00b7 Android 15",
+        "loginAt": "2026-09-10T09:15:00Z"
+      },
+      {
+        "device": "Samsung Galaxy S24 \u00b7 Android 14",
+        "loginAt": "2026-09-02T21:45:00Z"
+      }
+    ]
+  },
+  "USR0010": {
+    "id": "USR0010",
+    "fullName": "Ethan Caldwell",
+    "financialAdvisorId": "FAP0010",
+    "companyEmail": "ethan.caldwell@corp.finhub.com",
+    "ipCode": "IP010",
+    "role": "advisor",
+    "isActive": true,
+    "isDeleted": false,
+    "phone": "+1 305 555 0109",
+    "avatarUrl": null,
+    "countryId": 2,
+    "country": {
+      "id": 2,
+      "name": "Mexico",
+      "isoCode": "MX"
+    },
+    "topClientCountry": {
+      "id": 4,
+      "name": "Argentina",
+      "isoCode": "AR"
+    },
+    "regionIds": [
+      {
+        "id": 2,
+        "name": "LATAM North",
+        "marketsServed": "Mexico, Panama, Colombia"
+      },
+      {
+        "id": 3,
+        "name": "LATAM South",
+        "marketsServed": "Brazil, Argentina, Chile"
+      }
+    ],
+    "preferences": {
+      "countryId": 2,
+      "topClientCountryId": 4,
+      "regionIds": [
+        2,
+        3
+      ],
+      "language": "en",
+      "theme": "light",
+      "firstTimeLogin": false
+    },
+    "recentLogins": [
+      {
+        "device": "Pixel 8 \u00b7 Android 15",
+        "loginAt": "2026-09-14T18:30:00Z"
+      },
+      {
+        "device": "Samsung Galaxy S24 \u00b7 Android 14",
+        "loginAt": "2026-09-10T09:15:00Z"
+      },
+      {
+        "device": "iPad Air \u00b7 iPadOS 17.6",
+        "loginAt": "2026-09-02T21:45:00Z"
+      }
+    ]
+  },
+  "USR0011": {
+    "id": "USR0011",
+    "fullName": "Victoria Reyes",
+    "financialAdvisorId": "",
+    "companyEmail": "victoria.reyes@corp.finhub.com",
+    "ipCode": "IP011",
+    "role": "leadership",
+    "isActive": true,
+    "isDeleted": false,
+    "phone": "+1 305 555 0110",
+    "avatarUrl": null,
+    "countryId": 3,
+    "country": {
+      "id": 3,
+      "name": "Brazil",
+      "isoCode": "BR"
+    },
+    "topClientCountry": null,
+    "regionIds": [],
+    "preferences": {
+      "countryId": 3,
+      "topClientCountryId": null,
+      "regionIds": [],
+      "language": "en",
+      "theme": "light",
+      "firstTimeLogin": false
+    },
+    "recentLogins": [
+      {
+        "device": "Samsung Galaxy S24 \u00b7 Android 14",
+        "loginAt": "2026-09-14T18:30:00Z"
+      },
+      {
+        "device": "iPad Air \u00b7 iPadOS 17.6",
+        "loginAt": "2026-09-10T09:15:00Z"
+      },
+      {
+        "device": "iPhone 15 Pro \u00b7 iOS 18.2",
+        "loginAt": "2026-09-02T21:45:00Z"
+      }
+    ]
+  },
+  "USR0012": {
+    "id": "USR0012",
+    "fullName": "Samuel Okonkwo",
+    "financialAdvisorId": "",
+    "companyEmail": "samuel.okonkwo@corp.finhub.com",
+    "ipCode": "IP012",
+    "role": "leadership",
+    "isActive": true,
+    "isDeleted": false,
+    "phone": "+1 305 555 0111",
+    "avatarUrl": null,
+    "countryId": 4,
+    "country": {
+      "id": 4,
+      "name": "Argentina",
+      "isoCode": "AR"
+    },
+    "topClientCountry": null,
+    "regionIds": [],
+    "preferences": {
+      "countryId": 4,
+      "topClientCountryId": null,
+      "regionIds": [],
+      "language": "en",
+      "theme": "light",
+      "firstTimeLogin": false
+    },
+    "recentLogins": [
+      {
+        "device": "iPad Air \u00b7 iPadOS 17.6",
+        "loginAt": "2026-09-14T18:30:00Z"
+      },
+      {
+        "device": "iPhone 15 Pro \u00b7 iOS 18.2",
+        "loginAt": "2026-09-10T09:15:00Z"
+      },
+      {
+        "device": "Pixel 8 \u00b7 Android 15",
+        "loginAt": "2026-09-02T21:45:00Z"
+      }
+    ]
+  },
+  "USR0013": {
+    "id": "USR0013",
+    "fullName": "Helena Vargas",
+    "financialAdvisorId": "",
+    "companyEmail": "helena.vargas@corp.finhub.com",
+    "ipCode": "IP013",
+    "role": "leadership",
+    "isActive": true,
+    "isDeleted": false,
+    "phone": "+1 305 555 0112",
+    "avatarUrl": null,
+    "countryId": 5,
+    "country": {
+      "id": 5,
+      "name": "Colombia",
+      "isoCode": "CO"
+    },
+    "topClientCountry": null,
+    "regionIds": [],
+    "preferences": {
+      "countryId": 5,
+      "topClientCountryId": null,
+      "regionIds": [],
+      "language": "en",
+      "theme": "light",
+      "firstTimeLogin": false
+    },
+    "recentLogins": [
+      {
+        "device": "iPhone 15 Pro \u00b7 iOS 18.2",
+        "loginAt": "2026-09-14T18:30:00Z"
+      },
+      {
+        "device": "Pixel 8 \u00b7 Android 15",
+        "loginAt": "2026-09-10T09:15:00Z"
+      },
+      {
+        "device": "Samsung Galaxy S24 \u00b7 Android 14",
+        "loginAt": "2026-09-02T21:45:00Z"
+      }
+    ]
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "default": [
+    {
+      "id": 1,
+      "name": "North America",
+      "marketsServed": "United States, Canada"
+    },
+    {
+      "id": 2,
+      "name": "LATAM North",
+      "marketsServed": "Mexico, Panama, Colombia"
+    },
+    {
+      "id": 3,
+      "name": "LATAM South",
+      "marketsServed": "Brazil, Argentina, Chile"
+    },
+    {
+      "id": 4,
+      "name": "Europe",
+      "marketsServed": "Spain, Portugal, Switzerland"
+    }
+  ]
+}

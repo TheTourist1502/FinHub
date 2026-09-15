@@ -1448,4 +1448,107 @@ class AppLocalizationsEn extends AppLocalizations {
 
   @override
   String get notificationsRefreshError => 'Couldn\'t refresh notifications. Please try again.';
+
+  @override
+  String get commonButtonSave => 'Save';
+
+  @override
+  String get profileTitle => 'Profile';
+
+  @override
+  String profileRoleBadge(String role) {
+    return '$role';
+  }
+
+  @override
+  String get profileSecurityAccessTitle => 'SECURITY & ACCESS';
+
+  @override
+  String get profileLoginHistoryTitle => 'Login History';
+
+  @override
+  String get profileLoginHistorySubtitle => 'No recent login recorded';
+
+  @override
+  String profileLastLoginOn(String date) {
+    return 'Last login on $date';
+  }
+
+  @override
+  String get profileLoginHistoryAllTitle => 'Login History';
+
+  @override
+  String get profilePreferencesTitle => 'PREFERENCES';
+
+  @override
+  String get profileCountryLabel => 'Advisor Residence Country';
+
+  @override
+  String get profileCountrySubtitle => 'The country you are based in';
+
+  @override
+  String get profileTopClientCountryLabel => 'Top Client Country';
+
+  @override
+  String get profileTopClientCountrySubtitle => 'Where most of your clients are based';
+
+  @override
+  String get profileRegionLabel => 'Region / Market Served';
+
+  @override
+  String get profileRegionSubtitle => 'Markets you actively serve';
+
+  @override
+  String get profileLanguageLabel => 'Language';
+
+  @override
+  String get profileLanguageSubtitle => 'App display language';
+
+  @override
+  String get profileSelectCountryTitle => 'Select Country';
+
+  @override
+  String get profileSelectTopClientCountryTitle => 'Select Top Client Country';
+
+  @override
+  String get profileSelectRegionTitle => 'Select Region / Market Served';
+
+  @override
+  String get profileSelectLangTitle => 'Select Language';
+
+  @override
+  String get profileRegionSelectionRequired => 'Select at least one region';
+
+  @override
+  String get profileMandatoryFieldsNote => '* Required field';
+
+  @override
+  String get profileSignOutButton => 'Log Out';
+
+  @override
+  String get profileAvatarPickerTitle => 'Update Photo';
+
+  @override
+  String get profileAvatarTakePhoto => 'Take Photo';
+
+  @override
+  String get profileAvatarChooseFromGallery => 'Choose from Gallery';
+
+  @override
+  String get profileAvatarCropTitle => 'Crop Photo';
+
+  @override
+  String get profileAvatarTooLarge => 'That photo is too large. Please choose a smaller one.';
+
+  @override
+  String get profileAvatarUploadError => 'Couldn\'t update your photo. Please try again.';
+
+  @override
+  String get profileAvatarUploadSuccess => 'Profile photo updated';
+
+  @override
+  String get profileTaxJurisdictionTitle => 'TAX JURISDICTION';
+
+  @override
+  String get profileLicensedGeosTitle => 'Licensed Geographies';
 }

@@ -2514,6 +2514,204 @@ abstract class AppLocalizations {
   /// In en, this message translates to:
   /// **'Couldn\'t refresh notifications. Please try again.'**
   String get notificationsRefreshError;
+
+  /// Confirms a staged multi-select choice, e.g. the region/market-served picker.
+  ///
+  /// In en, this message translates to:
+  /// **'Save'**
+  String get commonButtonSave;
+
+  /// App bar title of the Profile screen.
+  ///
+  /// In en, this message translates to:
+  /// **'Profile'**
+  String get profileTitle;
+
+  /// Role badge text under the user's name on the Profile header.
+  ///
+  /// In en, this message translates to:
+  /// **'{role}'**
+  String profileRoleBadge(String role);
+
+  /// Section header above the login-history row on the Profile screen.
+  ///
+  /// In en, this message translates to:
+  /// **'SECURITY & ACCESS'**
+  String get profileSecurityAccessTitle;
+
+  /// Title of the Security & Access section's login-history row.
+  ///
+  /// In en, this message translates to:
+  /// **'Login History'**
+  String get profileLoginHistoryTitle;
+
+  /// Fallback subtitle of the login-history row when no dated login exists.
+  ///
+  /// In en, this message translates to:
+  /// **'No recent login recorded'**
+  String get profileLoginHistorySubtitle;
+
+  /// Subtitle of the login-history row once a dated login is available.
+  ///
+  /// In en, this message translates to:
+  /// **'Last login on {date}'**
+  String profileLastLoginOn(String date);
+
+  /// Header of the bottom sheet listing every recent login.
+  ///
+  /// In en, this message translates to:
+  /// **'Login History'**
+  String get profileLoginHistoryAllTitle;
+
+  /// Section header above the preference rows on the Profile screen.
+  ///
+  /// In en, this message translates to:
+  /// **'PREFERENCES'**
+  String get profilePreferencesTitle;
+
+  /// Label of the Profile screen's registered-country preference row.
+  ///
+  /// In en, this message translates to:
+  /// **'Advisor Residence Country'**
+  String get profileCountryLabel;
+
+  /// Subtitle of the Profile screen's registered-country preference row.
+  ///
+  /// In en, this message translates to:
+  /// **'The country you are based in'**
+  String get profileCountrySubtitle;
+
+  /// Label of the Profile screen's top-client-country preference row.
+  ///
+  /// In en, this message translates to:
+  /// **'Top Client Country'**
+  String get profileTopClientCountryLabel;
+
+  /// Subtitle of the Profile screen's top-client-country preference row.
+  ///
+  /// In en, this message translates to:
+  /// **'Where most of your clients are based'**
+  String get profileTopClientCountrySubtitle;
+
+  /// Label of the Profile screen's region/market-served preference row.
+  ///
+  /// In en, this message translates to:
+  /// **'Region / Market Served'**
+  String get profileRegionLabel;
+
+  /// Subtitle of the Profile screen's region/market-served preference row.
+  ///
+  /// In en, this message translates to:
+  /// **'Markets you actively serve'**
+  String get profileRegionSubtitle;
+
+  /// Label of the Profile screen's language preference row.
+  ///
+  /// In en, this message translates to:
+  /// **'Language'**
+  String get profileLanguageLabel;
+
+  /// Subtitle of the Profile screen's language preference row.
+  ///
+  /// In en, this message translates to:
+  /// **'App display language'**
+  String get profileLanguageSubtitle;
+
+  /// Title of the country-selection bottom sheet opened from the residence-country row.
+  ///
+  /// In en, this message translates to:
+  /// **'Select Country'**
+  String get profileSelectCountryTitle;
+
+  /// Title of the country-selection bottom sheet opened from the top-client-country row.
+  ///
+  /// In en, this message translates to:
+  /// **'Select Top Client Country'**
+  String get profileSelectTopClientCountryTitle;
+
+  /// Title of the region-selection bottom sheet.
+  ///
+  /// In en, this message translates to:
+  /// **'Select Region / Market Served'**
+  String get profileSelectRegionTitle;
+
+  /// Title of the language-selection bottom sheet.
+  ///
+  /// In en, this message translates to:
+  /// **'Select Language'**
+  String get profileSelectLangTitle;
+
+  /// Validation note shown in the region-selection sheet when every region has been cleared.
+  ///
+  /// In en, this message translates to:
+  /// **'Select at least one region'**
+  String get profileRegionSelectionRequired;
+
+  /// Legend explaining the asterisk drawn beside a required preference row.
+  ///
+  /// In en, this message translates to:
+  /// **'* Required field'**
+  String get profileMandatoryFieldsNote;
+
+  /// Label of the Profile screen's sign-out button.
+  ///
+  /// In en, this message translates to:
+  /// **'Log Out'**
+  String get profileSignOutButton;
+
+  /// Title of the bottom sheet offering a camera/gallery choice for the profile photo.
+  ///
+  /// In en, this message translates to:
+  /// **'Update Photo'**
+  String get profileAvatarPickerTitle;
+
+  /// Option to capture a new profile photo with the camera.
+  ///
+  /// In en, this message translates to:
+  /// **'Take Photo'**
+  String get profileAvatarTakePhoto;
+
+  /// Option to pick an existing photo for the profile avatar.
+  ///
+  /// In en, this message translates to:
+  /// **'Choose from Gallery'**
+  String get profileAvatarChooseFromGallery;
+
+  /// Title bar of the native image-cropping screen for the profile photo.
+  ///
+  /// In en, this message translates to:
+  /// **'Crop Photo'**
+  String get profileAvatarCropTitle;
+
+  /// Error snackbar shown when a cropped avatar exceeds the upload size limit.
+  ///
+  /// In en, this message translates to:
+  /// **'That photo is too large. Please choose a smaller one.'**
+  String get profileAvatarTooLarge;
+
+  /// Error snackbar shown when the avatar upload fails.
+  ///
+  /// In en, this message translates to:
+  /// **'Couldn\'t update your photo. Please try again.'**
+  String get profileAvatarUploadError;
+
+  /// Success snackbar shown after the avatar upload completes.
+  ///
+  /// In en, this message translates to:
+  /// **'Profile photo updated'**
+  String get profileAvatarUploadSuccess;
+
+  /// Section header above the licensed-geographies card.
+  ///
+  /// In en, this message translates to:
+  /// **'TAX JURISDICTION'**
+  String get profileTaxJurisdictionTitle;
+
+  /// Title of the licensed-geographies card listing an advisor's state chips.
+  ///
+  /// In en, this message translates to:
+  /// **'Licensed Geographies'**
+  String get profileLicensedGeosTitle;
 }
 
 class _AppLocalizationsDelegate extends LocalizationsDelegate<AppLocalizations> {

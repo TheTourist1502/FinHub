@@ -78,6 +78,11 @@ abstract final class AppRoutes {
   /// Renders outside the shell so the bottom nav is hidden.
   static const String notifications = '/notifications';
 
+  /// Profile screen — pushed from the header avatar. Renders outside the
+  /// shell so the bottom nav is hidden. One path serves both roles; the
+  /// router picks [ProfileScreen] or [LeadershipProfileScreen] by role.
+  static const String profile = '/profile';
+
   /// Every branch of the bottom-navigation shell, in the order the router
   /// registers them.
   ///
