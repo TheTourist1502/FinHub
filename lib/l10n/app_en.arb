@@ -2087,5 +2087,45 @@
   "profileLicensedGeosTitle": "Licensed Geographies",
   "@profileLicensedGeosTitle": {
     "description": "Title of the licensed-geographies card listing an advisor's state chips."
+  },
+  "selectAdvisorTitle": "Select Advisor",
+  "@selectAdvisorTitle": {
+    "description": "App bar title of the leadership advisor-selection screen."
+  },
+  "selectAdvisorHeading": "Choose a financial advisor",
+  "@selectAdvisorHeading": {
+    "description": "Heading of the leadership advisor-selection screen and its picker sheet."
+  },
+  "selectAdvisorSubtitle": "Select the advisor whose book of business you'd like to view.",
+  "@selectAdvisorSubtitle": {
+    "description": "Subtitle under the heading on the leadership advisor-selection screen."
+  },
+  "selectAdvisorFieldHint": "Select FA",
+  "@selectAdvisorFieldHint": {
+    "description": "Placeholder/label of the advisor-picker field before an advisor is chosen."
+  },
+  "selectAdvisorContinue": "Continue",
+  "@selectAdvisorContinue": {
+    "description": "Label of the button that commits the picked advisor as the active context."
+  },
+  "selectAdvisorSearchHint": "Search by name, email or ID",
+  "@selectAdvisorSearchHint": {
+    "description": "Placeholder of the search field inside the advisor picker sheet."
+  },
+  "selectAdvisorLoadFailed": "Couldn't load advisors. Please try again.",
+  "@selectAdvisorLoadFailed": {
+    "description": "Message shown in the advisor picker sheet when the advisor list fails to load."
+  },
+  "selectAdvisorRetry": "Retry",
+  "@selectAdvisorRetry": {
+    "description": "Retry action label shown alongside a failed or empty advisor list."
+  },
+  "selectAdvisorEmpty": "No advisors match your search.",
+  "@selectAdvisorEmpty": {
+    "description": "Message shown in the advisor picker sheet when a search matches no advisors."
+  },
+  "selectAdvisorNoneAvailable": "No advisors are available.",
+  "@selectAdvisorNoneAvailable": {
+    "description": "Message shown in the advisor picker sheet when the advisor roster is empty."
   }
 }

@@ -1551,4 +1551,34 @@ class AppLocalizationsEn extends AppLocalizations {
 
   @override
   String get profileLicensedGeosTitle => 'Licensed Geographies';
+
+  @override
+  String get selectAdvisorTitle => 'Select Advisor';
+
+  @override
+  String get selectAdvisorHeading => 'Choose a financial advisor';
+
+  @override
+  String get selectAdvisorSubtitle => 'Select the advisor whose book of business you\'d like to view.';
+
+  @override
+  String get selectAdvisorFieldHint => 'Select FA';
+
+  @override
+  String get selectAdvisorContinue => 'Continue';
+
+  @override
+  String get selectAdvisorSearchHint => 'Search by name, email or ID';
+
+  @override
+  String get selectAdvisorLoadFailed => 'Couldn\'t load advisors. Please try again.';
+
+  @override
+  String get selectAdvisorRetry => 'Retry';
+
+  @override
+  String get selectAdvisorEmpty => 'No advisors match your search.';
+
+  @override
+  String get selectAdvisorNoneAvailable => 'No advisors are available.';
 }

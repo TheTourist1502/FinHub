@@ -1,0 +1,64 @@
+{
+  "default": [
+    {
+      "financialAdvisorId": "FAP0001",
+      "companyEmail": "alex.morgan@corp.finhub.com",
+      "fullName": "Alex Morgan",
+      "avatarUrl": null
+    },
+    {
+      "financialAdvisorId": "FAP0002",
+      "companyEmail": "daniel.alvarez@corp.finhub.com",
+      "fullName": "Daniel Alvarez",
+      "avatarUrl": null
+    },
+    {
+      "financialAdvisorId": "FAP0003",
+      "companyEmail": "marcus.chen@corp.finhub.com",
+      "fullName": "Marcus Chen",
+      "avatarUrl": null
+    },
+    {
+      "financialAdvisorId": "FAP0004",
+      "companyEmail": "priya.nair@corp.finhub.com",
+      "fullName": "Priya Nair",
+      "avatarUrl": null
+    },
+    {
+      "financialAdvisorId": "FAP0005",
+      "companyEmail": "sofia.bianchi@corp.finhub.com",
+      "fullName": "Sofia Bianchi",
+      "avatarUrl": null
+    },
+    {
+      "financialAdvisorId": "FAP0006",
+      "companyEmail": "liam.osullivan@corp.finhub.com",
+      "fullName": "Liam O'Sullivan",
+      "avatarUrl": null
+    },
+    {
+      "financialAdvisorId": "FAP0007",
+      "companyEmail": "nadia.haddad@corp.finhub.com",
+      "fullName": "Nadia Haddad",
+      "avatarUrl": null
+    },
+    {
+      "financialAdvisorId": "FAP0008",
+      "companyEmail": "tomas.ferreira@corp.finhub.com",
+      "fullName": "Tomas Ferreira",
+      "avatarUrl": null
+    },
+    {
+      "financialAdvisorId": "FAP0009",
+      "companyEmail": "grace.lindqvist@corp.finhub.com",
+      "fullName": "Grace Lindqvist",
+      "avatarUrl": null
+    },
+    {
+      "financialAdvisorId": "FAP0010",
+      "companyEmail": "ethan.caldwell@corp.finhub.com",
+      "fullName": "Ethan Caldwell",
+      "avatarUrl": null
+    }
+  ]
+}

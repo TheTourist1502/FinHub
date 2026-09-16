@@ -5,14 +5,35 @@ import 'package:finhub/features/login/presentation/providers/login_provider.dart
 /// Decides every redirect in the app. Auth and role checks live here and
 /// nowhere else — never inside a screen, widget or notifier.
 ///
+/// [advisorContextRestoring] is `true` while a leadership user's persisted
+/// advisor selection is still being read off disk (see
+/// `AdvisorContextNotifier`). The answer is not known yet in that window, so
+/// this holds the current route rather than acting on a guess — exactly like
+/// the [AuthUnknown] hold below.
+///
+/// [requiresAdvisorSelection] is `true` for a leadership user who has settled
+/// on having no advisor picked; every scoped screen has nothing to render
+/// until they choose one.
+///
 /// Returns the path to redirect to, or `null` to let the navigation stand.
-String? routeGuard({required AuthState state, required String location}) {
+String? routeGuard({
+  required AuthState state,
+  required String location,
+  bool advisorContextRestoring = false,
+  bool requiresAdvisorSelection = false,
+}) {
   final policy = AppRoutes.policyFor(location);
   final user = state is AuthAuthenticated ? state.user : null;
 
   // The cold-start session check has not resolved yet; hold the current route
   // rather than flashing the login screen at a user who is signed in.
   if (state is AuthUnknown) return null;
+
+  // Same reasoning as the AuthUnknown hold above: acting before the persisted
+  // advisor selection has been read would either flash the picker at a
+  // leadership user who already has one, or hand them a scoped screen that
+  // has nothing to show yet.
+  if (advisorContextRestoring) return null;
 
   if (user == null) {
     if (policy?.isPublic ?? false) return null;
@@ -26,6 +47,13 @@ String? routeGuard({required AuthState state, required String location}) {
 
   final roles = policy?.roles;
   if (roles != null && !roles.contains(user.role)) return AppRoutes.accessDenied;
+
+  // Rule 6: advisor-selection gate. Runs after the role check so a genuine
+  // access violation still resolves to /access-denied rather than being
+  // masked by the picker.
+  if (requiresAdvisorSelection && Uri.parse(location).path != AppRoutes.selectAdvisor) {
+    return AppRoutes.selectAdvisor;
+  }
 
   return null;
 }

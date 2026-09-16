@@ -2712,6 +2712,66 @@ abstract class AppLocalizations {
   /// In en, this message translates to:
   /// **'Licensed Geographies'**
   String get profileLicensedGeosTitle;
+
+  /// App bar title of the leadership advisor-selection screen.
+  ///
+  /// In en, this message translates to:
+  /// **'Select Advisor'**
+  String get selectAdvisorTitle;
+
+  /// Heading of the leadership advisor-selection screen and its picker sheet.
+  ///
+  /// In en, this message translates to:
+  /// **'Choose a financial advisor'**
+  String get selectAdvisorHeading;
+
+  /// Subtitle under the heading on the leadership advisor-selection screen.
+  ///
+  /// In en, this message translates to:
+  /// **'Select the advisor whose book of business you\'d like to view.'**
+  String get selectAdvisorSubtitle;
+
+  /// Placeholder/label of the advisor-picker field before an advisor is chosen.
+  ///
+  /// In en, this message translates to:
+  /// **'Select FA'**
+  String get selectAdvisorFieldHint;
+
+  /// Label of the button that commits the picked advisor as the active context.
+  ///
+  /// In en, this message translates to:
+  /// **'Continue'**
+  String get selectAdvisorContinue;
+
+  /// Placeholder of the search field inside the advisor picker sheet.
+  ///
+  /// In en, this message translates to:
+  /// **'Search by name, email or ID'**
+  String get selectAdvisorSearchHint;
+
+  /// Message shown in the advisor picker sheet when the advisor list fails to load.
+  ///
+  /// In en, this message translates to:
+  /// **'Couldn\'t load advisors. Please try again.'**
+  String get selectAdvisorLoadFailed;
+
+  /// Retry action label shown alongside a failed or empty advisor list.
+  ///
+  /// In en, this message translates to:
+  /// **'Retry'**
+  String get selectAdvisorRetry;
+
+  /// Message shown in the advisor picker sheet when a search matches no advisors.
+  ///
+  /// In en, this message translates to:
+  /// **'No advisors match your search.'**
+  String get selectAdvisorEmpty;
+
+  /// Message shown in the advisor picker sheet when the advisor roster is empty.
+  ///
+  /// In en, this message translates to:
+  /// **'No advisors are available.'**
+  String get selectAdvisorNoneAvailable;
 }
 
 class _AppLocalizationsDelegate extends LocalizationsDelegate<AppLocalizations> {

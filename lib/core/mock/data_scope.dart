@@ -1,3 +1,4 @@
+import 'package:finhub/core/advisor_context/advisor_context_provider.dart';
 import 'package:finhub/features/login/domain/models/user.dart';
 import 'package:finhub/features/login/presentation/providers/login_provider.dart';
 import 'package:flutter/foundation.dart';
@@ -5,10 +6,13 @@ import 'package:flutter_riverpod/flutter_riverpod.dart';
 
 /// The advisor the signed-in user is currently reading.
 ///
-/// An advisor reads their own book. Leadership resolves to the advisor picked
-/// in the FA selector — until that screen ships, leadership reads nothing and
-/// [DataScope.isResolved] stays `false`.
-final dataScopeProvider = Provider<DataScope>((ref) => DataScope.forUser(ref.watch(currentUserProvider)));
+/// An advisor reads their own book. Leadership resolves to whichever advisor
+/// is picked in the FA selector, tracked by [advisorContextProvider] —
+/// [advisorContextProvider] is watched, not read, so a leadership advisor
+/// switch rebuilds every scoped repository.
+final dataScopeProvider = Provider<DataScope>(
+  (ref) => DataScope.forUser(ref.watch(currentUserProvider), ref.watch(advisorContextProvider).advisorId),
+);
 
 @immutable
 /// Names the advisor a read is scoped to.
@@ -21,9 +25,14 @@ class DataScope {
   /// Creates a scope naming [advisorId].
   const DataScope(this.advisorId);
 
-  /// Builds the scope implied by [user] alone — their own book for an
-  /// advisor, unresolved for leadership until they select one.
-  factory DataScope.forUser(User? user) => DataScope(user?.advisorId);
+  /// Builds the scope for [user] — their own book for an advisor,
+  /// [leadershipAdvisorId] for leadership (unresolved when that is `null`,
+  /// i.e. nothing picked yet, or still being restored).
+  ///
+  /// [User.advisorId] is `null` for every leadership user, so it is safe to
+  /// fall back to [leadershipAdvisorId] whenever [User.advisorId] is absent.
+  factory DataScope.forUser(User? user, String? leadershipAdvisorId) =>
+      DataScope(user?.advisorId ?? leadershipAdvisorId);
 
   /// The advisor whose data is readable, or `null` when none is selected.
   final String? advisorId;

@@ -1,3 +1,4 @@
+import 'package:finhub/core/advisor_context/advisor_context_provider.dart';
 import 'package:finhub/core/l10n/l10n.dart';
 import 'package:finhub/core/routing/app_routes.dart';
 import 'package:finhub/core/routing/route_guard.dart';
@@ -11,6 +12,7 @@ import 'package:finhub/features/home/presentation/screens/home_shell_screen.dart
 import 'package:finhub/features/households/presentation/screens/households_list_screen.dart';
 import 'package:finhub/features/households/presentation/screens/households_shell_screen.dart';
 import 'package:finhub/features/households_detailed_view/presentation/screens/household_detail_screen.dart';
+import 'package:finhub/features/leadership_advisor_selection/presentation/screens/leadership_advisor_selection_screen.dart';
 import 'package:finhub/features/leadership_commissions/presentation/screens/leadership_commissions_screen.dart';
 import 'package:finhub/features/login/domain/models/user.dart';
 import 'package:finhub/features/login/presentation/providers/login_provider.dart';
@@ -41,14 +43,27 @@ final appRouterProvider = Provider<GoRouter>((ref) {
   return GoRouter(
     initialLocation: AppRoutes.home,
     refreshListenable: refresh,
-    redirect: (context, routerState) =>
-        routeGuard(state: ref.read(authNotifierProvider), location: routerState.uri.toString()),
+    redirect: (context, routerState) {
+      final authState = ref.read(authNotifierProvider);
+      final user = authState is AuthAuthenticated ? authState.user : null;
+      final advisorContext = ref.read(advisorContextProvider);
+      return routeGuard(
+        state: authState,
+        location: routerState.uri.toString(),
+        advisorContextRestoring: advisorContext.isRestoring,
+        requiresAdvisorSelection: user?.role == UserRole.leadership && advisorContext.advisorId == null,
+      );
+    },
     routes: [
       GoRoute(
         path: AppRoutes.login,
         builder: (context, routerState) => LoginScreen(redirectTo: routerState.uri.queryParameters['redirect']),
       ),
       GoRoute(path: AppRoutes.accessDenied, builder: (context, routerState) => const AccessDeniedScreen()),
+      GoRoute(
+        path: AppRoutes.selectAdvisor,
+        builder: (context, routerState) => const LeadershipAdvisorSelectionScreen(),
+      ),
       // Pushed above the shell from the dashboard. Their screens land on their
       // own days; until then the destination is the coming-soon placeholder.
       GoRoute(
@@ -216,17 +231,21 @@ class _ExtraArgsGuardState<T extends Object> extends State<_ExtraArgsGuard<T>> {
   }
 }
 
-/// Re-runs the router's redirect whenever the session state changes.
+/// Re-runs the router's redirect whenever the session state or the
+/// leadership advisor selection changes.
 class _RouterChangeNotifier extends ChangeNotifier {
   _RouterChangeNotifier(Ref ref) {
-    _subscription = ref.listen(authNotifierProvider, (_, _) => notifyListeners());
+    _authSubscription = ref.listen(authNotifierProvider, (_, _) => notifyListeners());
+    _advisorSubscription = ref.listen(advisorContextProvider, (_, _) => notifyListeners());
   }
 
-  late final ProviderSubscription<AuthState> _subscription;
+  late final ProviderSubscription<AuthState> _authSubscription;
+  late final ProviderSubscription<AdvisorContext> _advisorSubscription;
 
   @override
   void dispose() {
-    _subscription.close();
+    _authSubscription.close();
+    _advisorSubscription.close();
     super.dispose();
   }
 }

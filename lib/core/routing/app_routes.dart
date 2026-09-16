@@ -44,6 +44,10 @@ abstract final class AppRoutes {
   /// Shown when a role check fails.
   static const String accessDenied = '/access-denied';
 
+  /// Leadership-only FA picker. The route guard redirects here from any
+  /// protected route while a leadership user has no advisor selected.
+  static const String selectAdvisor = '/select-advisor';
+
   /// The new service-request form, pushed from the dashboard's quick actions.
   static const String newServiceRequest = '/service-requests/add';
 
@@ -96,6 +100,7 @@ abstract final class AppRoutes {
   static const Map<String, RoutePolicy> policies = {
     login: RoutePolicy(isPublic: true),
     accessDenied: RoutePolicy(isPublic: true),
+    selectAdvisor: RoutePolicy(roles: {UserRole.leadership}),
     serviceRequests: RoutePolicy(roles: {UserRole.advisor}),
     commissions: RoutePolicy(roles: {UserRole.leadership}),
     // Backed by the advisor's own account list, with no leadership twin —
