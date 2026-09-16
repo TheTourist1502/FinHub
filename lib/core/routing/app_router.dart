@@ -24,8 +24,6 @@ import 'package:finhub/features/profile/presentation/screens/leadership_profile_
 import 'package:finhub/features/profile/presentation/screens/profile_screen.dart';
 import 'package:finhub/features/real_time/presentation/screens/real_time_screen.dart';
 import 'package:finhub/features/real_time_detailed_view/presentation/screens/real_time_detailed_view_screen.dart';
-import 'package:finhub/features/service_request/presentation/screens/service_request_list_screen.dart';
-import 'package:finhub/features/service_request/presentation/screens/service_request_success_screen.dart';
 import 'package:finhub/features/task_dashboard/presentation/screens/task_dashboard_screen.dart';
 import 'package:finhub/features/view_transactions/presentation/screens/view_transaction_screen.dart';
 import 'package:flutter/widgets.dart';
@@ -69,21 +67,6 @@ final appRouterProvider = Provider<GoRouter>((ref) {
       GoRoute(
         path: AppRoutes.newServiceRequest,
         builder: (context, routerState) => ComingSoonScreen(tabLabel: context.l10n.navServiceRequests),
-      ),
-      // Pushed once a service request is submitted. `extra` carries the
-      // record id; a hot restart (or GoRouter replaying the last known path
-      // on engine re-attach) can re-invoke this route with no `extra` at
-      // all, bypassing `redirect` entirely — [_ExtraArgsGuard] is the last
-      // line of defence, see its doc comment.
-      GoRoute(
-        path: AppRoutes.serviceRequestSuccess,
-        redirect: (context, routerState) =>
-            routerState.extra is ServiceRequestSuccessArgs ? null : AppRoutes.serviceRequests,
-        builder: (context, routerState) => _ExtraArgsGuard<ServiceRequestSuccessArgs>(
-          extra: routerState.extra,
-          fallback: AppRoutes.serviceRequests,
-          builder: (context, args) => ServiceRequestSuccessScreen(args: args),
-        ),
       ),
       GoRoute(
         path: AppRoutes.viewTransactions,
@@ -152,8 +135,9 @@ final appRouterProvider = Provider<GoRouter>((ref) {
           _branch(AppRoutes.home, (context) => const DashboardScreen()),
           _householdsBranch(),
           _branch(AppRoutes.realTime, (context) => const RealTimeScreen()),
-          _branch(AppRoutes.serviceRequests, (context) => const ServiceRequestListScreen()),
           _branch(AppRoutes.commissions, (context) => const LeadershipCommissionsScreen()),
+          // Markets tab content lands on its own day.
+          _branch(AppRoutes.markets, (context) => ComingSoonScreen(tabLabel: context.l10n.navMarkets)),
         ],
       ),
     ],
@@ -182,54 +166,6 @@ StatefulShellBranch _householdsBranch() => StatefulShellBranch(
   ],
 );
 
-/// Guards a route whose screen depends on an `extra` payload of type [T].
-///
-/// `extra` is an in-memory-only Dart object — it is never encoded into the
-/// URL, so it cannot survive anything that makes GoRouter rebuild the current
-/// location from its path alone (a hot restart, or the engine replaying the
-/// last known route to a freshly-constructed [GoRouter] on re-attach). When
-/// that happens this route's `builder` is re-invoked with `extra: null`,
-/// bypassing the route's own `redirect` (which only runs on the original
-/// navigation). Rather than let a cast throw, this widget renders [builder]
-/// when [extra] is a valid [T] and otherwise redirects to [fallback] on the
-/// next frame, showing a brief spinner in the meantime.
-class _ExtraArgsGuard<T extends Object> extends StatefulWidget {
-  /// Creates an [_ExtraArgsGuard].
-  const _ExtraArgsGuard({required this.extra, required this.fallback, required this.builder});
-
-  /// The route's `state.extra`, expected to be a [T].
-  final Object? extra;
-
-  /// Path to redirect to when [extra] is missing or the wrong type.
-  final String fallback;
-
-  /// Builds the real screen once [extra] has been confirmed to be a [T].
-  final Widget Function(BuildContext context, T args) builder;
-
-  @override
-  State<_ExtraArgsGuard<T>> createState() => _ExtraArgsGuardState<T>();
-}
-
-class _ExtraArgsGuardState<T extends Object> extends State<_ExtraArgsGuard<T>> {
-  @override
-  void initState() {
-    super.initState();
-    if (widget.extra is! T) {
-      WidgetsBinding.instance.addPostFrameCallback((_) {
-        if (mounted) context.go(widget.fallback);
-      });
-    }
-  }
-
-  @override
-  Widget build(BuildContext context) {
-    final extra = widget.extra;
-    if (extra is T) return widget.builder(context, extra);
-    // Redirect is already scheduled in initState; this frame renders nothing
-    // rather than pulling in a Material dependency just for a spinner.
-    return const SizedBox.shrink();
-  }
-}
 
 /// Re-runs the router's redirect whenever the session state or the
 /// leadership advisor selection changes.

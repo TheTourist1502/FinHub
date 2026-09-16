@@ -73,7 +73,6 @@ flutter:
     - assets/mock-data/notifications/
     - assets/mock-data/profile/
     - assets/mock-data/real_time/
-    - assets/mock-data/service_requests/
     - assets/mock-data/tasks/
     - assets/mock-data/transactions/
 

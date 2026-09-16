@@ -35,11 +35,12 @@ abstract final class AppRoutes {
   /// account selector. Renders outside the shell so the bottom nav is hidden.
   static const String realTimeDetailedView = '/real-time/:accountId';
 
-  /// Service requests tab — advisors only.
-  static const String serviceRequests = '/service-requests';
-
   /// Commissions tab — leadership only.
   static const String commissions = '/commissions';
+
+  /// Markets tab — advisors only. Placeholder screen; content lands on its
+  /// own day.
+  static const String markets = '/markets';
 
   /// Shown when a role check fails.
   static const String accessDenied = '/access-denied';
@@ -50,10 +51,6 @@ abstract final class AppRoutes {
 
   /// The new service-request form, pushed from the dashboard's quick actions.
   static const String newServiceRequest = '/service-requests/add';
-
-  /// Service request success screen, pushed after a service request is
-  /// submitted. Renders outside the shell so the bottom nav is hidden.
-  static const String serviceRequestSuccess = '/service-requests/success';
 
   /// Full transaction history, pushed from the dashboard's recent-transactions card.
   static const String viewTransactions = '/view-transactions';
@@ -93,7 +90,7 @@ abstract final class AppRoutes {
   /// A tab's position here is its `StatefulNavigationShell` branch index — the
   /// list is shared by every role, and [RoleExperience] decides which of them
   /// a given role actually sees.
-  static const List<String> shellBranches = [home, households, realTime, serviceRequests, commissions];
+  static const List<String> shellBranches = [home, households, realTime, commissions, markets];
 
   /// Non-default access rules, keyed by path. A child route inherits the
   /// nearest ancestor's policy, so only the ancestor needs an entry.
@@ -101,8 +98,8 @@ abstract final class AppRoutes {
     login: RoutePolicy(isPublic: true),
     accessDenied: RoutePolicy(isPublic: true),
     selectAdvisor: RoutePolicy(roles: {UserRole.leadership}),
-    serviceRequests: RoutePolicy(roles: {UserRole.advisor}),
     commissions: RoutePolicy(roles: {UserRole.leadership}),
+    markets: RoutePolicy(roles: {UserRole.advisor}),
     // Backed by the advisor's own account list, with no leadership twin —
     // `/real-time/:accountId` inherits this automatically.
     realTime: RoutePolicy(roles: {UserRole.advisor}),

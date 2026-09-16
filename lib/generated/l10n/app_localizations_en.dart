@@ -116,6 +116,9 @@ class AppLocalizationsEn extends AppLocalizations {
   String get navCommissions => 'Commissions';
 
   @override
+  String get navMarkets => 'Markets';
+
+  @override
   String get roleAdvisor => 'Advisor';
 
   @override
@@ -992,150 +995,6 @@ class AppLocalizationsEn extends AppLocalizations {
 
   @override
   String get realTimeAccountActivityLabel => 'ACTIVITY DESCRIPTION';
-
-  @override
-  String get serviceRequestNewButton => 'New Service Request';
-
-  @override
-  String get serviceRequestSearchHint => 'Search by name or code...';
-
-  @override
-  String get serviceRequestFilterAll => 'All';
-
-  @override
-  String get serviceRequestFilterActive => 'Open';
-
-  @override
-  String get serviceRequestFilterClosed => 'Closed';
-
-  @override
-  String serviceRequestHeadingAll(int count) {
-    String _temp0 = intl.Intl.pluralLogic(
-      count,
-      locale: localeName,
-      other: 'All Service Requests ($count)',
-      one: 'All Service Request ($count)',
-      zero: 'All Service Request ($count)',
-    );
-    return '$_temp0';
-  }
-
-  @override
-  String serviceRequestHeadingActive(int count) {
-    String _temp0 = intl.Intl.pluralLogic(
-      count,
-      locale: localeName,
-      other: 'Open Service Requests ($count)',
-      one: 'Open Service Request ($count)',
-      zero: 'Open Service Request ($count)',
-    );
-    return '$_temp0';
-  }
-
-  @override
-  String serviceRequestHeadingClosed(int count) {
-    String _temp0 = intl.Intl.pluralLogic(
-      count,
-      locale: localeName,
-      other: 'Closed Service Requests ($count)',
-      one: 'Closed Service Request ($count)',
-      zero: 'Closed Service Request ($count)',
-    );
-    return '$_temp0';
-  }
-
-  @override
-  String get serviceRequestSectionActive => 'Open';
-
-  @override
-  String get serviceRequestSectionClosed => 'Closed';
-
-  @override
-  String get serviceRequestEmpty => 'No service requests found';
-
-  @override
-  String get serviceRequestEmptySearch => 'No matching service requests';
-
-  @override
-  String get serviceRequestView => 'View';
-
-  @override
-  String get serviceRequestDateToday => 'Today';
-
-  @override
-  String get serviceRequestDateYesterday => 'Yesterday';
-
-  @override
-  String get serviceRequestDateTomorrow => 'Tomorrow';
-
-  @override
-  String get serviceRequestDetailFinancialAccountLabel => 'Account Number :';
-
-  @override
-  String get serviceRequestDetailFinancialAccountTypeLabel => 'Account Type :';
-
-  @override
-  String get serviceRequestDetailRecordId => 'SR Id :';
-
-  @override
-  String get serviceRequestDetailStatus => 'Current Status';
-
-  @override
-  String get serviceRequestDetailActionPending => 'Action Pending';
-
-  @override
-  String get serviceRequestDetailNoPendingAction => 'No pending action';
-
-  @override
-  String get serviceRequestDetailDueDateLabel => 'Due Date :';
-
-  @override
-  String get serviceRequestDetailWorkflowStatus => 'Workflow Status';
-
-  @override
-  String get serviceRequestDetailStepSubmitted => 'Submitted';
-
-  @override
-  String get serviceRequestDetailStepCompleted => 'Completed';
-
-  @override
-  String get serviceRequestDetailOwner => 'Owner';
-
-  @override
-  String get serviceRequestDetailAssignedTo => 'Assigned To';
-
-  @override
-  String get serviceRequestDetailDueDate => 'Due Date';
-
-  @override
-  String get serviceRequestDetailComments => 'Comments';
-
-  @override
-  String get serviceRequestDetailViewMore => 'View more';
-
-  @override
-  String get serviceRequestDetailClose => 'Close';
-
-  @override
-  String get serviceRequestSuccessTitle => 'Request Submitted';
-
-  @override
-  String get serviceRequestSuccessRecordLabel => 'Your service request ID';
-
-  @override
-  String get serviceRequestSuccessConfirmation => 'created successfully .';
-
-  @override
-  String get serviceRequestSuccessCopied => 'Record ID copied to clipboard';
-
-  @override
-  String get serviceRequestSuccessRedirectPrefix => 'You will be redirected to Service Request Home page in ';
-
-  @override
-  String get serviceRequestSuccessRedirectSuffix => 's.';
-
-  @override
-  String get serviceRequestSuccessGoButton => 'Go to Service Request';
 
   @override
   String get myCommissionsTitle => 'Commissions';
