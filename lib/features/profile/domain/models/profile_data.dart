@@ -140,6 +140,11 @@ class ProfileData {
   /// Raw preferences map; empty when not set.
   Map<String, dynamic> get preferences => (raw['preferences'] as Map<String, dynamic>?) ?? const {};
 
+  /// Whether the welcome carousel is still owed to this user — cleared to
+  /// `false` once [preferences] gets a `firstTimeLogin` submission. Drives
+  /// `routeGuard`'s redirect to `/welcome`.
+  bool get isFirstTimeLogin => preferences['firstTimeLogin'] as bool? ?? false;
+
   /// Top client's country, parsed from the nested `topClientCountry` object.
   Country? get topClientCountry {
     final c = raw['topClientCountry'] as Map<String, dynamic>?;

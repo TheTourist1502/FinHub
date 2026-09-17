@@ -110,9 +110,6 @@ class AppLocalizationsEn extends AppLocalizations {
   String get navRealTime => 'Real-Time';
 
   @override
-  String get navServiceRequests => 'Requests';
-
-  @override
   String get navCommissions => 'Commissions';
 
   @override
@@ -508,12 +505,6 @@ class AppLocalizationsEn extends AppLocalizations {
   }
 
   @override
-  String get dashboardQuickActionAccountMaintenance => 'Account Maintenance';
-
-  @override
-  String get dashboardQuickActionAssetMovement => 'Asset Movement';
-
-  @override
   String get dashboardQuickActionClientSearch => 'Client Search';
 
   @override
@@ -528,9 +519,6 @@ class AppLocalizationsEn extends AppLocalizations {
 
   @override
   String get dashboardQuickActionMyCommissions => 'Commissions';
-
-  @override
-  String get dashboardQuickActionOnlineAccess => 'Online Access';
 
   @override
   String get dashboardQuickActionTasksDashboard => 'Tasks Dashboard';
@@ -1385,27 +1373,6 @@ class AppLocalizationsEn extends AppLocalizations {
   String get profileSignOutButton => 'Log Out';
 
   @override
-  String get profileAvatarPickerTitle => 'Update Photo';
-
-  @override
-  String get profileAvatarTakePhoto => 'Take Photo';
-
-  @override
-  String get profileAvatarChooseFromGallery => 'Choose from Gallery';
-
-  @override
-  String get profileAvatarCropTitle => 'Crop Photo';
-
-  @override
-  String get profileAvatarTooLarge => 'That photo is too large. Please choose a smaller one.';
-
-  @override
-  String get profileAvatarUploadError => 'Couldn\'t update your photo. Please try again.';
-
-  @override
-  String get profileAvatarUploadSuccess => 'Profile photo updated';
-
-  @override
   String get profileTaxJurisdictionTitle => 'TAX JURISDICTION';
 
   @override
@@ -1440,4 +1407,53 @@ class AppLocalizationsEn extends AppLocalizations {
 
   @override
   String get selectAdvisorNoneAvailable => 'No advisors are available.';
+
+  @override
+  String get welcomeHeroTitle => 'Welcome to FinHub';
+
+  @override
+  String get welcomeHeroSubtitle =>
+      'Your all-in-one platform to manage clients, portfolios, and service requests — securely, from anywhere.';
+
+  @override
+  String get welcomeGetStarted => 'Get Started';
+
+  @override
+  String get welcomePersonalizeTitle => 'Personalize Your Experience';
+
+  @override
+  String get welcomePersonalizeSubtitle =>
+      'Tell us where you work and who you serve, so we can tailor your dashboard and regional settings.';
+
+  @override
+  String get welcomeAdvisorCountryLabel => 'Advisor Residence Country';
+
+  @override
+  String get welcomeAdvisorCountrySubtitle => 'Select Country';
+
+  @override
+  String get welcomeRegionLabel => 'Region / Market Served';
+
+  @override
+  String get welcomeRegionSubtitle => 'Select Region / Market Served';
+
+  @override
+  String get welcomeLanguageLabel => 'Preferred Language';
+
+  @override
+  String get welcomeLanguageSubtitle => 'Select Language';
+
+  @override
+  String get welcomePersonalizeMandatoryNote => '* All fields are mandatory';
+
+  @override
+  String welcomeMissingFieldsError(String fields, int count) {
+    String _temp0 = intl.Intl.pluralLogic(
+      count,
+      locale: localeName,
+      other: 'are required',
+      one: 'is required',
+    );
+    return '$fields $_temp0!';
+  }
 }

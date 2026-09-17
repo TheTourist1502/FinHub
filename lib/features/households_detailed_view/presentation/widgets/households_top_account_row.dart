@@ -39,6 +39,7 @@ class HouseholdsTopAccountRow extends StatelessWidget {
           ? onTap!(account)
           : context.push(
               AppRoutes.accountDetailView.replaceFirst(':accountId', account.accountId),
+              extra: account,
             ),
       child: Padding(
         padding: const EdgeInsets.all(16),

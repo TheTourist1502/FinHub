@@ -30,13 +30,13 @@ abstract final class RoleExperience {
   static List<AppTab> tabsFor(UserRole role) => [
     AppTab(route: AppRoutes.home, icon: Mdi.home_outline, label: (l10n) => l10n.navHome),
     AppTab(route: AppRoutes.households, icon: Mdi.account_group_outline, label: (l10n) => l10n.navHouseholds),
-    AppTab(route: AppRoutes.realTime, icon: Mdi.chart_line, label: (l10n) => l10n.navRealTime),
+    AppTab(route: AppRoutes.realTime, icon: Mdi.pulse, label: (l10n) => l10n.navRealTime),
     // The fourth slot is where the two experiences diverge: leadership
     // watches commissions, an advisor gets markets.
     if (role == UserRole.leadership)
       AppTab(route: AppRoutes.commissions, icon: Mdi.cash_multiple, label: (l10n) => l10n.navCommissions)
     else
-      AppTab(route: AppRoutes.markets, icon: Mdi.chart_areaspline, label: (l10n) => l10n.navMarkets),
+      AppTab(route: AppRoutes.markets, icon: Mdi.trending_up, label: (l10n) => l10n.navMarkets),
   ];
 
   /// Where [role] lands after signing in — always their first tab.

@@ -2,6 +2,19 @@
 
 Versions follow semver. `feat` commits bump minor (major post-1.0), `fix` commits bump patch. Starts at 0.0.0.
 
+## [0.18.0] - Unreleased (staged)
+feat: add welcome onboarding carousel, gated on the profile fixture's first-time-login flag
+
+- New `lib/features/welcome/` (5 files): `welcome_provider.dart` (active carousel page index, `autoDispose`), `welcome_preferences_provider.dart` (staged country/region draft + `WelcomeSubmitNotifier`), `welcome_screen.dart` (`PageView` host + shared CTA/dots footer), `welcome_hero_page.dart` (page 1), `welcome_personalize_page.dart` (page 2). Reuses `ProfilePreferenceCard` from the Profile feature instead of porting a near-duplicate `WelcomePreferenceCard` — that widget gained an `isValueLoading` shimmer param (the one thing Welcome needed that Profile didn't) rather than forking a second copy.
+- Adapted from the reference branch's HTTP version: `WelcomeSubmitNotifier.submit` calls `ProfileRepository.updatePreferences` (the same mock method Profile's preference rows already use) instead of a `PATCH`, and publishes the result via `currentProfileProvider.notifier.applyUpdate` instead of an `AuthNotifier.updateCachedProfile` that doesn't exist on this branch. Dropped the `language` field from the staged draft entirely — Spanish/Hindi are paused, so, exactly like `LanguagePreferenceRow`, the language card always shows "English" and stages nothing; the submitted payload still sends `'language': 'en'` so the fixture write shape matches Profile's. The Top Client Country card stays hidden, matching the reference branch's own current design, not just a porting shortcut.
+- Added `ProfileData.isFirstTimeLogin` (reads `preferences.firstTimeLogin`, defaulting `false`) and `assets/images/welcome_page.svg` (ported as-is; `assets/images/` is already a pubspec wildcard, so no pubspec change was needed).
+- New `lib/shared/widgets/brand/app_logos.dart`: `AppWordmarkLogo`, extracted from `LoginScreen`'s inline `Iconify(Mdi.finance) + Text` brand block (the styling rules already named this widget as the one to use, but nothing had built it yet). `LoginScreen` now calls it too, so there is exactly one place that draws the brand mark. Not added: `AppLogo` (icon-only) — nothing calls it yet.
+- **Routing**: added `AppRoutes.welcome` (`/welcome`, advisor-only policy) and its `GoRoute`. `route_guard.dart` gained `firstTimeLoginResolving` (holds the current route while an advisor's profile fetch, which carries the flag, is still in flight — mirrors the existing `advisorContextRestoring` hold) and `isFirstTimeLogin` (redirects to `/welcome` from any other protected route, checked after the role and advisor-selection gates so those still win). `app_router.dart`'s `redirect` callback now also reads `currentProfileProvider` — only for an advisor session, so a leadership session never triggers its fetch — and `_RouterChangeNotifier` listens to it so the profile landing re-evaluates the redirect the moment the fixture read completes.
+- Every fixture in `assets/mock-data/profile/profile.json` already carried `firstTimeLogin: false` (added when the profile feature landed in `0.16.0`, ahead of this stage), so no fixture change was needed to wire the gate up — flip one user's flag to `true` to exercise the carousel.
+- Added 15 new ARB keys to `lib/l10n/app_en.arb` **only** (hero title/subtitle/CTA, personalize title/subtitle, advisor-country/region/language card copy, mandatory-fields note, missing-fields error). Regenerated l10n.
+- Updated `.claude/docs/folder-structure.md`: dropped the scaffolded `welcome_preference_card.dart` entry (superseded by the `ProfilePreferenceCard` reuse above) and noted the reuse on both features' entries.
+- Currency: not applicable — this stage carries no monetary fields.
+
 ## [0.17.0] - Unreleased (staged)
 feat: add leadership advisor selection, unblocking every leadership-scoped feature
 

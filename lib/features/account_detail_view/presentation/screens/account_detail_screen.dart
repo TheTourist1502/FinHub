@@ -8,6 +8,7 @@ import 'package:finhub/features/account_detail_view/presentation/widgets/account
 import 'package:finhub/features/account_detail_view/presentation/widgets/account_detail_shimmer.dart';
 import 'package:finhub/features/account_detail_view/presentation/widgets/account_detail_top_card.dart';
 import 'package:finhub/features/account_detail_view/presentation/widgets/account_detail_transactions_tab.dart';
+import 'package:finhub/features/accounts/domain/models/account.dart';
 import 'package:finhub/shared/widgets/feedback/app_error_code.dart';
 import 'package:finhub/shared/widgets/feedback/app_error_widget.dart';
 import 'package:finhub/shared/widgets/layout/detail_page_bar.dart';
@@ -27,13 +28,27 @@ import 'package:go_router/go_router.dart';
 ///  4. [TabBarView] — each tab's dedicated content widget.
 class AccountDetailScreen extends ConsumerWidget {
   /// Creates an [AccountDetailScreen].
-  const AccountDetailScreen({required this.accountId, super.key});
+  ///
+  /// [account] is the record the caller already has in hand — from the
+  /// accounts list or a household's member-account list — passed as the
+  /// route's `extra`. When present, the top card and asset-allocation chart
+  /// render from it immediately and only positions/transactions are fetched;
+  /// when absent (e.g. a deep link), the full detail is fetched instead.
+  const AccountDetailScreen({required this.accountId, this.account, super.key});
 
   /// The identifier of the account to display.
   final String accountId;
 
+  /// The account passed in from a list screen, if any.
+  final Account? account;
+
   @override
   Widget build(BuildContext context, WidgetRef ref) {
+    final listAccount = account;
+    if (listAccount != null) {
+      return _AccountDetailFromListAccount(accountId: accountId, account: listAccount);
+    }
+
     final asyncAccount = ref.watch(detailedAccountProvider(accountId));
 
     // Show the shimmer for any fetch that has nothing to display yet: the
@@ -57,6 +72,41 @@ class AccountDetailScreen extends ConsumerWidget {
     }
 
     return _AccountDetailBody(account: asyncAccount.requireValue);
+  }
+}
+
+/// Builds the [DetailedAccount] body from a list-screen [account], fetching
+/// only positions and transactions — never the account/allocation fixtures
+/// [account] already covers.
+class _AccountDetailFromListAccount extends ConsumerWidget {
+  const _AccountDetailFromListAccount({required this.accountId, required this.account});
+
+  final String accountId;
+  final Account account;
+
+  @override
+  Widget build(BuildContext context, WidgetRef ref) {
+    final asyncPositionsAndTransactions = ref.watch(accountPositionsAndTransactionsProvider(accountId));
+
+    if (asyncPositionsAndTransactions.isLoading &&
+        (!asyncPositionsAndTransactions.hasValue || asyncPositionsAndTransactions.hasError)) {
+      return const _DetailChrome(body: AccountDetailShimmer());
+    }
+
+    final error = asyncPositionsAndTransactions.error;
+    if (error != null) {
+      return _DetailChrome(
+        body: AppErrorWidget(
+          errorCode: AppErrorCode.fromAppError(error is AppError ? error : const UnknownError()),
+          onRetry: () => ref.invalidate(accountPositionsAndTransactionsProvider(accountId)),
+        ),
+      );
+    }
+
+    final (positions, transactions) = asyncPositionsAndTransactions.requireValue;
+    return _AccountDetailBody(
+      account: DetailedAccount.fromListAccount(account: account, positions: positions, transactions: transactions),
+    );
   }
 }
 

@@ -1,5 +1,6 @@
 import 'package:finhub/core/utils/json_parsing.dart';
 import 'package:finhub/features/accounts/domain/models/account.dart';
+import 'package:finhub/features/households/domain/models/household_detail.dart';
 import 'package:flutter/foundation.dart';
 
 /// Asset allocation entry for a household detail view.
@@ -191,6 +192,38 @@ class HouseholdDetailView {
       transactions: transactionList.map(HouseholdDetailTransaction.fromApiJson).toList(),
     );
   }
+
+  /// Builds a [HouseholdDetailView] from an already-loaded list-screen
+  /// [household], which already carries identity fields and
+  /// [HouseholdDetail.assetAllocation] — so the detail screen renders its top
+  /// card and allocation chart with zero fetch. Only [accounts] and
+  /// [transactions] come from a fresh read, since the list payload never
+  /// carries them.
+  factory HouseholdDetailView.fromListHousehold({
+    required HouseholdDetail household,
+    required List<Account> accounts,
+    required List<HouseholdDetailTransaction> transactions,
+  }) => HouseholdDetailView(
+    householdId: household.householdId,
+    householdName: household.householdName,
+    householdCode: household.householdId,
+    totalAum: household.totalAum,
+    aumChange: household.aumChange,
+    aumChangePercentage: household.aumChangePercentage,
+    accountCount: household.totalAccounts,
+    status: 'ACTIVE',
+    assetAllocation: household.assetAllocation
+        .map(
+          (a) => HouseholdDetailAllocation(
+            assetClass: a.assetClass,
+            marketValue: a.marketValue,
+            allocationPercentage: a.allocationPercentage,
+          ),
+        )
+        .toList(),
+    accounts: accounts,
+    transactions: transactions,
+  );
 
   /// Unique household identifier.
   final String householdId;

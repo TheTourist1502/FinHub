@@ -149,10 +149,6 @@
   "@navRealTime": {
     "description": "Bottom navigation label for the real-time tab."
   },
-  "navServiceRequests": "Requests",
-  "@navServiceRequests": {
-    "description": "Bottom navigation label for the service-requests tab."
-  },
   "navCommissions": "Commissions",
   "@navCommissions": {
     "description": "Bottom navigation label for the leadership commissions tab."
@@ -703,14 +699,6 @@
       }
     }
   },
-  "dashboardQuickActionAccountMaintenance": "Account Maintenance",
-  "@dashboardQuickActionAccountMaintenance": {
-    "description": "Quick action label for account maintenance."
-  },
-  "dashboardQuickActionAssetMovement": "Asset Movement",
-  "@dashboardQuickActionAssetMovement": {
-    "description": "Quick action label for asset movement."
-  },
   "dashboardQuickActionClientSearch": "Client Search",
   "@dashboardQuickActionClientSearch": {
     "description": "Quick action label for client search."
@@ -730,10 +718,6 @@
   "dashboardQuickActionMyCommissions": "Commissions",
   "@dashboardQuickActionMyCommissions": {
     "description": "Quick action label for my commissions."
-  },
-  "dashboardQuickActionOnlineAccess": "Online Access",
-  "@dashboardQuickActionOnlineAccess": {
-    "description": "Quick action label for online access."
   },
   "dashboardQuickActionTasksDashboard": "Tasks Dashboard",
   "@dashboardQuickActionTasksDashboard": {
@@ -1885,34 +1869,6 @@
   "@profileSignOutButton": {
     "description": "Label of the Profile screen's sign-out button."
   },
-  "profileAvatarPickerTitle": "Update Photo",
-  "@profileAvatarPickerTitle": {
-    "description": "Title of the bottom sheet offering a camera/gallery choice for the profile photo."
-  },
-  "profileAvatarTakePhoto": "Take Photo",
-  "@profileAvatarTakePhoto": {
-    "description": "Option to capture a new profile photo with the camera."
-  },
-  "profileAvatarChooseFromGallery": "Choose from Gallery",
-  "@profileAvatarChooseFromGallery": {
-    "description": "Option to pick an existing photo for the profile avatar."
-  },
-  "profileAvatarCropTitle": "Crop Photo",
-  "@profileAvatarCropTitle": {
-    "description": "Title bar of the native image-cropping screen for the profile photo."
-  },
-  "profileAvatarTooLarge": "That photo is too large. Please choose a smaller one.",
-  "@profileAvatarTooLarge": {
-    "description": "Error snackbar shown when a cropped avatar exceeds the upload size limit."
-  },
-  "profileAvatarUploadError": "Couldn't update your photo. Please try again.",
-  "@profileAvatarUploadError": {
-    "description": "Error snackbar shown when the avatar upload fails."
-  },
-  "profileAvatarUploadSuccess": "Profile photo updated",
-  "@profileAvatarUploadSuccess": {
-    "description": "Success snackbar shown after the avatar upload completes."
-  },
   "profileTaxJurisdictionTitle": "TAX JURISDICTION",
   "@profileTaxJurisdictionTitle": {
     "description": "Section header above the licensed-geographies card."
@@ -1960,5 +1916,61 @@
   "selectAdvisorNoneAvailable": "No advisors are available.",
   "@selectAdvisorNoneAvailable": {
     "description": "Message shown in the advisor picker sheet when the advisor roster is empty."
+  },
+  "welcomeHeroTitle": "Welcome to FinHub",
+  "@welcomeHeroTitle": {
+    "description": "Heading on the first welcome carousel page, shown after a fresh sign-in."
+  },
+  "welcomeHeroSubtitle": "Your all-in-one platform to manage clients, portfolios, and service requests — securely, from anywhere.",
+  "@welcomeHeroSubtitle": {
+    "description": "Subtitle on the first welcome carousel page."
+  },
+  "welcomeGetStarted": "Get Started",
+  "@welcomeGetStarted": {
+    "description": "CTA button on the first welcome carousel page — advances to the second page."
+  },
+  "welcomePersonalizeTitle": "Personalize Your Experience",
+  "@welcomePersonalizeTitle": {
+    "description": "Heading on the second welcome carousel page."
+  },
+  "welcomePersonalizeSubtitle": "Tell us where you work and who you serve, so we can tailor your dashboard and regional settings.",
+  "@welcomePersonalizeSubtitle": {
+    "description": "Subtitle on the second welcome carousel page."
+  },
+  "welcomeAdvisorCountryLabel": "Advisor Residence Country",
+  "@welcomeAdvisorCountryLabel": {
+    "description": "Label on the advisor residence country preference card on the second welcome carousel page."
+  },
+  "welcomeAdvisorCountrySubtitle": "Select Country",
+  "@welcomeAdvisorCountrySubtitle": {
+    "description": "Placeholder subtitle on the advisor residence country preference card before a country is selected."
+  },
+  "welcomeRegionLabel": "Region / Market Served",
+  "@welcomeRegionLabel": {
+    "description": "Label on the region/market-served preference card on the second welcome carousel page."
+  },
+  "welcomeRegionSubtitle": "Select Region / Market Served",
+  "@welcomeRegionSubtitle": {
+    "description": "Placeholder subtitle on the region/market-served preference card before a region is selected."
+  },
+  "welcomeLanguageLabel": "Preferred Language",
+  "@welcomeLanguageLabel": {
+    "description": "Label on the language preference card on the second welcome carousel page."
+  },
+  "welcomeLanguageSubtitle": "Select Language",
+  "@welcomeLanguageSubtitle": {
+    "description": "Placeholder subtitle on the language preference card before a language is selected."
+  },
+  "welcomePersonalizeMandatoryNote": "* All fields are mandatory",
+  "@welcomePersonalizeMandatoryNote": {
+    "description": "Note shown below the preference cards on the second welcome carousel page, explaining the red asterisk on each card label."
+  },
+  "welcomeMissingFieldsError": "{fields} {count, plural, one{is required} other{are required}}!",
+  "@welcomeMissingFieldsError": {
+    "description": "Snackbar error shown when Continue is tapped on the second welcome carousel page with required fields left unfilled. fields is a comma-joined list of the untranslated field labels; count drives is/are agreement.",
+    "placeholders": {
+      "fields": {"type": "String"},
+      "count": {"type": "int"}
+    }
   }
 }

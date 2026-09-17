@@ -277,12 +277,6 @@ abstract class AppLocalizations {
   /// **'Real-Time'**
   String get navRealTime;
 
-  /// Bottom navigation label for the service-requests tab.
-  ///
-  /// In en, this message translates to:
-  /// **'Requests'**
-  String get navServiceRequests;
-
   /// Bottom navigation label for the leadership commissions tab.
   ///
   /// In en, this message translates to:
@@ -1009,18 +1003,6 @@ abstract class AppLocalizations {
   /// **'Household ID: #{code}'**
   String dashboardHouseholdIdLabel(String code);
 
-  /// Quick action label for account maintenance.
-  ///
-  /// In en, this message translates to:
-  /// **'Account Maintenance'**
-  String get dashboardQuickActionAccountMaintenance;
-
-  /// Quick action label for asset movement.
-  ///
-  /// In en, this message translates to:
-  /// **'Asset Movement'**
-  String get dashboardQuickActionAssetMovement;
-
   /// Quick action label for client search.
   ///
   /// In en, this message translates to:
@@ -1050,12 +1032,6 @@ abstract class AppLocalizations {
   /// In en, this message translates to:
   /// **'Commissions'**
   String get dashboardQuickActionMyCommissions;
-
-  /// Quick action label for online access.
-  ///
-  /// In en, this message translates to:
-  /// **'Online Access'**
-  String get dashboardQuickActionOnlineAccess;
 
   /// Quick action label for tasks dashboard.
   ///
@@ -2431,48 +2407,6 @@ abstract class AppLocalizations {
   /// **'Log Out'**
   String get profileSignOutButton;
 
-  /// Title of the bottom sheet offering a camera/gallery choice for the profile photo.
-  ///
-  /// In en, this message translates to:
-  /// **'Update Photo'**
-  String get profileAvatarPickerTitle;
-
-  /// Option to capture a new profile photo with the camera.
-  ///
-  /// In en, this message translates to:
-  /// **'Take Photo'**
-  String get profileAvatarTakePhoto;
-
-  /// Option to pick an existing photo for the profile avatar.
-  ///
-  /// In en, this message translates to:
-  /// **'Choose from Gallery'**
-  String get profileAvatarChooseFromGallery;
-
-  /// Title bar of the native image-cropping screen for the profile photo.
-  ///
-  /// In en, this message translates to:
-  /// **'Crop Photo'**
-  String get profileAvatarCropTitle;
-
-  /// Error snackbar shown when a cropped avatar exceeds the upload size limit.
-  ///
-  /// In en, this message translates to:
-  /// **'That photo is too large. Please choose a smaller one.'**
-  String get profileAvatarTooLarge;
-
-  /// Error snackbar shown when the avatar upload fails.
-  ///
-  /// In en, this message translates to:
-  /// **'Couldn\'t update your photo. Please try again.'**
-  String get profileAvatarUploadError;
-
-  /// Success snackbar shown after the avatar upload completes.
-  ///
-  /// In en, this message translates to:
-  /// **'Profile photo updated'**
-  String get profileAvatarUploadSuccess;
-
   /// Section header above the licensed-geographies card.
   ///
   /// In en, this message translates to:
@@ -2544,6 +2478,84 @@ abstract class AppLocalizations {
   /// In en, this message translates to:
   /// **'No advisors are available.'**
   String get selectAdvisorNoneAvailable;
+
+  /// Heading on the first welcome carousel page, shown after a fresh sign-in.
+  ///
+  /// In en, this message translates to:
+  /// **'Welcome to FinHub'**
+  String get welcomeHeroTitle;
+
+  /// Subtitle on the first welcome carousel page.
+  ///
+  /// In en, this message translates to:
+  /// **'Your all-in-one platform to manage clients, portfolios, and service requests — securely, from anywhere.'**
+  String get welcomeHeroSubtitle;
+
+  /// CTA button on the first welcome carousel page — advances to the second page.
+  ///
+  /// In en, this message translates to:
+  /// **'Get Started'**
+  String get welcomeGetStarted;
+
+  /// Heading on the second welcome carousel page.
+  ///
+  /// In en, this message translates to:
+  /// **'Personalize Your Experience'**
+  String get welcomePersonalizeTitle;
+
+  /// Subtitle on the second welcome carousel page.
+  ///
+  /// In en, this message translates to:
+  /// **'Tell us where you work and who you serve, so we can tailor your dashboard and regional settings.'**
+  String get welcomePersonalizeSubtitle;
+
+  /// Label on the advisor residence country preference card on the second welcome carousel page.
+  ///
+  /// In en, this message translates to:
+  /// **'Advisor Residence Country'**
+  String get welcomeAdvisorCountryLabel;
+
+  /// Placeholder subtitle on the advisor residence country preference card before a country is selected.
+  ///
+  /// In en, this message translates to:
+  /// **'Select Country'**
+  String get welcomeAdvisorCountrySubtitle;
+
+  /// Label on the region/market-served preference card on the second welcome carousel page.
+  ///
+  /// In en, this message translates to:
+  /// **'Region / Market Served'**
+  String get welcomeRegionLabel;
+
+  /// Placeholder subtitle on the region/market-served preference card before a region is selected.
+  ///
+  /// In en, this message translates to:
+  /// **'Select Region / Market Served'**
+  String get welcomeRegionSubtitle;
+
+  /// Label on the language preference card on the second welcome carousel page.
+  ///
+  /// In en, this message translates to:
+  /// **'Preferred Language'**
+  String get welcomeLanguageLabel;
+
+  /// Placeholder subtitle on the language preference card before a language is selected.
+  ///
+  /// In en, this message translates to:
+  /// **'Select Language'**
+  String get welcomeLanguageSubtitle;
+
+  /// Note shown below the preference cards on the second welcome carousel page, explaining the red asterisk on each card label.
+  ///
+  /// In en, this message translates to:
+  /// **'* All fields are mandatory'**
+  String get welcomePersonalizeMandatoryNote;
+
+  /// Snackbar error shown when Continue is tapped on the second welcome carousel page with required fields left unfilled. fields is a comma-joined list of the untranslated field labels; count drives is/are agreement.
+  ///
+  /// In en, this message translates to:
+  /// **'{fields} {count, plural, one{is required} other{are required}}!'**
+  String welcomeMissingFieldsError(String fields, int count);
 }
 
 class _AppLocalizationsDelegate extends LocalizationsDelegate<AppLocalizations> {

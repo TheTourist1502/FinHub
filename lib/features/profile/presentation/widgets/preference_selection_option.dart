@@ -30,7 +30,7 @@ const _kCloseButtonSize = 32.0;
 const _kCloseGlyphSize = 14.0;
 
 /// Drag handle + uppercase title + close button shared by the country,
-/// region, language and avatar-picker bottom sheets.
+/// region and language bottom sheets.
 class PreferenceBottomSheetHeader extends StatelessWidget {
   /// Creates a [PreferenceBottomSheetHeader].
   const PreferenceBottomSheetHeader({required this.title, super.key, this.bottomGap = kPreferenceSheetGap});

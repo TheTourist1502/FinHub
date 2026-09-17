@@ -1,5 +1,4 @@
 import 'dart:async';
-import 'dart:io';
 
 import 'package:finhub/core/mock/mock_data_source.dart';
 import 'package:finhub/core/observability/observability_provider.dart';
@@ -110,33 +109,4 @@ class RegionPreferenceNotifier extends _PreferenceNotifier {
 
   /// Persists the selected region ids (multi-select).
   Future<void> updateRegions(List<int> regionIds) => apply({'regionIds': regionIds});
-}
-
-/// Manages avatar uploads and exposes its own loading state, isolated from
-/// every preference row's spinner.
-final avatarUploadProvider = AsyncNotifierProvider<AvatarUploadNotifier, void>(AvatarUploadNotifier.new);
-
-/// See [avatarUploadProvider].
-class AvatarUploadNotifier extends AsyncNotifier<void> {
-  @override
-  void build() {}
-
-  /// Uploads [imageFile] via [ProfileRepository.uploadAvatar].
-  ///
-  /// This build has nowhere to store the result (see
-  /// `ProfileMockRepository.uploadAvatar`), so success always leaves the
-  /// avatar's initials fallback showing — the call still runs so the picker
-  /// flow, its spinner and its snackbar behave like a real upload.
-  Future<void> uploadAvatar(File imageFile) async {
-    state = const AsyncLoading<void>();
-    final reporter = ref.read(errorReporterProvider);
-    try {
-      await ref.read(profileRepositoryProvider).uploadAvatar(imageFile);
-      state = const AsyncData(null);
-    } on Object catch (e, s) {
-      AppLogger.e('AvatarUploadNotifier.uploadAvatar failed', e, s);
-      reporter.report(e, stackTrace: s, context: 'AvatarUploadNotifier.uploadAvatar');
-      state = AsyncError(e, s);
-    }
-  }
 }

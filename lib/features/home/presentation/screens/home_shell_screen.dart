@@ -1,11 +1,10 @@
 import 'package:finhub/core/roles/role_experience.dart';
 import 'package:finhub/core/routing/app_routes.dart';
 import 'package:finhub/core/theme/app_color_tokens.dart';
-import 'package:finhub/features/login/domain/models/user.dart';
 import 'package:finhub/features/login/presentation/providers/login_provider.dart';
 import 'package:finhub/features/profile/presentation/providers/profile_provider.dart';
+import 'package:finhub/shared/widgets/brand/app_logos.dart';
 import 'package:finhub/shared/widgets/layout/app_bottom_nav.dart';
-import 'package:finhub/shared/widgets/layout/notification_bell_icon.dart';
 import 'package:finhub/shared/widgets/layout/user_avatar_badge.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
@@ -58,12 +57,8 @@ class HomeShellScreen extends ConsumerWidget {
   }
 }
 
-/// Shared header bar hosting the profile-avatar entry point (both roles) and
-/// the notification bell (advisor only).
-///
-/// Stands in for a fuller shared header (logo, overflow menu) that is still
-/// future work — see the `shared/widgets/layout/` entry in
-/// folder-structure.md.
+/// Shared header bar: brand wordmark on the left, profile-avatar entry point
+/// (both roles) on the right.
 class _HomeShellHeaderBar extends ConsumerWidget implements PreferredSizeWidget {
   const _HomeShellHeaderBar();
 
@@ -94,6 +89,8 @@ class _HomeShellHeaderBar extends ConsumerWidget implements PreferredSizeWidget 
         color: Colors.transparent,
         child: Row(
           children: [
+            const AppWordmarkLogo(width: 120),
+            const Spacer(),
             InkWell(
               onTap: () => context.push(AppRoutes.profile),
               borderRadius: BorderRadius.circular(16),
@@ -102,19 +99,6 @@ class _HomeShellHeaderBar extends ConsumerWidget implements PreferredSizeWidget 
                 child: UserAvatarBadge(initials: _initials(displayName), avatarUrl: profile?.avatarUrl),
               ),
             ),
-            const Spacer(),
-            // The bell is advisor-only: `/notifications`'s unread count is
-            // computed for the advisor's own book, which leadership has no
-            // equivalent of (see AppRoutes.policies).
-            if (user?.role == UserRole.advisor)
-              InkWell(
-                onTap: () => context.push(AppRoutes.notifications),
-                borderRadius: BorderRadius.circular(20),
-                child: const Padding(
-                  padding: EdgeInsets.all(4),
-                  child: NotificationBellIcon(),
-                ),
-              ),
           ],
         ),
       ),

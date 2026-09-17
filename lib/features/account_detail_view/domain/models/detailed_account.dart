@@ -1,6 +1,7 @@
 import 'package:finhub/core/utils/json_parsing.dart';
 import 'package:finhub/features/account_detail_view/domain/models/account_position.dart';
 import 'package:finhub/features/account_detail_view/domain/models/account_transaction.dart';
+import 'package:finhub/features/accounts/domain/models/account.dart';
 import 'package:flutter/foundation.dart';
 
 /// Detailed view of a single investment account including positions,
@@ -64,6 +65,39 @@ class DetailedAccount {
       transactions: transactionList.map(AccountTransaction.fromApiJson).toList(),
     );
   }
+
+  /// Builds a [DetailedAccount] from an already-loaded list-screen [account]
+  /// (from the accounts list or a household's member-account list), which
+  /// already carries identity fields and [Account.assetAllocation] — so the
+  /// detail screen renders its top card and allocation chart with zero fetch.
+  /// Only [positions] and [transactions] come from a fresh read, since the
+  /// list payload never carries them.
+  factory DetailedAccount.fromListAccount({
+    required Account account,
+    required List<AccountPosition> positions,
+    required List<AccountTransaction> transactions,
+  }) => DetailedAccount(
+    accountId: account.accountId,
+    householdId: account.householdId,
+    accountNumber: account.accountNumber,
+    accountName: account.accountName,
+    accountType: account.accountType,
+    currentValue: account.currentValue,
+    cashAvailable: account.cashAvailable,
+    riskProfile: account.riskProfile,
+    custodian: account.custodian,
+    assetAllocation: account.assetAllocation
+        .map(
+          (a) => AccountAllocationEntry(
+            assetClass: a.assetClass,
+            marketValue: a.marketValue,
+            allocationPercentage: a.allocationPercentage,
+          ),
+        )
+        .toList(),
+    positions: positions,
+    transactions: transactions,
+  );
 
   /// Human-readable account identifier (e.g. "ACC-AH-007-1").
   final String accountId;

@@ -25,6 +25,12 @@ abstract final class AppRoutes {
   /// Landing route for a signed-in user.
   static const String home = '/home';
 
+  /// Post-login onboarding carousel. `routeGuard` sends an advisor here
+  /// instead of [home] while their profile fixture still reports
+  /// `preferences.firstTimeLogin`. Takes the place of [selectAdvisor] for
+  /// that role — leadership users have no onboarding carousel of their own.
+  static const String welcome = '/welcome';
+
   /// Households tab.
   static const String households = '/households';
 
@@ -48,9 +54,6 @@ abstract final class AppRoutes {
   /// Leadership-only FA picker. The route guard redirects here from any
   /// protected route while a leadership user has no advisor selected.
   static const String selectAdvisor = '/select-advisor';
-
-  /// The new service-request form, pushed from the dashboard's quick actions.
-  static const String newServiceRequest = '/service-requests/add';
 
   /// Full transaction history, pushed from the dashboard's recent-transactions card.
   static const String viewTransactions = '/view-transactions';
@@ -98,6 +101,7 @@ abstract final class AppRoutes {
     login: RoutePolicy(isPublic: true),
     accessDenied: RoutePolicy(isPublic: true),
     selectAdvisor: RoutePolicy(roles: {UserRole.leadership}),
+    welcome: RoutePolicy(roles: {UserRole.advisor}),
     commissions: RoutePolicy(roles: {UserRole.leadership}),
     markets: RoutePolicy(roles: {UserRole.advisor}),
     // Backed by the advisor's own account list, with no leadership twin —

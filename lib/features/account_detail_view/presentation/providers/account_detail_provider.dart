@@ -3,6 +3,8 @@ import 'package:finhub/core/mock/mock_data_source.dart';
 import 'package:finhub/features/account_detail_view/data/account_detail_mock_repository.dart';
 import 'package:finhub/features/account_detail_view/domain/account_detail_repository.dart';
 import 'package:finhub/features/account_detail_view/domain/models/account_aum_trend.dart';
+import 'package:finhub/features/account_detail_view/domain/models/account_position.dart';
+import 'package:finhub/features/account_detail_view/domain/models/account_transaction.dart';
 import 'package:finhub/features/account_detail_view/domain/models/detailed_account.dart';
 import 'package:finhub/features/dashboard/presentation/providers/dashboard_provider.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
@@ -21,6 +23,17 @@ final accountDetailRepositoryProvider = Provider<AccountDetailRepository>(
 final detailedAccountProvider = FutureProvider.family<DetailedAccount, String>(
   (ref, accountId) => ref.watch(accountDetailRepositoryProvider).getDetailedAccount(accountId),
 );
+
+/// Loads only [accountId]'s positions and transactions — used by the detail
+/// screen when it already has identity and asset-allocation data passed in
+/// from a list screen, so the account/allocation fixtures are never read a
+/// second time. Watches the repository for the same reason as
+/// [detailedAccountProvider].
+// ignore: specify_nonobvious_property_types
+final accountPositionsAndTransactionsProvider =
+    FutureProvider.family<(List<AccountPosition>, List<AccountTransaction>), String>(
+      (ref, accountId) => ref.watch(accountDetailRepositoryProvider).getAccountPositionsAndTransactions(accountId),
+    );
 
 /// Loads the weekly AUM trend history of a single account identified by [accountId].
 ///

@@ -252,6 +252,7 @@ class AccountCard extends StatelessWidget {
                           ':accountId',
                           account.accountId,
                         ),
+                        extra: account,
                       ),
                 child: Row(
                   mainAxisSize: MainAxisSize.min,
@@ -277,38 +278,3 @@ class AccountCard extends StatelessWidget {
     );
   }
 }
-
-// ---------------------------------------------------------------------------
-// Private sub-widgets
-
-/// Circular initials avatar: white fill, subtle border, bold initials.
-// class _AccountAvatar extends StatelessWidget {
-//   const _AccountAvatar({required this.initials});
-
-//   final String initials;
-
-//   @override
-//   Widget build(BuildContext context) {
-//     final cs = Theme.of(context).colorScheme;
-//     final colors = context.appColors;
-//     return Container(
-//       width: 48,
-//       height: 48,
-//       decoration: BoxDecoration(
-//         color: colors.surfaceDefault,
-//         shape: BoxShape.circle,
-//         border: Border.all(color: AppColors.allocationBarBg, width: 2),
-//       ),
-//       alignment: Alignment.center,
-//       child: Text(
-//         initials,
-//         style: TextStyle(
-//           fontFamily: 'Inter',
-//           fontSize: 16,
-//           fontWeight: FontWeight.w700,
-//           color: cs.onSurface,
-//         ),
-//       ),
-//     );
-//   }
-// }

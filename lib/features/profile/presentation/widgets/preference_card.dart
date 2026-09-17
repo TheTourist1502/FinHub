@@ -3,6 +3,7 @@ import 'package:finhub/features/profile/presentation/widgets/profile_section_car
 import 'package:flutter/material.dart';
 import 'package:iconify_flutter/iconify_flutter.dart';
 import 'package:iconify_flutter/icons/mdi.dart';
+import 'package:shimmer/shimmer.dart';
 
 /// Tappable preference row used by the Profile screen's country, region and
 /// language rows.
@@ -23,6 +24,7 @@ class ProfilePreferenceCard extends StatelessWidget {
     this.value,
     this.isRequired = false,
     this.isLoading = false,
+    this.isValueLoading = false,
   });
 
   /// `mdi` glyph shown in the leading icon box.
@@ -39,6 +41,11 @@ class ProfilePreferenceCard extends StatelessWidget {
 
   /// Shows a spinner in place of the chevron while an update is in flight.
   final bool isLoading;
+
+  /// Replaces the value/subtitle line with a shimmer skeleton block — used
+  /// while a staged selection can't resolve to a display name yet because
+  /// the underlying option list (countries/regions) is still being fetched.
+  final bool isValueLoading;
 
   /// Opens the row's selection sheet; `null` while [isLoading] disables the tap.
   final VoidCallback? onTap;
@@ -82,16 +89,27 @@ class ProfilePreferenceCard extends StatelessWidget {
                       ],
                     ),
                     const SizedBox(height: 2),
-                    Text(
-                      value?.isNotEmpty ?? false ? value! : subtitle,
-                      maxLines: 2,
-                      overflow: TextOverflow.ellipsis,
-                      style: TextStyle(
-                        fontFamily: 'Inter',
-                        fontSize: 12,
-                        color: (value?.isNotEmpty ?? false) ? cs.onSurface : colors.textSecondary,
+                    if (isValueLoading)
+                      Shimmer.fromColors(
+                        baseColor: colors.bgPrimary,
+                        highlightColor: colors.surfaceDefault,
+                        child: Container(
+                          width: 120,
+                          height: 14,
+                          decoration: BoxDecoration(color: Colors.white, borderRadius: BorderRadius.circular(4)),
+                        ),
+                      )
+                    else
+                      Text(
+                        value?.isNotEmpty ?? false ? value! : subtitle,
+                        maxLines: 2,
+                        overflow: TextOverflow.ellipsis,
+                        style: TextStyle(
+                          fontFamily: 'Inter',
+                          fontSize: 12,
+                          color: (value?.isNotEmpty ?? false) ? cs.onSurface : colors.textSecondary,
+                        ),
                       ),
-                    ),
                   ],
                 ),
               ),

@@ -1,5 +1,3 @@
-import 'dart:io';
-
 import 'package:finhub/features/profile/domain/models/profile_data.dart';
 
 /// Abstract repository for reading and updating the signed-in user's profile.
@@ -19,11 +17,4 @@ abstract class ProfileRepository {
 
   /// Fetches the list of regions offered by the region/market-served picker.
   Future<List<Region>> getRegions();
-
-  /// Accepts a picked+cropped avatar [imageFile] and returns the resulting
-  /// avatar URL.
-  ///
-  /// This build has no storage to upload to, so the concrete implementation
-  /// returns an empty string — see `ProfileMockRepository.uploadAvatar`.
-  Future<String> uploadAvatar(File imageFile);
 }

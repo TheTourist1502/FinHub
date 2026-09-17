@@ -4,6 +4,7 @@ import 'package:finhub/core/theme/app_dimensions.dart';
 import 'package:finhub/core/theme/app_typography.dart';
 import 'package:finhub/core/utils/keyboard_dismiss.dart';
 import 'package:finhub/features/login/presentation/providers/login_provider.dart';
+import 'package:finhub/shared/widgets/brand/app_logos.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 import 'package:go_router/go_router.dart';
@@ -85,14 +86,7 @@ class _LoginScreenState extends ConsumerState<LoginScreen> {
                     mainAxisSize: MainAxisSize.min,
                     crossAxisAlignment: CrossAxisAlignment.stretch,
                     children: [
-                      Row(
-                        mainAxisAlignment: MainAxisAlignment.center,
-                        children: [
-                          Iconify(Mdi.finance, color: colors.textBrandNavyBlue, size: 40),
-                          const SizedBox(width: AppDimensions.spaceSm),
-                          Text(l10n.appName, style: AppTypography.logoStyle.copyWith(color: colors.textPrimary)),
-                        ],
-                      ),
+                      const Center(child: AppWordmarkLogo()),
                       const SizedBox(height: AppDimensions.spaceXl),
                       Text(
                         l10n.authLoginTitle,

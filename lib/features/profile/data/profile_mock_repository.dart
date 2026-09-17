@@ -1,8 +1,5 @@
-import 'dart:io';
-
 import 'package:finhub/core/errors/app_error.dart';
 import 'package:finhub/core/mock/mock_data_source.dart';
-import 'package:finhub/core/utils/app_logger.dart';
 import 'package:finhub/core/utils/json_parsing.dart';
 import 'package:finhub/features/profile/domain/models/profile_data.dart';
 import 'package:finhub/features/profile/domain/profile_repository.dart';
@@ -84,17 +81,4 @@ class ProfileMockRepository implements ProfileRepository {
   @override
   Future<List<Region>> getRegions() async =>
       (await _source.listScoped(_regionsPath, null)).map(Region.fromJson).toList();
-
-  /// Accepts the picked [imageFile] and returns no URL.
-  ///
-  /// ponytail: there is nowhere to upload to, and the avatar is rendered with
-  /// `CachedNetworkImage`, which cannot read a local file — so returning an
-  /// empty URL leaves the initials fallback showing rather than a broken
-  /// image. Serving the picked file directly would mean teaching the avatar
-  /// widget about local paths for a build with no backend to round-trip to.
-  @override
-  Future<String> uploadAvatar(File imageFile) async {
-    AppLogger.i('Avatar upload skipped — this build has no storage to upload ${imageFile.path} to');
-    return '';
-  }
 }

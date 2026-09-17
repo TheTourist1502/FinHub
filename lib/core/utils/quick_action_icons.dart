@@ -14,9 +14,6 @@ String quickActionIconSvg(String quickActionKey) => switch (quickActionKey) {
   'tasks_dashboard' => Mdi.clipboard_check_outline,
   'commissions' => Mdi.cash_multiple,
   'meeting_notes' => Mdi.notebook_outline,
-  'account_maintenance' => Mdi.account_cog_outline,
-  'asset_movement' => Mdi.swap_horizontal,
-  'online_access' => Mdi.monitor_account,
   'investor_portal' => Mdi.open_in_new,
   _ => Mdi.flash,
 };

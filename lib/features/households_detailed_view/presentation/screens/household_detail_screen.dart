@@ -1,6 +1,7 @@
 import 'package:finhub/core/errors/app_error.dart';
 import 'package:finhub/core/l10n/l10n.dart';
 import 'package:finhub/core/theme/app_color_tokens.dart';
+import 'package:finhub/features/households/domain/models/household_detail.dart';
 import 'package:finhub/features/households_detailed_view/domain/models/household_detail_view.dart';
 import 'package:finhub/features/households_detailed_view/presentation/providers/household_detail_view_provider.dart';
 import 'package:finhub/features/households_detailed_view/presentation/widgets/household_detail_shimmer.dart';
@@ -28,13 +29,27 @@ import 'package:go_router/go_router.dart';
 ///  4. [TabBarView] — each tab's dedicated content widget.
 class HouseholdDetailScreen extends ConsumerWidget {
   /// Creates a [HouseholdDetailScreen].
-  const HouseholdDetailScreen({required this.householdId, super.key});
+  ///
+  /// [household] is the record the caller already has in hand — from the
+  /// households list — passed as the route's `extra`. When present, the top
+  /// card and asset-allocation chart render from it immediately and only
+  /// member accounts/transactions are fetched; when absent (e.g. a deep
+  /// link), the full detail is fetched instead.
+  const HouseholdDetailScreen({required this.householdId, this.household, super.key});
 
   /// Identifier of the household to display.
   final String householdId;
 
+  /// The household passed in from the households list, if any.
+  final HouseholdDetail? household;
+
   @override
   Widget build(BuildContext context, WidgetRef ref) {
+    final listHousehold = household;
+    if (listHousehold != null) {
+      return _HouseholdDetailFromListHousehold(householdId: householdId, household: listHousehold);
+    }
+
     final asyncHousehold = ref.watch(householdDetailViewProvider(householdId));
 
     // Show the shimmer for any fetch that has nothing to display yet: the
@@ -83,6 +98,46 @@ class _DetailChrome extends StatelessWidget {
     backgroundColor: context.appColors.bgPrimary,
     body: body,
   );
+}
+
+/// Builds the [HouseholdDetailView] body from a list-screen [household],
+/// fetching only member accounts and transactions — never the
+/// household/allocation fixtures [household] already covers.
+class _HouseholdDetailFromListHousehold extends ConsumerWidget {
+  const _HouseholdDetailFromListHousehold({required this.householdId, required this.household});
+
+  final String householdId;
+  final HouseholdDetail household;
+
+  @override
+  Widget build(BuildContext context, WidgetRef ref) {
+    final asyncAccountsAndTransactions = ref.watch(householdAccountsAndTransactionsProvider(householdId));
+
+    if (asyncAccountsAndTransactions.isLoading &&
+        (!asyncAccountsAndTransactions.hasValue || asyncAccountsAndTransactions.hasError)) {
+      return const _DetailChrome(body: HouseholdDetailShimmer());
+    }
+
+    final error = asyncAccountsAndTransactions.error;
+    if (error != null) {
+      return _DetailChrome(
+        body: AppErrorWidget(
+          errorCode: AppErrorCode.fromAppError(error is AppError ? error : const UnknownError()),
+          onRetry: () => ref.invalidate(householdAccountsAndTransactionsProvider(householdId)),
+        ),
+      );
+    }
+
+    final (accounts, transactions) = asyncAccountsAndTransactions.requireValue;
+    return _HouseholdDetailBody(
+      household: HouseholdDetailView.fromListHousehold(
+        household: household,
+        accounts: accounts,
+        transactions: transactions,
+      ),
+      onRefresh: () => ref.refresh(householdAccountsAndTransactionsProvider(householdId).future),
+    );
+  }
 }
 
 // ---------------------------------------------------------------------------

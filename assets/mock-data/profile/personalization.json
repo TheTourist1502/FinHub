@@ -24,29 +24,8 @@
       },
       {
         "id": "QA4",
-        "label": "Account Maintenance",
-        "order": 4,
-        "isEnabled": false,
-        "quickActionKey": "account_maintenance"
-      },
-      {
-        "id": "QA5",
-        "label": "Online Access",
-        "order": 5,
-        "isEnabled": false,
-        "quickActionKey": "online_access"
-      },
-      {
-        "id": "QA6",
-        "label": "Asset Movement",
-        "order": 6,
-        "isEnabled": false,
-        "quickActionKey": "asset_movement"
-      },
-      {
-        "id": "QA7",
         "label": "Investor Portal",
-        "order": 7,
+        "order": 4,
         "isEnabled": false,
         "quickActionKey": "investor_portal"
       }

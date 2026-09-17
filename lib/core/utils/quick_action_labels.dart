@@ -14,9 +14,6 @@ String quickActionLabel(AppLocalizations l10n, String quickActionKey) => switch 
   'tasks_dashboard' => l10n.dashboardQuickActionTasksDashboard,
   'commissions' => l10n.dashboardQuickActionMyCommissions,
   'meeting_notes' => l10n.dashboardQuickActionMeetingNotes,
-  'account_maintenance' => l10n.dashboardQuickActionAccountMaintenance,
-  'asset_movement' => l10n.dashboardQuickActionAssetMovement,
-  'online_access' => l10n.dashboardQuickActionOnlineAccess,
   'investor_portal' => l10n.dashboardQuickActionInvestorPortal,
   _ => quickActionKey,
 };

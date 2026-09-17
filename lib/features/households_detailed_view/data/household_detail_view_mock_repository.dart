@@ -1,6 +1,7 @@
 import 'package:finhub/core/errors/app_error.dart';
 import 'package:finhub/core/mock/data_scope.dart';
 import 'package:finhub/core/mock/mock_data_source.dart';
+import 'package:finhub/features/accounts/domain/models/account.dart';
 import 'package:finhub/features/households_detailed_view/domain/household_detail_view_repository.dart';
 import 'package:finhub/features/households_detailed_view/domain/models/household_detail_view.dart';
 
@@ -30,6 +31,20 @@ class HouseholdDetailViewMockRepository implements HouseholdDetailViewRepository
       allocationList: await _source.listScoped('households/allocation.json', householdId),
       accountList: await _source.listScoped('households/accounts.json', householdId),
       transactionList: await _source.listScoped('households/transactions.json', householdId),
+    );
+  }
+
+  @override
+  Future<(List<Account>, List<HouseholdDetailTransaction>)> getHouseholdAccountsAndTransactions(
+    String householdId,
+  ) async {
+    if (!_scope.isResolved) throw const NotFoundError();
+
+    final accounts = await _source.listScoped('households/accounts.json', householdId);
+    final transactions = await _source.listScoped('households/transactions.json', householdId);
+    return (
+      accounts.map(Account.fromApiJson).toList(),
+      transactions.map(HouseholdDetailTransaction.fromApiJson).toList(),
     );
   }
 }

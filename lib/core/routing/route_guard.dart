@@ -15,12 +15,24 @@ import 'package:finhub/features/login/presentation/providers/login_provider.dart
 /// on having no advisor picked; every scoped screen has nothing to render
 /// until they choose one.
 ///
+/// [firstTimeLoginResolving] is `true` while an advisor's profile fixture —
+/// which carries the `firstTimeLogin` flag — is still being fetched. The
+/// answer is not known yet in that window, so this holds the current route
+/// rather than acting on a guess, exactly like the [advisorContextRestoring]
+/// hold above.
+///
+/// [isFirstTimeLogin] is `true` for an advisor whose profile still reports a
+/// first-time login; every protected route but [AppRoutes.welcome] bounces
+/// them there until the carousel's "Continue" clears the flag.
+///
 /// Returns the path to redirect to, or `null` to let the navigation stand.
 String? routeGuard({
   required AuthState state,
   required String location,
   bool advisorContextRestoring = false,
   bool requiresAdvisorSelection = false,
+  bool firstTimeLoginResolving = false,
+  bool isFirstTimeLogin = false,
 }) {
   final policy = AppRoutes.policyFor(location);
   final user = state is AuthAuthenticated ? state.user : null;
@@ -34,6 +46,10 @@ String? routeGuard({
   // leadership user who already has one, or hand them a scoped screen that
   // has nothing to show yet.
   if (advisorContextRestoring) return null;
+
+  // The profile fixture that carries `firstTimeLogin` is still in flight, so
+  // the check below would read a `false` that only means "not known yet".
+  if (firstTimeLoginResolving) return null;
 
   if (user == null) {
     if (policy?.isPublic ?? false) return null;
@@ -53,6 +69,13 @@ String? routeGuard({
   // masked by the picker.
   if (requiresAdvisorSelection && Uri.parse(location).path != AppRoutes.selectAdvisor) {
     return AppRoutes.selectAdvisor;
+  }
+
+  // Rule 7: welcome-carousel gate. Mirrors rule 6, mutually exclusive with it
+  // by role — an advisor with a first-time-login profile is sent through
+  // onboarding before any other protected route.
+  if (isFirstTimeLogin && Uri.parse(location).path != AppRoutes.welcome) {
+    return AppRoutes.welcome;
   }
 
   return null;

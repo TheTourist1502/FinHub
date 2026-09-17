@@ -232,15 +232,19 @@ class HouseholdCard extends ConsumerWidget {
               child: GestureDetector(
                 behavior: HitTestBehavior.opaque,
                 onTap: () async {
-                  // Fire all 4 detail API calls immediately on tap so data is
-                  // already loading before the navigation animation completes.
-                  ref.read(householdDetailViewProvider(household.householdId).future).ignore();
+                  // The detail screen already has this household's identity
+                  // and asset-allocation data via `extra`, so only its member
+                  // accounts and transactions need fetching — fired here so
+                  // that's already loading before the navigation animation
+                  // completes.
+                  ref.read(householdAccountsAndTransactionsProvider(household.householdId).future).ignore();
                   AppLogger.i('Navigating to detail for household ${household.householdId}');
                   await context.push(
                     AppRoutes.householdsDetailedView.replaceFirst(
                       ':householdId',
                       household.householdId,
                     ),
+                    extra: household,
                   );
                 },
                 child: Row(

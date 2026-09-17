@@ -4,6 +4,8 @@ import 'package:finhub/core/mock/mock_data_source.dart';
 import 'package:finhub/core/utils/date_sort_utils.dart';
 import 'package:finhub/features/account_detail_view/domain/account_detail_repository.dart';
 import 'package:finhub/features/account_detail_view/domain/models/account_aum_trend.dart';
+import 'package:finhub/features/account_detail_view/domain/models/account_position.dart';
+import 'package:finhub/features/account_detail_view/domain/models/account_transaction.dart';
 import 'package:finhub/features/account_detail_view/domain/models/detailed_account.dart';
 
 /// [AccountDetailRepository] backed by `assets/mock-data/accounts/`.
@@ -32,6 +34,20 @@ class AccountDetailMockRepository implements AccountDetailRepository {
       allocationList: await _source.listScoped('accounts/allocation.json', accountId),
       transactionList: await _source.listScoped('accounts/transactions.json', accountId),
       positionList: await _source.listScoped('accounts/positions.json', accountId),
+    );
+  }
+
+  @override
+  Future<(List<AccountPosition>, List<AccountTransaction>)> getAccountPositionsAndTransactions(
+    String accountId,
+  ) async {
+    if (!_scope.isResolved) throw const NotFoundError();
+
+    final positions = await _source.listScoped('accounts/positions.json', accountId);
+    final transactions = await _source.listScoped('accounts/transactions.json', accountId);
+    return (
+      positions.map(AccountPosition.fromApiJson).toList(),
+      transactions.map(AccountTransaction.fromApiJson).toList(),
     );
   }
 

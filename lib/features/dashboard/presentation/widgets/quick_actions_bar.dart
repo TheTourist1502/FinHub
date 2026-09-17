@@ -103,12 +103,6 @@ class _QuickAction extends ConsumerWidget {
         unawaited(context.push(AppRoutes.taskDashboard));
       case 'client_search':
         unawaited(context.push('${AppRoutes.accounts}?focusSearch=true'));
-      case 'account_maintenance':
-        unawaited(context.push('${AppRoutes.newServiceRequest}?type=account_maintenance'));
-      case 'online_access':
-        unawaited(context.push('${AppRoutes.newServiceRequest}?type=online_access'));
-      case 'asset_movement':
-        unawaited(context.push('${AppRoutes.newServiceRequest}?type=asset_movement_withdrawals'));
       case 'investor_portal':
         unawaited(_launchInvestorPortal(context, ref));
       default:
